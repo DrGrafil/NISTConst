@@ -61,53 +61,28 @@
 /// @defgroup Electromagnetic Electromagnetic
 /// @ingroup NISTConst
 
-/// 	@defgroup SpeedOfLight 
+/// 	@defgroup BohrMagneton Bohr magneton  
 /// 	@ingroup Electromagnetic
 
-/// 	@defgroup SpeedOfLight 
+/// 	@defgroup ConductanceQuantum Conductance quantum  
 /// 	@ingroup Electromagnetic
 
-/// 	@defgroup SpeedOfLight 
+/// 	@defgroup ElementaryCharge Elementary charge 
 /// 	@ingroup Electromagnetic
 
-/// 	@defgroup SpeedOfLight 
+/// 	@defgroup JosephsonConstant Josephson constant 
 /// 	@ingroup Electromagnetic
 
-/// 	@defgroup SpeedOfLight 
+/// 	@defgroup MagneticFluxQuantum  
 /// 	@ingroup Electromagnetic
 
-/// 	@defgroup SpeedOfLight 
+/// 	@defgroup NuclearMagneton Nuclear magneton 
 /// 	@ingroup Electromagnetic
 
-/// 	@defgroup SpeedOfLight 
+/// 	@defgroup vonKlitzingConstant von Klitzing constant   
 /// 	@ingroup Electromagnetic
 
-/// 	@defgroup SpeedOfLight 
-/// 	@ingroup Electromagnetic
 
-/// 	@defgroup SpeedOfLight 
-/// 	@ingroup Electromagnetic
-
-/// 	@defgroup SpeedOfLight 
-/// 	@ingroup Electromagnetic
-
-/// 	@defgroup SpeedOfLight 
-/// 	@ingroup Electromagnetic
-
-/// 	@defgroup SpeedOfLight 
-/// 	@ingroup Electromagnetic
-
-/// 	@defgroup SpeedOfLight 
-/// 	@ingroup Electromagnetic
-
-/// 	@defgroup SpeedOfLight 
-/// 	@ingroup Electromagnetic
-
-/// 	@defgroup SpeedOfLight 
-/// 	@ingroup Electromagnetic
-
-/// 	@defgroup SpeedOfLight 
-/// 	@ingroup Electromagnetic
 
 /// @defgroup Atomic Atomic and nuclear
 /// @ingroup NISTConst
@@ -167,8 +142,50 @@
 /// 	@ingroup Atomic
 
 
+
 /// @defgroup PhysicoChemical Physico-Chemical
 /// @ingroup NISTConst
+
+/// 	@defgroup AtomicMassConstant Atomic mass constant  
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup AvogadroConstant Avogadro constant  
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup BoltzmannConstant Boltzmann constant 
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup FaradayConstant Faraday constant
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup FirstRadiationConstant first radiation constant 
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup LoschmidtConstant Loschmidt constant  
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup MolarGasConstant Molar gas constant 
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup MolarPlanckConstant Molar Planck constant 
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup MolarVolume molar volume of ideal gas
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup SackurTetrodeConstant Sackur-Tetrode constant
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup SecondRadiationConstant Second radiation constant  
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup StefanBoltzmannConstant Stefan-Boltzmann constant 
+/// 	@ingroup PhysicoChemical
+
+/// 	@defgroup WienDisplacement Wien displacement law constant  
+/// 	@ingroup PhysicoChemical
+
+
 
 /// @defgroup Adopted Adopted
 /// @ingroup NISTConst
