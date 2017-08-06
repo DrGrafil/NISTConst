@@ -1,11 +1,11 @@
-/// @file NISTConst/NISTConst.hpp
+/// @file NISTConst/c++/NISTConst.hpp
 ///
 /// @brief NIST Constants
 ///
-//	From:  http://physics.nist.gov/constants
+//	 http://physics.nist.gov/constants
 /// @author Elliot Grafil (Metex)
 /// @date 8/5/17
-/// @bug No known bugs.
+
 
 //=================================
 // Header guard
@@ -17,12 +17,53 @@
 // Forward declared dependencies
 
 //=================================
-//
+// Document Groupings
+
+// Following grouping done by NIST for constants
+
+/// @defgroup NISTConst NIST Constants
+
+/// @defgroup Universal Universal
+/// @ingroup NISTConst
+
+/// @defgroup Electromagnetic Electromagnetic
+/// @ingroup NISTConst
+
+
+/// @defgroup Atomic Atomic and nuclear
+/// @ingroup NISTConst
+
+/// 	@defgroup Alpha Alpha particle
+/// 	@ingroup Atomic
+
+/// 	@defgroup Bohr Bohr radius
+/// 	@ingroup Atomic
+
+/// 	@defgroup Compton Compton Wavelength
+/// 	@ingroup Atomic
+
+/// 	@defgroup Deuteron Deuteron nucleus
+/// 	@ingroup Atomic
+
+/// 	@defgroup Electron Electron particle
+/// 	@ingroup Atomic
 
 
 
+/// @defgroup PhysicoChemical Physico-Chemical
+/// @ingroup NISTConst
 
+/// @defgroup Adopted Adopted
+/// @ingroup NISTConst
 
+/// @defgroup Non-SI Non-SI units
+/// @ingroup NISTConst
+
+/// @defgroup ConversionFactors Conversion factors
+/// @ingroup NISTConst
+
+/// @defgroup X-ray X-ray values
+/// @ingroup NISTConst
 
 
 
@@ -32,7 +73,10 @@ namespace NISTConst
 /*
 	const double {220} lattice spacing of silicon                            192.0155714e-12;        0.0000032e-12;          m
 */	
-	const double alphaParticleElectronMassRatio =                          	7294.29954136				/**< \f$m_\alpha/m_e \ (1)\f$  */ 
+
+	/// @addtogroup Alpha
+	/// @{
+	const double alphaParticleElectronMassRatio =                          	7294.29954136;				/**< \f$m_\alpha/m_e \ (1)\f$  */ 
 	const double alphaParticleMass =										6.644657230e-27;			/**< \f$m_\alpha \ (kg)\f$  */ 
 	const double alphaParticleMassInJ =										5.971920097e-10;			/**< \f$m_\alpha \ (\frac{J}{c^2})\f$  */ 
 	const double alphaParticleMassInMeV =									3727.379378;				/**< \f$m_\alpha \ (\frac{MeV}{c^2})\f$  */ 
@@ -49,6 +93,7 @@ namespace NISTConst
 	const double alphaParticleMolarMassUncertainty =						0.000000000063e-3;  		/**< \f$M_\alpha \ (\frac{kg}{mol})\f$  */ 
 	const double alphaParticleProtonMassRatioUncertainty =					0.00000000036;         		/**< \f$m_\alpha/m_p \ (1)\f$  */ 
 	#endif  
+	/// @}
 /*	
 	const double Angstrom star                                               1.000 014 95 e-10        0.000 000 90 e-10        m
 	
