@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['nist_20constants',['NIST Constants',['../group___n_i_s_t_const.html',1,'']]],
-  ['nistconst_2ehpp',['NISTConst.hpp',['../_n_i_s_t_const_8hpp.html',1,'']]],
-  ['non_2dsi_20units',['Non-SI units',['../group___non-_s_i.html',1,'']]]
+  ['fermi_20coupling_20constant',['Fermi coupling constant',['../group___fermi_coupling.html',1,'']]],
+  ['fine_2dstructure_20constant',['Fine-structure constant',['../group___fine_structure.html',1,'']]]
 ];

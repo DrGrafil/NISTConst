@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['universal',['Universal',['../group___universal.html',1,'']]]
+  ['impedance_20of_20vacuum',['Impedance of vacuum',['../group___impedance_of_vacuum.html',1,'']]]
 ];

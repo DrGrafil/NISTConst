@@ -26,9 +26,88 @@
 /// @defgroup Universal Universal
 /// @ingroup NISTConst
 
+/// 	@defgroup ImpedanceOfVacuum Impedance of vacuum 
+/// 	@ingroup Universal
+
+/// 	@defgroup ElectricConstant Electric constant 
+/// 	@ingroup Universal
+
+/// 	@defgroup MagneticConstant Magnetic constant 
+/// 	@ingroup Universal
+
+/// 	@defgroup GravitationalConstant Gravitational constant
+/// 	@ingroup Universal
+
+/// 	@defgroup PlanckConstant Planck constant 
+/// 	@ingroup Universal
+
+/// 	@defgroup PlanckLength Planck length 
+/// 	@ingroup Universal
+
+/// 	@defgroup PlanckMass  Planck mass 
+/// 	@ingroup Universal
+
+/// 	@defgroup PlanckTemperature Planck temperature 
+/// 	@ingroup Universal
+
+/// 	@defgroup PlanckTime Planck time 
+/// 	@ingroup Universal
+
+/// 	@defgroup SpeedOfLight Speed of light
+/// 	@ingroup Universal
+
+
+
 /// @defgroup Electromagnetic Electromagnetic
 /// @ingroup NISTConst
 
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
+
+/// 	@defgroup SpeedOfLight 
+/// 	@ingroup Electromagnetic
 
 /// @defgroup Atomic Atomic and nuclear
 /// @ingroup NISTConst
@@ -42,12 +121,50 @@
 /// 	@defgroup Compton Compton Wavelength
 /// 	@ingroup Atomic
 
-/// 	@defgroup Deuteron Deuteron nucleus
+/// 	@defgroup Deuteron Deuterium nucleus (Deuteron)
 /// 	@ingroup Atomic
 
 /// 	@defgroup Electron Electron particle
 /// 	@ingroup Atomic
 
+/// 	@defgroup FermiCoupling Fermi coupling constant  
+/// 	@ingroup Atomic
+
+/// 	@defgroup FineStructure Fine-structure constant  
+/// 	@ingroup Atomic
+
+/// 	@defgroup Hartree Hartree energy
+/// 	@ingroup Atomic
+
+/// 	@defgroup Helion Helium nucleus (Helion)
+/// 	@ingroup Atomic
+
+/// 	@defgroup Muon Muon particle
+/// 	@ingroup Atomic
+
+/// 	@defgroup Neutron Neutron particle
+/// 	@ingroup Atomic
+
+/// 	@defgroup Proton Proton particle
+/// 	@ingroup Atomic
+
+/// 	@defgroup QuantumCirculation Quantum of circulation  
+/// 	@ingroup Atomic
+
+/// 	@defgroup Rydberg Rydberg constant
+/// 	@ingroup Atomic
+
+/// 	@defgroup Tau Tau particle
+/// 	@ingroup Atomic
+
+/// 	@defgroup Thomson Thomson cross section 
+/// 	@ingroup Atomic
+
+/// 	@defgroup Triton Tritium nucleus (Triton)
+/// 	@ingroup Atomic
+
+/// 	@defgroup WeakMixing Weak mixing angle 
+/// 	@ingroup Atomic
 
 
 /// @defgroup PhysicoChemical Physico-Chemical

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['x_2dray_20values',['X-ray values',['../group___x-ray.html',1,'']]]
+  ['impedance_20of_20vacuum',['Impedance of vacuum',['../group___impedance_of_vacuum.html',1,'']]]
 ];

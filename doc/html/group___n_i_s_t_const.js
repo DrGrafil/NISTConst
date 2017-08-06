@@ -1,6 +1,6 @@
 var group___n_i_s_t_const =
 [
-    [ "Universal", "group___universal.html", null ],
+    [ "Universal", "group___universal.html", "group___universal" ],
     [ "Electromagnetic", "group___electromagnetic.html", null ],
     [ "Atomic and nuclear", "group___atomic.html", "group___atomic" ],
     [ "Physico-Chemical", "group___physico_chemical.html", null ],
