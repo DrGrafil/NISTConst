@@ -73,7 +73,7 @@
 /// 	@defgroup JosephsonConstant Josephson constant 
 /// 	@ingroup Electromagnetic
 
-/// 	@defgroup MagneticFluxQuantum  
+/// 	@defgroup MagneticFluxQuantum  Magnetic flux quantum
 /// 	@ingroup Electromagnetic
 
 /// 	@defgroup NuclearMagneton Nuclear magneton 
@@ -190,23 +190,97 @@
 /// @defgroup Adopted Adopted
 /// @ingroup NISTConst
 
+/// 	@defgroup ConventionalJosephsonConstant Josephson constant 
+/// 	@ingroup Adopted
+
+/// 	@defgroup ConventionalvonKlitzingConstant von Klitzing constant 
+/// 	@ingroup Adopted
+
+/// 	@defgroup MolarMass Molar mass   
+/// 	@ingroup Adopted
+
+/// 	@defgroup GravityAcceleration Gravity acceleration
+/// 	@ingroup Adopted
+
+/// 	@defgroup StandardAtmosphere Standard atmosphere 
+/// 	@ingroup Adopted
+
+
 /// @defgroup Non-SI Non-SI units
 /// @ingroup NISTConst
+
+/// 	@defgroup AtomicUnit atomic units
+/// 	@ingroup Non-SI
+
+/// 	@defgroup ElectronVoltUnit Electron Volt unit
+/// 	@ingroup Non-SI
+
+/// 	@defgroup NaturalUnit Natural units
+/// 	@ingroup Non-SI
+
+/// 	@defgroup UnifiedAtomicMassUnit Unified atomic mass unit 
+/// 	@ingroup Non-SI
+
+
 
 /// @defgroup ConversionFactors Conversion factors
 /// @ingroup NISTConst
 
+/// 	@defgroup AtomicMassUnit Atomic mass unit
+/// 	@ingroup ConversionFactors
+
+/// 	@defgroup ElectronVolt Electron volt
+/// 	@ingroup ConversionFactors
+
+/// 	@defgroup Hartree Hartree
+/// 	@ingroup ConversionFactors
+
+/// 	@defgroup Hertz	Hertz 
+/// 	@ingroup ConversionFactors
+
+// Seems weird that it is here
+/// 	@defgroup InverseFineStructureConstant inverse fine-structure constant  
+/// 	@ingroup ConversionFactors
+
+/// 	@defgroup InverseMeter inverse meter
+/// 	@ingroup ConversionFactors
+
+/// 	@defgroup Joule Joule
+/// 	@ingroup ConversionFactors
+
+/// 	@defgroup Kelvin Kelvin
+/// 	@ingroup ConversionFactors
+
+/// 	@defgroup Kilogram Kilogram
+/// 	@ingroup ConversionFactors
+
+
+
 /// @defgroup X-ray X-ray values
 /// @ingroup NISTConst
 
+/// 	@defgroup AngstromStar Angstrom star  
+/// 	@ingroup X-ray
 
+/// 	@defgroup Copper Copper 
+/// 	@ingroup X-ray
+
+/// 	@defgroup Molybdenum Molybdenum  
+/// 	@ingroup X-ray
+
+/// 	@defgroup Sillicon Sillicon
+/// 	@ingroup X-ray
 
 namespace NISTConst
 {
 
-/*
-	const double {220} lattice spacing of silicon                            192.0155714e-12;        0.0000032e-12;          m
-*/	
+	/// @addtogroup Sillicon
+	/// @{
+	const double latticeSpacingOfSilicon =									192.0155714e-12;			/**< \f$d_{220} \ (m)\f$  */ 
+	#ifdef NISTCONST_UNCERTAINTY
+	const double latticeSpacingOfSiliconUncertainty =						0.0000032e-12; 				/**< \f$d_{220} \ (m)\f$  */ 
+	#endif
+	/// @}
 
 	/// @addtogroup Alpha
 	/// @{
@@ -265,6 +339,8 @@ namespace NISTConst
 	const double atomic unit of permittivity                                 1.112 650 056... e-10    (exact)                  F m^-1
 	const double atomic unit of time                                         2.418 884 326 509 e-17   0.000 000 000 014 e-17   s
 	const double atomic unit of velocity                                     2.187 691 262 77 e6      0.000 000 000 50 e6      m s^-1
+	
+	
 	const double Avogadro constant                                           6.022 140 857 e23        0.000 000 074 e23        mol^-1
 
 	const double Bohr magneton                                               927.400 9994 e-26        0.000 0057 e-26          J T^-1
@@ -499,6 +575,8 @@ namespace NISTConst
 	const double Planck temperature                                          1.416 808 e32            0.000 033 e32            K
 	const double Planck time                                                 5.391 16 e-44            0.000 13 e-44            s
 
+	/// @addtogroup Proton
+	/// @{
 	const double proton charge to mass quotient                              9.578 833 226 e7         0.000 000 059 e7         C kg^-1
 	const double proton Compton wavelength                                   1.321 409 853 96 e-15    0.000 000 000 61 e-15    m
 	const double proton Compton wavelength over 2 pi                         0.210 308 910 109 e-15   0.000 000 000 097 e-15   m
@@ -520,7 +598,7 @@ namespace NISTConst
 	const double proton-neutron mass ratio                                   0.998 623 478 44         0.000 000 000 51         
 	const double proton rms charge radius                                    0.8751 e-15              0.0061 e-15              m
 	const double proton-tau mass ratio                                       0.528 063                0.000 048       
-         
+    /// @}     
 	const double quantum of circulation                                      3.636 947 5486 e-4       0.000 000 0017 e-4       m^2 s^-1
 	const double quantum of circulation times 2                              7.273 895 0972 e-4       0.000 000 0033 e-4       m^2 s^-1
 	
@@ -555,6 +633,9 @@ namespace NISTConst
 
 	const double Stefan-Boltzmann constant                                   5.670 367 e-8            0.000 013 e-8            W m^-2 K^-4
 	*/
+	
+	/// @addtogroup Tau
+	/// @{
 	const double tauComptonWavelength                                      	0.697787e-15; 				/**< \f$\lambda_{C,\tau} \ (m)\f$  */ 
 	const double tauComptonWavelengthOver2Pi                           		0.111056e-15;        		/**< \f$\lambdabar_{C,\tau} \ (m)\f$  */ //https://tex.stackexchange.com/questions/96479/how-can-i-type-lambda-bar
 	const double tauElectronMassRatio                                     	3477.15;                  	/**< \f$m_\tau/m_e \ (1)\f$  */ 
@@ -580,36 +661,80 @@ namespace NISTConst
 	const double tauNeutronMassRatioUncertainty =							0.00017;                 	/**< \f$m_\tau/m_n \ (1)\f$  */ 
 	const double tauProtonMassRatioUncertainty =							0.00017;       				/**< \f$m_\tau/m_p \ (1)\f$  */ 	
 	#endif  
+	/// @}
+	
+    /// @addtogroup Thomson
+	/// @{    
+	const double ThomsonCrossSection =										0.66524587158e-28;			/**< \f$\sigma_e \ (m^2)\f$  */
+	#ifdef NISTCONST_UNCERTAINTY
+	const double ThomsonCrossSectionUncertainty =							0.00000000091e-28;			/**< \f$\sigma_e \ (m^2)\f$  */
+	#endif  
+	/// @}	
 
+	/// @addtogroup Triton
+	/// @{
+	const double tritonElectronMassRatio =									5496.92153588;				/**< \f$m_\^3H/m_e \ (1)\f$  */
+	const double tritongFactor =											5.957924920;				/**< \f$g_\^3H \ (1)\f$  */       
+	const double tritonMagneticMoment =										1.504609503e-26;			/**< \f$\mu_\^3H \ (\frac{J}{T})\f$  */
+	const double tritonMagneticMomentToBohrMagnetonRatio =					1.6223936616e-3;			/**< \f$\mu_\^3H/\mu_B \ (1)\f$  */
+	const double tritonMagneticMomentToNuclearMagnetonRatio =				2.978962460;				/**< \f$\mu_\^3H/\mu_N \ (1)\f$  */
+	const double tritonMass =												5.007356665e-27;			/**< \f$m_\^3H \ (kg)\f$  */ 
+	const double tritonMassInJ =											4.500387735e-10;			/**< \f$m_\^3H \ (\frac{J}{c^2})\f$  */ 
+	const double tritonMassInMeV =											2808.921112;				/**< \f$m_\^3H \ (\frac{MeV}{c^2})\f$  */ 
+	const double tritonMassInu =											3.01550071632;				/**< \f$m_\^3H \ (u)\f$  */ 
+	const double tritonMolarMass =											3.01550071632e-3;			/**< \f$M_\^3H \ (\frac{kg}{mol})\f$  */ 
+	const double tritonProtonMassRatio =									2.99371703348;				/**< \f$m_\^3H/m_p \ (1)\f$  */ 
+	
+	#ifdef NISTCONST_UNCERTAINTY
+	const double tritonElectronMassRatioUncertainty =						0.00000026;					/**< \f$m_\^3H/m_e \ (1)\f$  */
+	const double tritongFactorUncertainty =									0.000000028;				/**< \f$g_\^3H \ (1)\f$  */       
+	const double tritonMagneticMomentUncertainty =							0.000000012e-26;			/**< \f$\mu_\^3H \ (\frac{J}{T})\f$  */
+	const double tritonMagneticMomentToBohrMagnetonRatioUncertainty =		0.0000000076e-3;			/**< \f$\mu_\^3H/\mu_B \ (1)\f$  */
+	const double tritonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000014;				/**< \f$\mu_\^3H/\mu_N \ (1)\f$  */
+	const double tritonMassUncertainty =									0.000000062e-27;			/**< \f$m_\^3H \ (kg)\f$  */ 
+	const double tritonMassInJUncertainty =									0.000000055e-10;			/**< \f$m_\^3H \ (J)\f$  */ 
+	const double tritonMassInMeVUncertainty =								0.000017; 					/**< \f$m_\^3H \ (MeV)\f$  */ 
+	const double tritonMassInuUncertainty =									0.00000000011;				/**< \f$m_\^3H \ (u)\f$  */ 
+	const double tritonMolarMassUncertainty =								0.00000000011e-3;			/**< \f$M_\^3H \ (\frac{kg}{mol})\f$  */ 
+	const double tritonProtonMassRatioUncertainty =							0.00000000022;				/**< \f$m_\^3H/m_p \ (1)\f$  */ 
+	#endif  
+	/// @}	
+	
+	/// @addtogroup UnifiedAtomicMassUnit
+	/// @{
+	const double unifiedAtomicMassUnit =									1.660539040e-27;			/**< \f$u \ (kg)\f$  */ 
+	#ifdef NISTCONST_UNCERTAINTY
+	const double unifiedAtomicMassUnitUncertainty =							0.000000020e-27;			/**< \f$u \ (kg)\f$  */ 
+	#endif  
+	/// @}	
+	
+	/// @addtogroup vonKlitzingConstant
+	/// @{
+	const double vonKlitzingConstant =										25812.8074555;				/**< \f$R_K \ (\Omega)\f$  */
+	#ifdef NISTCONST_UNCERTAINTY
+	const double vonKlitzingConstantUncertainty =							0.0000059;           		/**< \f$R_K \ (\Omega)\f$  */
+	#endif  
+	/// @}	
+	
+	/// @addtogroup WeakMixingAngle 
+	/// @{
+	const double weakMixingAngle =											0.2223;						/**< \f$sin^2 \theta_W \ (1)\f$  */              
+	#ifdef NISTCONST_UNCERTAINTY
+	const double weakMixingAngleUncertainty =								0.0021;						/**< \f$sin^2 \theta_W \ (1)\f$  */        
+	#endif  
+	/// @}	
+	
+	/// @addtogroup WienDisplacement 
+	/// @{ 
+	const double WienFrequencyDisplacementLawConstant =						5.8789238e10;				/**< \f$b' \ (\frac{Hz}{K})\f$  */ 
+	const double WienWavelengthDisplacementLawConstant =					2.8977729e-3;				/**< \f$b \ (m K)\f$ */ 
+	
+	#ifdef NISTCONST_UNCERTAINTY
+	const double WienFrequencyDisplacementLawConstantUncertainty =			0.0000034e10;				/**< \f$b' \ (\frac{Hz}{K})\f$  */ 
+	const double WienWavelengthDisplacementLawConstantUncertainty =			0.0000017e-3;				/**< \f$b \ (m K)\f$ */ 
+	#endif  
+	/// @}	
 
-	
-	
-	
-	/*
-	          
-	const double Thomson cross section                                       0.665 245 871 58 e-28    0.000 000 000 91 e-28    m^2
-
-	const double triton-electron mass ratio                                  5496.921 535 88          0.000 000 26             
-	const double triton g factor                                             5.957 924 920            0.000 000 028            
-	const double triton mag. mom.                                            1.504 609 503 e-26       0.000 000 012 e-26       J T^-1
-	const double triton mag. mom. to Bohr magneton ratio                     1.622 393 6616 e-3       0.000 000 0076 e-3       
-	const double triton mag. mom. to nuclear magneton ratio                  2.978 962 460            0.000 000 014            
-	const double triton mass                                                 5.007 356 665 e-27       0.000 000 062 e-27       kg
-	const double triton mass energy equivalent                               4.500 387 735 e-10       0.000 000 055 e-10       J
-	const double triton mass energy equivalent in MeV                        2808.921 112             0.000 017                MeV
-	const double triton mass in u                                            3.015 500 716 32         0.000 000 000 11         u
-	const double triton molar mass                                           3.015 500 716 32 e-3     0.000 000 000 11 e-3     kg mol^-1
-	const double triton-proton mass ratio                                    2.993 717 033 48         0.000 000 000 22         
-	
-	const double unified atomic mass unit                                    1.660 539 040 e-27       0.000 000 020 e-27       kg
-	
-	const double von Klitzing constant                                       25 812.807 4555          0.000 0059               ohm
-	
-	const double weak mixing angle                                           0.2223                   0.0021                   
-	
-	const double Wien frequency displacement law constant                    5.878 9238 e10           0.000 0034 e10           Hz K^-1
-	const double Wien wavelength displacement law constant                   2.897 7729 e-3           0.000 0017 e-3           m K
-	*/
 } //namespace NISTConst
 
 

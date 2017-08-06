@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['universal',['Universal',['../group___universal.html',1,'']]]
+  ['rydberg_20constant',['Rydberg constant',['../group___rydberg.html',1,'']]]
 ];
