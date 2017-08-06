@@ -29,9 +29,9 @@
 namespace NISTConst
 {
 
-
+/*
 	const double {220} lattice spacing of silicon                            192.0155714e-12;        0.0000032e-12;          m
-	
+*/	
 	const double alphaParticleElectronMassRatio =                          	7294.29954136				/**< \f$m_\alpha/m_e \ (1)\f$  */ 
 	const double alphaParticleMass =										6.644657230e-27;			/**< \f$m_\alpha \ (kg)\f$  */ 
 	const double alphaParticleMassInJ =										5.971920097e-10;			/**< \f$m_\alpha \ (\frac{J}{c^2})\f$  */ 
@@ -49,7 +49,7 @@ namespace NISTConst
 	const double alphaParticleMolarMassUncertainty =						0.000000000063e-3;  		/**< \f$M_\alpha \ (\frac{kg}{mol})\f$  */ 
 	const double alphaParticleProtonMassRatioUncertainty =					0.00000000036;         		/**< \f$m_\alpha/m_p \ (1)\f$  */ 
 	#endif  
-	
+/*	
 	const double Angstrom star                                               1.000 014 95 e-10        0.000 000 90 e-10        m
 	
 	const double atomic mass constant                                        1.660 539 040 e-27       0.000 000 020 e-27       kg
@@ -375,7 +375,7 @@ namespace NISTConst
 
 
 	const double Stefan-Boltzmann constant                                   5.670 367 e-8            0.000 013 e-8            W m^-2 K^-4
-
+	*/
 	const double tauComptonWavelength                                      	0.697787e-15; 				/**< \f$\lambda_{C,\tau} \ (m)\f$  */ 
 	const double tauComptonWavelengthOver2Pi                           		0.111056e-15;        		/**< \f$\lambdabar_{C,\tau} \ (m)\f$  */ //https://tex.stackexchange.com/questions/96479/how-can-i-type-lambda-bar
 	const double tauElectronMassRatio                                     	3477.15;                  	/**< \f$m_\tau/m_e \ (1)\f$  */ 
@@ -406,7 +406,7 @@ namespace NISTConst
 	
 	
 	
-	
+	/*
 	          
 	const double Thomson cross section                                       0.665 245 871 58 e-28    0.000 000 000 91 e-28    m^2
 
@@ -430,7 +430,7 @@ namespace NISTConst
 	
 	const double Wien frequency displacement law constant                    5.878 9238 e10           0.000 0034 e10           Hz K^-1
 	const double Wien wavelength displacement law constant                   2.897 7729 e-3           0.000 0017 e-3           m K
-
+	*/
 } //namespace NISTConst
 
 
