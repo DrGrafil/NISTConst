@@ -12,5 +12,5 @@ var group___physico_chemical =
     [ "Sackur-Tetrode constant", "group___sackur_tetrode_constant.html", null ],
     [ "Second radiation constant", "group___second_radiation_constant.html", null ],
     [ "Stefan-Boltzmann constant", "group___stefan_boltzmann_constant.html", null ],
-    [ "Wien displacement law constant", "group___wien_displacement.html", null ]
+    [ "Wien displacement law constant", "group___wien_displacement.html", "group___wien_displacement" ]
 ];

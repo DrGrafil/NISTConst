@@ -5,7 +5,7 @@
 //	 http://physics.nist.gov/constants
 /// @author Elliot Grafil (Metex)
 /// @date 8/5/17
-
+/// @todo Change ^3H to t? 
 
 //=================================
 // Header guard
@@ -138,7 +138,7 @@
 /// 	@defgroup Triton Tritium nucleus (Triton)
 /// 	@ingroup Atomic
 
-/// 	@defgroup WeakMixing Weak mixing angle 
+/// 	@defgroup WeakMixingAngle Weak mixing angle 
 /// 	@ingroup Atomic
 
 
@@ -673,30 +673,30 @@ namespace NISTConst
 
 	/// @addtogroup Triton
 	/// @{
-	const double tritonElectronMassRatio =									5496.92153588;				/**< \f$m_\^3H/m_e \ (1)\f$  */
-	const double tritongFactor =											5.957924920;				/**< \f$g_\^3H \ (1)\f$  */       
-	const double tritonMagneticMoment =										1.504609503e-26;			/**< \f$\mu_\^3H \ (\frac{J}{T})\f$  */
-	const double tritonMagneticMomentToBohrMagnetonRatio =					1.6223936616e-3;			/**< \f$\mu_\^3H/\mu_B \ (1)\f$  */
-	const double tritonMagneticMomentToNuclearMagnetonRatio =				2.978962460;				/**< \f$\mu_\^3H/\mu_N \ (1)\f$  */
-	const double tritonMass =												5.007356665e-27;			/**< \f$m_\^3H \ (kg)\f$  */ 
-	const double tritonMassInJ =											4.500387735e-10;			/**< \f$m_\^3H \ (\frac{J}{c^2})\f$  */ 
-	const double tritonMassInMeV =											2808.921112;				/**< \f$m_\^3H \ (\frac{MeV}{c^2})\f$  */ 
-	const double tritonMassInu =											3.01550071632;				/**< \f$m_\^3H \ (u)\f$  */ 
-	const double tritonMolarMass =											3.01550071632e-3;			/**< \f$M_\^3H \ (\frac{kg}{mol})\f$  */ 
-	const double tritonProtonMassRatio =									2.99371703348;				/**< \f$m_\^3H/m_p \ (1)\f$  */ 
+	const double tritonElectronMassRatio =									5496.92153588;				/**< \f$m_{^3H}/m_e \ (1)\f$  */
+	const double tritongFactor =											5.957924920;				/**< \f$g_{^3H} \ (1)\f$  */       
+	const double tritonMagneticMoment =										1.504609503e-26;			/**< \f$\mu_{^3H} \ (\frac{J}{T})\f$  */
+	const double tritonMagneticMomentToBohrMagnetonRatio =					1.6223936616e-3;			/**< \f$\mu_{^3H}/\mu_B \ (1)\f$  */
+	const double tritonMagneticMomentToNuclearMagnetonRatio =				2.978962460;				/**< \f$\mu_{^3H}/\mu_N \ (1)\f$  */
+	const double tritonMass =												5.007356665e-27;			/**< \f$m_{^3H} \ (kg)\f$  */ 
+	const double tritonMassInJ =											4.500387735e-10;			/**< \f$m_{^3H} \ (\frac{J}{c^2})\f$  */ 
+	const double tritonMassInMeV =											2808.921112;				/**< \f$m_{^3H} \ (\frac{MeV}{c^2})\f$  */ 
+	const double tritonMassInu =											3.01550071632;				/**< \f$m_{^3H} \ (u)\f$  */ 
+	const double tritonMolarMass =											3.01550071632e-3;			/**< \f$M_{^3H} \ (\frac{kg}{mol})\f$  */ 
+	const double tritonProtonMassRatio =									2.99371703348;				/**< \f$m_{^3H}/m_p \ (1)\f$  */ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double tritonElectronMassRatioUncertainty =						0.00000026;					/**< \f$m_\^3H/m_e \ (1)\f$  */
-	const double tritongFactorUncertainty =									0.000000028;				/**< \f$g_\^3H \ (1)\f$  */       
-	const double tritonMagneticMomentUncertainty =							0.000000012e-26;			/**< \f$\mu_\^3H \ (\frac{J}{T})\f$  */
-	const double tritonMagneticMomentToBohrMagnetonRatioUncertainty =		0.0000000076e-3;			/**< \f$\mu_\^3H/\mu_B \ (1)\f$  */
-	const double tritonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000014;				/**< \f$\mu_\^3H/\mu_N \ (1)\f$  */
-	const double tritonMassUncertainty =									0.000000062e-27;			/**< \f$m_\^3H \ (kg)\f$  */ 
-	const double tritonMassInJUncertainty =									0.000000055e-10;			/**< \f$m_\^3H \ (J)\f$  */ 
-	const double tritonMassInMeVUncertainty =								0.000017; 					/**< \f$m_\^3H \ (MeV)\f$  */ 
-	const double tritonMassInuUncertainty =									0.00000000011;				/**< \f$m_\^3H \ (u)\f$  */ 
-	const double tritonMolarMassUncertainty =								0.00000000011e-3;			/**< \f$M_\^3H \ (\frac{kg}{mol})\f$  */ 
-	const double tritonProtonMassRatioUncertainty =							0.00000000022;				/**< \f$m_\^3H/m_p \ (1)\f$  */ 
+	const double tritonElectronMassRatioUncertainty =						0.00000026;					/**< \f$m_{^3H}/m_e \ (1)\f$  */
+	const double tritongFactorUncertainty =									0.000000028;				/**< \f$g_{^3H} \ (1)\f$  */       
+	const double tritonMagneticMomentUncertainty =							0.000000012e-26;			/**< \f$\mu_{^3H} \ (\frac{J}{T})\f$  */
+	const double tritonMagneticMomentToBohrMagnetonRatioUncertainty =		0.0000000076e-3;			/**< \f$\mu_{^3H}/\mu_B \ (1)\f$  */
+	const double tritonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000014;				/**< \f$\mu_{^3H}/\mu_N \ (1)\f$  */
+	const double tritonMassUncertainty =									0.000000062e-27;			/**< \f$m_{^3H} \ (kg)\f$  */ 
+	const double tritonMassInJUncertainty =									0.000000055e-10;			/**< \f$m_{^3H} \ (J)\f$  */ 
+	const double tritonMassInMeVUncertainty =								0.000017; 					/**< \f$m_{^3H} \ (MeV)\f$  */ 
+	const double tritonMassInuUncertainty =									0.00000000011;				/**< \f$m_{^3H} \ (u)\f$  */ 
+	const double tritonMolarMassUncertainty =								0.00000000011e-3;			/**< \f$M_{^3H} \ (\frac{kg}{mol})\f$  */ 
+	const double tritonProtonMassRatioUncertainty =							0.00000000022;				/**< \f$m_{^3H}/m_p \ (1)\f$  */ 
 	#endif  
 	/// @}	
 	

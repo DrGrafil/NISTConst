@@ -14,8 +14,8 @@ var group___atomic =
     [ "Proton particle", "group___proton.html", null ],
     [ "Quantum of circulation", "group___quantum_circulation.html", null ],
     [ "Rydberg constant", "group___rydberg.html", null ],
-    [ "Tau particle", "group___tau.html", null ],
-    [ "Thomson cross section", "group___thomson.html", null ],
-    [ "Tritium nucleus (Triton)", "group___triton.html", null ],
-    [ "Weak mixing angle", "group___weak_mixing.html", null ]
+    [ "Tau particle", "group___tau.html", "group___tau" ],
+    [ "Thomson cross section", "group___thomson.html", "group___thomson" ],
+    [ "Tritium nucleus (Triton)", "group___triton.html", "group___triton" ],
+    [ "Weak mixing angle", "group___weak_mixing_angle.html", "group___weak_mixing_angle" ]
 ];

@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['tau_20particle',['Tau particle',['../group___tau.html',1,'']]],
   ['taucomptonwavelength',['tauComptonWavelength',['../group___tau.html#ga02608ef1c26b9550ee7547350bbcdd5d',1,'NISTConst']]],
   ['taucomptonwavelengthover2pi',['tauComptonWavelengthOver2Pi',['../group___tau.html#ga3cca663c9ba88e04346cbd29643aba14',1,'NISTConst']]],
   ['tauelectronmassratio',['tauElectronMassRatio',['../group___tau.html#ga58efae35c13c681c03e115a97659063a',1,'NISTConst']]],
@@ -12,9 +11,7 @@ var searchData=
   ['taumuonmassratio',['tauMuonMassRatio',['../group___tau.html#gac648100c94ae427f98a87390a9263379',1,'NISTConst']]],
   ['tauneutronmassratio',['tauNeutronMassRatio',['../group___tau.html#ga024557c365e76b225bef98f0a0a9283b',1,'NISTConst']]],
   ['tauprotonmassratio',['tauProtonMassRatio',['../group___tau.html#ga07236b2b11bdbfaee49e581a44bb01e8',1,'NISTConst']]],
-  ['thomson_20cross_20section',['Thomson cross section',['../group___thomson.html',1,'']]],
   ['thomsoncrosssection',['ThomsonCrossSection',['../group___thomson.html#gac0806b1a7f3e82009afeac7ea16728ce',1,'NISTConst']]],
-  ['tritium_20nucleus_20_28triton_29',['Tritium nucleus (Triton)',['../group___triton.html',1,'']]],
   ['tritonelectronmassratio',['tritonElectronMassRatio',['../group___triton.html#ga8508adabd4d9f81969eeed5838a61443',1,'NISTConst']]],
   ['tritongfactor',['tritongFactor',['../group___triton.html#ga4d9812975c185048a8367d9838b53215',1,'NISTConst']]],
   ['tritonmagneticmoment',['tritonMagneticMoment',['../group___triton.html#ga9b4063b3a2a14f1ad4718d844f37652e',1,'NISTConst']]],
