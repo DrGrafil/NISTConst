@@ -1,6 +1,6 @@
 var group___electromagnetic =
 [
-    [ "Bohr magneton", "group___bohr_magneton.html", null ],
+    [ "Bohr magneton", "group___bohr_magneton.html", "group___bohr_magneton" ],
     [ "Conductance quantum", "group___conductance_quantum.html", null ],
     [ "Elementary charge", "group___elementary_charge.html", null ],
     [ "Josephson constant", "group___josephson_constant.html", null ],

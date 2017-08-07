@@ -1,7 +1,7 @@
 var group___atomic =
 [
     [ "Alpha particle", "group___alpha.html", "group___alpha" ],
-    [ "Bohr radius", "group___bohr.html", null ],
+    [ "Bohr radius", "group___bohr_radius.html", "group___bohr_radius" ],
     [ "Compton Wavelength", "group___compton.html", null ],
     [ "Deuterium nucleus (Deuteron)", "group___deuteron.html", null ],
     [ "Electron particle", "group___electron.html", null ],

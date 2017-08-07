@@ -1,11 +1,10 @@
-/// @file NISTConst/c++/NISTConst.hpp
+/// @file NISTConst.hpp
 ///
 /// @brief NIST Constants
 ///
 //	 http://physics.nist.gov/constants
 /// @author Elliot Grafil (Metex)
 /// @date 8/5/17
-/// @todo Change ^3H to t? 
 
 //=================================
 // Header guard
@@ -90,7 +89,7 @@
 /// 	@defgroup Alpha Alpha particle
 /// 	@ingroup Atomic
 
-/// 	@defgroup Bohr Bohr radius
+/// 	@defgroup BohrRadius Bohr radius
 /// 	@ingroup Atomic
 
 /// 	@defgroup Compton Compton Wavelength
@@ -302,59 +301,141 @@ namespace NISTConst
 	const double alphaParticleProtonMassRatioUncertainty =					0.00000000036;         		/**< \f$m_\alpha/m_p \ (1)\f$  */ 
 	#endif  
 	/// @}
+/*
+	/// @addtogroup AngstromStar
+	/// @{
+	const double AngstromStar =                                               1.00001495e-10;        0.00000090e-10;        m
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup AtomicMassConstant
+	/// @{
+	const double atomicMassConstant =                                       1.660539040e-27;       0.000000020e-27;       kg
+	const double atomicMassConstantInJ =                     1.492418062e-10;       0.000000018e-10;       J
+	const double atomicMassConstantInMeV =               931.4940954;             0.0000057;               MeV
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup AtomicMassUnit
+	/// @{
+	const double atomic mass unit-electron volt relationship                 931.4940954e6;          0.0000057e6;            eV
+	const double atomic mass unit-hartree relationship                       3.4231776902e7;        0.0000000016e7;        E_h
+	const double atomic mass unit-hertz relationship                         2.2523427206e23;       0.0000000010e23;       Hz
+	const double atomic mass unit-inverse meter relationship                 7.5130066166e14;       0.0000000034e14;       m^-1
+	const double atomic mass unit-joule relationship                         1.492418062e-10;       0.000000018e-10;       J
+	const double atomic mass unit-kelvin relationship                        1.08095438e13;         0.00000062e13;         K
+	const double atomic mass unit-kilogram relationship                      1.660539040e-27;       0.000000020e-27;       kg
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	*/
+	
+	/// @addtogroup AtomicUnit
+	/// @{
+	const double atomicUnitOf1stHyperpolarizability =						3.206361329e-53;			/**< \f$\frac{e^3 a_0^3}{E_h^2} \ (\frac{C^3 m^3}{J^2})\f$ Atomic unit of 1st hyperpolarizability.*/
+	const double atomicUnitOf2ndHyperpolarizability =						6.235380085e-65;			/**< \f$\frac{e^4 a_0^4}{E_h^3} \ (\frac{C^4 m^4}{J^3})\f$ Atomic unit of 2nd hyperpolarizability.*/
+	const double atomicUnitOfAction =										1.054571800e-34;			/**< \f$\hbar \ (J s)\f$ Atomic unit of action.*/ 
+	const double atomicUnitOfCharge =										1.6021766208e-19;			/**< \f$e \ (C)\f$  Atomic unit of charge.*/ 
+	const double atomicUnitOfChargeDensity =								1.0812023770e12;			/**< \f$\frac{e}{a_0^3} \ (\frac{C}{m^3})\f$ Atomic unit of charge density.*/ 
+	const double atomicUnitOfCurrent =										6.623618183e-3;				/**< \f$\frac{e E_h}{\hbar} \ (A)\f$ Atomic unit of current.*/ 
+	const double atomicUnitOfElectricDipoleMoment =							8.478353552e-30;			/**< \f$e a_0 \ (C m)\f$ Atomic unit of electric dipole moment. */ 
+	const double atomicUnitOfElectricField =								5.142206707e11;				/**< \f$\frac{E_h}{e a_0} \ (\frac{V}{m})\f$ Atomic unit of electric field.*/ 
+	const double atomicUnitOfElectricFieldGradient =						9.717362356e21;				/**< \f$\frac{E_h}{e a_0^2}\ (\frac{V}{m^2})\f$ Atomic unit of electric field gradient.*/ 
+	const double atomicUnitOfElectricPolarizability =						1.6487772731e-41;			/**< \f$\frac{e^2 a_0^2}{E_h} \ (\frac{C^2 m^2}{J})\f$ Atomic unit of electric polarizability. */ 
+	const double atomicUnitOfElectricPotential =							27.21138602;				/**< \f$ \frac{E_h}{e}\ (V)\f$ Atomic unit of electric potential.*/ 
+	const double atomicUnitOfElectricQuadrupoleMoment =						4.486551484e-40;			/**< \f$e a_0^2 \ (C m^2)\f$ Atomic unit of electric quadrupole moment.*/ 
+	const double atomicUnitOfEnergy =										4.359744650e-18;			/**< \f$E_h \ (J)\f$ Atomic unit of energy.*/ 
+	const double atomicUnitOfForce =										8.23872336e-8;				/**< \f$\frac{E_h}{a_0} \ (N)\f$ Atomic unit of force.*/ 
+	const double atomicUnitOfLength =										0.52917721067e-10;			/**< \f$a_0 \ (m)\f$ Atomic unit of length.*/ 
+	const double atomicUnitOfMagneticDipoleMoment =							1.854801999e-23;			/**< \f$\frac{\hbar e}{m_e} \ (\frac{J}{T})\f$ Atomic unit of magnetic dipole moment.*/ 
+	const double atomicUnitOfMagneticFluxDensity =							2.350517550e5;				/**< \f$\frac{\hbar}{e a_0^2} \ (T)\f$ Atomic unit of magnetic flux density.*/ 
+	const double atomicUnitOfMagnetizability =								7.8910365886e-29;			/**< \f$\frac{e^2a_0^2}{m_e} \ (\frac{J}{T^2})\f$ Atomic unit of magnetizability.*/ 
+	const double atomicUnitOfMass =											9.10938356e-31;				/**< \f$m_e \ (kg)\f$ Atomic unit of mass.*/ 
+	const double atomicUnitOfMomentum =										1.992851882e-24;			/**< \f$\frac{\hbar}{a_0} \ (\frac{kg m}{s})\f$ Atomic unit of momentum.*/ 
+	const double atomicUnitOfPermittivity =									1.112650056e-10;			/**< \f$\frac{e^2}{a_0 E_h} \ (\frac{F}{m})\f$ Atomic unit of permittivity. */ 
+	const double atomicUnitOfTime =											2.418884326509e-17;			/**< \f$\frac{\hbar}{E_h} \ (s)\f$ Atomic unit of time.*/ 
+	const double atomicUnitOfVelocity =										2.18769126277e6;			/**< \f$\frac{a_0 E_h}{\hbar} \ (\frac{m}{s})\f$ Atomic unit of velocity.*/ 
+
+	#ifdef NISTCONST_UNCERTAINTY
+	const double atomicUnitOf1stHyperpolarizabilityUncertainty =			0.000000020e-53;			/**< \f$\frac{e^3 a_0^3}{E_h^2} \ (\frac{C^3 m^3}{J^2})\f$ Uncertainty in atomic unit of 1st hyperpolarizability.*/
+	const double atomicUnitOf2ndHyperpolarizabilityUncertainty =			0.000000077e-65;			/**< \f$\frac{e^4 a_0^4}{E_h^3} \ (\frac{C^4 m^4}{J^3})\f$ Uncertainty in atomic unit of 2nd hyperpolarizability.*/
+	const double atomicUnitOfActionUncertainty =							0.000000013e-34;			/**< \f$\hbar \ (J s)\f$ Uncertainty in atomic unit of action.*/ 
+	const double atomicUnitOfChargeUncertainty =							0.0000000098e-19;			/**< \f$e \ (C)\f$ Uncertainty in atomic unit of charge.*/ 
+	const double atomicUnitOfChargeDensityUncertainty =						0.0000000067e12;			/**< \f$\frac{e}{a_0^3} \ (\frac{C}{m^3})\f$ Uncertainty in atomic unit of charge density.*/ 
+	const double atomicUnitOfCurrentUncertainty =							0.000000041e-3;				/**< \f$ \frac{e E_h}{\hbar} \ (A)\f$ Uncertainty in atomic unit of current.*/ 
+	const double atomicUnitOfElectricDipoleMomentUncertainty =				0.000000052e-30;			/**< \f$ e a_0 \ (C m)\f$ Uncertainty in atomic unit of electric dipole moment. */ 
+	const double atomicUnitOfElectricFieldUncertainty = 					0.000000032e11;				/**< \f$\frac{E_h}{e a_0} \ (\frac{V}{m})\f$ Uncertainty in atomic unit of electric field.*/ 
+	const double atomicUnitOfElectricFieldGradientUncertainty =				0.000000060e21;				/**< \f$\frac{E_h}{e a_0^2}\ (\frac{V}{m^2})\f$ Uncertainty in atomic unit of electric field gradient.*/ 
+	const double atomicUnitOfElectricPolarizabilityUncertainty =			0.0000000011e-41;			/**< \f$\frac{e^2 a_0^2}{E_h} \ (\frac{C^2 m^2}{J})\f$ Uncertainty in atomic unit of electric polarizability. */ 
+	const double atomicUnitOfElectricPotentialUncertainty =					0.00000017;					/**< \f$ \frac{E_h}{e}\ (V)\f$ Uncertainty in atomic unit of electric potential.*/ 
+	const double atomicUnitOfElectricQuadrupoleMomentUncertainty =			0.000000028e-40;			/**< \f$e a_0^2 \ (C m^2)\f$ Uncertainty in atomic unit of electric quadrupole moment.*/ 
+	const double atomicUnitOfEnergyUncertainty =							0.000000054e-18;			/**< \f$E_h \ (J)\f$ Uncertainty in atomic unit of energy.*/ 
+	const double atomicUnitOfForceUncertainty =								0.00000010e-8;				/**< \f$\frac{E_h}{a_0} \ (N)\f$ Uncertainty in atomic unit of force.*/ 
+	const double atomicUnitOfLengthUncertainty =							0.00000000012e-10;			/**< \f$a_0 \ (m)\f$ Uncertainty in atomic unit of length.*/ 
+	const double atomicUnitOfMagneticDipoleMomentUncertainty =				0.000000011e-23;			/**< \f$\frac{\hbar e}{m_e} \ (\frac{J}{T})\f$ Uncertainty in atomic unit of magnetic dipole moment.*/ 
+	const double atomicUnitOfMagneticFluxDensityUncertainty =				0.000000014e5;				/**< \f$\frac{\hbar}{e a_0^2} \ (T)\f$ Uncertainty in atomic unit of magnetic flux density.*/ 
+	const double atomicUnitOfMagnetizabilityUncertainty =					0.0000000090e-29;			/**< \f$\frac{e^2a_0^2}{m_e} \ (\frac{J}{T^2})\f$ Uncertainty in atomic unit of magnetizability.*/ 
+	const double atomicUnitOfMassUncertainty =								0.00000011e-31;				/**< \f$m_e \ (kg)\f$ Uncertainty in atomic unit of mass.*/ 
+	const double atomicUnitOfMomentumUncertainty =							0.000000024e-24;			/**< \f$\frac{\hbar}{a_0} \ (\frac{kg m}{s})\f$ Uncertainty in atomic unit of momentum.*/ 
+	const double atomicUnitOfPermittivityUncertainty =                      0.0;						/**< \f$\frac{e^2}{a_0 E_h} \ (\frac{F}{m})\f$ Uncertainty in atomic unit of permittivity. Note should be 0.0 since it is exact.*/ 
+	const double atomicUnitOfTimeUncertainty =								0.000000000014e-17;			/**< \f$\frac{\hbar}{E_h} \ (s)\f$ Uncertainty in atomic unit of time.*/ 
+	const double atomicUnitOfVelocityUncertainty =							0.00000000050e6;			/**< \f$\frac{a_0 E_h}{\hbar} \ (\frac{m}{s})\f$ Uncertainty in atomic unit of velocity.*/ 
+	#endif  
+	/// @}
+	
+	/// @addtogroup AvogadroConstant 
+	/// @{
+	const double AvogadroConstant =											6.022140857e23;				/**< \f$N_A \ (\frac{1}{mol})\f$ Avogadro constant.*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	const double AvogadroConstantUncertainty =								0.000000074e23;				/**< \f$N_A \ (\frac{1}{mol})\f$ Uncertainty in Avogadro constant.*/ 
+	#endif  
+	/// @}
+
+	/// @addtogroup BohrMagneton
+	/// @{
+	const double BohrMagneton =												927.4009994e-26;			/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla.*/ 
+	const double BohrMagnetonIneVPerT =										5.7883818012e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesela.*/ 
+	const double BohrMagnetonInHzPerT =										13.996245042e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Bohr magneton in hertz per tesela.*/ 
+	const double BohrMagnetonInInversemPerT	=								46.68644814;				/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m T})\f$ Bohr magneton in inverse meters per tesla.*/ 
+	const double BohrMagnetonInKPerT =										0.67171405;					/**< \f$frac{\mu_B}{k} \ (\frac{K}{T})\f$ Bohr magneton in kelvin per tesla.*/ 
+	
+	#ifdef NISTCONST_UNCERTAINTY
+	const double BohrMagnetonUncertainty =									0.0000057e-26;				/**< \f$\mu_B \ (\frac{J}{T})\f$ Uncertainty in Bohr magneton in joules per tesla.*/ 
+	const double BohrMagnetonIneVPerTUncertainty =							0.0000000026e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Uncertainty in Bohr magneton in electron volts per tesela.*/ 
+	const double BohrMagnetonInHzPerTUncertainty =							0.000000086e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Uncertainty in Bohr magneton in hertz per tesela.*/ 
+	const double BohrMagnetonInInversemPerTUncertainty	=					0.00000029;					/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m T})\f$ Uncertainty in Bohr magneton in inverse meters per tesla.*/ 
+	const double BohrMagnetonInKPerTUncertainty =							0.00000039;					/**< \f$frac{\mu_B}{k} \ (\frac{K}{T})\f$ Uncertainty in Bohr magneton in kelvin per tesla.*/ 
+	#endif  
+	/// @}
+	
+	/// @addtogroup BohrRadius
+	/// @{
+	const double BohrRadius =												0.52917721067e-10;			/**< \f$a_0 \ (m)\f$ Bohr radius in meters.*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	const double BohrRadiusUncertainty =									0.00000000012e-10;			/**< \f$a_0 \ (m)\f$ Uncertainty in Bohr radius in meters.*/ 
+	#endif  
+	/// @}
+	
+	/// @addtogroup BoltzmannConstant
+	/// @{
+	const double BoltzmannConstant =										1.38064852e-23;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in joules per kelvin.*/
+	const double BoltzmannConstantIneVPerK =								8.6173303e-5;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in electron volts per kelvin.*/
+	const double BoltzmannConstantInHzPerK =								2.0836612e10;				/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$  Boltzmann constant in hertz per kelvin.*/
+	const double BoltzmannConstantInInversemK =								69.503457;					/**< \f$\frac{k}{h c} \ (\frac{1}{m K})\f$  Boltzmann constant in inverse meters per kelvin.*/
+	#ifdef NISTCONST_UNCERTAINTY
+	const double BoltzmannConstantUncertainty =								0.00000079e-23;				/**< \f$k \ (\frac{J}{K})\f$ Uncertainty in Boltzmann constant in joules per kelvin.*/
+	const double BoltzmannConstantIneVPerKUncertainty =						0.0000050e-5;				/**< \f$k \ (\frac{J}{K})\f$ Uncertainty in Boltzmann constant in electron volts per kelvin.*/
+	const double BoltzmannConstantInHzPerKUncertainty =						0.0000012e10;				/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$ Uncertainty in Boltzmann constant in hertz per kelvin.*/
+	const double BoltzmannConstantInInversemKUncertainty =					0.000040; 					/**< \f$\frac{k}{h c} \ (\frac{1}{m K})\f$ Uncertainty in Boltzmann constant in inverse meters per kelvin.*/
+	#endif  
+	/// @}
+	
 /*	
-	const double Angstrom star                                               1.000 014 95 e-10        0.000 000 90 e-10        m
-	
-	const double atomic mass constant                                        1.660 539 040 e-27       0.000 000 020 e-27       kg
-	const double atomic mass constant energy equivalent                      1.492 418 062 e-10       0.000 000 018 e-10       J
-	const double atomic mass constant energy equivalent in MeV               931.494 0954             0.000 0057               MeV
-	const double atomic mass unit-electron volt relationship                 931.494 0954 e6          0.000 0057 e6            eV
-	const double atomic mass unit-hartree relationship                       3.423 177 6902 e7        0.000 000 0016 e7        E_h
-	const double atomic mass unit-hertz relationship                         2.252 342 7206 e23       0.000 000 0010 e23       Hz
-	const double atomic mass unit-inverse meter relationship                 7.513 006 6166 e14       0.000 000 0034 e14       m^-1
-	const double atomic mass unit-joule relationship                         1.492 418 062 e-10       0.000 000 018 e-10       J
-	const double atomic mass unit-kelvin relationship                        1.080 954 38 e13         0.000 000 62 e13         K
-	const double atomic mass unit-kilogram relationship                      1.660 539 040 e-27       0.000 000 020 e-27       kg
-	
-	const double atomic unit of 1st hyperpolarizability                      3.206 361 329 e-53       0.000 000 020 e-53       C^3 m^3 J^-2
-	const double atomic unit of 2nd hyperpolarizability                      6.235 380 085 e-65       0.000 000 077 e-65       C^4 m^4 J^-3
-	const double atomic unit of action                                       1.054 571 800 e-34       0.000 000 013 e-34       J s
-	const double atomic unit of charge                                       1.602 176 6208 e-19      0.000 000 0098 e-19      C
-	const double atomic unit of charge density                               1.081 202 3770 e12       0.000 000 0067 e12       C m^-3
-	const double atomic unit of current                                      6.623 618 183 e-3        0.000 000 041 e-3        A
-	const double atomic unit of electric dipole mom.                         8.478 353 552 e-30       0.000 000 052 e-30       C m
-	const double atomic unit of electric field                               5.142 206 707 e11        0.000 000 032 e11        V m^-1
-	const double atomic unit of electric field gradient                      9.717 362 356 e21        0.000 000 060 e21        V m^-2
-	const double atomic unit of electric polarizability                      1.648 777 2731 e-41      0.000 000 0011 e-41      C^2 m^2 J^-1
-	const double atomic unit of electric potential                           27.211 386 02            0.000 000 17             V
-	const double atomic unit of electric quadrupole mom.                     4.486 551 484 e-40       0.000 000 028 e-40       C m^2
-	const double atomic unit of energy                                       4.359 744 650 e-18       0.000 000 054 e-18       J
-	const double atomic unit of force                                        8.238 723 36 e-8         0.000 000 10 e-8         N
-	const double atomic unit of length                                       0.529 177 210 67 e-10    0.000 000 000 12 e-10    m
-	const double atomic unit of mag. dipole mom.                             1.854 801 999 e-23       0.000 000 011 e-23       J T^-1
-	const double atomic unit of mag. flux density                            2.350 517 550 e5         0.000 000 014 e5         T
-	const double atomic unit of magnetizability                              7.891 036 5886 e-29      0.000 000 0090 e-29      J T^-2
-	const double atomic unit of mass                                         9.109 383 56 e-31        0.000 000 11 e-31        kg
-	const double atomic unit of mom.um                                       1.992 851 882 e-24       0.000 000 024 e-24       kg m s^-1
-	const double atomic unit of permittivity                                 1.112 650 056... e-10    (exact)                  F m^-1
-	const double atomic unit of time                                         2.418 884 326 509 e-17   0.000 000 000 014 e-17   s
-	const double atomic unit of velocity                                     2.187 691 262 77 e6      0.000 000 000 50 e6      m s^-1
-	
-	
-	const double Avogadro constant                                           6.022 140 857 e23        0.000 000 074 e23        mol^-1
-
-	const double Bohr magneton                                               927.400 9994 e-26        0.000 0057 e-26          J T^-1
-	const double Bohr magneton in eV/T                                       5.788 381 8012 e-5       0.000 000 0026 e-5       eV T^-1
-	const double Bohr magneton in Hz/T                                       13.996 245 042 e9        0.000 000 086 e9         Hz T^-1
-	const double Bohr magneton in inverse meters per tesla                   46.686 448 14            0.000 000 29             m^-1 T^-1
-	const double Bohr magneton in K/T                                        0.671 714 05             0.000 000 39             K T^-1
-	const double Bohr radius                                                 0.529 177 210 67 e-10    0.000 000 000 12 e-10    m
-
-	const double Boltzmann constant                                          1.380 648 52 e-23        0.000 000 79 e-23        J K^-1
-	const double Boltzmann constant in eV/K                                  8.617 3303 e-5           0.000 0050 e-5           eV K^-1
-	const double Boltzmann constant in Hz/K                                  2.083 6612 e10           0.000 0012 e10           Hz K^-1
-	const double Boltzmann constant in inverse meters per kelvin             69.503 457               0.000 040                m^-1 K^-1
-
 	const double characteristic impedance of vacuum                          376.730 313 461...       (exact)                  ohm
 	const double classical electron radius                                   2.817 940 3227 e-15      0.000 000 0019 e-15      m
 	const double Compton wavelength                                          2.426 310 2367 e-12      0.000 000 0011 e-12      m
@@ -673,30 +754,30 @@ namespace NISTConst
 
 	/// @addtogroup Triton
 	/// @{
-	const double tritonElectronMassRatio =									5496.92153588;				/**< \f$m_{^3H}/m_e \ (1)\f$  */
-	const double tritongFactor =											5.957924920;				/**< \f$g_{^3H} \ (1)\f$  */       
-	const double tritonMagneticMoment =										1.504609503e-26;			/**< \f$\mu_{^3H} \ (\frac{J}{T})\f$  */
-	const double tritonMagneticMomentToBohrMagnetonRatio =					1.6223936616e-3;			/**< \f$\mu_{^3H}/\mu_B \ (1)\f$  */
-	const double tritonMagneticMomentToNuclearMagnetonRatio =				2.978962460;				/**< \f$\mu_{^3H}/\mu_N \ (1)\f$  */
-	const double tritonMass =												5.007356665e-27;			/**< \f$m_{^3H} \ (kg)\f$  */ 
-	const double tritonMassInJ =											4.500387735e-10;			/**< \f$m_{^3H} \ (\frac{J}{c^2})\f$  */ 
-	const double tritonMassInMeV =											2808.921112;				/**< \f$m_{^3H} \ (\frac{MeV}{c^2})\f$  */ 
-	const double tritonMassInu =											3.01550071632;				/**< \f$m_{^3H} \ (u)\f$  */ 
-	const double tritonMolarMass =											3.01550071632e-3;			/**< \f$M_{^3H} \ (\frac{kg}{mol})\f$  */ 
-	const double tritonProtonMassRatio =									2.99371703348;				/**< \f$m_{^3H}/m_p \ (1)\f$  */ 
+	const double tritonElectronMassRatio =									5496.92153588;				/**< \f$m_{\textrm{T}}/m_e \ (1)\f$  */
+	const double tritongFactor =											5.957924920;				/**< \f$g_{\textrm{T} \ (1)\f$  */       
+	const double tritonMagneticMoment =										1.504609503e-26;			/**< \f$\mu_{\textrm{T}} \ (\frac{J}{T})\f$  */
+	const double tritonMagneticMomentToBohrMagnetonRatio =					1.6223936616e-3;			/**< \f$\mu_{\textrm{T}}/\mu_B \ (1)\f$  */
+	const double tritonMagneticMomentToNuclearMagnetonRatio =				2.978962460;				/**< \f$\mu_{\textrm{T}}/\mu_N \ (1)\f$  */
+	const double tritonMass =												5.007356665e-27;			/**< \f$m_{\textrm{T}} \ (kg)\f$  */ 
+	const double tritonMassInJ =											4.500387735e-10;			/**< \f$m_{\textrm{T}} \ (\frac{J}{c^2})\f$  */ 
+	const double tritonMassInMeV =											2808.921112;				/**< \f$m_{\textrm{T}} \ (\frac{MeV}{c^2})\f$  */ 
+	const double tritonMassInu =											3.01550071632;				/**< \f$m_{\textrm{T}} \ (u)\f$  */ 
+	const double tritonMolarMass =											3.01550071632e-3;			/**< \f$M_{\textrm{T}} \ (\frac{kg}{mol})\f$  */ 
+	const double tritonProtonMassRatio =									2.99371703348;				/**< \f$m_{\textrm{T}}/m_p \ (1)\f$  */ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double tritonElectronMassRatioUncertainty =						0.00000026;					/**< \f$m_{^3H}/m_e \ (1)\f$  */
-	const double tritongFactorUncertainty =									0.000000028;				/**< \f$g_{^3H} \ (1)\f$  */       
-	const double tritonMagneticMomentUncertainty =							0.000000012e-26;			/**< \f$\mu_{^3H} \ (\frac{J}{T})\f$  */
-	const double tritonMagneticMomentToBohrMagnetonRatioUncertainty =		0.0000000076e-3;			/**< \f$\mu_{^3H}/\mu_B \ (1)\f$  */
-	const double tritonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000014;				/**< \f$\mu_{^3H}/\mu_N \ (1)\f$  */
-	const double tritonMassUncertainty =									0.000000062e-27;			/**< \f$m_{^3H} \ (kg)\f$  */ 
-	const double tritonMassInJUncertainty =									0.000000055e-10;			/**< \f$m_{^3H} \ (J)\f$  */ 
-	const double tritonMassInMeVUncertainty =								0.000017; 					/**< \f$m_{^3H} \ (MeV)\f$  */ 
-	const double tritonMassInuUncertainty =									0.00000000011;				/**< \f$m_{^3H} \ (u)\f$  */ 
-	const double tritonMolarMassUncertainty =								0.00000000011e-3;			/**< \f$M_{^3H} \ (\frac{kg}{mol})\f$  */ 
-	const double tritonProtonMassRatioUncertainty =							0.00000000022;				/**< \f$m_{^3H}/m_p \ (1)\f$  */ 
+	const double tritonElectronMassRatioUncertainty =						0.00000026;					/**< \f$m_{\textrm{T}}/m_e \ (1)\f$  */
+	const double tritongFactorUncertainty =									0.000000028;				/**< \f$g_{\textrm{T}} \ (1)\f$  */       
+	const double tritonMagneticMomentUncertainty =							0.000000012e-26;			/**< \f$\mu_{\textrm{T}} \ (\frac{J}{T})\f$  */
+	const double tritonMagneticMomentToBohrMagnetonRatioUncertainty =		0.0000000076e-3;			/**< \f$\mu_{\textrm{T}}/\mu_B \ (1)\f$  */
+	const double tritonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000014;				/**< \f$\mu_{\textrm{T}}/\mu_N \ (1)\f$  */
+	const double tritonMassUncertainty =									0.000000062e-27;			/**< \f$m_{\textrm{T}} \ (kg)\f$  */ 
+	const double tritonMassInJUncertainty =									0.000000055e-10;			/**< \f$m_{\textrm{T}} \ (J)\f$  */ 
+	const double tritonMassInMeVUncertainty =								0.000017; 					/**< \f$m_{\textrm{T}} \ (MeV)\f$  */ 
+	const double tritonMassInuUncertainty =									0.00000000011;				/**< \f$m_{\textrm{T}} \ (u)\f$  */ 
+	const double tritonMolarMassUncertainty =								0.00000000011e-3;			/**< \f$M_{\textrm{T}} \ (\frac{kg}{mol})\f$  */ 
+	const double tritonProtonMassRatioUncertainty =							0.00000000022;				/**< \f$m_{\textrm{T}}/m_p \ (1)\f$  */ 
 	#endif  
 	/// @}	
 	
@@ -726,12 +807,12 @@ namespace NISTConst
 	
 	/// @addtogroup WienDisplacement 
 	/// @{ 
-	const double WienFrequencyDisplacementLawConstant =						5.8789238e10;				/**< \f$b' \ (\frac{Hz}{K})\f$  */ 
-	const double WienWavelengthDisplacementLawConstant =					2.8977729e-3;				/**< \f$b \ (m K)\f$ */ 
+	const double WienFrequencyDisplacementLawConstant =						5.8789238e10;				/**< \f$b' \ (\frac{Hz}{K})\f$ Wien frequency displacement law constant in hertz per kelvin.*/ 
+	const double WienWavelengthDisplacementLawConstant =					2.8977729e-3;				/**< \f$b \ (m K)\f$ Wien wavelength displacement law constant in meters kelvin.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double WienFrequencyDisplacementLawConstantUncertainty =			0.0000034e10;				/**< \f$b' \ (\frac{Hz}{K})\f$  */ 
-	const double WienWavelengthDisplacementLawConstantUncertainty =			0.0000017e-3;				/**< \f$b \ (m K)\f$ */ 
+	const double WienFrequencyDisplacementLawConstantUncertainty =			0.0000034e10;				/**< \f$b' \ (\frac{Hz}{K})\f$ Uncertainty in Wien frequency displacement law constant in hertz per kelvin.*/ 
+	const double WienWavelengthDisplacementLawConstantUncertainty =			0.0000017e-3;				/**< \f$b \ (m K)\f$ Uncertainty in Wien wavelength displacement law constant in meters kelvin.*/ 
 	#endif  
 	/// @}	
 
