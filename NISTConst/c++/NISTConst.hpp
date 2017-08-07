@@ -945,21 +945,46 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	const double shielded proton gyromag. ratio                              2.675 153 171 e8         0.000000033 e8         s^-1 T^-1/**< \f$ \ ()\f$ .*/
-	const double shielded proton gyromag. ratio over 2 pi                    42.576 385 07            0.000000 53             MHz T^-1/**< \f$ \ ()\f$ .*/
-	const double shielded proton mag. mom.                                   1.410 570 547e-26       0.000000018e-26       J T^-1/**< \f$ \ ()\f$ .*/
-	const double shielded proton mag. mom. to Bohr magneton ratio            1.520 993 128e-3        0.000000017e-3        /**< \f$ \ ()\f$ .*/
-	const double shielded proton mag. mom. to nuclear magneton ratio         2.792 775 600            0.000000030    /**< \f$ \ ()\f$ .*/
-	#ifdef NISTCONST_UNCERTAINTY
+	/// @addtogroup Proton
+	/// @{
+	const double shieldedProtonGyromagneticRatio =									2.675153171e8;				/**< \f$\gamma^'_p \ (\frac{rad Hz}{T})\f$ Shielded proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonGyromagneticRatioOver2Pi =							42.57638507;				/**< \f$\frac{\gamma^'_p}{2 \pi} \ (\frac{rad MHz}{T})\f$ Shielded proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonMagneticMoment =										1.410570547e-26;			/**< \f$\mu^'_p \ (\frac{J}{T})\f$ Shielded proton magnetic moment in joules per tesla.*/
+	const double shieldedProtonMagneticMomentToBohrMagnetonRatio =					1.520993128e-3;				/**< \f$\frac{\mu^'_p}{\mu_B} \ (1)\f$ Shielded proton magnetic moment to Bohr magneton ratio.*/
+	const double shieldedProtonMagneticMomentToNuclearMagnetonRatio =				2.792775600;				/**< \f$\frac{\mu^'_p}{\mu_N} \ (1)\f$ Shielded proton magnetic moment to nuclear magneton ratio.*/
 	
+	#ifdef NISTCONST_UNCERTAINTY
+	const double shieldedProtonGyromagneticRatioUncertainty =						0.000000033e8;				/**< \f$\gamma^'_p \ (\frac{rad Hz}{T})\f$ Shielded proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonGyromagneticRatioOver2PiUncertainty =				0.00000053;					/**< \f$\frac{\gamma^'_p}{2 \pi} \ (\frac{rad MHz}{T})\f$ Shielded proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonMagneticMomentUncertainty =							0.000000018e-26;			/**< \f$\mu^'_p \ (\frac{J}{T})\f$ Shielded proton magnetic moment in joules per tesla.*/
+	const double shieldedProtonMagneticMomentToBohrMagnetonRatioUncertainty =		0.000000017e-3;				/**< \f$\frac{\mu^'_p}{\mu_B} \ (1)\f$ Shielded proton magnetic moment to Bohr magneton ratio.*/
+	const double shieldedProtonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000030;				/**< \f$\frac{\mu^'_p}{\mu_N} \ (1)\f$ Shielded proton magnetic moment to nuclear magneton ratio.*/
 	#endif  
 	/// @}
         
 	const double speed of light in vacuum                                    299 792 458              (exact)                  m s^-1/**< \f$ \ ()\f$ .*/
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
 	const double standard acceleration of gravity                            9.806 65                 (exact)                  m s^-2/**< \f$ \ ()\f$ .*/
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
 	const double standard atmosphere                                         101 325                  (exact)                  Pa/**< \f$ \ ()\f$ .*/
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
 	const double standard-state pressure                                     100 000                  (exact)                  Pa/**< \f$ \ ()\f$ .*/
-
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
 
 	const double Stefan-Boltzmann constant                                   5.670 367e-8            0.000013e-8            W m^-2 K^-4/**< \f$ \ ()\f$ .*/
 	#ifdef NISTCONST_UNCERTAINTY
