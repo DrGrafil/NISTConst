@@ -831,27 +831,27 @@ namespace NISTConst
 	
 	/// @addtogroup PlanckMass
 	/// @{
-	const double PlanckMass =												2.176470e-8;				/**< \f$m_P \ ()\f$ Planck mass in kilograms.*/
+	const double PlanckMass =												2.176470e-8;				/**< \f$m_P \ (kg)\f$ Planck mass in kilograms.*/
 	const double PlanckMassInGeV =											1.220910e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Planck mass in gigaelectron volts per speed of light squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckMassUncertainty =									0.000051e-8;				/**< \f$m_P \ ()\f$ Uncertainty in Planck mass in kilograms.*/
+	const double PlanckMassUncertainty =									0.000051e-8;				/**< \f$m_P \ (kg)\f$ Uncertainty in Planck mass in kilograms.*/
 	const double PlanckMassInGeVUncertainty =								0.000029e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Uncertainty in Planck mass in gigaelectron volts per speed of light squared.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup PlanckTemperature
 	/// @{
-	const double PlanckTemperature                                          1.416 808 e32            0.000033 e32            K/**< \f$ \ ()\f$ .*/
+	const double PlanckTemperature =										1.416808e32;				/**< \f$T_P \ (K)\f$ Planck temperature in kelvins.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double PlanckTemperatureUncertainty =								0.000033e32;				/**< \f$T_P \ (K)\f$ Uncertainty in Planck temperature in kelvins.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup PlanckTime
 	/// @{
-	const double PlanckTime                                                 5.391 16e-44            0.000 13e-44            s/**< \f$ \ ()\f$ .*/
+	const double PlanckTime =												5.39116e-44;				/**< \f$t_p \ (s)\f$ Planck time in seconds.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double PlanckTimeUncertainty =									0.00013e-44;				/**< \f$t_p \ (s)\f$ Uncertainty in Planck time in seconds.*/
 	#endif  
 	/// @}
 	
