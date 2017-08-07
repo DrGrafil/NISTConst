@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['deuterium_20nucleus_20_28deuteron_29',['Deuterium nucleus (Deuteron)',['../group___deuteron.html',1,'']]],
+  ['deuteron_20_28deuterium_2fhydrogen_2d2_20nucleus_29',['Deuteron (Deuterium/Hydrogen-2 nucleus)',['../group___deuteron.html',1,'']]],
   ['deuteronelectronmagneticmomentratio',['deuteronElectronMagneticMomentRatio',['../group___deuteron.html#gaa01fffefa3ab64430fabf08808572689',1,'NISTConst']]],
   ['deuteronelectronmassratio',['deuteronElectronMassRatio',['../group___deuteron.html#gaf25b1cce3ab8e1ec7f4f7790ea06ad0b',1,'NISTConst']]],
   ['deuterongfactor',['deuterongFactor',['../group___deuteron.html#ga975b6e46b7ceaa0780c4b066a52444b7',1,'NISTConst']]],

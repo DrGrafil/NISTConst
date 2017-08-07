@@ -1,6 +1,5 @@
 var group___tau =
 [
-    [ "tauComptonWavelength", "group___tau.html#ga02608ef1c26b9550ee7547350bbcdd5d", null ],
     [ "tauComptonWavelengthOver2Pi", "group___tau.html#ga3cca663c9ba88e04346cbd29643aba14", null ],
     [ "tauElectronMassRatio", "group___tau.html#ga58efae35c13c681c03e115a97659063a", null ],
     [ "tauMass", "group___tau.html#gabb1b68dd381ed2582050fd991f210be8", null ],

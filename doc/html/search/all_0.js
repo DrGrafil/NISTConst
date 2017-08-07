@@ -1,7 +1,7 @@
 var searchData=
 [
   ['adopted',['Adopted',['../group___adopted.html',1,'']]],
-  ['alpha_20particle',['Alpha particle',['../group___alpha.html',1,'']]],
+  ['alpha_20particle_20_28helium_2d4_20nucleus_29',['Alpha particle (Helium-4 nucleus)',['../group___alpha.html',1,'']]],
   ['alphaparticleelectronmassratio',['alphaParticleElectronMassRatio',['../group___alpha.html#ga9f00b32c60f1bc5b8a950b58e64d08c8',1,'NISTConst']]],
   ['alphaparticlemass',['alphaParticleMass',['../group___alpha.html#ga5a2a4f4310d2e3584253471fe4381b93',1,'NISTConst']]],
   ['alphaparticlemassinj',['alphaParticleMassInJ',['../group___alpha.html#ga4a65b49a93c81dff12ac24366f68e4e9',1,'NISTConst']]],

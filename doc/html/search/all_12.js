@@ -1,7 +1,6 @@
 var searchData=
 [
   ['tau_20particle',['Tau particle',['../group___tau.html',1,'']]],
-  ['taucomptonwavelength',['tauComptonWavelength',['../group___tau.html#ga02608ef1c26b9550ee7547350bbcdd5d',1,'NISTConst']]],
   ['taucomptonwavelengthover2pi',['tauComptonWavelengthOver2Pi',['../group___tau.html#ga3cca663c9ba88e04346cbd29643aba14',1,'NISTConst']]],
   ['tauelectronmassratio',['tauElectronMassRatio',['../group___tau.html#ga58efae35c13c681c03e115a97659063a',1,'NISTConst']]],
   ['taumass',['tauMass',['../group___tau.html#gabb1b68dd381ed2582050fd991f210be8',1,'NISTConst']]],
@@ -15,7 +14,7 @@ var searchData=
   ['thomson_20cross_20section',['Thomson cross section',['../group___thomson.html',1,'']]],
   ['thomsoncrosssection',['ThomsonCrossSection',['../group___thomson.html#gac0806b1a7f3e82009afeac7ea16728ce',1,'NISTConst']]],
   ['todo_20list',['Todo List',['../todo.html',1,'']]],
-  ['tritium_20nucleus_20_28triton_29',['Tritium nucleus (Triton)',['../group___triton.html',1,'']]],
+  ['triton_20_28tritium_2fhydrogen_2d3_20nucleus_29',['Triton (Tritium/Hydrogen-3 nucleus)',['../group___triton.html',1,'']]],
   ['tritonelectronmassratio',['tritonElectronMassRatio',['../group___triton.html#ga8508adabd4d9f81969eeed5838a61443',1,'NISTConst']]],
   ['tritongfactor',['tritongFactor',['../group___triton.html#ga4d9812975c185048a8367d9838b53215',1,'NISTConst']]],
   ['tritonmagneticmoment',['tritonMagneticMoment',['../group___triton.html#ga9b4063b3a2a14f1ad4718d844f37652e',1,'NISTConst']]],

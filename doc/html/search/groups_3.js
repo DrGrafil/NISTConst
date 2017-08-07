@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['deuterium_20nucleus_20_28deuteron_29',['Deuterium nucleus (Deuteron)',['../group___deuteron.html',1,'']]]
+  ['deuteron_20_28deuterium_2fhydrogen_2d2_20nucleus_29',['Deuteron (Deuterium/Hydrogen-2 nucleus)',['../group___deuteron.html',1,'']]]
 ];
