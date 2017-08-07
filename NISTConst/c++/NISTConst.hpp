@@ -849,37 +849,58 @@ namespace NISTConst
 	
 	/// @addtogroup PlanckTime
 	/// @{
-	const double PlanckTime =												5.39116e-44;				/**< \f$t_p \ (s)\f$ Planck time in seconds.*/
+	const double PlanckTime =												5.39116e-44;				/**< \f$t_P \ (s)\f$ Planck time in seconds.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckTimeUncertainty =									0.00013e-44;				/**< \f$t_p \ (s)\f$ Uncertainty in Planck time in seconds.*/
+	const double PlanckTimeUncertainty =									0.00013e-44;				/**< \f$t_P \ (s)\f$ Uncertainty in Planck time in seconds.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup Proton
 	/// @{
-	const double proton charge to mass quotient                              9.578 833 226 e7         0.000000059 e7         C kg^-1/**< \f$ \ ()\f$ .*/
-	const double proton Compton wavelength                                   1.321 409 853 96e-15    0.000000000 61e-15    m/**< \f$ \ ()\f$ .*/
-	const double proton Compton wavelength over 2 pi                         0.210 308 910 109e-15   0.000000000097e-15   m/**< \f$ \ ()\f$ .*/
-	const double proton-electron mass ratio                                  1836.152 673 89          0.000000 17             /**< \f$ \ ()\f$ .*/
-	const double proton g factor                                             5.585 694 702            0.000000017            /**< \f$ \ ()\f$ .*/
-	const double proton gyromag. ratio                                       2.675 221 900 e8         0.000000018 e8         s^-1 T^-1/**< \f$ \ ()\f$ .*/
-	const double proton gyromag. ratio over 2 pi                             42.577 478 92            0.000000 29             MHz T^-1/**< \f$ \ ()\f$ .*/
-	const double proton mag. mom.                                            1.410 606 7873e-26      0.0000000097e-26      J T^-1/**< \f$ \ ()\f$ .*/
-	const double proton mag. mom. to Bohr magneton ratio                     1.521 032 2053e-3       0.0000000046e-3       /**< \f$ \ ()\f$ .*/
-	const double proton mag. mom. to nuclear magneton ratio                  2.792 847 3508           0.0000000085           /**< \f$ \ ()\f$ .*/
-	const double proton mag. shielding correction                            25.691e-6               0.011e-6                /**< \f$ \ ()\f$ .*/
-	const double proton mass                                                 1.672 621 898e-27       0.000000021e-27       kg/**< \f$ \ ()\f$ .*/
-	const double proton mass energy equivalent                               1.503 277 593e-10       0.000000018e-10       J/**< \f$ \ ()\f$ .*/
-	const double proton mass energy equivalent in MeV                        938.272 0813             0.0000058               MeV/**< \f$ \ ()\f$ .*/
-	const double proton mass in u                                            1.007 276 466 879        0.000000000091        u/**< \f$ \ ()\f$ .*/
-	const double proton molar mass                                           1.007 276 466 879e-3    0.000000000091e-3    kg mol^-1/**< \f$ \ ()\f$ .*/
-	const double proton-muon mass ratio                                      8.880 243 38             0.000000 20             /**< \f$ \ ()\f$ .*/
-	const double proton-neutron mag. mom. ratio                              -1.459 898 05            0.000000 34             /**< \f$ \ ()\f$ .*/
-	const double proton-neutron mass ratio                                   0.998 623 478 44         0.000000000 51         /**< \f$ \ ()\f$ .*/
-	const double proton rms charge radius                                    0.8751e-15              0.0061e-15              m/**< \f$ \ ()\f$ .*/
-	const double proton-tau mass ratio                                       0.528 063                0.000048       /**< \f$ \ ()\f$ .*/
+	const double protonChargeToMassQuotient =								9.578833226e7;				/**< \f$\frac{e}{m_p} \ (\frac{C}{kg})\f$ Proton charge to mass quotient in coulombs per kilogram.*/
+	const double protonComptonWavelength =									1.32140985396e-15;			/**< \f$\lambda_{C,p} \ (m)\f$ Proton Compton wavelength in meters.*/
+	const double protonComptonWavelengthOver2Pi =							0.210308910109e-15;			/**< \f$\lambdabar_{C,p} \ (m)\f$ Proton Compton wavelength over 2 pi in meters.*/
+	const double protonElectronMassRatio =									1836.15267389;				/**< \f$\frac{m_p}{m_e} \ (1)\f$ Proton-electron mass ratio.*/
+	const double protongFactor =											5.585694702;				/**< \f$g_p \ (1)\f$ Proton g factor.*/
+	const double protonGyromagneticRatio =									2.675221900e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonGyromagneticRatioOver2pi =							42.57747892;				/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad MHz}{T})\f$ Proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonMagneticMoment =										1.4106067873e-26;			/**< \f$\mu_p \ (\frac{J}{T})\f$ Proton magnetic moment in joules per tesla.*/
+	const double protonMagneticMomentToBohrMagnetonRatio =					1.5210322053e-3;			/**< \f$\frac{\mu_p}{\mu_B} \ (1)\f$ Proton magnetic moment to Bohr magneton ratio.*/
+	const double protonMagneticMomentToNuclearMagnetonRatio =				2.7928473508;				/**< \f$\frac{\mu_p}{\mu_N} \ (1)\f$ Proton magnetic moment to nuclear magneton ratio.*/
+	const double protonMagneticShieldingCorrection =						25.691e-6;					/**< \f$\sigma^'_p \ (1)\f$ Proton magnetic shielding correction.*/
+	const double protonMass =												1.672621898e-27;			/**< \f$m_p \ (kg)\f$ Proton mass in kilograms.*/
+	const double protonMassInJ =											1.503277593e-10;			/**< \f$m_p \ (\frac{J}{c^2})\f$ Proton mass in joules per speed of light squared.*/
+	const double protonMassInMeV =											938.2720813;				/**< \f$m_p \ (\frac{MeV}{c^2})\f$ Proton mass in megaelectron volts per speed of light squared.*/
+	const double protonMassInu =											1.007276466879;				/**< \f$m_p \ (u)\f$ Proton mass in unified atomic mass unit.*/
+	const double protonMolarMass =											1.007276466879e-3;			/**< \f$M_p \ (\frac{kg}{mol})\f$ Proton molar mass in kilograms per mole.*/
+	const double protonMuonMassRatio =										8.88024338;					/**< \f$\frac{m_p}{m_\mu} \ (1)\f$ Proton-muon mass ratio.*/
+	const double protonNeutronMagneticMomentRatio =							-1.45989805;				/**< \f$\frac{\mu_p}{\mu_n} \ (1)\f$ Proton-neutron magnetic moment ratio.*/
+	const double protonNeutronMassRatio =									0.99862347844;				/**< \f$\frac{m_p}{m_n} \ (1)\f$ Proton-neutron mass ratio.*/
+	const double protonrmsChargeRadius =									0.8751e-15;					/**< \f$r_p \ (m)\f$ Proton rms charge radius in meters.*/
+	const double protonTauMassRatio =										0.528063;					/**< \f$\frac{m_p}{m_\tau} \ (1)\f$ proton-tau mass ratio.*/
+
     #ifdef NISTCONST_UNCERTAINTY
-	
+	const double protonChargeToMassQuotientUncertainty =					0.000000059e7;				/**< \f$\frac{e}{m_p} \ (\frac{C}{kg})\f$ Uncertainty in proton charge to mass quotient in coulombs per kilogram.*/
+	const double protonComptonWavelengthUncertainty =						0.00000000061e-15;			/**< \f$\lambda_{C,p} \ (m)\f$ Uncertainty in proton Compton wavelength in meters.*/
+	const double protonComptonWavelengthOver2PiUncertainty =				0.000000000097e-15;			/**< \f$\lambdabar_{C,p} \ (m)\f$ Uncertainty in proton Compton wavelength over 2 pi in meters.*/
+	const double protonElectronMassRatioUncertainty =						0.00000017;					/**< \f$\frac{m_p}{m_e} \ (1)\f$ Uncertainty in proton-electron mass ratio.*/
+	const double protongFactorUncertainty =									0.000000017;				/**< \f$g_p \ (1)\f$ Uncertainty in proton g factor.*/
+	const double protonGyromagneticRatioUncertainty =						0.000000018e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Uncertainty in proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonGyromagneticRatioOver2piUncertainty =				0.00000029;					/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonMagneticMomentUncertainty =							0.0000000097e-26;			/**< \f$\mu_p \ (\frac{J}{T})\f$ Uncertainty in proton magnetic moment in joules per tesla.*/
+	const double protonMagneticMomentToBohrMagnetonRatioUncertainty =		0.0000000046e-3;			/**< \f$\frac{\mu_p}{\mu_B} \ (1)\f$ Uncertainty in proton magnetic moment to Bohr magneton ratio.*/
+	const double protonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.0000000085;				/**< \f$\frac{\mu_p}{\mu_N} \ (1)\f$ Uncertainty in proton magnetic moment to nuclear magneton ratio.*/
+	const double protonMagneticShieldingCorrectionUncertainty =				0.011e-6;					/**< \f$\sigma^'_p \ (1)\f$ Uncertainty in proton magnetic shielding correction.*/
+	const double protonMassUncertainty =									0.000000021e-27;			/**< \f$m_p \ (kg)\f$ Uncertainty in proton mass in kilograms.*/
+	const double protonMassInJUncertainty =									0.000000018e-10;			/**< \f$m_p \ (\frac{J}{c^2})\f$ Uncertainty in proton mass in joules per speed of light squared.*/
+	const double protonMassInMeVUncertainty =								0.0000058;					/**< \f$m_p \ (\frac{MeV}{c^2})\f$ Uncertainty in proton mass in megaelectron volts per speed of light squared.*/
+	const double protonMassInuUncertainty =									0.000000000091;				/**< \f$m_p \ (u)\f$ Uncertainty in proton mass in unified atomic mass unit.*/
+	const double protonMolarMassUncertainty =								0.000000000091e-3;			/**< \f$M_p \ (\frac{kg}{mol})\f$ Uncertainty in proton molar mass in kilograms per mole.*/
+	const double protonMuonMassRatioUncertainty =							0.00000020;					/**< \f$\frac{m_p}{m_\mu} \ (1)\f$ Uncertainty in proton-muon mass ratio.*/
+	const double protonNeutronMagneticMomentRatioUncertainty =				0.00000034;					/**< \f$\frac{\mu_p}{\mu_n} \ (1)\f$ Uncertainty in proton-neutron magnetic moment ratio.*/
+	const double protonNeutronMassRatioUncertainty =						0.00000000051;				/**< \f$\frac{m_p}{m_n} \ (1)\f$ Uncertainty in proton-neutron mass ratio.*/
+	const double protonrmsChargeRadiusUncertainty =							0.0061e-15;					/**< \f$r_p \ (m)\f$ Uncertainty in proton rms charge radius in meters.*/
+	const double protonTauMassRatioUncertainty =							0.000048;					/**< \f$\frac{m_p}{m_\tau} \ (1)\f$ Uncertainty in proton-tau mass ratio.*/	
 	#endif  
 	/// @}
 	    
