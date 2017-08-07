@@ -823,18 +823,19 @@ namespace NISTConst
 	
 	/// @addtogroup PlanckLength
 	/// @{
-	const double PlanckLength =												1.616229e-35;				/**< \f$l_p \ (m)\f$ Planck length in meters.*/
+	const double PlanckLength =												1.616229e-35;				/**< \f$l_P \ (m)\f$ Planck length in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckLengthUncertainty =									0.000038e-35;				/**< \f$l_p \ (m)\f$ Uncertainty in Planck length in meters.*/
+	const double PlanckLengthUncertainty =									0.000038e-35;				/**< \f$l_P \ (m)\f$ Uncertainty in Planck length in meters.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup PlanckMass
 	/// @{
-	const double PlanckMass                                                 2.176 470e-8            0.000051e-8            kg/**< \f$ \ ()\f$ .*/
-	const double Planck mass energy equivalent in GeV                        1.220 910 e19            0.000029 e19            GeV/**< \f$ \ ()\f$ .*/
+	const double PlanckMass =												2.176470e-8;				/**< \f$ \ ()\f$ Planck mass in kilograms.*/
+	const double PlanckMassInGeV =											1.220910e19;				/**< \f$ \ (\frac{GeV}{c^2)\f$ Planck mass in gigaelectron volts per speed of light squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double PlanckMassUncertainty =									0.000051e-8;				/**< \f$ \ ()\f$ Uncertainty in Planck mass in kilograms.*/
+	const double PlanckMassInGeVUncertainty =								0.000029e19;				/**< \f$ \ (\frac{GeV}{c^2)\f$ Uncertainty in Planck mass in gigaelectron volts per speed of light squared.*/
 	#endif  
 	/// @}
 	
