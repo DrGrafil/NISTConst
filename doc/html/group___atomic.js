@@ -2,9 +2,9 @@ var group___atomic =
 [
     [ "Alpha particle", "group___alpha.html", "group___alpha" ],
     [ "Bohr radius", "group___bohr_radius.html", "group___bohr_radius" ],
-    [ "Compton Wavelength", "group___compton.html", null ],
-    [ "Deuterium nucleus (Deuteron)", "group___deuteron.html", null ],
-    [ "Electron particle", "group___electron.html", null ],
+    [ "Compton Wavelength", "group___compton_wavelength.html", "group___compton_wavelength" ],
+    [ "Deuterium nucleus (Deuteron)", "group___deuteron.html", "group___deuteron" ],
+    [ "Electron particle", "group___electron.html", "group___electron" ],
     [ "Fermi coupling constant", "group___fermi_coupling.html", null ],
     [ "Fine-structure constant", "group___fine_structure.html", null ],
     [ "Hartree energy", "group___hartree.html", null ],

@@ -1,7 +1,7 @@
 var group___universal =
 [
-    [ "Impedance of vacuum", "group___impedance_of_vacuum.html", null ],
-    [ "Electric constant", "group___electric_constant.html", null ],
+    [ "Impedance of vacuum", "group___impedance_of_vacuum.html", "group___impedance_of_vacuum" ],
+    [ "Electric constant", "group___electric_constant.html", "group___electric_constant" ],
     [ "Magnetic constant", "group___magnetic_constant.html", null ],
     [ "Gravitational constant", "group___gravitational_constant.html", null ],
     [ "Planck constant", "group___planck_constant.html", null ],

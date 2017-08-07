@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vonklitzingconstant',['vonKlitzingConstant',['../group__von_klitzing_constant.html#ga664441cab64a6a8feda702f6354c1e7f',1,'NISTConst']]]
+  ['impedanceofvacuum',['impedanceOfVacuum',['../group___impedance_of_vacuum.html#ga51e1aede5d89041ea7423522b526dd0e',1,'NISTConst']]]
 ];

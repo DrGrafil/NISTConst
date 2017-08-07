@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['unifiedatomicmassunit',['unifiedAtomicMassUnit',['../group___unified_atomic_mass_unit.html#ga5dbf5ee7e0ef084434d647e917855f39',1,'NISTConst']]]
+  ['electricconstant',['electricConstant',['../group___electric_constant.html#gae5a425228125285727dd53333725ef76',1,'NISTConst']]]
 ];
