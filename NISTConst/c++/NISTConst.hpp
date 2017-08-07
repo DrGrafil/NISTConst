@@ -831,11 +831,11 @@ namespace NISTConst
 	
 	/// @addtogroup PlanckMass
 	/// @{
-	const double PlanckMass =												2.176470e-8;				/**< \f$ \ ()\f$ Planck mass in kilograms.*/
-	const double PlanckMassInGeV =											1.220910e19;				/**< \f$ \ (\frac{GeV}{c^2)\f$ Planck mass in gigaelectron volts per speed of light squared.*/
+	const double PlanckMass =												2.176470e-8;				/**< \f$m_P \ ()\f$ Planck mass in kilograms.*/
+	const double PlanckMassInGeV =											1.220910e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Planck mass in gigaelectron volts per speed of light squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckMassUncertainty =									0.000051e-8;				/**< \f$ \ ()\f$ Uncertainty in Planck mass in kilograms.*/
-	const double PlanckMassInGeVUncertainty =								0.000029e19;				/**< \f$ \ (\frac{GeV}{c^2)\f$ Uncertainty in Planck mass in gigaelectron volts per speed of light squared.*/
+	const double PlanckMassUncertainty =									0.000051e-8;				/**< \f$m_P \ ()\f$ Uncertainty in Planck mass in kilograms.*/
+	const double PlanckMassInGeVUncertainty =								0.000029e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Uncertainty in Planck mass in gigaelectron volts per speed of light squared.*/
 	#endif  
 	/// @}
 	
