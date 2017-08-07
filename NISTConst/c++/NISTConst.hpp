@@ -88,7 +88,7 @@
 /// @defgroup Atomic Atomic and nuclear
 /// @ingroup NISTConst
 
-/// 	@defgroup Alpha Alpha particle
+/// 	@defgroup Alpha Alpha particle (Helium-4 nucleus)
 /// 	@ingroup Atomic
 
 /// 	@defgroup BohrRadius Bohr radius
@@ -97,7 +97,7 @@
 /// 	@defgroup ComptonWavelength Compton Wavelength
 /// 	@ingroup Atomic
 
-/// 	@defgroup Deuteron Deuterium nucleus (Deuteron)
+/// 	@defgroup Deuteron Deuteron (Deuterium/Hydrogen-2 nucleus)
 /// 	@ingroup Atomic
 
 /// 	@defgroup Electron Electron particle
@@ -112,7 +112,7 @@
 /// 	@defgroup Hartree Hartree energy
 /// 	@ingroup Atomic
 
-/// 	@defgroup Helion Helium nucleus (Helion)
+/// 	@defgroup Helion Helion (Helium-3 nucleus)
 /// 	@ingroup Atomic
 
 /// 	@defgroup Muon Muon particle
@@ -136,7 +136,7 @@
 /// 	@defgroup Thomson Thomson cross section 
 /// 	@ingroup Atomic
 
-/// 	@defgroup Triton Tritium nucleus (Triton)
+/// 	@defgroup Triton Triton (Tritium/Hydrogen-3 nucleus)
 /// 	@ingroup Atomic
 
 /// 	@defgroup WeakMixingAngle Weak mixing angle 
@@ -933,15 +933,23 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	const double shielded helion gyromag. ratio                              2.037 894 585 e8         0.000000027 e8         s^-1 T^-1/**< \f$ \ ()\f$ .*/
-	const double shielded helion gyromag. ratio over 2 pi                    32.434 099 66            0.000000 43             MHz T^-1/**< \f$ \ ()\f$ .*/
-	const double shielded helion mag. mom.                                   -1.074 553 080e-26      0.000000014e-26       J T^-1/**< \f$ \ ()\f$ .*/
-	const double shielded helion mag. mom. to Bohr magneton ratio            -1.158 671 471e-3       0.000000014e-3        /**< \f$ \ ()\f$ .*/
-	const double shielded helion mag. mom. to nuclear magneton ratio         -2.127 497 720           0.000000025            /**< \f$ \ ()\f$ .*/
-	const double shielded helion to proton mag. mom. ratio                   -0.761 766 5603          0.0000000092           /**< \f$ \ ()\f$ .*/
-	const double shielded helion to shielded proton mag. mom. ratio          -0.761 786 1313          0.0000000033           /**< \f$ \ ()\f$ .*/
+	/// @addtogroup Helion
+	/// @{
+	const double shieldedHelionGyromagneticRatio =									2.037894585e8;				/**< \f$\gamma^'_{^3\textrm{He}} \ (\frac{rad Hz}{T})\f$ Shielded helion gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionGyromagneticRatioOver2Pi =							32.43409966;				/**< \f$\frac{\gamma^'_{^3\textrm{He}}}{2 \pi} \ (\frac{rad MHz}{T})\f$ Shielded helion gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionMagneticMoment =										-1.074553080e-26;			/**< \f$\mu^'_{^3\textrm{He}} \ (\frac{J}{T})\f$ Shielded helion magnetic moment in joules per tesla.*/
+	const double shieldedHelionMagneticMomentToBohrMagnetonRatio =					-1.158671471e-3;			/**< \f$\frac{\mu^'_{^3\textrm{He}}}{\mu_B} \ (1)\f$ Shielded helion magnetic moment to Bohr magneton ratio.*/
+	const double shieldedHelionMagneticMomentToNuclearMagnetonRatio =				-2.127497720;				/**< \f$\frac{\mu^'_{^3\textrm{He}}}{\mu_N} \ (1)\f$ Shielded helion magnetic moment to nuclear magneton ratio.*/
+	const double shieldedHelionToProtonMagneticMomentRatio =						-0.7617665603;				/**< \f$\frac{\mu^'_{^3\textrm{He}}}{\mu_p} \ (1)\f$ Shielded helion to proton magnetic moment ratio.*/
+	const double shieldedHelionToShieldedProtonMagneticMomentRatio =				-0.7617861313;				/**< \f$\frac{\mu^'_{^3\textrm{He}}}{\mu^'_p} \ (1)\f$ Shielded helion to shielded proton magnetic moment ratio.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double shieldedHelionGyromagneticRatioUncertainty =						0.000000027e8;				/**< \f$\gamma^'_{^3\textrm{He}} \ (\frac{rad Hz}{T})\f$ Shielded helion gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionGyromagneticRatioOver2PiUncertainty =				0.00000043;					/**< \f$\frac{\gamma^'_{^3\textrm{He}}}{2 \pi} \ (\frac{rad MHz}{T})\f$ Shielded helion gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionMagneticMomentUncertainty =							0.000000014e-26;			/**< \f$\mu^'_{^3\textrm{He}} \ (\frac{J}{T})\f$ Shielded helion magnetic moment in joules per tesla.*/
+	const double shieldedHelionMagneticMomentToBohrMagnetonRatioUncertainty =		0.000000014e-3;				/**< \f$\frac{\mu^'_{^3\textrm{He}}}{\mu_B} \ (1)\f$ Shielded helion magnetic moment to Bohr magneton ratio.*/
+	const double shieldedHelionMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000025;				/**< \f$\frac{\mu^'_{^3\textrm{He}}}{\mu_N} \ (1)\f$ Shielded helion magnetic moment to nuclear magneton ratio.*/
+	const double shieldedHelionToProtonMagneticMomentRatioUncertainty =				0.0000000092;				/**< \f$\frac{\mu^'_{^3\textrm{He}}}{\mu_p} \ (1)\f$ Shielded helion to proton magnetic moment ratio.*/
+	const double shieldedHelionToShieldedProtonMagneticMomentRatioUncertainty =		0.0000000033;				/**< \f$\frac{\mu^'_{^3\textrm{He}}}{\mu^'_p} \ (1)\f$ Shielded helion to shielded proton magnetic moment ratio.*/
 	#endif  
 	/// @}
 	
