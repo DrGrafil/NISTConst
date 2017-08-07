@@ -813,42 +813,42 @@ namespace NISTConst
 	const double PlanckConstantOver2PiIneVs =								6.582119514e-16;			/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds.*/
 	const double PlanckConstantOver2PiTimescInMeVfm =						197.3269788;				/**< \f$\hbar c \ ()\f$ Planck constant over 2 pi times c in megaelectron volt femtometers.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckConstant =											0.000000081e-34;			/**< \f$h \ (J s)\f$ Planck constant in joule seconds.*/
-	const double PlanckConstantIneVs =										0.000000025e-15;			/**< \f$h \ (eV s)\f$ Planck constant in electron volt seconds.*/
-	const double PlanckConstantOver2Pi =									0.000000013e-34;			/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds.*/
-	const double PlanckConstantOver2PiIneVs =								0.000000040e-16;			/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds.*/
-	const double PlanckConstantOver2PiTimescInMeVfm =						0.0000012;					/**< \f$\hbar c \ ()\f$ Planck constant over 2 pi times c in megaelectron volt femtometers.*/
+	const double PlanckConstantUncertainty =								0.000000081e-34;			/**< \f$h \ (J s)\f$ Uncertainty in Planck constant in joule seconds.*/
+	const double PlanckConstantIneVsUncertainty =							0.000000025e-15;			/**< \f$h \ (eV s)\f$ Uncertainty in Planck constant in electron volt seconds.*/
+	const double PlanckConstantOver2PiUncertainty =							0.000000013e-34;			/**< \f$\hbar \ (J s)\f$ Uncertainty in Planck constant over 2 pi in joule seconds.*/
+	const double PlanckConstantOver2PiIneVsUncertainty =					0.000000040e-16;			/**< \f$\hbar \ (eV s)\f$ Uncertainty in Planck constant over 2 pi in electron volt seconds.*/
+	const double PlanckConstantOver2PiTimescInMeVfmUncertainty =			0.0000012;					/**< \f$\hbar c \ ()\f$ Uncertainty in Planck constant over 2 pi times c in megaelectron volt femtometers.*/
 	#endif  
 	/// @}
 	
-	/// @addtogroup
+	/// @addtogroup PlanckLength
 	/// @{
-	const double Planck length                                               1.616 229e-35           0.000038e-35           m/**< \f$ \ ()\f$ .*/
+	const double PlanckLength =												1.616229e-35;				/**< \f$l_p \ (m)\f$ Planck length in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double PlanckLengthUncertainty =									0.000038e-35;				/**< \f$l_p \ (m)\f$ Uncertainty in Planck length in meters.*/
 	#endif  
 	/// @}
 	
-	/// @addtogroup
+	/// @addtogroup PlanckMass
 	/// @{
-	const double Planck mass                                                 2.176 470e-8            0.000051e-8            kg/**< \f$ \ ()\f$ .*/
+	const double PlanckMass                                                 2.176 470e-8            0.000051e-8            kg/**< \f$ \ ()\f$ .*/
 	const double Planck mass energy equivalent in GeV                        1.220 910 e19            0.000029 e19            GeV/**< \f$ \ ()\f$ .*/
 	#ifdef NISTCONST_UNCERTAINTY
 	
 	#endif  
 	/// @}
 	
-	/// @addtogroup
+	/// @addtogroup PlanckTemperature
 	/// @{
-	const double Planck temperature                                          1.416 808 e32            0.000033 e32            K/**< \f$ \ ()\f$ .*/
+	const double PlanckTemperature                                          1.416 808 e32            0.000033 e32            K/**< \f$ \ ()\f$ .*/
 	#ifdef NISTCONST_UNCERTAINTY
 	
 	#endif  
 	/// @}
 	
-	/// @addtogroup
+	/// @addtogroup PlanckTime
 	/// @{
-	const double Planck time                                                 5.391 16e-44            0.000 13e-44            s/**< \f$ \ ()\f$ .*/
+	const double PlanckTime                                                 5.391 16e-44            0.000 13e-44            s/**< \f$ \ ()\f$ .*/
 	#ifdef NISTCONST_UNCERTAINTY
 	
 	#endif  
