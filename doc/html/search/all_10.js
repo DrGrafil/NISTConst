@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['rydberg_20constant',['Rydberg constant',['../group___rydberg.html',1,'']]]
+  ['rydbergconstant',['RydbergConstant',['../group___rydberg_constant.html#gaa434f78f9fead2fcf2e129a137853e26',1,'NISTConst::RydbergConstant()'],['../group___rydberg_constant.html',1,'(Global Namespace)']]],
+  ['rydbergconstanttimescinhz',['RydbergConstantTimescInHz',['../group___rydberg_constant.html#ga473e14f2663eccecd987928be1d512ad',1,'NISTConst']]],
+  ['rydbergconstanttimeshcinev',['RydbergConstantTimeshcIneV',['../group___rydberg_constant.html#ga77c7dd314342e7f121d9b8775a45d20f',1,'NISTConst']]],
+  ['rydbergconstanttimeshcinj',['RydbergConstantTimeshcInJ',['../group___rydberg_constant.html#gaa4164006d51dbf240eb83065e83bddec',1,'NISTConst']]]
 ];

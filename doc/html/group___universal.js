@@ -3,7 +3,7 @@ var group___universal =
     [ "Impedance of vacuum", "group___impedance_of_vacuum.html", "group___impedance_of_vacuum" ],
     [ "Electric constant", "group___electric_constant.html", "group___electric_constant" ],
     [ "Magnetic constant", "group___magnetic_constant.html", null ],
-    [ "Gravitational constant", "group___gravitational_constant.html", null ],
+    [ "Gravitational constant", "group___gravitational_constant.html", "group___gravitational_constant" ],
     [ "Planck constant", "group___planck_constant.html", "group___planck_constant" ],
     [ "Planck length", "group___planck_length.html", "group___planck_length" ],
     [ "Planck mass", "group___planck_mass.html", "group___planck_mass" ],

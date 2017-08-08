@@ -5,6 +5,6 @@ var group___electromagnetic =
     [ "Elementary charge", "group___elementary_charge.html", null ],
     [ "Josephson constant", "group___josephson_constant.html", null ],
     [ "Magnetic flux quantum", "group___magnetic_flux_quantum.html", null ],
-    [ "Nuclear magneton", "group___nuclear_magneton.html", null ],
+    [ "Nuclear magneton", "group___nuclear_magneton.html", "group___nuclear_magneton" ],
     [ "von Klitzing constant", "group__von_klitzing_constant.html", "group__von_klitzing_constant" ]
 ];

@@ -4,7 +4,6 @@ var searchData=
   ['comptonwavelength',['ComptonWavelength',['../group___compton_wavelength.html#ga6f9b597d657bd3e9add13a76516cbabc',1,'NISTConst::ComptonWavelength()'],['../group___compton_wavelength.html',1,'(Global Namespace)']]],
   ['comptonwavelengthover2pi',['ComptonWavelengthOver2Pi',['../group___compton_wavelength.html#ga5031f85750fecb545f0353cb05bb7c69',1,'NISTConst']]],
   ['conductancequantum',['conductanceQuantum',['../group___conductance_quantum.html#gac57088a56b37d0b899d3e9c9babaadaf',1,'NISTConst::conductanceQuantum()'],['../group___conductance_quantum.html',1,'(Global Namespace)']]],
-  ['constant',['constant',['../_n_i_s_t_const_8hpp.html#a1e16b2224b3f85352d5b6fb00977757c',1,'NISTConst']]],
   ['conventionaljosephsonconstant',['conventionalJosephsonConstant',['../group___conventional_josephson_constant.html#gaebced2333dcb300798ec2d2c128db9b9',1,'NISTConst']]],
   ['conventionalvonklitzingconstant',['conventionalvonKlitzingConstant',['../group___conventionalvon_klitzing_constant.html#gabf641ec13f8a8d63762992724dd6d670',1,'NISTConst']]],
   ['conversion_20factors',['Conversion factors',['../group___conversion_factors.html',1,'']]],

@@ -9,8 +9,8 @@ var group___physico_chemical =
     [ "Molar gas constant", "group___molar_gas_constant.html", null ],
     [ "Molar Planck constant", "group___molar_planck_constant.html", null ],
     [ "molar volume of ideal gas", "group___molar_volume.html", null ],
-    [ "Sackur-Tetrode constant", "group___sackur_tetrode_constant.html", null ],
-    [ "Second radiation constant", "group___second_radiation_constant.html", null ],
+    [ "Sackur-Tetrode constant", "group___sackur_tetrode_constant.html", "group___sackur_tetrode_constant" ],
+    [ "Second radiation constant", "group___second_radiation_constant.html", "group___second_radiation_constant" ],
     [ "Stefan-Boltzmann constant", "group___stefan_boltzmann_constant.html", "group___stefan_boltzmann_constant" ],
     [ "Wien displacement law constant", "group___wien_displacement.html", "group___wien_displacement" ]
 ];

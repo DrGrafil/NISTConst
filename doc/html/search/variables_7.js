@@ -24,6 +24,11 @@ var searchData=
   ['neutronprotonmassratio',['neutronProtonMassRatio',['../group___neutron.html#gad8a08222b3de2105b5b399faa5a59fbd',1,'NISTConst']]],
   ['neutrontaumassratio',['neutronTauMassRatio',['../group___neutron.html#ga9c3ba7b26cbcc0b2f7f7fa551812683a',1,'NISTConst']]],
   ['neutrontoshieldedprotonmagneticmomentratio',['neutronToShieldedProtonMagneticMomentRatio',['../group___neutron.html#ga7446ad6eb4c1e0b8167d1a1ff5c4cd89',1,'NISTConst']]],
-  ['newtonianconstantofgravitation',['NewtonianConstantOfGravitation',['../_n_i_s_t_const_8hpp.html#aba6371307f4cebde50b3c61a07c724c5',1,'NISTConst']]],
-  ['newtonianconstantofgravitationoverhbarcuncertainty',['NewtonianConstantOfGravitationOverhbarcUncertainty',['../_n_i_s_t_const_8hpp.html#af10cbbd8ad1ece4ec01e35fe3d86854f',1,'NISTConst']]]
+  ['newtonianconstantofgravitation',['NewtonianConstantOfGravitation',['../group___gravitational_constant.html#gaba6371307f4cebde50b3c61a07c724c5',1,'NISTConst']]],
+  ['newtonianconstantofgravitationoverhbarcuncertainty',['NewtonianConstantOfGravitationOverhbarcUncertainty',['../group___gravitational_constant.html#gaf10cbbd8ad1ece4ec01e35fe3d86854f',1,'NISTConst']]],
+  ['nuclearmagneton',['nuclearMagneton',['../group___nuclear_magneton.html#gacf9b0d2a2517113d30300e4ed7b56cc7',1,'NISTConst']]],
+  ['nuclearmagnetoninevpert',['nuclearMagnetonIneVPerT',['../group___nuclear_magneton.html#ga5a31a1865923a1c14cd7f22c8973186e',1,'NISTConst']]],
+  ['nuclearmagnetonininversemt',['nuclearMagnetonInInversemT',['../group___nuclear_magneton.html#ga2bb8e56daaa602b5097d38b2d1ca32ad',1,'NISTConst']]],
+  ['nuclearmagnetoninkpert',['nuclearMagnetonInKPerT',['../group___nuclear_magneton.html#gac546d7a48ca06ce3231f7cda738bb4e3',1,'NISTConst']]],
+  ['nuclearmagnetoninmhzpert',['nuclearMagnetonInMHzPerT',['../group___nuclear_magneton.html#gae1ed12acbc3f50345ed451327b86b5b5',1,'NISTConst']]]
 ];

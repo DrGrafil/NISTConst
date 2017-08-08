@@ -124,10 +124,10 @@
 /// 	@defgroup Proton Proton particle
 /// 	@ingroup Atomic
 
-/// 	@defgroup QuantumCirculation Quantum of circulation  
+/// 	@defgroup QuantumOfCirculation Quantum of circulation  
 /// 	@ingroup Atomic
 
-/// 	@defgroup Rydberg Rydberg constant
+/// 	@defgroup RydbergConstant Rydberg constant
 /// 	@ingroup Atomic
 
 /// 	@defgroup Tau Tau particle
@@ -786,7 +786,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ConstantOfGravitation
+	/// @addtogroup GravitationalConstant
 	/// @{            
 	const double NewtonianConstantOfGravitation =									6.67408e-11;				/**< \f$G \ (\frac{m^3}{kg s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
 	const double NewtonianConstantOfGravitationOverhbarcUncertainty =				6.70861e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^-2)\f$ Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
