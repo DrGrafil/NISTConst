@@ -986,9 +986,11 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	const double standard atmosphere                                         101 325                  (exact)                  Pa/**< \f$ \ ()\f$ .*/
+	/// @addtogroup StandardAtmosphere
+	/// @{    
+	const double standardAtmosphere =												101325;						/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double standardAtmosphereUncertainty =									0.0;						/**< \f$atm \ (Pa)\f$ Uncertainty in standard atmosphere in pascals. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 	
