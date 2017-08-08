@@ -996,17 +996,17 @@ namespace NISTConst
 	
 	/// @addtogroup StandardStatePressure
 	/// @{    
-	const double standardStatePressure =											100000.0;					/**< \f$ssp \ (Pa)\f$ Standard-state pressure.*/
+	const double standardStatePressure =											100000.0;					/**< \f$ssp \ (Pa)\f$ Standard-state pressure in pascals.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double standardStatePressureUncertainty =									0.0;						/**< \f$ssp \ (Pa)\f$ Uncertainty in standard-state pressure.*/
+	const double standardStatePressureUncertainty =									0.0;						/**< \f$ssp \ (Pa)\f$ Uncertainty in standard-state pressure in pascals. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 
-	/// @addtogroup StandardAtmosphere
+	/// @addtogroup StefanBoltzmannConstant
 	/// @{    
-	const double Stefan-Boltzmann constant                                   5.670 367e-8            0.000013e-8            W m^-2 K^-4/**< \f$ \ ()\f$ .*/
+	const double StefanBoltzmannConstant =											5.670367e-8;				/**< \f$ \ (\frac{W}{m^2 K^4)\f$ Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double StefanBoltzmannConstantUncertainty =								0.000013e-8;				/**< \f$ \ (\frac{W}{m^2 K^4)\f$ Uncertainty in Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th.*/
 	#endif  
 	/// @}
 	
