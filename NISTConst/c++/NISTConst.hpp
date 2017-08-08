@@ -906,7 +906,9 @@ namespace NISTConst
 	const double protonTauMassRatioUncertainty =									0.000048;					/**< \f$\frac{m_p}{m_\tau} \ (1)\f$ Uncertainty in proton-tau mass ratio.*/	
 	#endif  
 	/// @}
-	    
+	
+	/// @addtogroup QuantumOfCirculation 
+	/// @{   
 	const double quantum of circulation                                      3.636 947 5486e-4       0.0000000017e-4       m^2 s^-1/**< \f$ \ ()\f$ .*/
 	const double quantum of circulation times 2                              7.273 895 0972e-4       0.0000000033e-4       m^2 s^-1/**< \f$ \ ()\f$ .*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -914,6 +916,8 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
+	/// @addtogroup RydbergConstant
+	/// @{
 	const double Rydberg constant                                            10 973 731.568 508       0.000065                m^-1/**< \f$ \ ()\f$ .*/
 	const double Rydberg constant times c in Hz                              3.289 841 960 355 e15    0.000000000019 e15    Hz/**< \f$ \ ()\f$ .*/
 	const double Rydberg constant times hc in eV                             13.605 693 009           0.000000084            eV/**< \f$ \ ()\f$ .*/
@@ -923,6 +927,8 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
+	/// @addtogroup SackurTetrodeConstant
+	/// @{
 	const double Sackur-Tetrode constant (1 K, 100 kPa)                      -1.151 7084              0.0000014               /**< \f$ \ ()\f$ .*/
 	const double Sackur-Tetrode constant (1 K, 101.325 kPa)                  -1.164 8714              0.0000014               /**< \f$ \ ()\f$ .*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -930,9 +936,11 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	const double second radiation constant                                   1.438 777 36e-2         0.000000 83e-2         m K/**< \f$ \ ()\f$ .*/
+	/// @addtogroup SecondRadiationConstant
+	/// @{
+	const double secondRadiationConstant =											1.43877736e-2;				/**< \f$c_2 \ (m\ K)\f$ Second radiation constant in meters kelvin.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double secondRadiationConstantUncertainty =								0.00000083e-2;				/**< \f$c_2 \ (m\ K)\f$ Uncertainty in second radiation constant in meters kelvin.*/
 	#endif  
 	/// @}
 	
