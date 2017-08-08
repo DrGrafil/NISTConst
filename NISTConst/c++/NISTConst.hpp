@@ -786,7 +786,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup
+	/// @addtogroup ConstantOfGravitation
 	/// @{            
 	const double NewtonianConstantOfGravitation =									6.67408e-11;				/**< \f$G \ (\frac{m^3}{kg s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
 	const double NewtonianConstantOfGravitationOverhbarcUncertainty =				6.70861e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^-2)\f$ Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
@@ -796,15 +796,19 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup
+	/// @addtogroup NuclearMagneton
 	/// @{
-	const double nuclear magneton                                            5.050 783 699e-27       0.000000031e-27       J T^-1/**< \f$ \ ()\f$ .*/
-	const double nuclear magneton in eV/T                                    3.152 451 2550e-8       0.0000000015e-8       eV T^-1/**< \f$ \ ()\f$ .*/
-	const double nuclear magneton in inverse meters per tesla                2.542 623 432e-2        0.000000016e-2        m^-1 T^-1/**< \f$ \ ()\f$ .*/
-	const double nuclear magneton in K/T                                     3.658 2690e-4           0.0000021e-4           K T^-1/**< \f$ \ ()\f$ .*/
-	const double nuclear magneton in MHz/T                                   7.622 593 285            0.000000047            MHz T^-1/**< \f$ \ ()\f$ .*/
+	const double nuclearMagneton =													5.050783699e-27;			/**< \f$\mu_N \ (\frac{J}{T})\f$ Nuclear magneton in joules per tesla.*/
+	const double nuclearMagnetonIneVPerT =											3.1524512550e-8;			/**< \f$ \ (\frac{eV}{T})\f$ Nuclear magneton in electron volts per tesla.*/
+	const double nuclearMagnetonInInversemT =										2.542623432e-2;				/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{mT})\f$ Nuclear magneton in inverse meters tesla.*/
+	const double nuclearMagnetonInKPerT =											3.6582690e-4;				/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Nuclear magneton in electron kelvin per tesla.*/
+	const double nuclearMagnetonInMHzPerT =											7.622593285;				/**< \f$\frac{\mu_N}{h} \ (\frac{MHz}{T})\f$ Nuclear magneton in megahertz per tesla.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double nuclearMagnetonUncertainty =										0.000000031e-27;			/**< \f$\mu_N \ (\frac{J}{T})\f$ Uncertainty in nuclear magneton in joules per tesla.*/
+	const double nuclearMagnetonIneVPerTUncertainty =								0.0000000015e-8;			/**< \f$ \ (\frac{eV}{T})\f$ Uncertainty in nuclear magneton in electron volts per tesla.*/
+	const double nuclearMagnetonInInversemTUncertainty =							0.000000016e-2;				/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{mT})\f$ Uncertainty in nuclear magneton in inverse meters tesla.*/
+	const double nuclearMagnetonInKPerTUncertainty =								0.0000021e-4;				/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Uncertainty in nuclear magneton in electron kelvin per tesla.*/
+	const double nuclearMagnetonInMHzPerTUncertainty =								0.000000047;				/**< \f$\frac{\mu_N}{h} \ (\frac{MHz}{T})\f$ Uncertainty in nuclear magneton in megahertz per tesla.*/
 	#endif  
 	/// @}
 	
@@ -909,10 +913,11 @@ namespace NISTConst
 	
 	/// @addtogroup QuantumOfCirculation 
 	/// @{   
-	const double quantum of circulation                                      3.636 947 5486e-4       0.0000000017e-4       m^2 s^-1/**< \f$\frac{h}{2 m_e} \ (\frac{m^2}{s})\f$ quantum of circulation in meters squared per second.*/
-	const double quantum of circulation times 2                              7.273 895 0972e-4       0.0000000033e-4       m^2 s^-1/**< \f$ \ ()\f$ .*/
+	const double quantumOfCirculation =												3.6369475486e-4;			/**< \f$\frac{h}{2 m_e} \ (\frac{m^2}{s})\f$ Quantum of circulation in meters squared per second.*/
+	const double quantumOfCirculationTimes2 =										7.2738950972e-4;			/**< \f$\frac{h}{m_e} \ (\frac{m^2}{s})\f$ Quantum of circulation times 2.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double quantumOfCirculationUncertainty =									0.0000000017e-4;			/**< \f$\frac{h}{2 m_e} \ (\frac{m^2}{s})\f$ Uncertainty in quantum of circulation in meters squared per second.*/
+	const double quantumOfCirculationTimes2Uncertainty =							0.0000000033e-4;			/**< \f$\frac{h}{m_e} \ (\frac{m^2}{s})\f$ Uncertainty in quantum of circulation times 2.*/
 	#endif  
 	/// @}
 	
