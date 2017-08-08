@@ -5,5 +5,6 @@ var searchData=
   ['sillicon',['Sillicon',['../group___sillicon.html',1,'']]],
   ['speed_20of_20light',['Speed of light',['../group___speed_of_light.html',1,'']]],
   ['standard_20atmosphere',['Standard atmosphere',['../group___standard_atmosphere.html',1,'']]],
+  ['standardstatepressure',['StandardStatePressure',['../group___standard_state_pressure.html',1,'']]],
   ['stefan_2dboltzmann_20constant',['Stefan-Boltzmann constant',['../group___stefan_boltzmann_constant.html',1,'']]]
 ];

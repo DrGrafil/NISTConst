@@ -16,6 +16,9 @@ var searchData=
   ['shieldedprotonmagneticmomenttonuclearmagnetonratio',['shieldedProtonMagneticMomentToNuclearMagnetonRatio',['../group___proton.html#ga03e84ef0d1452fa7c647f8866913fbc3',1,'NISTConst']]],
   ['sillicon',['Sillicon',['../group___sillicon.html',1,'']]],
   ['speed_20of_20light',['Speed of light',['../group___speed_of_light.html',1,'']]],
-  ['standard_20atmosphere',['Standard atmosphere',['../group___standard_atmosphere.html',1,'']]],
-  ['stefan_2dboltzmann_20constant',['Stefan-Boltzmann constant',['../group___stefan_boltzmann_constant.html',1,'']]]
+  ['speedoflightinvacuum',['speedOfLightInVacuum',['../group___speed_of_light.html#gacb4a04d9cca33259effabdd28c28e964',1,'NISTConst']]],
+  ['standardaccelerationofgravity',['standardAccelerationOfGravity',['../group___gravity_acceleration.html#gad5bc5f7f030bc2c467a8430e00b42f5e',1,'NISTConst']]],
+  ['standardatmosphere',['standardAtmosphere',['../group___standard_atmosphere.html#ga260e00232ff2d0d8a24bdbf7f6c87b4e',1,'NISTConst::standardAtmosphere()'],['../group___standard_atmosphere.html',1,'(Global Namespace)']]],
+  ['standardstatepressure',['standardStatePressure',['../group___standard_state_pressure.html#gaede4b63db291cd6a839180595c7a191d',1,'NISTConst::standardStatePressure()'],['../group___standard_state_pressure.html',1,'(Global Namespace)']]],
+  ['stefanboltzmannconstant',['StefanBoltzmannConstant',['../group___stefan_boltzmann_constant.html#ga1094e420290686333202d186399d706d',1,'NISTConst::StefanBoltzmannConstant()'],['../group___stefan_boltzmann_constant.html',1,'(Global Namespace)']]]
 ];

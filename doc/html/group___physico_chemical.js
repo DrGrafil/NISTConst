@@ -11,6 +11,6 @@ var group___physico_chemical =
     [ "molar volume of ideal gas", "group___molar_volume.html", null ],
     [ "Sackur-Tetrode constant", "group___sackur_tetrode_constant.html", null ],
     [ "Second radiation constant", "group___second_radiation_constant.html", null ],
-    [ "Stefan-Boltzmann constant", "group___stefan_boltzmann_constant.html", null ],
+    [ "Stefan-Boltzmann constant", "group___stefan_boltzmann_constant.html", "group___stefan_boltzmann_constant" ],
     [ "Wien displacement law constant", "group___wien_displacement.html", "group___wien_displacement" ]
 ];

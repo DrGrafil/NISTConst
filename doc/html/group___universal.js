@@ -9,5 +9,5 @@ var group___universal =
     [ "Planck mass", "group___planck_mass.html", "group___planck_mass" ],
     [ "Planck temperature", "group___planck_temperature.html", "group___planck_temperature" ],
     [ "Planck time", "group___planck_time.html", "group___planck_time" ],
-    [ "Speed of light", "group___speed_of_light.html", null ]
+    [ "Speed of light", "group___speed_of_light.html", "group___speed_of_light" ]
 ];

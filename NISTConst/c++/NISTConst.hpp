@@ -206,6 +206,9 @@
 /// 	@defgroup StandardAtmosphere Standard atmosphere 
 /// 	@ingroup Adopted
 
+/// 	@defgroup StandardStatePressure Standard state pressure 
+/// 	@ingroup Adopted
+
 
 /// @defgroup Non-SI Non-SI units
 /// @ingroup NISTConst
@@ -1004,9 +1007,9 @@ namespace NISTConst
 
 	/// @addtogroup StefanBoltzmannConstant
 	/// @{    
-	const double StefanBoltzmannConstant =											5.670367e-8;				/**< \f$ \ (\frac{W}{m^2 K^4)\f$ Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th.*/
+	const double StefanBoltzmannConstant =											5.670367e-8;				/**< \f$\sigma \ (\frac{W}{m^2 K^4})\f$ Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double StefanBoltzmannConstantUncertainty =								0.000013e-8;				/**< \f$ \ (\frac{W}{m^2 K^4)\f$ Uncertainty in Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th.*/
+	const double StefanBoltzmannConstantUncertainty =								0.000013e-8;				/**< \f$\sigma \ (\frac{W}{m^2 K^4})\f$ Uncertainty in Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th.*/
 	#endif  
 	/// @}
 	

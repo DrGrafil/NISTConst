@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['taucomptonwavelength',['tauComptonWavelength',['../group___tau.html#ga02608ef1c26b9550ee7547350bbcdd5d',1,'NISTConst']]],
   ['taucomptonwavelengthover2pi',['tauComptonWavelengthOver2Pi',['../group___tau.html#ga3cca663c9ba88e04346cbd29643aba14',1,'NISTConst']]],
   ['tauelectronmassratio',['tauElectronMassRatio',['../group___tau.html#ga58efae35c13c681c03e115a97659063a',1,'NISTConst']]],
   ['taumass',['tauMass',['../group___tau.html#gabb1b68dd381ed2582050fd991f210be8',1,'NISTConst']]],
