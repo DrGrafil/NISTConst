@@ -7,7 +7,7 @@
 /// @date 8/5/17
 /// @todo: Decide to use energy equivelence or mass for reporting particles in MeV and J ie mc^2 = MeV or m = MeV/c^2
 /// @todo: require units on all things that have multiple unit definitions.
-
+/// @todo: Resolve \lambdabar display issue https://tex.stackexchange.com/questions/96479/how-can-i-type-lambda-bar
 //=================================
 // Header guard
 #pragma once
@@ -814,13 +814,13 @@ namespace NISTConst
 	const double PlanckConstantIneVs =												4.135667662e-15;			/**< \f$h \ (eV s)\f$ Planck constant in electron volt seconds.*/
 	const double PlanckConstantOver2Pi =											1.054571800e-34;			/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds.*/
 	const double PlanckConstantOver2PiIneVs =										6.582119514e-16;			/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds.*/
-	const double PlanckConstantOver2PiTimescInMeVfm =								197.3269788;				/**< \f$\hbar c \ ()\f$ Planck constant over 2 pi times c in megaelectron volt femtometers.*/
+	const double PlanckConstantOver2PiTimescInMeVfm =								197.3269788;				/**< \f$\hbar c \ (MeV fm)\f$ Planck constant over 2 pi times c in megaelectron volt femtometers.*/
 	#ifdef NISTCONST_UNCERTAINTY
 	const double PlanckConstantUncertainty =										0.000000081e-34;			/**< \f$h \ (J s)\f$ Uncertainty in Planck constant in joule seconds.*/
 	const double PlanckConstantIneVsUncertainty =									0.000000025e-15;			/**< \f$h \ (eV s)\f$ Uncertainty in Planck constant in electron volt seconds.*/
 	const double PlanckConstantOver2PiUncertainty =									0.000000013e-34;			/**< \f$\hbar \ (J s)\f$ Uncertainty in Planck constant over 2 pi in joule seconds.*/
 	const double PlanckConstantOver2PiIneVsUncertainty =							0.000000040e-16;			/**< \f$\hbar \ (eV s)\f$ Uncertainty in Planck constant over 2 pi in electron volt seconds.*/
-	const double PlanckConstantOver2PiTimescInMeVfmUncertainty =					0.0000012;					/**< \f$\hbar c \ ()\f$ Uncertainty in Planck constant over 2 pi times c in megaelectron volt femtometers.*/
+	const double PlanckConstantOver2PiTimescInMeVfmUncertainty =					0.0000012;					/**< \f$\hbar c \ (MeV fm)\f$ Uncertainty in Planck constant over 2 pi times c in megaelectron volt femtometers.*/
 	#endif  
 	/// @}
 	
@@ -1016,102 +1016,102 @@ namespace NISTConst
 	
 	/// @addtogroup Tau
 	/// @{
-	const double tauComptonWavelength =                                     0.697787e-15; 				/**< \f$\lambda_{C,\tau} \ (m)\f$  */ 
-	const double tauComptonWavelengthOver2Pi =                          	0.111056e-15;        		/**< \f$\lambdabar_{C,\tau} \ (m)\f$  */ //https://tex.stackexchange.com/questions/96479/how-can-i-type-lambda-bar
-	const double tauElectronMassRatio =                                    	3477.15;                  	/**< \f$m_\tau/m_e \ (1)\f$  */ 
-	const double tauMass =                                                  3.16747e-27;           		/**< \f$m_\tau \ (kg)\f$  */ 
-	const double tauMassInJ =                                 				2.84678e-10;				/**< \f$m_\tau \ (\frac{J}{c^2})\f$  */ 
-	const double tauMassInMeV =                          					1776.82;					/**< \f$m_\tau \ (\frac{MeV}{c^2})\f$  */ 
-	const double tauMassInu =                                              	1.90749;					/**< \f$m_\tau \ (u)\f$  */ 
-	const double tauMolarMass =                                             1.90749e-3;					/**< \f$M_\tau \ (\frac{kg}{mol})\f$  */ 
-	const double tauMuonMassRatio =                                         16.8167;					/**< \f$m_\tau/m_\mu \ (1)\f$  */ 
-	const double tauNeutronMassRatio =										1.89111;					/**< \f$m_\tau/m_n \ (1)\f$  */ 
-	const double tauProtonMassRatio	=										1.89372;					/**< \f$m_\tau/m_p \ (1)\f$  */ 
+	const double tauComptonWavelength =												0.697787e-15; 				/**< \f$\lambda_{C,\tau} \ (m)\f$ Tau Compton wavelength in meters.*/ 
+	const double tauComptonWavelengthOver2Pi =										0.111056e-15;        		/**< \f$\lambdabar_{C,\tau} \ (m)\f$ Tau Compton wavelength over 2 pi in meters.*/ 
+	const double tauElectronMassRatio =												3477.15;                  	/**< \f$m_\tau/m_e \ (1)\f$ Tau-electron mass ratio.*/ 
+	const double tauMass =															3.16747e-27;           		/**< \f$m_\tau \ (kg)\f$ Tau mass in kilograms.*/ 
+	const double tauMassInJ =                                 						2.84678e-10;				/**< \f$m_\tau \ (\frac{J}{c^2})\f$ Tau mass in joules per speed of light squared.*/ 
+	const double tauMassInMeV =                          							1776.82;					/**< \f$m_\tau \ (\frac{MeV}{c^2})\f$ Tau mass in megaelectron volts per speed of light squared.*/ 
+	const double tauMassInu =														1.90749;					/**< \f$m_\tau \ (u)\f$ Tau mass in unified atomic mass units.*/ 
+	const double tauMolarMass =														1.90749e-3;					/**< \f$M_\tau \ (\frac{kg}{mol})\f$ Tau molar mass in kilograms per mole.*/ 
+	const double tauMuonMassRatio =													16.8167;					/**< \f$m_\tau/m_\mu \ (1)\f$ Tau-muon mass ratio.*/ 
+	const double tauNeutronMassRatio =												1.89111;					/**< \f$m_\tau/m_n \ (1)\f$ Tau-neutron mass ratio.*/ 
+	const double tauProtonMassRatio	=												1.89372;					/**< \f$m_\tau/m_p \ (1)\f$ Tau-proton mass ratio.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double tauComptonWavelengthUncertainty =                          0.000063e-15;				/**< \f$\lambda_{C,\tau} \ (m)\f$  */ 
-	const double tauComptonWavelengthOver2PiUncertainty =                   0.000010e-15; 				/**< \f$\lambdabar_{C,\tau} \ (m)\f$  */ 
-	const double tauElectronMassRatioUncertainty =                         	0.31;                     	/**< \f$m_\tau/m_e \ (1)\f$  */ 
-	const double tauMassUncertainty =                                       0.00029e-27;        		/**< \f$m_\tau \ (kg)\f$  */ 
-	const double tauMassInJUncertainty =                                   	0.00026e-10; 				/**< \f$m_\tau \ (\frac{J}{c^2})\f$  */ 
-	const double tauMassInMeVUncertainty = 									0.16;     					/**< \f$m_\tau \ (\frac{MeV}{c^2})\f$  */ 
-	const double tauMassInuUncertainty =									0.00017;               		/**< \f$m_\tau \ (u)\f$  */ 
-	const double tauMolarMassUncertainty =									0.00017e-3;             	/**< \f$M_\tau \ (\frac{kg}{mol})\f$  */ 
-	const double tauMuonMassRatioUncertainty = 								0.0015;                   	/**< \f$m_\tau/m_\mu \ (1)\f$  */ 
-	const double tauNeutronMassRatioUncertainty =							0.00017;                 	/**< \f$m_\tau/m_n \ (1)\f$  */ 
-	const double tauProtonMassRatioUncertainty =							0.00017;       				/**< \f$m_\tau/m_p \ (1)\f$  */ 	
+	const double tauComptonWavelengthUncertainty =									0.000063e-15;				/**< \f$\lambda_{C,\tau} \ (m)\f$ Uncertainty in tau Compton wavelength in meters.*/ 
+	const double tauComptonWavelengthOver2PiUncertainty =							0.000010e-15; 				/**< \f$\lambdabar_{C,\tau} \ (m)\f$ Uncertainty in tau Compton wavelength over 2 pi in meters.*/ 
+	const double tauElectronMassRatioUncertainty =									0.31;                     	/**< \f$m_\tau/m_e \ (1)\f$ Uncertainty in tau-electron mass ratio.*/ 
+	const double tauMassUncertainty =												0.00029e-27;        		/**< \f$m_\tau \ (kg)\f$ Uncertainty in tau mass in kilograms.*/ 
+	const double tauMassInJUncertainty =											0.00026e-10; 				/**< \f$m_\tau \ (\frac{J}{c^2})\f$ Uncertainty in tau mass in joules per speed of light squared.*/ 
+	const double tauMassInMeVUncertainty =											0.16;     					/**< \f$m_\tau \ (\frac{MeV}{c^2})\f$ Uncertainty in tau mass in megaelectron volts per speed of light squared.*/ 
+	const double tauMassInuUncertainty =											0.00017;               		/**< \f$m_\tau \ (u)\f$ Uncertainty in tau mass in unified atomic mass units.*/ 
+	const double tauMolarMassUncertainty =											0.00017e-3;             	/**< \f$M_\tau \ (\frac{kg}{mol})\f$ Uncertainty in tau molar mass in kilograms per mole.*/ 
+	const double tauMuonMassRatioUncertainty =										0.0015;                   	/**< \f$m_\tau/m_\mu \ (1)\f$ Uncertainty in tau-muon mass ratio.*/ 
+	const double tauNeutronMassRatioUncertainty =									0.00017;                 	/**< \f$m_\tau/m_n \ (1)\f$ Uncertainty in tau-neutron mass ratio.*/ 
+	const double tauProtonMassRatioUncertainty =									0.00017;       				/**< \f$m_\tau/m_p \ (1)\f$ Uncertainty in tau-proton mass ratio.*/ 	
 	#endif  
 	/// @}
 	
     /// @addtogroup Thomson
 	/// @{    
-	const double ThomsonCrossSection =										0.66524587158e-28;			/**< \f$\sigma_e \ (m^2)\f$  */
+	const double ThomsonCrossSection =												0.66524587158e-28;			/**< \f$\sigma_e \ (m^2)\f$ Thomson cross section in meters squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double ThomsonCrossSectionUncertainty =							0.00000000091e-28;			/**< \f$\sigma_e \ (m^2)\f$  */
+	const double ThomsonCrossSectionUncertainty =									0.00000000091e-28;			/**< \f$\sigma_e \ (m^2)\f$ Uncertainty in Thomson cross section in meters squared.*/
 	#endif  
 	/// @}	
 
 	/// @addtogroup Triton
 	/// @{
-	const double tritonElectronMassRatio =									5496.92153588;				/**< \f$m_{\textrm{T}}/m_e \ (1)\f$  */
-	const double tritongFactor =											5.957924920;				/**< \f$g_{\textrm{T} \ (1)\f$  */       
-	const double tritonMagneticMoment =										1.504609503e-26;			/**< \f$\mu_{\textrm{T}} \ (\frac{J}{T})\f$  */
-	const double tritonMagneticMomentToBohrMagnetonRatio =					1.6223936616e-3;			/**< \f$\mu_{\textrm{T}}/\mu_B \ (1)\f$  */
-	const double tritonMagneticMomentToNuclearMagnetonRatio =				2.978962460;				/**< \f$\mu_{\textrm{T}}/\mu_N \ (1)\f$  */
-	const double tritonMass =												5.007356665e-27;			/**< \f$m_{\textrm{T}} \ (kg)\f$  */ 
-	const double tritonMassInJ =											4.500387735e-10;			/**< \f$m_{\textrm{T}} \ (\frac{J}{c^2})\f$  */ 
-	const double tritonMassInMeV =											2808.921112;				/**< \f$m_{\textrm{T}} \ (\frac{MeV}{c^2})\f$  */ 
-	const double tritonMassInu =											3.01550071632;				/**< \f$m_{\textrm{T}} \ (u)\f$  */ 
-	const double tritonMolarMass =											3.01550071632e-3;			/**< \f$M_{\textrm{T}} \ (\frac{kg}{mol})\f$  */ 
-	const double tritonProtonMassRatio =									2.99371703348;				/**< \f$m_{\textrm{T}}/m_p \ (1)\f$  */ 
+	const double tritonElectronMassRatio =											5496.92153588;				/**< \f$m_{\textrm{T}}/m_e \ (1)\f$ Triton-electron mass ratio.*/
+	const double tritongFactor =													5.957924920;				/**< \f$g_{\textrm{T} \ (1)\f$ Triton g factor.*/       
+	const double tritonMagneticMoment =												1.504609503e-26;			/**< \f$\mu_{\textrm{T}} \ (\frac{J}{T})\f$ Triton magnetic moment in joules per tesla.*/
+	const double tritonMagneticMomentToBohrMagnetonRatio =							1.6223936616e-3;			/**< \f$\mu_{\textrm{T}}/\mu_B \ (1)\f$ Triton magnetic moment to Bohr magneton ratio.*/
+	const double tritonMagneticMomentToNuclearMagnetonRatio =						2.978962460;				/**< \f$\mu_{\textrm{T}}/\mu_N \ (1)\f$ Triton magnetic moment to nuclear magneton ratio*/
+	const double tritonMass =														5.007356665e-27;			/**< \f$m_{\textrm{T}} \ (kg)\f$ Triton mass in kilograms.*/ 
+	const double tritonMassInJ =													4.500387735e-10;			/**< \f$m_{\textrm{T}} \ (\frac{J}{c^2})\f$ Triton mass in joules per speed of light squared.*/ 
+	const double tritonMassInMeV =													2808.921112;				/**< \f$m_{\textrm{T}} \ (\frac{MeV}{c^2})\f$ Triton mass in megaelectron volts per speed of light squared.*/ 
+	const double tritonMassInu =													3.01550071632;				/**< \f$m_{\textrm{T}} \ (u)\f$ Triton mass in unified atomic mass units. */ 
+	const double tritonMolarMass =													3.01550071632e-3;			/**< \f$M_{\textrm{T}} \ (\frac{kg}{mol})\f$ Triton molar mass in kilograms per mole.*/ 
+	const double tritonProtonMassRatio =											2.99371703348;				/**< \f$m_{\textrm{T}}/m_p \ (1)\f$ Triton-proton mass ratio.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double tritonElectronMassRatioUncertainty =						0.00000026;					/**< \f$m_{\textrm{T}}/m_e \ (1)\f$  */
-	const double tritongFactorUncertainty =									0.000000028;				/**< \f$g_{\textrm{T}} \ (1)\f$  */       
-	const double tritonMagneticMomentUncertainty =							0.000000012e-26;			/**< \f$\mu_{\textrm{T}} \ (\frac{J}{T})\f$  */
-	const double tritonMagneticMomentToBohrMagnetonRatioUncertainty =		0.0000000076e-3;			/**< \f$\mu_{\textrm{T}}/\mu_B \ (1)\f$  */
-	const double tritonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000014;				/**< \f$\mu_{\textrm{T}}/\mu_N \ (1)\f$  */
-	const double tritonMassUncertainty =									0.000000062e-27;			/**< \f$m_{\textrm{T}} \ (kg)\f$  */ 
-	const double tritonMassInJUncertainty =									0.000000055e-10;			/**< \f$m_{\textrm{T}} \ (J)\f$  */ 
-	const double tritonMassInMeVUncertainty =								0.000017; 					/**< \f$m_{\textrm{T}} \ (MeV)\f$  */ 
-	const double tritonMassInuUncertainty =									0.00000000011;				/**< \f$m_{\textrm{T}} \ (u)\f$  */ 
-	const double tritonMolarMassUncertainty =								0.00000000011e-3;			/**< \f$M_{\textrm{T}} \ (\frac{kg}{mol})\f$  */ 
-	const double tritonProtonMassRatioUncertainty =							0.00000000022;				/**< \f$m_{\textrm{T}}/m_p \ (1)\f$  */ 
+	const double tritonElectronMassRatioUncertainty =								0.00000026;					/**< \f$m_{\textrm{T}}/m_e \ (1)\f$ Uncertainty in triton-electron mass ratio.*/
+	const double tritongFactorUncertainty =											0.000000028;				/**< \f$g_{\textrm{T}} \ (1)\f$ Uncertainty in triton g factor.*/       
+	const double tritonMagneticMomentUncertainty =									0.000000012e-26;			/**< \f$\mu_{\textrm{T}} \ (\frac{J}{T})\f$ Uncertainty in triton magnetic moment in joules per tesla.*/
+	const double tritonMagneticMomentToBohrMagnetonRatioUncertainty =				0.0000000076e-3;			/**< \f$\mu_{\textrm{T}}/\mu_B \ (1)\f$ Uncertainty in triton magnetic moment to Bohr magneton ratio.*/
+	const double tritonMagneticMomentToNuclearMagnetonRatioUncertainty =			0.000000014;				/**< \f$\mu_{\textrm{T}}/\mu_N \ (1)\f$ Uncertainty in triton magnetic moment to nuclear magneton ratio.*/
+	const double tritonMassUncertainty =											0.000000062e-27;			/**< \f$m_{\textrm{T}} \ (kg)\f$ Uncertainty in triton mass in kilograms.*/ 
+	const double tritonMassInJUncertainty =											0.000000055e-10;			/**< \f$m_{\textrm{T}} \ (\frac{J}{c^2})\f$ Uncertainty in triton mass in joules per speed of light squared.*/ 
+	const double tritonMassInMeVUncertainty =										0.000017; 					/**< \f$m_{\textrm{T}} \ (\frac{MeV}{c^2})\f$ Uncertainty in triton mass in megaelectron volts per speed of light squared.*/ 
+	const double tritonMassInuUncertainty =											0.00000000011;				/**< \f$m_{\textrm{T}} \ (u)\f$ Uncertainty in triton mass in unified atomic mass units.*/ 
+	const double tritonMolarMassUncertainty =										0.00000000011e-3;			/**< \f$M_{\textrm{T}} \ (\frac{kg}{mol})\f$ Uncertainty in triton molar mass in kilograms per mole.*/ 
+	const double tritonProtonMassRatioUncertainty =									0.00000000022;				/**< \f$m_{\textrm{T}}/m_p \ (1)\f$ Uncertainty in triton-proton mass ratio.*/ 
 	#endif  
 	/// @}	
 	
 	/// @addtogroup UnifiedAtomicMassUnit
 	/// @{
-	const double unifiedAtomicMassUnit =									1.660539040e-27;			/**< \f$u \ (kg)\f$  */ 
+	const double unifiedAtomicMassUnit =											1.660539040e-27;			/**< \f$u \ (kg)\f$ Unified atomic mass unit in kilograms.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double unifiedAtomicMassUnitUncertainty =							0.000000020e-27;			/**< \f$u \ (kg)\f$  */ 
+	const double unifiedAtomicMassUnitUncertainty =									0.000000020e-27;			/**< \f$u \ (kg)\f$ Uncertainty in unified atomic mass unit in kilograms.*/ 
 	#endif  
 	/// @}	
 	
 	/// @addtogroup vonKlitzingConstant
 	/// @{
-	const double vonKlitzingConstant =										25812.8074555;				/**< \f$R_K \ (\Omega)\f$  */
+	const double vonKlitzingConstant =												25812.8074555;				/**< \f$R_K \ (\Omega)\f$ von Klitzing constant in ohms.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double vonKlitzingConstantUncertainty =							0.0000059;           		/**< \f$R_K \ (\Omega)\f$  */
+	const double vonKlitzingConstantUncertainty =									0.0000059;           		/**< \f$R_K \ (\Omega)\f$ Uncertainty in von Klitzing constant in ohms.*/
 	#endif  
 	/// @}	
 	
 	/// @addtogroup WeakMixingAngle 
 	/// @{
-	const double weakMixingAngle =											0.2223;						/**< \f$sin^2 \theta_W \ (1)\f$  */              
+	const double weakMixingAngle =													0.2223;						/**< \f$sin^2 \theta_W \ (1)\f$ Weak mixing angle.*/              
 	#ifdef NISTCONST_UNCERTAINTY
-	const double weakMixingAngleUncertainty =								0.0021;						/**< \f$sin^2 \theta_W \ (1)\f$  */        
+	const double weakMixingAngleUncertainty =										0.0021;						/**< \f$sin^2 \theta_W \ (1)\f$ Uncertainty in weak mixing angle.*/        
 	#endif  
 	/// @}	
 	
 	/// @addtogroup WienDisplacement 
 	/// @{ 
-	const double WienFrequencyDisplacementLawConstant =						5.8789238e10;				/**< \f$b' \ (\frac{Hz}{K})\f$ Wien frequency displacement law constant in hertz per kelvin.*/ 
-	const double WienWavelengthDisplacementLawConstant =					2.8977729e-3;				/**< \f$b \ (m K)\f$ Wien wavelength displacement law constant in meters kelvin.*/ 
+	const double WienFrequencyDisplacementLawConstant =								5.8789238e10;				/**< \f$b' \ (\frac{Hz}{K})\f$ Wien frequency displacement law constant in hertz per kelvin.*/ 
+	const double WienWavelengthDisplacementLawConstant =							2.8977729e-3;				/**< \f$b \ (m K)\f$ Wien wavelength displacement law constant in meters kelvin.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double WienFrequencyDisplacementLawConstantUncertainty =			0.0000034e10;				/**< \f$b' \ (\frac{Hz}{K})\f$ Uncertainty in Wien frequency displacement law constant in hertz per kelvin.*/ 
-	const double WienWavelengthDisplacementLawConstantUncertainty =			0.0000017e-3;				/**< \f$b \ (m K)\f$ Uncertainty in Wien wavelength displacement law constant in meters kelvin.*/ 
+	const double WienFrequencyDisplacementLawConstantUncertainty =					0.0000034e10;				/**< \f$b' \ (\frac{Hz}{K})\f$ Uncertainty in Wien frequency displacement law constant in hertz per kelvin.*/ 
+	const double WienWavelengthDisplacementLawConstantUncertainty =					0.0000017e-3;				/**< \f$b \ (m K)\f$ Uncertainty in Wien wavelength displacement law constant in meters kelvin.*/ 
 	#endif  
 	/// @}	
 

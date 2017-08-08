@@ -4,5 +4,6 @@ var group___adopted =
     [ "von Klitzing constant", "group___conventionalvon_klitzing_constant.html", "group___conventionalvon_klitzing_constant" ],
     [ "Molar mass", "group___molar_mass.html", null ],
     [ "Gravity acceleration", "group___gravity_acceleration.html", "group___gravity_acceleration" ],
-    [ "Standard atmosphere", "group___standard_atmosphere.html", "group___standard_atmosphere" ]
+    [ "Standard atmosphere", "group___standard_atmosphere.html", "group___standard_atmosphere" ],
+    [ "Standard state pressure", "group___standard_state_pressure.html", "group___standard_state_pressure" ]
 ];
