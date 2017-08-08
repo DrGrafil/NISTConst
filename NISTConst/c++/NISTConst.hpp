@@ -969,16 +969,20 @@ namespace NISTConst
 	const double shieldedProtonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000030;				/**< \f$\frac{\mu'_p}{\mu_N} \ (1)\f$ Uncertainty in shielded proton magnetic moment to nuclear magneton ratio.*/
 	#endif  
 	/// @}
-        
+    
+	/// @addtogroup SpeedOfLight
+	/// @{    
 	const double speedOfLightInVacuum =												299792458.0;				/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second.*/
 	#ifdef NISTCONST_UNCERTAINTY
 	const double speedOfLightInVacuumUncertainty =									0.0;						/**< \f$c \ (\frac{m}{s})\f$ Uncertainty in speed of light in vacuum in meters per second. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 	
-	const double standard acceleration of gravity                            9.806 65                 (exact)                  m s^-2/**< \f$ \ ()\f$ .*/
+	/// @addtogroup GravityAcceleration
+	/// @{    
+	const double standardAccelerationOfGravity =									9.80665;					/**< \f$g_n \ (\frac{m}{s^2)\f$ Standard acceleration of gravity in meters per second squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double standardAccelerationOfGravityUncertainty =							0.0;						/**< \f$g_n \ (\frac{m}{s^2)\f$ Uncertainty in standard acceleration of gravity in meters per second squared. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 	
