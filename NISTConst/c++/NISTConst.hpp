@@ -730,66 +730,66 @@ namespace NISTConst
 	
 	/// @addtogroup Neutron
 	/// @{
-	const double neutronComptonWavelength =									1.31959090481e-15;			/**< \f$\lambda_{C,n} \ (m)\f$ Neutron Compton wavelength in meters.*/
-	const double neutronComptonWavelengthOver2Pi =							0.21001941536e-15;			/**< \f$\lambdabar_{C,n} \ (m)\f$ Neutron Compton wavelength over 2 pi in meters.*/
-	const double neutronElectronMagneticMomentRatio =						1.04066882e-3;				/**< \f$\frac{\mu_n}{\mu_e} \ (1)\f$ Neutron-electron magnetic moment ratio.*/
-	const double neutronElectronMassRatio =									1838.68366158;				/**< \f$\frac{m_n}{m_e} \ (1)\f$ Neutron-electron mass ratio .*/
-	const double neutrongFactor =											-3.82608545;				/**< \f$g_n \ (1)\f$ Neutron g factor.*/
-	const double neutronGyromagneticRatio =									1.83247172e8;				/**< \f$\gamma_n \ (\frac{rad Hz}{T})\f$ Neutron gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double neutronGyromagneticRatioOver2Pi =							29.1646933;					/**< \f$\frac{\gamma_n}{2\pi} \ (\frac{rad MHz}{T})\f$ Neutron gyromagnetic ratio over 2 pi in radian megahertz per tesla. Note that the units of radians are added for clarity.*/
-	const double neutronMagneticMoment =									-0.96623650e-26;			/**< \f$\mu_n \ (\frac{J}{T})\f$ Neutron magnetic moment in joules per tesla.*/
-	const double neutronMagneticMomentToBohrMagnetonRatio =					-1.04187563e-3;				/**< \f$\frac{\mu_n}{\mu_B} \ (1)\f$ Neutron magnetic moment to Bohr magneton ratio.*/
-	const double neutronMagneticMomentToNuclearMagnetonRatio =				-1.91304273;				/**< \f$\frac{\mu_n}{\mu_N} \ (1)\f$ Neutron magnetic moment to nuclear magneton ratio.*/
-	const double neutronMass =												1.674927471e-27;			/**< \f$m_n \ (kg)\f$ Neutron mass in kilograms.*/
-	const double neutronMassInJ =											1.505349739e-10;			/**< \f$m_n \ (\frac{J}{c^2})\f$ Neutron mass in joules per speed of light squared.*/
-	const double neutronMassInMeV =											939.5654133;				/**< \f$m_n \ (\frac{MeV}{c^2})\f$ Neutron mass in megaelectron volts per speed of light squared.*/
-	const double neutronMassInu =											1.00866491588;				/**< \f$m_n \ (u)\f$ Neutron mass in unified atomic mass unit.*/
-	const double neutronMolarMass =											1.00866491588e-3;			/**< \f$M_n \ (\frac{kg}{mol})\f$ Neutron molar mass in kilogram per mole.*/
-	const double neutronMuonMassRatio =										8.89248408;					/**< \f$\frac{m_n}{m_\mu} \ (1)\f$ Neutron-muon mass ratio.*/
-	const double neutronProtonMagneticMomentRatio =							-0.68497934;				/**< \f$\frac{\mu_n}{\mu_p} \ (1)\f$ Neutron-proton magnetic moment ratio.*/
-	const double neutronProtonMassDifference =								2.30557377e-30;				/**< \f$m_n - m_p \ (kg)\f$ Neutron-proton mass difference in kilograms.*/
-	const double neutronProtonMassDifferenceInJ =							2.07214637e-13;				/**< \f$m_n - m_p \ (\frac{J}{c^2})\f$ Neutron-proton mass difference in joules per speed of light squared.*/
-	const double neutronProtonMassDifferenceInMeV =							1.29333205;					/**< \f$m_n - m_p \ (\frac{MeV}{c^2})\f$ Neutron-proton mass difference in megaelectron volts per speed of light squared.*/
-	const double neutronProtonMassDifferenceInu =							0.00138844900;				/**< \f$m_n - m_p \ (u)\f$ Neutron-proton mass difference in unified atomic mass unit.*/
-	const double neutronProtonMassRatio =									1.00137841898;				/**< \f$\frac{m_n}{m_p} \ (1)\f$ Neutron-proton mass ratio.*/
-	const double neutronTauMassRatio =										0.528790;					/**< \f$\frac{m_n}{m_\tau} \ (1)\f$ Neutron-tau mass ratio.*/
-	const double neutronToShieldedProtonMagneticMomentRatio =				-0.68499694;				/**< \f$\frac{\mu_n}{\mu'_p} \ (1)\f$ Neutron to shielded proton magnetic moment ratio.*/
+	const double neutronComptonWavelength =											1.31959090481e-15;			/**< \f$\lambda_{C,n} \ (m)\f$ Neutron Compton wavelength in meters.*/
+	const double neutronComptonWavelengthOver2Pi =									0.21001941536e-15;			/**< \f$\lambdabar_{C,n} \ (m)\f$ Neutron Compton wavelength over 2 pi in meters.*/
+	const double neutronElectronMagneticMomentRatio =								1.04066882e-3;				/**< \f$\frac{\mu_n}{\mu_e} \ (1)\f$ Neutron-electron magnetic moment ratio.*/
+	const double neutronElectronMassRatio =											1838.68366158;				/**< \f$\frac{m_n}{m_e} \ (1)\f$ Neutron-electron mass ratio .*/
+	const double neutrongFactor =													-3.82608545;				/**< \f$g_n \ (1)\f$ Neutron g factor.*/
+	const double neutronGyromagneticRatio =											1.83247172e8;				/**< \f$\gamma_n \ (\frac{rad Hz}{T})\f$ Neutron gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double neutronGyromagneticRatioOver2Pi =									29.1646933;					/**< \f$\frac{\gamma_n}{2\pi} \ (\frac{rad MHz}{T})\f$ Neutron gyromagnetic ratio over 2 pi in radian megahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double neutronMagneticMoment =											-0.96623650e-26;			/**< \f$\mu_n \ (\frac{J}{T})\f$ Neutron magnetic moment in joules per tesla.*/
+	const double neutronMagneticMomentToBohrMagnetonRatio =							-1.04187563e-3;				/**< \f$\frac{\mu_n}{\mu_B} \ (1)\f$ Neutron magnetic moment to Bohr magneton ratio.*/
+	const double neutronMagneticMomentToNuclearMagnetonRatio =						-1.91304273;				/**< \f$\frac{\mu_n}{\mu_N} \ (1)\f$ Neutron magnetic moment to nuclear magneton ratio.*/
+	const double neutronMass =														1.674927471e-27;			/**< \f$m_n \ (kg)\f$ Neutron mass in kilograms.*/
+	const double neutronMassInJ =													1.505349739e-10;			/**< \f$m_n \ (\frac{J}{c^2})\f$ Neutron mass in joules per speed of light squared.*/
+	const double neutronMassInMeV =													939.5654133;				/**< \f$m_n \ (\frac{MeV}{c^2})\f$ Neutron mass in megaelectron volts per speed of light squared.*/
+	const double neutronMassInu =													1.00866491588;				/**< \f$m_n \ (u)\f$ Neutron mass in unified atomic mass unit.*/
+	const double neutronMolarMass =													1.00866491588e-3;			/**< \f$M_n \ (\frac{kg}{mol})\f$ Neutron molar mass in kilogram per mole.*/
+	const double neutronMuonMassRatio =												8.89248408;					/**< \f$\frac{m_n}{m_\mu} \ (1)\f$ Neutron-muon mass ratio.*/
+	const double neutronProtonMagneticMomentRatio =									-0.68497934;				/**< \f$\frac{\mu_n}{\mu_p} \ (1)\f$ Neutron-proton magnetic moment ratio.*/
+	const double neutronProtonMassDifference =										2.30557377e-30;				/**< \f$m_n - m_p \ (kg)\f$ Neutron-proton mass difference in kilograms.*/
+	const double neutronProtonMassDifferenceInJ =									2.07214637e-13;				/**< \f$m_n - m_p \ (\frac{J}{c^2})\f$ Neutron-proton mass difference in joules per speed of light squared.*/
+	const double neutronProtonMassDifferenceInMeV =									1.29333205;					/**< \f$m_n - m_p \ (\frac{MeV}{c^2})\f$ Neutron-proton mass difference in megaelectron volts per speed of light squared.*/
+	const double neutronProtonMassDifferenceInu =									0.00138844900;				/**< \f$m_n - m_p \ (u)\f$ Neutron-proton mass difference in unified atomic mass unit.*/
+	const double neutronProtonMassRatio =											1.00137841898;				/**< \f$\frac{m_n}{m_p} \ (1)\f$ Neutron-proton mass ratio.*/
+	const double neutronTauMassRatio =												0.528790;					/**< \f$\frac{m_n}{m_\tau} \ (1)\f$ Neutron-tau mass ratio.*/
+	const double neutronToShieldedProtonMagneticMomentRatio =						-0.68499694;				/**< \f$\frac{\mu_n}{\mu'_p} \ (1)\f$ Neutron to shielded proton magnetic moment ratio.*/
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double neutronComptonWavelengthUncertainty =						0.00000000088e-15;			/**< \f$\lambda_{C,n} \ (m)\f$ Uncertainty in neutron Compton wavelength in meters.*/
-	const double neutronComptonWavelengthOver2PiUncertainty =				0.00000000014e-15;			/**< \f$\lambdabar_{C,n} \ (m)\f$ Uncertainty in neutron Compton wavelength over 2 pi in meters.*/
-	const double neutronElectronMagneticMomentRatioUncertainty =			0.00000025e-3;				/**< \f$\frac{\mu_n}{\mu_e} \ (1)\f$ Uncertainty in neutron-electron magnetic moment ratio.*/
-	const double neutronElectronMassRatioUncertainty =						0.00000090;					/**< \f$\frac{m_n}{m_e} \ (1)\f$ Uncertainty in neutron-electron mass ratio .*/
-	const double neutrongFactorUncertainty =								0.00000090;					/**< \f$g_n \ (1)\f$ Uncertainty in neutron g factor.*/
-	const double neutronGyromagneticRatioUncertainty =						0.00000043e8;				/**< \f$\gamma_n \ (\frac{rad Hz}{T})\f$ Uncertainty in neutron gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double neutronGyromagneticRatioOver2PiUncertainty =				0.0000069;					/**< \f$\frac{\gamma_n}{2\pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in neutron gyromagnetic ratio over 2 pi in radian megahertz per tesla. Note that the units of radians are added for clarity.*/
-	const double neutronMagneticMomentUncertainty =							0.00000023e-26;				/**< \f$\mu_n \ (\frac{J}{T})\f$ Uncertainty in neutron magnetic moment in joules per tesla.*/
-	const double neutronMagneticMomentToBohrMagnetonRatioUncertainty =		0.00000025e-3;				/**< \f$\frac{\mu_n}{\mu_B} \ (1)\f$ Uncertainty in neutron magnetic moment to Bohr magneton ratio.*/
-	const double neutronMagneticMomentToNuclearMagnetonRatioUncertainty =	0.00000045;					/**< \f$\frac{\mu_n}{\mu_N} \ (1)\f$ Uncertainty in neutron magnetic moment to nuclear magneton ratio.*/
-	const double neutronMassUncertainty =									0.000000021e-27;			/**< \f$m_n \ (kg)\f$ Uncertainty in neutron mass in kilograms.*/
-	const double neutronMassInJUncertainty =								0.000000019e-10;			/**< \f$m_n \ (\frac{J}{c^2})\f$ Uncertainty in neutron mass in joules per speed of light squared.*/
-	const double neutronMassInMeVUncertainty =								0.0000058;					/**< \f$m_n \ (\frac{MeV}{c^2})\f$ Uncertainty in neutron mass in megaelectron volts per speed of light squared.*/
-	const double neutronMassInuUncertainty =								0.00000000049;				/**< \f$m_n \ (u)\f$ Uncertainty in neutron mass in unified atomic mass unit.*/
-	const double neutronMolarMassUncertainty =								0.00000000049e-3;			/**< \f$M_n \ (\frac{kg}{mol})\f$ Uncertainty in neutron molar mass in kilogram per mole.*/
-	const double neutronMuonMassRatioUncertainty =							0.00000020;					/**< \f$\frac{m_n}{m_\mu} \ (1)\f$ Uncertainty in neutron-muon mass ratio.*/
-	const double neutronProtonMagneticMomentRatioUncertainty =				0.00000016;					/**< \f$\frac{\mu_n}{\mu_p} \ (1)\f$ Uncertainty in neutron-proton magnetic moment ratio.*/
-	const double neutronProtonMassDifferenceUncertainty =					0.00000085e-30;				/**< \f$m_n - m_p \ (kg)\f$ Uncertainty in neutron-proton mass difference in kilograms.*/
-	const double neutronProtonMassDifferenceInJUncertainty =				0.00000076e-13;				/**< \f$m_n - m_p \ (\frac{J}{c^2})\f$ Uncertainty in neutron-proton mass difference in joules per speed of light squared.*/
-	const double neutronProtonMassDifferenceInMeVUncertainty =				0.00000048;					/**< \f$m_n - m_p \ (\frac{MeV}{c^2})\f$ Uncertainty in neutron-proton mass difference in megaelectron volts per speed of light squared.*/
-	const double neutronProtonMassDifferenceInuUncertainty =				0.00000000051;				/**< \f$m_n - m_p \ (u)\f$ Uncertainty in neutron-proton mass difference in unified atomic mass unit.*/
-	const double neutronProtonMassRatioUncertainty =						0.00000000051;				/**< \f$\frac{m_n}{m_p} \ (1)\f$ Uncertainty in neutron-proton mass ratio.*/
-	const double neutronTauMassRatioUncertainty =							0.000048;					/**< \f$\frac{m_n}{m_\tau} \ (1)\f$ Uncertainty in neutron-tau mass ratio.*/
-	const double neutronToShieldedProtonMagneticMomentRatioUncertainty =	0.00000016;					/**< \f$\frac{\mu_n}{\mu'_p} \ (1)\f$ Uncertainty in neutron to shielded proton magnetic moment ratio.*/
+	const double neutronComptonWavelengthUncertainty =								0.00000000088e-15;			/**< \f$\lambda_{C,n} \ (m)\f$ Uncertainty in neutron Compton wavelength in meters.*/
+	const double neutronComptonWavelengthOver2PiUncertainty =						0.00000000014e-15;			/**< \f$\lambdabar_{C,n} \ (m)\f$ Uncertainty in neutron Compton wavelength over 2 pi in meters.*/
+	const double neutronElectronMagneticMomentRatioUncertainty =					0.00000025e-3;				/**< \f$\frac{\mu_n}{\mu_e} \ (1)\f$ Uncertainty in neutron-electron magnetic moment ratio.*/
+	const double neutronElectronMassRatioUncertainty =								0.00000090;					/**< \f$\frac{m_n}{m_e} \ (1)\f$ Uncertainty in neutron-electron mass ratio .*/
+	const double neutrongFactorUncertainty =										0.00000090;					/**< \f$g_n \ (1)\f$ Uncertainty in neutron g factor.*/
+	const double neutronGyromagneticRatioUncertainty =								0.00000043e8;				/**< \f$\gamma_n \ (\frac{rad Hz}{T})\f$ Uncertainty in neutron gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double neutronGyromagneticRatioOver2PiUncertainty =						0.0000069;					/**< \f$\frac{\gamma_n}{2\pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in neutron gyromagnetic ratio over 2 pi in radian megahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double neutronMagneticMomentUncertainty =									0.00000023e-26;				/**< \f$\mu_n \ (\frac{J}{T})\f$ Uncertainty in neutron magnetic moment in joules per tesla.*/
+	const double neutronMagneticMomentToBohrMagnetonRatioUncertainty =				0.00000025e-3;				/**< \f$\frac{\mu_n}{\mu_B} \ (1)\f$ Uncertainty in neutron magnetic moment to Bohr magneton ratio.*/
+	const double neutronMagneticMomentToNuclearMagnetonRatioUncertainty =			0.00000045;					/**< \f$\frac{\mu_n}{\mu_N} \ (1)\f$ Uncertainty in neutron magnetic moment to nuclear magneton ratio.*/
+	const double neutronMassUncertainty =											0.000000021e-27;			/**< \f$m_n \ (kg)\f$ Uncertainty in neutron mass in kilograms.*/
+	const double neutronMassInJUncertainty =										0.000000019e-10;			/**< \f$m_n \ (\frac{J}{c^2})\f$ Uncertainty in neutron mass in joules per speed of light squared.*/
+	const double neutronMassInMeVUncertainty =										0.0000058;					/**< \f$m_n \ (\frac{MeV}{c^2})\f$ Uncertainty in neutron mass in megaelectron volts per speed of light squared.*/
+	const double neutronMassInuUncertainty =										0.00000000049;				/**< \f$m_n \ (u)\f$ Uncertainty in neutron mass in unified atomic mass unit.*/
+	const double neutronMolarMassUncertainty =										0.00000000049e-3;			/**< \f$M_n \ (\frac{kg}{mol})\f$ Uncertainty in neutron molar mass in kilogram per mole.*/
+	const double neutronMuonMassRatioUncertainty =									0.00000020;					/**< \f$\frac{m_n}{m_\mu} \ (1)\f$ Uncertainty in neutron-muon mass ratio.*/
+	const double neutronProtonMagneticMomentRatioUncertainty =						0.00000016;					/**< \f$\frac{\mu_n}{\mu_p} \ (1)\f$ Uncertainty in neutron-proton magnetic moment ratio.*/
+	const double neutronProtonMassDifferenceUncertainty =							0.00000085e-30;				/**< \f$m_n - m_p \ (kg)\f$ Uncertainty in neutron-proton mass difference in kilograms.*/
+	const double neutronProtonMassDifferenceInJUncertainty =						0.00000076e-13;				/**< \f$m_n - m_p \ (\frac{J}{c^2})\f$ Uncertainty in neutron-proton mass difference in joules per speed of light squared.*/
+	const double neutronProtonMassDifferenceInMeVUncertainty =						0.00000048;					/**< \f$m_n - m_p \ (\frac{MeV}{c^2})\f$ Uncertainty in neutron-proton mass difference in megaelectron volts per speed of light squared.*/
+	const double neutronProtonMassDifferenceInuUncertainty =						0.00000000051;				/**< \f$m_n - m_p \ (u)\f$ Uncertainty in neutron-proton mass difference in unified atomic mass unit.*/
+	const double neutronProtonMassRatioUncertainty =								0.00000000051;				/**< \f$\frac{m_n}{m_p} \ (1)\f$ Uncertainty in neutron-proton mass ratio.*/
+	const double neutronTauMassRatioUncertainty =									0.000048;					/**< \f$\frac{m_n}{m_\tau} \ (1)\f$ Uncertainty in neutron-tau mass ratio.*/
+	const double neutronToShieldedProtonMagneticMomentRatioUncertainty =			0.00000016;					/**< \f$\frac{\mu_n}{\mu'_p} \ (1)\f$ Uncertainty in neutron to shielded proton magnetic moment ratio.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup
 	/// @{            
-	const double NewtonianConstantOfGravitation =							6.67408e-11;				/**< \f$G \ (\frac{m^3}{kg s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
-	const double NewtonianConstantOfGravitationOverhbarcUncertainty =		6.70861e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^-2)\f$ Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
+	const double NewtonianConstantOfGravitation =									6.67408e-11;				/**< \f$G \ (\frac{m^3}{kg s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
+	const double NewtonianConstantOfGravitationOverhbarcUncertainty =				6.70861e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^-2)\f$ Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double NewtonianConstantOfGravitation =							0.00031e-11;				/**< \f$G \ (\frac{m^3}{kg s^2})\f$ Uncertainty in Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
-	const double NewtonianConstantOfGravitationOverhbarcUncertainty =		0.00031e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^-2)\f$ Uncertainty in Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
+	const double NewtonianConstantOfGravitation =									0.00031e-11;				/**< \f$G \ (\frac{m^3}{kg s^2})\f$ Uncertainty in Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
+	const double NewtonianConstantOfGravitationOverhbarcUncertainty =				0.00031e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^-2)\f$ Uncertainty in Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
 	#endif  
 	/// @}
 	
@@ -807,100 +807,100 @@ namespace NISTConst
 	
 	/// @addtogroup PlanckConstant
 	/// @{
-	const double PlanckConstant =											6.626070040e-34;			/**< \f$h \ (J s)\f$ Planck constant in joule seconds.*/
-	const double PlanckConstantIneVs =										4.135667662e-15;			/**< \f$h \ (eV s)\f$ Planck constant in electron volt seconds.*/
-	const double PlanckConstantOver2Pi =									1.054571800e-34;			/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds.*/
-	const double PlanckConstantOver2PiIneVs =								6.582119514e-16;			/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds.*/
-	const double PlanckConstantOver2PiTimescInMeVfm =						197.3269788;				/**< \f$\hbar c \ ()\f$ Planck constant over 2 pi times c in megaelectron volt femtometers.*/
+	const double PlanckConstant =													6.626070040e-34;			/**< \f$h \ (J s)\f$ Planck constant in joule seconds.*/
+	const double PlanckConstantIneVs =												4.135667662e-15;			/**< \f$h \ (eV s)\f$ Planck constant in electron volt seconds.*/
+	const double PlanckConstantOver2Pi =											1.054571800e-34;			/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds.*/
+	const double PlanckConstantOver2PiIneVs =										6.582119514e-16;			/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds.*/
+	const double PlanckConstantOver2PiTimescInMeVfm =								197.3269788;				/**< \f$\hbar c \ ()\f$ Planck constant over 2 pi times c in megaelectron volt femtometers.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckConstantUncertainty =								0.000000081e-34;			/**< \f$h \ (J s)\f$ Uncertainty in Planck constant in joule seconds.*/
-	const double PlanckConstantIneVsUncertainty =							0.000000025e-15;			/**< \f$h \ (eV s)\f$ Uncertainty in Planck constant in electron volt seconds.*/
-	const double PlanckConstantOver2PiUncertainty =							0.000000013e-34;			/**< \f$\hbar \ (J s)\f$ Uncertainty in Planck constant over 2 pi in joule seconds.*/
-	const double PlanckConstantOver2PiIneVsUncertainty =					0.000000040e-16;			/**< \f$\hbar \ (eV s)\f$ Uncertainty in Planck constant over 2 pi in electron volt seconds.*/
-	const double PlanckConstantOver2PiTimescInMeVfmUncertainty =			0.0000012;					/**< \f$\hbar c \ ()\f$ Uncertainty in Planck constant over 2 pi times c in megaelectron volt femtometers.*/
+	const double PlanckConstantUncertainty =										0.000000081e-34;			/**< \f$h \ (J s)\f$ Uncertainty in Planck constant in joule seconds.*/
+	const double PlanckConstantIneVsUncertainty =									0.000000025e-15;			/**< \f$h \ (eV s)\f$ Uncertainty in Planck constant in electron volt seconds.*/
+	const double PlanckConstantOver2PiUncertainty =									0.000000013e-34;			/**< \f$\hbar \ (J s)\f$ Uncertainty in Planck constant over 2 pi in joule seconds.*/
+	const double PlanckConstantOver2PiIneVsUncertainty =							0.000000040e-16;			/**< \f$\hbar \ (eV s)\f$ Uncertainty in Planck constant over 2 pi in electron volt seconds.*/
+	const double PlanckConstantOver2PiTimescInMeVfmUncertainty =					0.0000012;					/**< \f$\hbar c \ ()\f$ Uncertainty in Planck constant over 2 pi times c in megaelectron volt femtometers.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup PlanckLength
 	/// @{
-	const double PlanckLength =												1.616229e-35;				/**< \f$l_P \ (m)\f$ Planck length in meters.*/
+	const double PlanckLength =														1.616229e-35;				/**< \f$l_P \ (m)\f$ Planck length in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckLengthUncertainty =									0.000038e-35;				/**< \f$l_P \ (m)\f$ Uncertainty in Planck length in meters.*/
+	const double PlanckLengthUncertainty =											0.000038e-35;				/**< \f$l_P \ (m)\f$ Uncertainty in Planck length in meters.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup PlanckMass
 	/// @{
-	const double PlanckMass =												2.176470e-8;				/**< \f$m_P \ (kg)\f$ Planck mass in kilograms.*/
-	const double PlanckMassInGeV =											1.220910e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Planck mass in gigaelectron volts per speed of light squared.*/
+	const double PlanckMass =														2.176470e-8;				/**< \f$m_P \ (kg)\f$ Planck mass in kilograms.*/
+	const double PlanckMassInGeV =													1.220910e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Planck mass in gigaelectron volts per speed of light squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckMassUncertainty =									0.000051e-8;				/**< \f$m_P \ (kg)\f$ Uncertainty in Planck mass in kilograms.*/
-	const double PlanckMassInGeVUncertainty =								0.000029e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Uncertainty in Planck mass in gigaelectron volts per speed of light squared.*/
+	const double PlanckMassUncertainty =											0.000051e-8;				/**< \f$m_P \ (kg)\f$ Uncertainty in Planck mass in kilograms.*/
+	const double PlanckMassInGeVUncertainty =										0.000029e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Uncertainty in Planck mass in gigaelectron volts per speed of light squared.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup PlanckTemperature
 	/// @{
-	const double PlanckTemperature =										1.416808e32;				/**< \f$T_P \ (K)\f$ Planck temperature in kelvins.*/
+	const double PlanckTemperature =												1.416808e32;				/**< \f$T_P \ (K)\f$ Planck temperature in kelvins.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckTemperatureUncertainty =								0.000033e32;				/**< \f$T_P \ (K)\f$ Uncertainty in Planck temperature in kelvins.*/
+	const double PlanckTemperatureUncertainty =										0.000033e32;				/**< \f$T_P \ (K)\f$ Uncertainty in Planck temperature in kelvins.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup PlanckTime
 	/// @{
-	const double PlanckTime =												5.39116e-44;				/**< \f$t_P \ (s)\f$ Planck time in seconds.*/
+	const double PlanckTime =														5.39116e-44;				/**< \f$t_P \ (s)\f$ Planck time in seconds.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckTimeUncertainty =									0.00013e-44;				/**< \f$t_P \ (s)\f$ Uncertainty in Planck time in seconds.*/
+	const double PlanckTimeUncertainty =											0.00013e-44;				/**< \f$t_P \ (s)\f$ Uncertainty in Planck time in seconds.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup Proton
 	/// @{
-	const double protonChargeToMassQuotient =								9.578833226e7;				/**< \f$\frac{e}{m_p} \ (\frac{C}{kg})\f$ Proton charge to mass quotient in coulombs per kilogram.*/
-	const double protonComptonWavelength =									1.32140985396e-15;			/**< \f$\lambda_{C,p} \ (m)\f$ Proton Compton wavelength in meters.*/
-	const double protonComptonWavelengthOver2Pi =							0.210308910109e-15;			/**< \f$\lambdabar_{C,p} \ (m)\f$ Proton Compton wavelength over 2 pi in meters.*/
-	const double protonElectronMassRatio =									1836.15267389;				/**< \f$\frac{m_p}{m_e} \ (1)\f$ Proton-electron mass ratio.*/
-	const double protongFactor =											5.585694702;				/**< \f$g_p \ (1)\f$ Proton g factor.*/
-	const double protonGyromagneticRatio =									2.675221900e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double protonGyromagneticRatioOver2pi =							42.57747892;				/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad MHz}{T})\f$ Proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
-	const double protonMagneticMoment =										1.4106067873e-26;			/**< \f$\mu_p \ (\frac{J}{T})\f$ Proton magnetic moment in joules per tesla.*/
-	const double protonMagneticMomentToBohrMagnetonRatio =					1.5210322053e-3;			/**< \f$\frac{\mu_p}{\mu_B} \ (1)\f$ Proton magnetic moment to Bohr magneton ratio.*/
-	const double protonMagneticMomentToNuclearMagnetonRatio =				2.7928473508;				/**< \f$\frac{\mu_p}{\mu_N} \ (1)\f$ Proton magnetic moment to nuclear magneton ratio.*/
-	const double protonMagneticShieldingCorrection =						25.691e-6;					/**< \f$\sigma'_p \ (1)\f$ Proton magnetic shielding correction.*/
-	const double protonMass =												1.672621898e-27;			/**< \f$m_p \ (kg)\f$ Proton mass in kilograms.*/
-	const double protonMassInJ =											1.503277593e-10;			/**< \f$m_p \ (\frac{J}{c^2})\f$ Proton mass in joules per speed of light squared.*/
-	const double protonMassInMeV =											938.2720813;				/**< \f$m_p \ (\frac{MeV}{c^2})\f$ Proton mass in megaelectron volts per speed of light squared.*/
-	const double protonMassInu =											1.007276466879;				/**< \f$m_p \ (u)\f$ Proton mass in unified atomic mass unit.*/
-	const double protonMolarMass =											1.007276466879e-3;			/**< \f$M_p \ (\frac{kg}{mol})\f$ Proton molar mass in kilograms per mole.*/
-	const double protonMuonMassRatio =										8.88024338;					/**< \f$\frac{m_p}{m_\mu} \ (1)\f$ Proton-muon mass ratio.*/
-	const double protonNeutronMagneticMomentRatio =							-1.45989805;				/**< \f$\frac{\mu_p}{\mu_n} \ (1)\f$ Proton-neutron magnetic moment ratio.*/
-	const double protonNeutronMassRatio =									0.99862347844;				/**< \f$\frac{m_p}{m_n} \ (1)\f$ Proton-neutron mass ratio.*/
-	const double protonrmsChargeRadius =									0.8751e-15;					/**< \f$r_p \ (m)\f$ Proton rms charge radius in meters.*/
-	const double protonTauMassRatio =										0.528063;					/**< \f$\frac{m_p}{m_\tau} \ (1)\f$ proton-tau mass ratio.*/
+	const double protonChargeToMassQuotient =										9.578833226e7;				/**< \f$\frac{e}{m_p} \ (\frac{C}{kg})\f$ Proton charge to mass quotient in coulombs per kilogram.*/
+	const double protonComptonWavelength =											1.32140985396e-15;			/**< \f$\lambda_{C,p} \ (m)\f$ Proton Compton wavelength in meters.*/
+	const double protonComptonWavelengthOver2Pi =									0.210308910109e-15;			/**< \f$\lambdabar_{C,p} \ (m)\f$ Proton Compton wavelength over 2 pi in meters.*/
+	const double protonElectronMassRatio =											1836.15267389;				/**< \f$\frac{m_p}{m_e} \ (1)\f$ Proton-electron mass ratio.*/
+	const double protongFactor =													5.585694702;				/**< \f$g_p \ (1)\f$ Proton g factor.*/
+	const double protonGyromagneticRatio =											2.675221900e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonGyromagneticRatioOver2pi =									42.57747892;				/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad MHz}{T})\f$ Proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonMagneticMoment =												1.4106067873e-26;			/**< \f$\mu_p \ (\frac{J}{T})\f$ Proton magnetic moment in joules per tesla.*/
+	const double protonMagneticMomentToBohrMagnetonRatio =							1.5210322053e-3;			/**< \f$\frac{\mu_p}{\mu_B} \ (1)\f$ Proton magnetic moment to Bohr magneton ratio.*/
+	const double protonMagneticMomentToNuclearMagnetonRatio =						2.7928473508;				/**< \f$\frac{\mu_p}{\mu_N} \ (1)\f$ Proton magnetic moment to nuclear magneton ratio.*/
+	const double protonMagneticShieldingCorrection =								25.691e-6;					/**< \f$\sigma'_p \ (1)\f$ Proton magnetic shielding correction.*/
+	const double protonMass =														1.672621898e-27;			/**< \f$m_p \ (kg)\f$ Proton mass in kilograms.*/
+	const double protonMassInJ =													1.503277593e-10;			/**< \f$m_p \ (\frac{J}{c^2})\f$ Proton mass in joules per speed of light squared.*/
+	const double protonMassInMeV =													938.2720813;				/**< \f$m_p \ (\frac{MeV}{c^2})\f$ Proton mass in megaelectron volts per speed of light squared.*/
+	const double protonMassInu =													1.007276466879;				/**< \f$m_p \ (u)\f$ Proton mass in unified atomic mass unit.*/
+	const double protonMolarMass =													1.007276466879e-3;			/**< \f$M_p \ (\frac{kg}{mol})\f$ Proton molar mass in kilograms per mole.*/
+	const double protonMuonMassRatio =												8.88024338;					/**< \f$\frac{m_p}{m_\mu} \ (1)\f$ Proton-muon mass ratio.*/
+	const double protonNeutronMagneticMomentRatio =									-1.45989805;				/**< \f$\frac{\mu_p}{\mu_n} \ (1)\f$ Proton-neutron magnetic moment ratio.*/
+	const double protonNeutronMassRatio =											0.99862347844;				/**< \f$\frac{m_p}{m_n} \ (1)\f$ Proton-neutron mass ratio.*/
+	const double protonrmsChargeRadius =											0.8751e-15;					/**< \f$r_p \ (m)\f$ Proton rms charge radius in meters.*/
+	const double protonTauMassRatio =												0.528063;					/**< \f$\frac{m_p}{m_\tau} \ (1)\f$ proton-tau mass ratio.*/
 
     #ifdef NISTCONST_UNCERTAINTY
-	const double protonChargeToMassQuotientUncertainty =					0.000000059e7;				/**< \f$\frac{e}{m_p} \ (\frac{C}{kg})\f$ Uncertainty in proton charge to mass quotient in coulombs per kilogram.*/
-	const double protonComptonWavelengthUncertainty =						0.00000000061e-15;			/**< \f$\lambda_{C,p} \ (m)\f$ Uncertainty in proton Compton wavelength in meters.*/
-	const double protonComptonWavelengthOver2PiUncertainty =				0.000000000097e-15;			/**< \f$\lambdabar_{C,p} \ (m)\f$ Uncertainty in proton Compton wavelength over 2 pi in meters.*/
-	const double protonElectronMassRatioUncertainty =						0.00000017;					/**< \f$\frac{m_p}{m_e} \ (1)\f$ Uncertainty in proton-electron mass ratio.*/
-	const double protongFactorUncertainty =									0.000000017;				/**< \f$g_p \ (1)\f$ Uncertainty in proton g factor.*/
-	const double protonGyromagneticRatioUncertainty =						0.000000018e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Uncertainty in proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double protonGyromagneticRatioOver2piUncertainty =				0.00000029;					/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
-	const double protonMagneticMomentUncertainty =							0.0000000097e-26;			/**< \f$\mu_p \ (\frac{J}{T})\f$ Uncertainty in proton magnetic moment in joules per tesla.*/
-	const double protonMagneticMomentToBohrMagnetonRatioUncertainty =		0.0000000046e-3;			/**< \f$\frac{\mu_p}{\mu_B} \ (1)\f$ Uncertainty in proton magnetic moment to Bohr magneton ratio.*/
-	const double protonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.0000000085;				/**< \f$\frac{\mu_p}{\mu_N} \ (1)\f$ Uncertainty in proton magnetic moment to nuclear magneton ratio.*/
-	const double protonMagneticShieldingCorrectionUncertainty =				0.011e-6;					/**< \f$\sigma'_p \ (1)\f$ Uncertainty in proton magnetic shielding correction.*/
-	const double protonMassUncertainty =									0.000000021e-27;			/**< \f$m_p \ (kg)\f$ Uncertainty in proton mass in kilograms.*/
-	const double protonMassInJUncertainty =									0.000000018e-10;			/**< \f$m_p \ (\frac{J}{c^2})\f$ Uncertainty in proton mass in joules per speed of light squared.*/
-	const double protonMassInMeVUncertainty =								0.0000058;					/**< \f$m_p \ (\frac{MeV}{c^2})\f$ Uncertainty in proton mass in megaelectron volts per speed of light squared.*/
-	const double protonMassInuUncertainty =									0.000000000091;				/**< \f$m_p \ (u)\f$ Uncertainty in proton mass in unified atomic mass unit.*/
-	const double protonMolarMassUncertainty =								0.000000000091e-3;			/**< \f$M_p \ (\frac{kg}{mol})\f$ Uncertainty in proton molar mass in kilograms per mole.*/
-	const double protonMuonMassRatioUncertainty =							0.00000020;					/**< \f$\frac{m_p}{m_\mu} \ (1)\f$ Uncertainty in proton-muon mass ratio.*/
-	const double protonNeutronMagneticMomentRatioUncertainty =				0.00000034;					/**< \f$\frac{\mu_p}{\mu_n} \ (1)\f$ Uncertainty in proton-neutron magnetic moment ratio.*/
-	const double protonNeutronMassRatioUncertainty =						0.00000000051;				/**< \f$\frac{m_p}{m_n} \ (1)\f$ Uncertainty in proton-neutron mass ratio.*/
-	const double protonrmsChargeRadiusUncertainty =							0.0061e-15;					/**< \f$r_p \ (m)\f$ Uncertainty in proton rms charge radius in meters.*/
-	const double protonTauMassRatioUncertainty =							0.000048;					/**< \f$\frac{m_p}{m_\tau} \ (1)\f$ Uncertainty in proton-tau mass ratio.*/	
+	const double protonChargeToMassQuotientUncertainty =							0.000000059e7;				/**< \f$\frac{e}{m_p} \ (\frac{C}{kg})\f$ Uncertainty in proton charge to mass quotient in coulombs per kilogram.*/
+	const double protonComptonWavelengthUncertainty =								0.00000000061e-15;			/**< \f$\lambda_{C,p} \ (m)\f$ Uncertainty in proton Compton wavelength in meters.*/
+	const double protonComptonWavelengthOver2PiUncertainty =						0.000000000097e-15;			/**< \f$\lambdabar_{C,p} \ (m)\f$ Uncertainty in proton Compton wavelength over 2 pi in meters.*/
+	const double protonElectronMassRatioUncertainty =								0.00000017;					/**< \f$\frac{m_p}{m_e} \ (1)\f$ Uncertainty in proton-electron mass ratio.*/
+	const double protongFactorUncertainty =											0.000000017;				/**< \f$g_p \ (1)\f$ Uncertainty in proton g factor.*/
+	const double protonGyromagneticRatioUncertainty =								0.000000018e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Uncertainty in proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonGyromagneticRatioOver2piUncertainty =						0.00000029;					/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonMagneticMomentUncertainty =									0.0000000097e-26;			/**< \f$\mu_p \ (\frac{J}{T})\f$ Uncertainty in proton magnetic moment in joules per tesla.*/
+	const double protonMagneticMomentToBohrMagnetonRatioUncertainty =				0.0000000046e-3;			/**< \f$\frac{\mu_p}{\mu_B} \ (1)\f$ Uncertainty in proton magnetic moment to Bohr magneton ratio.*/
+	const double protonMagneticMomentToNuclearMagnetonRatioUncertainty =			0.0000000085;				/**< \f$\frac{\mu_p}{\mu_N} \ (1)\f$ Uncertainty in proton magnetic moment to nuclear magneton ratio.*/
+	const double protonMagneticShieldingCorrectionUncertainty =						0.011e-6;					/**< \f$\sigma'_p \ (1)\f$ Uncertainty in proton magnetic shielding correction.*/
+	const double protonMassUncertainty =											0.000000021e-27;			/**< \f$m_p \ (kg)\f$ Uncertainty in proton mass in kilograms.*/
+	const double protonMassInJUncertainty =											0.000000018e-10;			/**< \f$m_p \ (\frac{J}{c^2})\f$ Uncertainty in proton mass in joules per speed of light squared.*/
+	const double protonMassInMeVUncertainty =										0.0000058;					/**< \f$m_p \ (\frac{MeV}{c^2})\f$ Uncertainty in proton mass in megaelectron volts per speed of light squared.*/
+	const double protonMassInuUncertainty =											0.000000000091;				/**< \f$m_p \ (u)\f$ Uncertainty in proton mass in unified atomic mass unit.*/
+	const double protonMolarMassUncertainty =										0.000000000091e-3;			/**< \f$M_p \ (\frac{kg}{mol})\f$ Uncertainty in proton molar mass in kilograms per mole.*/
+	const double protonMuonMassRatioUncertainty =									0.00000020;					/**< \f$\frac{m_p}{m_\mu} \ (1)\f$ Uncertainty in proton-muon mass ratio.*/
+	const double protonNeutronMagneticMomentRatioUncertainty =						0.00000034;					/**< \f$\frac{\mu_p}{\mu_n} \ (1)\f$ Uncertainty in proton-neutron magnetic moment ratio.*/
+	const double protonNeutronMassRatioUncertainty =								0.00000000051;				/**< \f$\frac{m_p}{m_n} \ (1)\f$ Uncertainty in proton-neutron mass ratio.*/
+	const double protonrmsChargeRadiusUncertainty =									0.0061e-15;					/**< \f$r_p \ (m)\f$ Uncertainty in proton rms charge radius in meters.*/
+	const double protonTauMassRatioUncertainty =									0.000048;					/**< \f$\frac{m_p}{m_\tau} \ (1)\f$ Uncertainty in proton-tau mass ratio.*/	
 	#endif  
 	/// @}
 	    
@@ -943,13 +943,13 @@ namespace NISTConst
 	const double shieldedHelionToProtonMagneticMomentRatio =						-0.7617665603;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_p} \ (1)\f$ Shielded helion to proton magnetic moment ratio.*/
 	const double shieldedHelionToShieldedProtonMagneticMomentRatio =				-0.7617861313;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu'_p} \ (1)\f$ Shielded helion to shielded proton magnetic moment ratio.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double shieldedHelionGyromagneticRatioUncertainty =						0.000000027e8;				/**< \f$\gamma'_{^3\textrm{He}} \ (\frac{rad Hz}{T})\f$ Shielded helion gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double shieldedHelionGyromagneticRatioOver2PiUncertainty =				0.00000043;					/**< \f$\frac{\gamma'_{^3\textrm{He}}}{2 \pi} \ (\frac{rad MHz}{T})\f$ Shielded helion gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
-	const double shieldedHelionMagneticMomentUncertainty =							0.000000014e-26;			/**< \f$\mu'_{^3\textrm{He}} \ (\frac{J}{T})\f$ Shielded helion magnetic moment in joules per tesla.*/
-	const double shieldedHelionMagneticMomentToBohrMagnetonRatioUncertainty =		0.000000014e-3;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_B} \ (1)\f$ Shielded helion magnetic moment to Bohr magneton ratio.*/
-	const double shieldedHelionMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000025;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_N} \ (1)\f$ Shielded helion magnetic moment to nuclear magneton ratio.*/
-	const double shieldedHelionToProtonMagneticMomentRatioUncertainty =				0.0000000092;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_p} \ (1)\f$ Shielded helion to proton magnetic moment ratio.*/
-	const double shieldedHelionToShieldedProtonMagneticMomentRatioUncertainty =		0.0000000033;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu'_p} \ (1)\f$ Shielded helion to shielded proton magnetic moment ratio.*/
+	const double shieldedHelionGyromagneticRatioUncertainty =						0.000000027e8;				/**< \f$\gamma'_{^3\textrm{He}} \ (\frac{rad Hz}{T})\f$ Uncertainty in shielded helion gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionGyromagneticRatioOver2PiUncertainty =				0.00000043;					/**< \f$\frac{\gamma'_{^3\textrm{He}}}{2 \pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in shielded helion gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionMagneticMomentUncertainty =							0.000000014e-26;			/**< \f$\mu'_{^3\textrm{He}} \ (\frac{J}{T})\f$ Uncertainty in shielded helion magnetic moment in joules per tesla.*/
+	const double shieldedHelionMagneticMomentToBohrMagnetonRatioUncertainty =		0.000000014e-3;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_B} \ (1)\f$ Uncertainty in shielded helion magnetic moment to Bohr magneton ratio.*/
+	const double shieldedHelionMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000025;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_N} \ (1)\f$ Uncertainty in shielded helion magnetic moment to nuclear magneton ratio.*/
+	const double shieldedHelionToProtonMagneticMomentRatioUncertainty =				0.0000000092;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_p} \ (1)\f$ Uncertainty in shielded helion to proton magnetic moment ratio.*/
+	const double shieldedHelionToShieldedProtonMagneticMomentRatioUncertainty =		0.0000000033;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu'_p} \ (1)\f$ Uncertainty in shielded helion to shielded proton magnetic moment ratio.*/
 	#endif  
 	/// @}
 	
@@ -962,17 +962,17 @@ namespace NISTConst
 	const double shieldedProtonMagneticMomentToNuclearMagnetonRatio =				2.792775600;				/**< \f$\frac{\mu'_p}{\mu_N} \ (1)\f$ Shielded proton magnetic moment to nuclear magneton ratio.*/
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double shieldedProtonGyromagneticRatioUncertainty =						0.000000033e8;				/**< \f$\gamma'_p \ (\frac{rad Hz}{T})\f$ Shielded proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double shieldedProtonGyromagneticRatioOver2PiUncertainty =				0.00000053;					/**< \f$\frac{\gamma'_p}{2 \pi} \ (\frac{rad MHz}{T})\f$ Shielded proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
-	const double shieldedProtonMagneticMomentUncertainty =							0.000000018e-26;			/**< \f$\mu'_p \ (\frac{J}{T})\f$ Shielded proton magnetic moment in joules per tesla.*/
-	const double shieldedProtonMagneticMomentToBohrMagnetonRatioUncertainty =		0.000000017e-3;				/**< \f$\frac{\mu'_p}{\mu_B} \ (1)\f$ Shielded proton magnetic moment to Bohr magneton ratio.*/
-	const double shieldedProtonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000030;				/**< \f$\frac{\mu'_p}{\mu_N} \ (1)\f$ Shielded proton magnetic moment to nuclear magneton ratio.*/
+	const double shieldedProtonGyromagneticRatioUncertainty =						0.000000033e8;				/**< \f$\gamma'_p \ (\frac{rad Hz}{T})\f$ Uncertainty in shielded proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonGyromagneticRatioOver2PiUncertainty =				0.00000053;					/**< \f$\frac{\gamma'_p}{2 \pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in shielded proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonMagneticMomentUncertainty =							0.000000018e-26;			/**< \f$\mu'_p \ (\frac{J}{T})\f$ Uncertainty in shielded proton magnetic moment in joules per tesla.*/
+	const double shieldedProtonMagneticMomentToBohrMagnetonRatioUncertainty =		0.000000017e-3;				/**< \f$\frac{\mu'_p}{\mu_B} \ (1)\f$ Uncertainty in shielded proton magnetic moment to Bohr magneton ratio.*/
+	const double shieldedProtonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000030;				/**< \f$\frac{\mu'_p}{\mu_N} \ (1)\f$ Uncertainty in shielded proton magnetic moment to nuclear magneton ratio.*/
 	#endif  
 	/// @}
         
-	const double speed of light in vacuum                                    299 792 458              (exact)                  m s^-1/**< \f$ \ ()\f$ .*/
+	const double speedOfLightInVacuum =												299792458.0;				/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double speedOfLightInVacuumUncertainty =									0.0;						/**< \f$c \ (\frac{m}{s})\f$ Uncertainty in speed of light in vacuum in meters per second. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 	
@@ -1108,6 +1108,9 @@ namespace NISTConst
 
 
 /*
+speed of light
+c
+
 common names characteristic impedance of vacuum z0
 e0
 */
