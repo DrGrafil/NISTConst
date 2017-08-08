@@ -909,7 +909,7 @@ namespace NISTConst
 	
 	/// @addtogroup QuantumOfCirculation 
 	/// @{   
-	const double quantum of circulation                                      3.636 947 5486e-4       0.0000000017e-4       m^2 s^-1/**< \f$ \ ()\f$ .*/
+	const double quantum of circulation                                      3.636 947 5486e-4       0.0000000017e-4       m^2 s^-1/**< \f$\frac{h}{2 m_e} \ (\frac{m^2}{s})\f$ quantum of circulation in meters squared per second.*/
 	const double quantum of circulation times 2                              7.273 895 0972e-4       0.0000000033e-4       m^2 s^-1/**< \f$ \ ()\f$ .*/
 	#ifdef NISTCONST_UNCERTAINTY
 	
@@ -918,12 +918,15 @@ namespace NISTConst
 	
 	/// @addtogroup RydbergConstant
 	/// @{
-	const double Rydberg constant                                            10 973 731.568 508       0.000065                m^-1/**< \f$ \ ()\f$ .*/
-	const double Rydberg constant times c in Hz                              3.289 841 960 355 e15    0.000000000019 e15    Hz/**< \f$ \ ()\f$ .*/
-	const double Rydberg constant times hc in eV                             13.605 693 009           0.000000084            eV/**< \f$ \ ()\f$ .*/
-	const double Rydberg constant times hc in J                              2.179 872 325e-18       0.000000027e-18       J/**< \f$ \ ()\f$ .*/
+	const double RydbergConstant =													10973731.568508;			/**< \f$R_\infty \ \ (\frac{1}{m})\f$ Rydberg constant in inverse meters.*/
+	const double RydbergConstantTimescInHz =										3.289841960355e15;			/**< \f$R_\infty c \ (Hz)\f$ Rydberg constant times c in hertz.*/
+	const double RydbergConstantTimeshcIneV =										13.605693009;				/**< \f$R_\infty hc \ (eV)\f$ Rydberg constant times hc in electron volts.*/
+	const double RydbergConstantTimeshcInJ =										2.179872325e-18;			/**< \f$R_\infty hc \ (J)\f$ Rydberg constant times hc in joules.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double RydbergConstantUncertainty =										0.000065;					/**< \f$R_\infty \ \ (\frac{1}{m})\f$ Uncertainty in Rydberg constant in inverse meters.*/
+	const double RydbergConstantTimescInHzUncertainty =								0.000000000019e15;			/**< \f$R_\infty c \ (Hz)\f$ Uncertainty in Rydberg constant times c in hertz.*/
+	const double RydbergConstantTimeshcIneVUncertainty =							0.000000084;				/**< \f$R_\infty hc \ (eV)\f$ Uncertainty in Rydberg constant times hc in electron volts.*/
+	const double RydbergConstantTimeshcInJUncertainty =								0.000000027e-18;			/**< \f$R_\infty hc \ (J)\f$ Uncertainty in Rydberg constant times hc in joules.*/
 	#endif  
 	/// @}
 	
