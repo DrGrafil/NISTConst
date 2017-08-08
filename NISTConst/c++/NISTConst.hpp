@@ -929,10 +929,11 @@ namespace NISTConst
 	
 	/// @addtogroup SackurTetrodeConstant
 	/// @{
-	const double Sackur-Tetrode constant (1 K, 100 kPa)                      -1.151 7084              0.0000014               /**< \f$ \ ()\f$ .*/
-	const double Sackur-Tetrode constant (1 K, 101.325 kPa)                  -1.164 8714              0.0000014               /**< \f$ \ ()\f$ .*/
+	const double SackurTetrodeConstant =											-1.1517084;					/**< \f$\frac{S_0}{R} \ (1)\f$ Sackur-Tetrode constant at 1 K and 100 kPa.*/
+	const double SackurTetrodeConstantatm =											-1.1648714;					/**< \f$\frac{S_0}{R} \ (1)\f$ Sackur-Tetrode constant at 1 K and 101.325 kPa (1atm).*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double SackurTetrodeConstantUncertainty =									0.0000014;					/**< \f$\frac{S_0}{R} \ (1)\f$ Uncertainty in Sackur-Tetrode constant at 1 K and 100 kPa.*/
+	const double SackurTetrodeConstantatmUncertainty =								0.0000014;					/**< \f$\frac{S_0}{R} \ (1)\f$ Uncertainty in Sackur-Tetrode constant at 1 K and 101.325 kPa (1atm).*/
 	#endif  
 	/// @}
 	
