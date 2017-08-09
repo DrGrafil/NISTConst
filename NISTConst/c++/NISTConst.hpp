@@ -872,19 +872,19 @@ namespace NISTConst
 	
 	/// @addtogroup Silicon
 	/// @{
-	const double latticeParameterOfSilicon =										543.1020504e-12;			/**< \f$a \ (m)\f$ lattice parameter of silicon in meters.*/ 
+	const double latticeParameterOfSilicon =										543.1020504e-12;			/**< \f$a \ (m)\f$ Lattice parameter of silicon in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	const double latticeParameterOfSiliconUncertainty =								0.0000089e-12;				/**< \f$a \ (m)\f$ Uncertainty in lattice parameter of silicon in meters.*/ 
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup LoschmidtConstant
 	/// @{
-	const double Loschmidt constant (273.15 K, 100 kPa)                      2.651 6467 e25           0.0000015 e25           m^-3/**< \f$ \ ()\f$ .*/ 
-	const double Loschmidt constant (273.15 K, 101.325 kPa)                  2.686 7811 e25           0.0000015 e25           m^-3/**< \f$ \ ()\f$ .*/ 
-	
+	const double LoschmidtConstant =												2.6516467e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant (273.15 K, 100 kPa) in inverse meters cubed.*/ 
+	const double LoschmidtConstantatm =												2.6867811e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant (273.15 K, 101.325 kPa) in inverse meters cubed.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double LoschmidtConstant =												0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant (273.15 K, 100 kPa) in inverse meters cubed.*/ 
+	const double LoschmidtConstantatm =												0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant (273.15 K, 101.325 kPa) in inverse meters cubed.*/ 
 	#endif  
 	/// @}
 	
@@ -920,8 +920,8 @@ namespace NISTConst
 	
 	/// @addtogroup 
 	/// @{
-	const double molar volume of ideal gas (273.15 K, 100 kPa)               22.710947e-3;           0.000013e-3;            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double molar volume of ideal gas (273.15 K, 101.325 kPa)           22.413962e-3;           0.000013e-3;            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molarVolumeOfIdealGas =             22.710947e-3;           0.000013e-3;            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molarVolumeOfIdealGasatm =            22.413962e-3;           0.000013e-3;            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	
 	#endif  
