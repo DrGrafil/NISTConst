@@ -7,5 +7,5 @@ var group___conversion_factors =
     [ "inverse meter", "group___inverse_meter.html", "group___inverse_meter" ],
     [ "Joule", "group___joule.html", "group___joule" ],
     [ "Kelvin", "group___kelvin.html", "group___kelvin" ],
-    [ "Kilogram", "group___kilogram.html", null ]
+    [ "Kilogram", "group___kilogram.html", "group___kilogram" ]
 ];

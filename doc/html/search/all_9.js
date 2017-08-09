@@ -1,7 +1,7 @@
 var searchData=
 [
   ['josephson_20constant',['Josephson constant',['../group___conventional_josephson_constant.html',1,'']]],
-  ['josephson_20constant',['Josephson constant',['../group___josephson_constant.html',1,'']]],
+  ['josephsonconstant',['JosephsonConstant',['../group___josephson_constant.html#gae9f3553a6a6c5eed3df61ad33277cab8',1,'NISTConst::JosephsonConstant()'],['../group___josephson_constant.html',1,'(Global Namespace)']]],
   ['joule',['Joule',['../group___joule.html',1,'']]],
   ['jouletoatomicmassunit',['jouleToAtomicMassUnit',['../group___joule.html#ga6a8cba6b834ee62ab61671208b1ae9ee',1,'NISTConst']]],
   ['jouletoelectronvolt',['jouleToElectronVolt',['../group___joule.html#ga08ffcdfd701ba898a91b0cbdde4d0e2d',1,'NISTConst']]],

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['josephsonconstant',['JosephsonConstant',['../group___josephson_constant.html#gae9f3553a6a6c5eed3df61ad33277cab8',1,'NISTConst']]],
   ['jouletoatomicmassunit',['jouleToAtomicMassUnit',['../group___joule.html#ga6a8cba6b834ee62ab61671208b1ae9ee',1,'NISTConst']]],
   ['jouletoelectronvolt',['jouleToElectronVolt',['../group___joule.html#ga08ffcdfd701ba898a91b0cbdde4d0e2d',1,'NISTConst']]],
   ['jouletohartree',['jouleToHartree',['../group___joule.html#gac067d2d31bf56c3abe63559dac6c00d7',1,'NISTConst']]],

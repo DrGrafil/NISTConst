@@ -9,5 +9,6 @@ var searchData=
   ['inversemetertohertz',['inverseMeterToHertz',['../group___inverse_meter.html#ga5743c27316774c4f065336d0a016508e',1,'NISTConst']]],
   ['inversemetertojoule',['inverseMeterToJoule',['../group___inverse_meter.html#gaa927232a822dccc33f7c56ac002aff52',1,'NISTConst']]],
   ['inversemetertokelvin',['inverseMeterToKelvin',['../group___inverse_meter.html#gaf5a61f53f6757db329df597b76b2df69',1,'NISTConst']]],
-  ['inversemetertokilogram',['inverseMeterToKilogram',['../group___inverse_meter.html#ga6b5807b2161fa29684e4862e575b9102',1,'NISTConst']]]
+  ['inversemetertokilogram',['inverseMeterToKilogram',['../group___inverse_meter.html#ga6b5807b2161fa29684e4862e575b9102',1,'NISTConst']]],
+  ['inverseofconductancequantum',['inverseOfConductanceQuantum',['../group___conductance_quantum.html#ga39f726a47f146a434d7fca49fc2aeb30',1,'NISTConst']]]
 ];
