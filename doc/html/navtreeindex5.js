@@ -1,5 +1,7 @@
 var NAVTREEINDEX5 =
 {
+"group___planck_constant.html#gaf490152b8477c6ead134e42e76753f64":[1,0,0,4,9],
+"group___planck_length.html":[1,0,0,5],
 "group___planck_length.html#ga1bc5c33e67f9810e7505b30076df5ca3":[1,0,0,5,0],
 "group___planck_length.html#ga2d3d3a738fb656be716e3acf32fdc7d5":[1,0,0,5,1],
 "group___planck_mass.html":[1,0,0,6],

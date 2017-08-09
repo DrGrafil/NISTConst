@@ -73,6 +73,7 @@ var searchData=
   ['electronvolttokelvinuncertainty',['electronVoltToKelvinUncertainty',['../group___electron_volt.html#ga6754c9f090abf4bff80621978bf85eb1',1,'NISTConst']]],
   ['electronvolttokilogram',['electronVoltToKilogram',['../group___electron_volt.html#ga21481a673cb040e04f7f8f95581ece0c',1,'NISTConst']]],
   ['electronvolttokilogramuncertainty',['electronVoltToKilogramUncertainty',['../group___electron_volt.html#ga77aec1f5b68dd74739fe268fa4362a85',1,'NISTConst']]],
+  ['electronvoltuncertainty',['electronVoltUncertainty',['../group___electron_volt_unit.html#ga2318526ee8cb14064a4a45806fd8cb0c',1,'NISTConst']]],
   ['electron_20volt_20unit',['Electron Volt unit',['../group___electron_volt_unit.html',1,'']]],
   ['elementarycharge',['elementaryCharge',['../group___elementary_charge.html#gaaa025a77a5281c83628ff8cb46f8038f',1,'NISTConst::elementaryCharge()'],['../group___elementary_charge.html',1,'(Global Namespace)']]],
   ['elementarychargeoverh',['elementaryChargeOverh',['../group___elementary_charge.html#ga262dea92054df909a97626e3c804f1b4',1,'NISTConst']]],

@@ -1,5 +1,6 @@
 var NAVTREEINDEX3 =
 {
+"group___atomic_unit.html#gaa43ceaed22f3b69aee64d117cae645fb":[1,0,5,0,0],
 "group___atomic_unit.html#gaa9459757651cf86d89e722db9911b0e1":[1,0,5,0,37],
 "group___atomic_unit.html#gaaf4c9b5c25a5e1bee2f65c8a82e0ee63":[1,0,5,0,32],
 "group___atomic_unit.html#gab460c44de9b3fd957cd959cce3545631":[1,0,5,0,16],
@@ -167,6 +168,7 @@ var NAVTREEINDEX3 =
 "group___electron_volt.html#gabd56c1195e7ce2bb9c314e88b43e30ab":[1,0,6,1,0],
 "group___electron_volt.html#gae80c1242d33bf681a09a87d20cd4162e":[1,0,6,1,4],
 "group___electron_volt_unit.html":[1,0,5,1],
+"group___electron_volt_unit.html#ga2318526ee8cb14064a4a45806fd8cb0c":[1,0,5,1,1],
 "group___electron_volt_unit.html#ga24c6771adb5c4de68575b1a77f0b2415":[1,0,5,1,0],
 "group___elementary_charge.html":[1,0,1,2],
 "group___elementary_charge.html#ga262dea92054df909a97626e3c804f1b4":[1,0,1,2,1],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "group___helion.html#gac36ce0665418a2b628ca7c28c8887d2b":[1,0,2,8,10],
 "group___helion.html#gac48304d45406c207fbadeca604d5c71a":[1,0,2,8,27],
 "group___helion.html#gac7da5201f92f47f4ca2310ae1c9f4fb6":[1,0,2,8,18],
-"group___helion.html#gad5ae82d7c587f925f7c4fcf4ab8415cf":[1,0,2,8,17],
-"group___helion.html#gae01ffe6f0fd72200ee03047a410823d4":[1,0,2,8,9],
-"group___helion.html#gae3bf1eccb33e00a6da688959fd99bbb3":[1,0,2,8,29]
+"group___helion.html#gad5ae82d7c587f925f7c4fcf4ab8415cf":[1,0,2,8,17]
 };

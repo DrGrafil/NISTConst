@@ -39,7 +39,7 @@ var searchData=
   ['atomicmassunittokelvinuncertainty',['atomicMassUnitToKelvinUncertainty',['../group___atomic_mass_unit.html#ga124459785d7b4bcbc5a97ed591d859ae',1,'NISTConst']]],
   ['atomicmassunittokilogram',['atomicMassUnitToKilogram',['../group___atomic_mass_unit.html#gafdd40d93803d15e1ff887dc12c49ca99',1,'NISTConst']]],
   ['atomicmassunittokilogramuncertainty',['atomicMassUnitToKilogramUncertainty',['../group___atomic_mass_unit.html#ga8726643b734abfa2cc6c41b98f59f8c2',1,'NISTConst']]],
-  ['atomic_20units',['atomic units',['../group___atomic_unit.html',1,'']]],
+  ['atomic_20units',['Atomic units',['../group___atomic_unit.html',1,'']]],
   ['atomicunitof1sthyperpolarizability',['atomicUnitOf1stHyperpolarizability',['../group___atomic_unit.html#gaa43ceaed22f3b69aee64d117cae645fb',1,'NISTConst']]],
   ['atomicunitof1sthyperpolarizabilityuncertainty',['atomicUnitOf1stHyperpolarizabilityUncertainty',['../group___atomic_unit.html#ga6763b09c4e925292e6a3a22b93a53abd',1,'NISTConst']]],
   ['atomicunitof2ndhyperpolarizability',['atomicUnitOf2ndHyperpolarizability',['../group___atomic_unit.html#ga55b22fa50aa069b98aa1bcb050206a8e',1,'NISTConst']]],

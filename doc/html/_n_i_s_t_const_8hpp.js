@@ -219,6 +219,7 @@ var _n_i_s_t_const_8hpp =
     [ "electronVoltToKelvinUncertainty", "_n_i_s_t_const_8hpp.html#ga6754c9f090abf4bff80621978bf85eb1", null ],
     [ "electronVoltToKilogram", "_n_i_s_t_const_8hpp.html#ga21481a673cb040e04f7f8f95581ece0c", null ],
     [ "electronVoltToKilogramUncertainty", "_n_i_s_t_const_8hpp.html#ga77aec1f5b68dd74739fe268fa4362a85", null ],
+    [ "electronVoltUncertainty", "_n_i_s_t_const_8hpp.html#ga2318526ee8cb14064a4a45806fd8cb0c", null ],
     [ "elementaryCharge", "_n_i_s_t_const_8hpp.html#gaaa025a77a5281c83628ff8cb46f8038f", null ],
     [ "elementaryChargeOverh", "_n_i_s_t_const_8hpp.html#ga262dea92054df909a97626e3c804f1b4", null ],
     [ "elementaryChargeOverhUncertainty", "_n_i_s_t_const_8hpp.html#gadc450d412ab46877fee4e29d8ccf7ce3", null ],

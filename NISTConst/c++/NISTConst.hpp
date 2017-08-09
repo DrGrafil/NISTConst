@@ -214,7 +214,7 @@
 /// @defgroup Non-SI Non-SI units
 /// @ingroup NISTConst
 
-/// 	@defgroup AtomicUnit atomic units
+/// 	@defgroup AtomicUnit Atomic units
 /// 	@ingroup Non-SI
 
 /// 	@defgroup ElectronVoltUnit Electron Volt unit
@@ -347,54 +347,54 @@ namespace NISTConst
 	
 	/// @addtogroup AtomicUnit
 	/// @{
-	const double atomicUnitOf1stHyperpolarizability =								3.206361329e-53;			/**< \f$\frac{e^3 a_0^3}{E_h^2} \ (\frac{C^3 m^3}{J^2})\f$ Atomic unit of 1st hyperpolarizability.*/
-	const double atomicUnitOf2ndHyperpolarizability =								6.235380085e-65;			/**< \f$\frac{e^4 a_0^4}{E_h^3} \ (\frac{C^4 m^4}{J^3})\f$ Atomic unit of 2nd hyperpolarizability.*/
-	const double atomicUnitOfAction =												1.054571800e-34;			/**< \f$\hbar \ (J s)\f$ Atomic unit of action.*/ 
-	const double atomicUnitOfCharge =												1.6021766208e-19;			/**< \f$e \ (C)\f$  Atomic unit of charge.*/ 
-	const double atomicUnitOfChargeDensity =										1.0812023770e12;			/**< \f$\frac{e}{a_0^3} \ (\frac{C}{m^3})\f$ Atomic unit of charge density.*/ 
-	const double atomicUnitOfCurrent =												6.623618183e-3;				/**< \f$\frac{e E_h}{\hbar} \ (A)\f$ Atomic unit of current.*/ 
-	const double atomicUnitOfElectricDipoleMoment =									8.478353552e-30;			/**< \f$e a_0 \ (C m)\f$ Atomic unit of electric dipole moment. */ 
-	const double atomicUnitOfElectricField =										5.142206707e11;				/**< \f$\frac{E_h}{e a_0} \ (\frac{V}{m})\f$ Atomic unit of electric field.*/ 
-	const double atomicUnitOfElectricFieldGradient =								9.717362356e21;				/**< \f$\frac{E_h}{e a_0^2}\ (\frac{V}{m^2})\f$ Atomic unit of electric field gradient.*/ 
-	const double atomicUnitOfElectricPolarizability =								1.6487772731e-41;			/**< \f$\frac{e^2 a_0^2}{E_h} \ (\frac{C^2 m^2}{J})\f$ Atomic unit of electric polarizability. */ 
-	const double atomicUnitOfElectricPotential =									27.21138602;				/**< \f$ \frac{E_h}{e}\ (V)\f$ Atomic unit of electric potential.*/ 
-	const double atomicUnitOfElectricQuadrupoleMoment =								4.486551484e-40;			/**< \f$e a_0^2 \ (C m^2)\f$ Atomic unit of electric quadrupole moment.*/ 
-	const double atomicUnitOfEnergy =												4.359744650e-18;			/**< \f$E_h \ (J)\f$ Atomic unit of energy.*/ 
-	const double atomicUnitOfForce =												8.23872336e-8;				/**< \f$\frac{E_h}{a_0} \ (N)\f$ Atomic unit of force.*/ 
-	const double atomicUnitOfLength =												0.52917721067e-10;			/**< \f$a_0 \ (m)\f$ Atomic unit of length.*/ 
-	const double atomicUnitOfMagneticDipoleMoment =									1.854801999e-23;			/**< \f$\frac{\hbar e}{m_e} \ (\frac{J}{T})\f$ Atomic unit of magnetic dipole moment.*/ 
-	const double atomicUnitOfMagneticFluxDensity =									2.350517550e5;				/**< \f$\frac{\hbar}{e a_0^2} \ (T)\f$ Atomic unit of magnetic flux density.*/ 
-	const double atomicUnitOfMagnetizability =										7.8910365886e-29;			/**< \f$\frac{e^2a_0^2}{m_e} \ (\frac{J}{T^2})\f$ Atomic unit of magnetizability.*/ 
-	const double atomicUnitOfMass =													9.10938356e-31;				/**< \f$m_e \ (kg)\f$ Atomic unit of mass.*/ 
-	const double atomicUnitOfMomentum =												1.992851882e-24;			/**< \f$\frac{\hbar}{a_0} \ (\frac{kg m}{s})\f$ Atomic unit of momentum.*/ 
-	const double atomicUnitOfPermittivity =											1.112650056e-10;			/**< \f$\frac{e^2}{a_0 E_h} \ (\frac{F}{m})\f$ Atomic unit of permittivity. */ 
-	const double atomicUnitOfTime =													2.418884326509e-17;			/**< \f$\frac{\hbar}{E_h} \ (s)\f$ Atomic unit of time.*/ 
-	const double atomicUnitOfVelocity =												2.18769126277e6;			/**< \f$\frac{a_0 E_h}{\hbar} \ (\frac{m}{s})\f$ Atomic unit of velocity.*/ 
+	const double atomicUnitOf1stHyperpolarizability =								3.206361329e-53;			/**< \f$\frac{e^3 a_0^3}{E_h^2} \ (\frac{C^3 m^3}{J^2})\f$ Atomic unit of 1st hyperpolarizability in coulombs cubed meter cubed per joules squared.*/
+	const double atomicUnitOf2ndHyperpolarizability =								6.235380085e-65;			/**< \f$\frac{e^4 a_0^4}{E_h^3} \ (\frac{C^4 m^4}{J^3})\f$ Atomic unit of 2nd hyperpolarizability in coulombs to the 4th meter to the 4th per joules cubed.*/
+	const double atomicUnitOfAction =												1.054571800e-34;			/**< \f$\hbar \ (J\ s)\f$ Atomic unit of action in joules second.*/ 
+	const double atomicUnitOfCharge =												1.6021766208e-19;			/**< \f$e \ (C)\f$  Atomic unit of charge in coulombs.*/ 
+	const double atomicUnitOfChargeDensity =										1.0812023770e12;			/**< \f$\frac{e}{a_0^3} \ (\frac{C}{m^3})\f$ Atomic unit of charge density in coulombs per meter cubed.*/ 
+	const double atomicUnitOfCurrent =												6.623618183e-3;				/**< \f$\frac{e E_h}{\hbar} \ (A)\f$ Atomic unit of current in amperes.*/ 
+	const double atomicUnitOfElectricDipoleMoment =									8.478353552e-30;			/**< \f$e a_0 \ (C\ m)\f$ Atomic unit of electric dipole moment in coulombs meter. */ 
+	const double atomicUnitOfElectricField =										5.142206707e11;				/**< \f$\frac{E_h}{e a_0} \ (\frac{V}{m})\f$ Atomic unit of electric field in volts per meter.*/ 
+	const double atomicUnitOfElectricFieldGradient =								9.717362356e21;				/**< \f$\frac{E_h}{e a_0^2}\ (\frac{V}{m^2})\f$ Atomic unit of electric field gradient in volts per meter squared.*/ 
+	const double atomicUnitOfElectricPolarizability =								1.6487772731e-41;			/**< \f$\frac{e^2 a_0^2}{E_h} \ (\frac{C^2 m^2}{J})\f$ Atomic unit of electric polarizability in coulombs squared meter squared per joule. */ 
+	const double atomicUnitOfElectricPotential =									27.21138602;				/**< \f$ \frac{E_h}{e}\ (V)\f$ Atomic unit of electric potential in volts.*/ 
+	const double atomicUnitOfElectricQuadrupoleMoment =								4.486551484e-40;			/**< \f$e a_0^2 \ (C\ m^2)\f$ Atomic unit of electric quadrupole moment in coulombs meter squared.*/ 
+	const double atomicUnitOfEnergy =												4.359744650e-18;			/**< \f$E_h \ (J)\f$ Atomic unit of energy in joules.*/ 
+	const double atomicUnitOfForce =												8.23872336e-8;				/**< \f$\frac{E_h}{a_0} \ (N)\f$ Atomic unit of force in newtons.*/ 
+	const double atomicUnitOfLength =												0.52917721067e-10;			/**< \f$a_0 \ (m)\f$ Atomic unit of lengthin meters.*/ 
+	const double atomicUnitOfMagneticDipoleMoment =									1.854801999e-23;			/**< \f$\frac{\hbar e}{m_e} \ (\frac{J}{T})\f$ Atomic unit of magnetic dipole moment in joules per tesla.*/ 
+	const double atomicUnitOfMagneticFluxDensity =									2.350517550e5;				/**< \f$\frac{\hbar}{e a_0^2} \ (T)\f$ Atomic unit of magnetic flux density in tesla.*/ 
+	const double atomicUnitOfMagnetizability =										7.8910365886e-29;			/**< \f$\frac{e^2a_0^2}{m_e} \ (\frac{J}{T^2})\f$ Atomic unit of magnetizability in joules per tesla squared.*/ 
+	const double atomicUnitOfMass =													9.10938356e-31;				/**< \f$m_e \ (kg)\f$ Atomic unit of mass in kilograms.*/ 
+	const double atomicUnitOfMomentum =												1.992851882e-24;			/**< \f$\frac{\hbar}{a_0} \ (\frac{kg\ m}{s})\f$ Atomic unit of momentum in kilograms meter per second.*/ 
+	const double atomicUnitOfPermittivity =											1.112650056e-10;			/**< \f$\frac{e^2}{a_0 E_h} \ (\frac{F}{m})\f$ Atomic unit of permittivity in farads per meter. */ 
+	const double atomicUnitOfTime =													2.418884326509e-17;			/**< \f$\frac{\hbar}{E_h} \ (s)\f$ Atomic unit of time in seconds.*/ 
+	const double atomicUnitOfVelocity =												2.18769126277e6;			/**< \f$\frac{a_0 E_h}{\hbar} \ (\frac{m}{s})\f$ Atomic unit of velocity in meters per second.*/ 
 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double atomicUnitOf1stHyperpolarizabilityUncertainty =					0.000000020e-53;			/**< \f$\frac{e^3 a_0^3}{E_h^2} \ (\frac{C^3 m^3}{J^2})\f$ Uncertainty in atomic unit of 1st hyperpolarizability.*/
-	const double atomicUnitOf2ndHyperpolarizabilityUncertainty =					0.000000077e-65;			/**< \f$\frac{e^4 a_0^4}{E_h^3} \ (\frac{C^4 m^4}{J^3})\f$ Uncertainty in atomic unit of 2nd hyperpolarizability.*/
-	const double atomicUnitOfActionUncertainty =									0.000000013e-34;			/**< \f$\hbar \ (J s)\f$ Uncertainty in atomic unit of action.*/ 
-	const double atomicUnitOfChargeUncertainty =									0.0000000098e-19;			/**< \f$e \ (C)\f$ Uncertainty in atomic unit of charge.*/ 
-	const double atomicUnitOfChargeDensityUncertainty =								0.0000000067e12;			/**< \f$\frac{e}{a_0^3} \ (\frac{C}{m^3})\f$ Uncertainty in atomic unit of charge density.*/ 
-	const double atomicUnitOfCurrentUncertainty =									0.000000041e-3;				/**< \f$ \frac{e E_h}{\hbar} \ (A)\f$ Uncertainty in atomic unit of current.*/ 
-	const double atomicUnitOfElectricDipoleMomentUncertainty =						0.000000052e-30;			/**< \f$ e a_0 \ (C m)\f$ Uncertainty in atomic unit of electric dipole moment. */ 
-	const double atomicUnitOfElectricFieldUncertainty = 							0.000000032e11;				/**< \f$\frac{E_h}{e a_0} \ (\frac{V}{m})\f$ Uncertainty in atomic unit of electric field.*/ 
-	const double atomicUnitOfElectricFieldGradientUncertainty =						0.000000060e21;				/**< \f$\frac{E_h}{e a_0^2}\ (\frac{V}{m^2})\f$ Uncertainty in atomic unit of electric field gradient.*/ 
-	const double atomicUnitOfElectricPolarizabilityUncertainty =					0.0000000011e-41;			/**< \f$\frac{e^2 a_0^2}{E_h} \ (\frac{C^2 m^2}{J})\f$ Uncertainty in atomic unit of electric polarizability. */ 
-	const double atomicUnitOfElectricPotentialUncertainty =							0.00000017;					/**< \f$ \frac{E_h}{e}\ (V)\f$ Uncertainty in atomic unit of electric potential.*/ 
-	const double atomicUnitOfElectricQuadrupoleMomentUncertainty =					0.000000028e-40;			/**< \f$e a_0^2 \ (C m^2)\f$ Uncertainty in atomic unit of electric quadrupole moment.*/ 
-	const double atomicUnitOfEnergyUncertainty =									0.000000054e-18;			/**< \f$E_h \ (J)\f$ Uncertainty in atomic unit of energy.*/ 
-	const double atomicUnitOfForceUncertainty =										0.00000010e-8;				/**< \f$\frac{E_h}{a_0} \ (N)\f$ Uncertainty in atomic unit of force.*/ 
-	const double atomicUnitOfLengthUncertainty =									0.00000000012e-10;			/**< \f$a_0 \ (m)\f$ Uncertainty in atomic unit of length.*/ 
-	const double atomicUnitOfMagneticDipoleMomentUncertainty =						0.000000011e-23;			/**< \f$\frac{\hbar e}{m_e} \ (\frac{J}{T})\f$ Uncertainty in atomic unit of magnetic dipole moment.*/ 
-	const double atomicUnitOfMagneticFluxDensityUncertainty =						0.000000014e5;				/**< \f$\frac{\hbar}{e a_0^2} \ (T)\f$ Uncertainty in atomic unit of magnetic flux density.*/ 
-	const double atomicUnitOfMagnetizabilityUncertainty =							0.0000000090e-29;			/**< \f$\frac{e^2a_0^2}{m_e} \ (\frac{J}{T^2})\f$ Uncertainty in atomic unit of magnetizability.*/ 
-	const double atomicUnitOfMassUncertainty =										0.00000011e-31;				/**< \f$m_e \ (kg)\f$ Uncertainty in atomic unit of mass.*/ 
-	const double atomicUnitOfMomentumUncertainty =									0.000000024e-24;			/**< \f$\frac{\hbar}{a_0} \ (\frac{kg m}{s})\f$ Uncertainty in atomic unit of momentum.*/ 
-	const double atomicUnitOfPermittivityUncertainty =       		   	            0.0;						/**< \f$\frac{e^2}{a_0 E_h} \ (\frac{F}{m})\f$ Uncertainty in atomic unit of permittivity. Note should be 0.0 since it is a defined value.*/ 
-	const double atomicUnitOfTimeUncertainty =										0.000000000014e-17;			/**< \f$\frac{\hbar}{E_h} \ (s)\f$ Uncertainty in atomic unit of time.*/ 
-	const double atomicUnitOfVelocityUncertainty =									0.00000000050e6;			/**< \f$\frac{a_0 E_h}{\hbar} \ (\frac{m}{s})\f$ Uncertainty in atomic unit of velocity.*/ 
+	const double atomicUnitOf1stHyperpolarizabilityUncertainty =					0.000000020e-53;			/**< \f$\frac{e^3 a_0^3}{E_h^2} \ (\frac{C^3 m^3}{J^2})\f$ Uncertainty in atomic unit of 1st hyperpolarizability in coulombs cubed meter cubed per joules squared.*/
+	const double atomicUnitOf2ndHyperpolarizabilityUncertainty =					0.000000077e-65;			/**< \f$\frac{e^4 a_0^4}{E_h^3} \ (\frac{C^4 m^4}{J^3})\f$ Uncertainty in atomic unit of 2nd hyperpolarizability in coulombs to the 4th meter to the 4th per joules cubed.*/
+	const double atomicUnitOfActionUncertainty =									0.000000013e-34;			/**< \f$\hbar \ (J\ s)\f$ Uncertainty in atomic unit of action in joules second.*/ 
+	const double atomicUnitOfChargeUncertainty =									0.0000000098e-19;			/**< \f$e \ (C)\f$ Uncertainty in atomic unit of charge in coulombs.*/ 
+	const double atomicUnitOfChargeDensityUncertainty =								0.0000000067e12;			/**< \f$\frac{e}{a_0^3} \ (\frac{C}{m^3})\f$ Uncertainty in atomic unit of charge density in coulombs per meter cubed.*/ 
+	const double atomicUnitOfCurrentUncertainty =									0.000000041e-3;				/**< \f$ \frac{e E_h}{\hbar} \ (A)\f$ Uncertainty in atomic unit of current in amperes.*/ 
+	const double atomicUnitOfElectricDipoleMomentUncertainty =						0.000000052e-30;			/**< \f$ e a_0 \ (C\ m)\f$ Uncertainty in atomic unit of electric dipole moment in coulombs meter. */ 
+	const double atomicUnitOfElectricFieldUncertainty = 							0.000000032e11;				/**< \f$\frac{E_h}{e a_0} \ (\frac{V}{m})\f$ Uncertainty in atomic unit of electric field in volts per meter.*/ 
+	const double atomicUnitOfElectricFieldGradientUncertainty =						0.000000060e21;				/**< \f$\frac{E_h}{e a_0^2}\ (\frac{V}{m^2})\f$ Uncertainty in atomic unit of electric field gradient in volts per meter squared.*/ 
+	const double atomicUnitOfElectricPolarizabilityUncertainty =					0.0000000011e-41;			/**< \f$\frac{e^2 a_0^2}{E_h} \ (\frac{C^2 m^2}{J})\f$ Uncertainty in atomic unit of electric polarizability in coulombs squared meter squared per joule. */ 
+	const double atomicUnitOfElectricPotentialUncertainty =							0.00000017;					/**< \f$ \frac{E_h}{e}\ (V)\f$ Uncertainty in atomic unit of electric potential in volts.*/ 
+	const double atomicUnitOfElectricQuadrupoleMomentUncertainty =					0.000000028e-40;			/**< \f$e a_0^2 \ (C\ m^2)\f$ Uncertainty in atomic unit of electric quadrupole moment in coulombs meter squared.*/ 
+	const double atomicUnitOfEnergyUncertainty =									0.000000054e-18;			/**< \f$E_h \ (J)\f$ Uncertainty in atomic unit of energy in joules.*/ 
+	const double atomicUnitOfForceUncertainty =										0.00000010e-8;				/**< \f$\frac{E_h}{a_0} \ (N)\f$ Uncertainty in atomic unit of force in newtons.*/ 
+	const double atomicUnitOfLengthUncertainty =									0.00000000012e-10;			/**< \f$a_0 \ (m)\f$ Uncertainty in atomic unit of length in meters.*/ 
+	const double atomicUnitOfMagneticDipoleMomentUncertainty =						0.000000011e-23;			/**< \f$\frac{\hbar e}{m_e} \ (\frac{J}{T})\f$ Uncertainty in atomic unit of magnetic dipole moment in joules per tesla.*/ 
+	const double atomicUnitOfMagneticFluxDensityUncertainty =						0.000000014e5;				/**< \f$\frac{\hbar}{e a_0^2} \ (T)\f$ Uncertainty in atomic unit of magnetic flux density in tesla.*/ 
+	const double atomicUnitOfMagnetizabilityUncertainty =							0.0000000090e-29;			/**< \f$\frac{e^2a_0^2}{m_e} \ (\frac{J}{T^2})\f$ Uncertainty in atomic unit of magnetizability in joules per tesla squared.*/ 
+	const double atomicUnitOfMassUncertainty =										0.00000011e-31;				/**< \f$m_e \ (kg)\f$ Uncertainty in atomic unit of mass in kilograms.*/ 
+	const double atomicUnitOfMomentumUncertainty =									0.000000024e-24;			/**< \f$\frac{\hbar}{a_0} \ (\frac{kg m}{s})\f$ Uncertainty in atomic unit of momentum in kilograms meter per second.*/ 
+	const double atomicUnitOfPermittivityUncertainty =       		   	            0.0;						/**< \f$\frac{e^2}{a_0 E_h} \ (\frac{F}{m})\f$ Uncertainty in atomic unit of permittivity in farads per meter. Note should be 0.0 since it is a defined value.*/ 
+	const double atomicUnitOfTimeUncertainty =										0.000000000014e-17;			/**< \f$\frac{\hbar}{E_h} \ (s)\f$ Uncertainty in atomic unit of time in seconds.*/ 
+	const double atomicUnitOfVelocityUncertainty =									0.00000000050e6;			/**< \f$\frac{a_0 E_h}{\hbar} \ (\frac{m}{s})\f$ Uncertainty in atomic unit of velocity in meters per second.*/ 
 	#endif  
 	/// @}
 	
@@ -615,7 +615,7 @@ namespace NISTConst
 	/// @{
 	const double electronVolt =														1.6021766208e-19;			/**< \f$eV \ (J)\f$ Electron volt in joules.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double electronVolt =														0.0000000098e-19;			/**< \f$eV \ (J)\f$ Uncertainty in electron volt in joules.*/ 
+	const double electronVoltUncertainty =														0.0000000098e-19;			/**< \f$eV \ (J)\f$ Uncertainty in electron volt in joules.*/ 
 	#endif  
 	/// @}
 	
