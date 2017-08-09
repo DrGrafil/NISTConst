@@ -231,7 +231,7 @@
 /// @defgroup ConversionFactors Conversion factors
 /// @ingroup NISTConst
 
-/// 	@defgroup AtomicMassUnit Atomic mass unit
+/// 	@defgroup AtomicMassUnit Unified atomic mass unit
 /// 	@ingroup ConversionFactors
 
 /// 	@defgroup ElectronVolt Electron volt
@@ -326,21 +326,21 @@ namespace NISTConst
 	
 	/// @addtogroup AtomicMassUnit
 	/// @{
-	const double atomicMassUnitToElectronVolt =										931.4940954e6;				/**< \f$(1\ u)c^2 \ (eV)\f$ Atomic mass unit-electron volt relationship in electron volts.*/ 
-	const double atomicMassUnitToHartree =											3.4231776902e7;				/**< \f$(1\ u)c^2 \ (E_h)\f$ Atomic mass unit-hartree relationship in hartree.*/ 
-	const double atomicMassUnitToHertz =											2.2523427206e23;			/**< \f$\frac{(1\ u)c^2}{h} \ (Hz)\f$ Atomic mass unit-hertz relationship in hertz.*/ 
-	const double atomicMassUnitToInverseMeter =										7.5130066166e14;			/**< \f$\frac{(1\ u)c}{h} \ (\frac{1}{m})\f$ Atomic mass unit-inverse meter relationship in inverse meters.*/ 
-	const double atomicMassUnitToJoule =											1.492418062e-10;			/**< \f$(1\ u)c^2 \ (J)\f$ Atomic mass unit-joule relationship in joules.*/ 
-	const double atomicMassUnitToKelvin =											1.08095438e13;				/**< \f$\frac{(1\ u)c^2}{k} \ (K)\f$ Atomic mass unit-kelvin relationship in kelvin.*/ 
-	const double atomicMassUnitToKilogram =											1.660539040e-27;			/**< \f$1\ u\ (kg)\f$ Atomic mass unit-kilogram relationship in kilograms.*/ 
+	const double atomicMassUnitToElectronVolt =										931.4940954e6;				/**< \f$(1\ u)c^2 \ (eV)\f$ Unified atomic mass unit-electron volt relationship in electron volts.*/ 
+	const double atomicMassUnitToHartree =											3.4231776902e7;				/**< \f$(1\ u)c^2 \ (E_h)\f$ Unified atomic mass unit-hartree relationship in hartree.*/ 
+	const double atomicMassUnitToHertz =											2.2523427206e23;			/**< \f$\frac{(1\ u)c^2}{h} \ (Hz)\f$ Unified atomic mass unit-hertz relationship in hertz.*/ 
+	const double atomicMassUnitToInverseMeter =										7.5130066166e14;			/**< \f$\frac{(1\ u)c}{h} \ (\frac{1}{m})\f$ Unified atomic mass unit-inverse meter relationship in inverse meters.*/ 
+	const double atomicMassUnitToJoule =											1.492418062e-10;			/**< \f$(1\ u)c^2 \ (J)\f$ Unified atomic mass unit-joule relationship in joules.*/ 
+	const double atomicMassUnitToKelvin =											1.08095438e13;				/**< \f$\frac{(1\ u)c^2}{k} \ (K)\f$ Unified atomic mass unit-kelvin relationship in kelvin.*/ 
+	const double atomicMassUnitToKilogram =											1.660539040e-27;			/**< \f$1\ u\ (kg)\f$ Unified atomic mass unit-kilogram relationship in kilograms.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double atomicMassUnitToElectronVoltUncertainty =							0.0000057e6;				/**< \f$(1\ u)c^2 \ (eV)\f$ Uncertainty in atomic mass unit-electron volt relationship in electron volts.*/ 
-	const double atomicMassUnitToHartreeUncertainty =								0.0000000016e7;				/**< \f$(1\ u)c^2 \ (E_h)\f$ Uncertainty in atomic mass unit-hartree relationship in hartree.*/ 
-	const double atomicMassUnitToHertzUncertainty =									0.0000000010e23;			/**< \f$\frac{(1\ u)c^2}{h} \ (Hz)\f$ Uncertainty in atomic mass unit-hertz relationship in hertz.*/ 
-	const double atomicMassUnitToInverseMeterUncertainty =							0.0000000034e14;			/**< \f$\frac{(1\ u)c}{h} \ (\frac{1}{m})\f$ Uncertainty in atomic mass unit-inverse meter relationship in inverse meters.*/ 
-	const double atomicMassUnitToJouleUncertainty =									0.000000018e-10;			/**< \f$(1\ u)c^2 \ (J)\f$ Uncertainty in atomic mass unit-joule relationship in joules.*/ 
-	const double atomicMassUnitToKelvinUncertainty =								0.00000062e13;				/**< \f$\frac{(1\ u)c^2}{k} \ (K)\f$ Uncertainty in atomic mass unit-kelvin relationship in kelvin.*/ 
-	const double atomicMassUnitToKilogramUncertainty =								0.000000020e-27;			/**< \f$1\ u\ (kg)\f$ Uncertainty in atomic mass unit-kilogram relationship in kilograms.*/ 
+	const double atomicMassUnitToElectronVoltUncertainty =							0.0000057e6;				/**< \f$(1\ u)c^2 \ (eV)\f$ Uncertainty in unified atomic mass unit-electron volt relationship in electron volts.*/ 
+	const double atomicMassUnitToHartreeUncertainty =								0.0000000016e7;				/**< \f$(1\ u)c^2 \ (E_h)\f$ Uncertainty in unified atomic mass unit-hartree relationship in hartree.*/ 
+	const double atomicMassUnitToHertzUncertainty =									0.0000000010e23;			/**< \f$\frac{(1\ u)c^2}{h} \ (Hz)\f$ Uncertainty in unified atomic mass unit-hertz relationship in hertz.*/ 
+	const double atomicMassUnitToInverseMeterUncertainty =							0.0000000034e14;			/**< \f$\frac{(1\ u)c}{h} \ (\frac{1}{m})\f$ Uncertainty in unified atomic mass unit-inverse meter relationship in inverse meters.*/ 
+	const double atomicMassUnitToJouleUncertainty =									0.000000018e-10;			/**< \f$(1\ u)c^2 \ (J)\f$ Uncertainty in unified atomic mass unit-joule relationship in joules.*/ 
+	const double atomicMassUnitToKelvinUncertainty =								0.00000062e13;				/**< \f$\frac{(1\ u)c^2}{k} \ (K)\f$ Uncertainty in unified atomic mass unit-kelvin relationship in kelvin.*/ 
+	const double atomicMassUnitToKilogramUncertainty =								0.000000020e-27;			/**< \f$1\ u\ (kg)\f$ Uncertainty in unified atomic mass unit-kilogram relationship in kilograms.*/ 
 	#endif  
 	/// @}
 	
@@ -621,7 +621,7 @@ namespace NISTConst
 	
 	/// @addtogroup ElectronVolt
 	/// @{
-	const double electronVoltToAtomicMassUnit =										1.0735441105e-9;			/**< \f$\frac{(1\ eV)}{c^2}\ (u)\f$ Electron volt-atomic mass unit relationship .*/ 
+	const double electronVoltToAtomicMassUnit =										1.0735441105e-9;			/**< \f$\frac{(1\ eV)}{c^2}\ (u)\f$ Electron volt-unified atomic mass unit relationship .*/ 
 	const double electronVoltToHartree =											3.674932248e-2;				/**< \f$(1\ eV) \ (E_h)\f$ Electron volt-hartree relationship.*/ 
 	const double electronVoltToHertz =												2.417989262e14;				/**< \f$\frac{(1\ eV)}{h} \ (Hz)\f$ Electron volt-hertz relationship.*/ 
 	const double electronVoltToInverseMeter =										8.065544005e5;				/**< \f$\frac{(1\ eV)}{hc} \ (\frac{1}{m})\f$ Electron volt-inverse meter relationship.*/ 
@@ -630,7 +630,7 @@ namespace NISTConst
 	const double electronVoltToKilogram =											1.782661907e-36;			/**< \f$\frac{(1\ eV)}{c^2} \ (kg)\f$ Electron volt-kilogram relationship.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double electronVoltToAtomicMassUnitUncertainty =							0.0000000066e-9;			/**< \f$\frac{(1\ eV)}{c^2}\ (u)\f$ Uncertainty in electron volt-atomic mass unit relationship .*/ 
+	const double electronVoltToAtomicMassUnitUncertainty =							0.0000000066e-9;			/**< \f$\frac{(1\ eV)}{c^2}\ (u)\f$ Uncertainty in electron volt-unified atomic mass unit relationship .*/ 
 	const double electronVoltToHartreeUncertainty =									0.000000023e-2;				/**< \f$(1\ eV) \ (E_h)\f$ Uncertainty in electron volt-hartree relationship.*/ 
 	const double electronVoltToHertzUncertainty =									0.000000015e14;				/**< \f$\frac{(1\ eV)}{h} \ (Hz)\f$ Uncertainty in electron volt-hertz relationship.*/ 
 	const double electronVoltToInverseMeterUncertainty =							0.000000050e5;				/**< \f$\frac{(1\ eV)}{hc} \ (\frac{1}{m})\f$ Uncertainty in electron volt-inverse meter relationship.*/ 
@@ -698,7 +698,7 @@ namespace NISTConst
 	
 	/// @addtogroup Hartree
 	/// @{
-	const double hartreeToAtomicMassUnit =											2.9212623197e-8;			/**< \f$\frac{(1\ E_h)}{c^2} \ (u)\f$ Hartree-atomic mass unit relationship.*/ 
+	const double hartreeToAtomicMassUnit =											2.9212623197e-8;			/**< \f$\frac{(1\ E_h)}{c^2} \ (u)\f$ Hartree-unified atomic mass unit relationship.*/ 
 	const double hartreeToElectronVolt =											27.21138602;				/**< \f$(1\ E_h) \ (eV)\f$ Hartree-electron volt relationship .*/	
 	const double hartreeToHertz =													6.579683920711e15;			/**< \f$\frac{(1\ E_h)}{h} \ (Hz)\f$ Hartree-hertz relationship .*/ 
 	const double hartreeToInverseMeter =											2.194746313702e7;			/**< \f$\frac{(1\ E_h)}{hc} \ (\frac{1}{m})\f$ Hartree-inverse meter relationship.*/ 
@@ -706,7 +706,7 @@ namespace NISTConst
 	const double hartreeToKelvin =													3.1577513e5;				/**< \f$\frac{(1\ E_h)}{k} \ (K)\f$ Hartree-kelvin relationship .*/ 
 	const double hartreeToKilogram =												4.850870129e-35;			/**< \f$\frac{(1\ E_h)}{c^2} \ (kg)\f$ Hartree-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double hartreeToAtomicMassUnitUncertainty =								0.0000000013e-8;			/**< \f$\frac{(1\ E_h)}{c^2} \ (u)\f$ Uncertainty in hartree-atomic mass unit relationship.*/ 
+	const double hartreeToAtomicMassUnitUncertainty =								0.0000000013e-8;			/**< \f$\frac{(1\ E_h)}{c^2} \ (u)\f$ Uncertainty in hartree-unified atomic mass unit relationship.*/ 
 	const double hartreeToElectronVoltUncertainty =									0.00000017;					/**< \f$(1\ E_h) \ (eV)\f$ Uncertainty in hartree-electron volt relationship .*/	
 	const double hartreeToHertzUncertainty =										0.000000000039e15;			/**< \f$\frac{(1\ E_h)}{h} \ (Hz)\f$ Uncertainty in hartree-hertz relationship .*/ 
 	const double hartreeToInverseMeterUncertainty =									0.000000000013e7;			/**< \f$\frac{(1\ E_h)}{hc} \ (\frac{1}{m})\f$ Uncertainty in hartree-inverse meter relationship.*/ 
@@ -746,7 +746,7 @@ namespace NISTConst
 	
 	/// @addtogroup Hertz
 	/// @{
-	const double hertzToAtomicMassUnit =											4.4398216616e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ Hertz-atomic mass unit relationship.*/ 
+	const double hertzToAtomicMassUnit =											4.4398216616e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ Hertz-unified atomic mass unit relationship.*/ 
 	const double hertzToElectronVolt =												4.135667662e-15;			/**< \f$(1 Hz)h \ (eV)\f$ Hertz-electron volt relationship.*/ 
 	const double hertzToHartree =													1.5198298460088e-16;		/**< \f$(1 Hz)h \ (E_h)\f$ Hertz-hartree relationship.*/ 
 	const double hertzToInverseMeter =												3.335640951e-9;				/**< \f$\frac{(1 Hz)}{c} \ (\frac{1}{m})\f$ Hertz-inverse meter relationship.*/ 
@@ -754,10 +754,10 @@ namespace NISTConst
 	const double hertzToKelvin =													4.7992447e-11;				/**< \f$\frac{(1 Hz)h}{k} \ (K)\f$ Hertz-kelvin relationship.*/ 
 	const double hertzToKilogram =													7.372497201e-51;			/**< \f$\frac{(1 Hz)h}{c^2} \ (kg)\f$ Hertz-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double hertzToAtomicMassUnitUncertainty =									0.0000000020e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ Uncertainty in hertz-atomic mass unit relationship.*/ 
+	const double hertzToAtomicMassUnitUncertainty =									0.0000000020e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ Uncertainty in hertz-unified atomic mass unit relationship.*/ 
 	const double hertzToElectronVoltUncertainty =									0.000000025e-15;			/**< \f$(1 Hz)h \ (eV)\f$ Uncertainty in hertz-electron volt relationship.*/ 
 	const double hertzToHartreeUncertainty =										0.0000000000090e-16;		/**< \f$(1 Hz)h \ (E_h)\f$ Uncertainty in hertz-hartree relationship.*/ 
-	const double hertzToInverseMeterUncertainty =									0.0;						/**< \f$\frac{(1 Hz)}{c} \ (\frac{1}{m})\f$ Uncertainty in hertz-inverse meter relationship. Note should be 0.0 since it is a defined value in terms of \frac{1}{c}. */ 
+	const double hertzToInverseMeterUncertainty =									0.0;						/**< \f$\frac{(1 Hz)}{c} \ (\frac{1}{m})\f$ Uncertainty in hertz-inverse meter relationship. Note should be 0.0 since it is a defined value. */ 
 	const double hertzToJouleUncertainty =											0.000000081e-34;			/**< \f$(1 Hz)h  \ (J)\f$ Uncertainty in hertz-joule relationship.*/ 
 	const double hertzToKelvinUncertainty =											0.0000028e-11;				/**< \f$\frac{(1 Hz)h}{k} \ (K)\f$ Uncertainty in hertz-kelvin relationship.*/ 
 	const double hertzToKilogramUncertainty =										0.000000091e-51;			/**< \f$\frac{(1 Hz)h}{c^2} \ (kg)\f$ Uncertainty in hertz-kilogram relationship.*/ 
@@ -774,7 +774,7 @@ namespace NISTConst
 	
 	/// @addtogroup InverseMeter
 	/// @{
-	const double inverseMeterToAtomicMassUnit =										1.33102504900e-15;			/**< \f$\frac{(1\ m^-1)h}{c} \ (u)\f$ Inverse meter-atomic mass unit relationship.*/ 
+	const double inverseMeterToAtomicMassUnit =										1.33102504900e-15;			/**< \f$\frac{(1\ m^-1)h}{c} \ (u)\f$ Inverse meter-unified atomic mass unit relationship.*/ 
 	const double inverseMeterToElectronVolt =										1.2398419739e-6;			/**< \f$(1\ m^-1)hc \ (eV)\f$ Inverse meter-electron volt relationship.*/ 
 	const double inverseMeterToHartree =											4.556335252767e-8;			/**< \f$(1\ m^-1)hc \ (E_h)\f$ Inverse meter-hartree relationship.*/ 
 	const double inverseMeterToHertz =												299792458;					/**< \f$(1\ m^-1)c \ (Hz)\f$ Inverse meter-hertz relationship.*/ 
@@ -782,7 +782,7 @@ namespace NISTConst
 	const double inverseMeterToKelvin =												1.43877736e-2;				/**< \f$\frac{(1\ m^-1)hc}{k} \ (K)\f$ Inverse meter-kelvin relationship.*/ 
 	const double inverseMeterToKilogram =											2.210219057e-42;			/**< \f$\frac{(1\ m^-1)h}{c} \ (kg)\f$ Inverse meter-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double inverseMeterToAtomicMassUnitUncertainty =							0.00000000061e-15;			/**< \f$\frac{(1\ m^-1)h}{c} \ (u)\f$ Uncertainty in inverse meter-atomic mass unit relationship.*/ 
+	const double inverseMeterToAtomicMassUnitUncertainty =							0.00000000061e-15;			/**< \f$\frac{(1\ m^-1)h}{c} \ (u)\f$ Uncertainty in inverse meter-unified atomic mass unit relationship.*/ 
 	const double inverseMeterToElectronVoltUncertainty =							0.0000000076e-6;			/**< \f$(1\ m^-1)hc \ (eV)\f$ Uncertainty in inverse meter-electron volt relationship.*/ 
 	const double inverseMeterToHartreeUncertainty =									0.000000000027e-8;			/**< \f$(1\ m^-1)hc \ (E_h)\f$ Uncertainty in inverse meter-hartree relationship.*/ 
 	const double inverseMeterToHertzUncertainty =									0.0;						/**< \f$(1\ m^-1)c \ (Hz)\f$ Uncertainty in inverse meter-hertz relationship. Note should be 0.0 since it is a defined value.*/ 
@@ -810,7 +810,7 @@ namespace NISTConst
 	
 	/// @addtogroup Joule
 	/// @{
-	const double jouleToAtomicMassUnit =											6.700535363e9;				/**< \f$\frac{(1\ J)}{c^2} \ (u)\f$ joule-atomic mass unit relationship.*/ 
+	const double jouleToAtomicMassUnit =											6.700535363e9;				/**< \f$\frac{(1\ J)}{c^2} \ (u)\f$ joule-unified atomic mass unit relationship.*/ 
 	const double jouleToElectronVolt =												6.241509126e18;				/**< \f$(1\ J) \ (eV)\f$ joule-electron volt relationship.*/ 
 	const double jouleToHartree =													2.293712317e17;				/**< \f$(1\ J) \ (E_h)\f$ joule-hartree relationship.*/ 
 	const double jouleToHertz =														1.509190205e33;				/**< \f$\frac{(1\ J)}{h} \ (Hz)\f$ joule-hertz relationship.*/ 
@@ -818,7 +818,7 @@ namespace NISTConst
 	const double jouleToKelvin =													7.2429731e22;				/**< \f$\frac{(1\ J)}{k} \ (K)\f$ joule-kelvin relationship.*/ 
 	const double jouleToKilogram =													1.112650056e-17;			/**< \f$\frac{(1\ J)}{c^2} \ (kg)\f$ joule-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double jouleToAtomicMassUnitUncertainty =									0.000000082e9;				/**< \f$\frac{(1\ J)}{c^2} \ (u)\f$ Uncertainty in joule-atomic mass unit relationship.*/ 
+	const double jouleToAtomicMassUnitUncertainty =									0.000000082e9;				/**< \f$\frac{(1\ J)}{c^2} \ (u)\f$ Uncertainty in joule-unified atomic mass unit relationship.*/ 
 	const double jouleToElectronVoltUncertainty =									0.000000038e18;				/**< \f$(1\ J) \ (eV)\f$ Uncertainty in joule-electron volt relationship.*/ 
 	const double jouleToHartreeUncertainty =										0.000000028e17;				/**< \f$(1\ J) \ (E_h)\f$ Uncertainty in joule-hartree relationship.*/ 
 	const double jouleToHertzUncertainty =											0.000000019e33;				/**< \f$\frac{(1\ J)}{h} \ (Hz)\f$ Uncertainty in joule-hertz relationship.*/ 
@@ -830,7 +830,7 @@ namespace NISTConst
 	
 	/// @addtogroup Kelvin
 	/// @{
-	const double kelvinToAtomicMassUnit =											9.2510842e-14;				/**< \f$\frac{(1\ K)k}{c^2} \ (u)\f$ Kelvin-atomic mass unit relationship.*/ 
+	const double kelvinToAtomicMassUnit =											9.2510842e-14;				/**< \f$\frac{(1\ K)k}{c^2} \ (u)\f$ Kelvin-unified atomic mass unit relationship.*/ 
 	const double kelvinToElectronVolt =												8.6173303e-5;				/**< \f$(1\ K)k \ (eV)\f$ Kelvin-electron volt relationship.*/ 
 	const double kelvinToHartree =													3.1668105e-6;				/**< \f$(1\ K)k \ (E_h)\f$ Kelvin-hartree relationship.*/ 
 	const double kelvinToHertz =													2.0836612e10;				/**< \f$\frac{(1\ K)k}{h} \ (Hz)\f$ Kelvin-hertz relationship.*/ 
@@ -838,7 +838,7 @@ namespace NISTConst
 	const double kelvinToJoule =													1.38064852e-23;				/**< \f$(1\ K)k \ (J)\f$ Kelvin-joule relationship.*/ 
 	const double kelvinToKilogram =													1.53617865e-40;				/**< \f$\frac{(1\ K)k}{c^2} \ (kg)\f$ Kelvin-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double kelvinToAtomicMassUnitUncertainty =								0.0000053e-14;				/**< \f$\frac{(1\ K)k}{c^2} \ (u)\f$ Uncertainty in kelvin-atomic mass unit relationship.*/ 
+	const double kelvinToAtomicMassUnitUncertainty =								0.0000053e-14;				/**< \f$\frac{(1\ K)k}{c^2} \ (u)\f$ Uncertainty in kelvin-unified atomic mass unit relationship.*/ 
 	const double kelvinToElectronVoltUncertainty =									0.0000050e-5;				/**< \f$(1\ K)k \ (eV)\f$ Uncertainty in kelvin-electron volt relationship.*/ 
 	const double kelvinToHartreeUncertainty =										0.0000018e-6;				/**< \f$(1\ K)k \ (E_h)\f$ Uncertainty in kelvin-hartree relationship.*/ 
 	const double kelvinToHertzUncertainty =											0.0000012e10;				/**< \f$\frac{(1\ K)k}{h} \ (Hz)\f$ Uncertainty in kelvin-hertz relationship.*/ 
@@ -850,7 +850,7 @@ namespace NISTConst
 	
 	/// @addtogroup Kilogram
 	/// @{
-	const double kilogramToAtomicMassUnit =											6.022140857e26;				/**< \f$(1\ kg)\ (u)\f$ Kilogram-atomic mass unit relationship.*/ 
+	const double kilogramToAtomicMassUnit =											6.022140857e26;				/**< \f$(1\ kg)\ (u)\f$ Kilogram-unified atomic mass unit relationship.*/ 
 	const double kilogramToElectronVolt =											5.609588650e35;				/**< \f$(1\ kg)c^2 \ (eV)\f$ Kilogram-electron volt relationship.*/ 
 	const double kilogramToHartree =												2.061485823e34;				/**< \f$(1\ kg)c^2 \ (E_h)\f$ Kilogram-hartree relationship.*/ 
 	const double kilogramToHertz =													1.356392512e50;				/**< \f$\frac{(1\ kg)c^2}{h} \ (Hz)\f$ Kilogram-hertz relationship .*/ 
@@ -858,7 +858,7 @@ namespace NISTConst
 	const double kilogramToJoule =													8.987551787e16;				/**< \f$(1\ kg)c^2 \ (J)\f$ Kilogram-joule relationship.*/ 
 	const double kilogramToKelvin =													6.5096595e39;				/**< \f$\frac{(1\ kg)c^2}{K} \ (K)\f$ Kilogram-kelvin relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double kilogramToAtomicMassUnitUncertainty =								0.000000074e26;				/**< \f$(1\ kg)\ (u)\f$ Uncertainty in kilogram-atomic mass unit relationship.*/ 
+	const double kilogramToAtomicMassUnitUncertainty =								0.000000074e26;				/**< \f$(1\ kg)\ (u)\f$ Uncertainty in kilogram-unified atomic mass unit relationship.*/ 
 	const double kilogramToElectronVoltUncertainty =								0.000000034e35;				/**< \f$(1\ kg)c^2 \ (eV)\f$ Uncertainty in kilogram-electron volt relationship.*/ 
 	const double kilogramToHartreeUncertainty =										0.000000025e34;				/**< \f$(1\ kg)c^2 \ (E_h)\f$ Uncertainty in kilogram-hartree relationship.*/ 
 	const double kilogramToHertzUncertainty =										0.000000017e50;				/**< \f$\frac{(1\ kg)c^2}{h} \ (Hz)\f$ Uncertainty in kilogram-hertz relationship .*/ 
@@ -1536,5 +1536,7 @@ StefanBoltzmannConstant = sigma
 
 common names characteristic impedance of vacuum z0
 e0
+
+// atomicMassUnitToElectronVolt should do unified version of it
 */
 

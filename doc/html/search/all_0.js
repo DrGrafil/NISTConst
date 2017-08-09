@@ -25,7 +25,6 @@ var searchData=
   ['atomicmassconstantinmevpercsquared',['atomicMassConstantInMeVPercSquared',['../group___atomic_mass_constant.html#ga8bf06e408e84fc35515a4d6564407467',1,'NISTConst']]],
   ['atomicmassconstantinmevpercsquareduncertainty',['atomicMassConstantInMeVPercSquaredUncertainty',['../group___atomic_mass_constant.html#ga797d82fd682854b4c1b88754bed2e70a',1,'NISTConst']]],
   ['atomicmassconstantuncertainty',['atomicMassConstantUncertainty',['../group___atomic_mass_constant.html#gae44d47135c3f8d9e2b9c981649443efc',1,'NISTConst']]],
-  ['atomic_20mass_20unit',['Atomic mass unit',['../group___atomic_mass_unit.html',1,'']]],
   ['atomicmassunittoelectronvolt',['atomicMassUnitToElectronVolt',['../group___atomic_mass_unit.html#ga4a5d912289e6a828a25e9e7ae3385b0d',1,'NISTConst']]],
   ['atomicmassunittoelectronvoltuncertainty',['atomicMassUnitToElectronVoltUncertainty',['../group___atomic_mass_unit.html#ga5b9ec7f36c14dabc54a16d1e076bee14',1,'NISTConst']]],
   ['atomicmassunittohartree',['atomicMassUnitToHartree',['../group___atomic_mass_unit.html#ga8a6b352e1a13d0cbbc0f36f650e2c682',1,'NISTConst']]],

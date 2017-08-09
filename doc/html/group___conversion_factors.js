@@ -1,6 +1,6 @@
 var group___conversion_factors =
 [
-    [ "Atomic mass unit", "group___atomic_mass_unit.html", "group___atomic_mass_unit" ],
+    [ "Unified atomic mass unit", "group___atomic_mass_unit.html", "group___atomic_mass_unit" ],
     [ "Electron volt", "group___electron_volt.html", "group___electron_volt" ],
     [ "Hartree", "group___hartree.html", "group___hartree" ],
     [ "Hertz", "group___hertz.html", "group___hertz" ],
