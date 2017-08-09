@@ -832,13 +832,13 @@ namespace NISTConst
 	
 	/// @addtogroup Kelvin
 	/// @{
-	const double kelvinToAtomicMassUnit =											9.2510842e-14;				/**< \f$\frac{(1\ K)k}{c^2} \ (u)\f$ kelvin-atomic mass unit relationship.*/ 
-	const double kelvinToElectronVolt =												8.6173303e-5;				/**< \f$(1\ K)k \ (eV)\f$ kelvin-electron volt relationship.*/ 
-	const double kelvinToHartree =													3.1668105e-6;				/**< \f$(1\ K)k \ (E_h)\f$ kelvin-hartree relationship.*/ 
-	const double kelvinToHertz =													2.0836612e10;				/**< \f$\frac{(1\ K)k}{h} \ (Hz)\f$ kelvin-hertz relationship.*/ 
-	const double kelvinToInverseMeter =												69.503457;					/**< \f$\frac{(1\ K)k}{hc} \ (\frac{1}{m})\f$ kelvin-inverse meter relationship.*/ 
-	const double kelvinToJoule =													1.38064852e-23;				/**< \f$(1\ K)k \ (J)\f$ kelvin-joule relationship.*/ 
-	const double kelvinToKilogram =													1.53617865e-40;				/**< \f$\frac{(1\ K)k}{c^2} \ (kg)\f$ kelvin-kilogram relationship.*/ 
+	const double kelvinToAtomicMassUnit =											9.2510842e-14;				/**< \f$\frac{(1\ K)k}{c^2} \ (u)\f$ Kelvin-atomic mass unit relationship.*/ 
+	const double kelvinToElectronVolt =												8.6173303e-5;				/**< \f$(1\ K)k \ (eV)\f$ Kelvin-electron volt relationship.*/ 
+	const double kelvinToHartree =													3.1668105e-6;				/**< \f$(1\ K)k \ (E_h)\f$ Kelvin-hartree relationship.*/ 
+	const double kelvinToHertz =													2.0836612e10;				/**< \f$\frac{(1\ K)k}{h} \ (Hz)\f$ Kelvin-hertz relationship.*/ 
+	const double kelvinToInverseMeter =												69.503457;					/**< \f$\frac{(1\ K)k}{hc} \ (\frac{1}{m})\f$ Kelvin-inverse meter relationship.*/ 
+	const double kelvinToJoule =													1.38064852e-23;				/**< \f$(1\ K)k \ (J)\f$ Kelvin-joule relationship.*/ 
+	const double kelvinToKilogram =													1.53617865e-40;				/**< \f$\frac{(1\ K)k}{c^2} \ (kg)\f$ Kelvin-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	const double kelvinToAtomicMassUnitUncertainty =								0.0000053e-14;				/**< \f$\frac{(1\ K)k}{c^2} \ (u)\f$ Uncertainty in kelvin-atomic mass unit relationship.*/ 
 	const double kelvinToElectronVoltUncertainty =									0.0000050e-5;				/**< \f$(1\ K)k \ (eV)\f$ Uncertainty in kelvin-electron volt relationship.*/ 
@@ -864,11 +864,11 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup Silicon
 	/// @{
-	const double lattice parameter of silicon                                543.102 0504e-12        0.0000089e-12          m/**< \f$ \ ()\f$ .*/ 
+	const double latticeParameterOfSilicon =										543.1020504e-12;			/**< \f$a \ (m)\f$ lattice parameter of silicon in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double latticeParameterOfSiliconUncertainty =								0.0000089e-12;				/**< \f$a \ (m)\f$ Uncertainty in lattice parameter of silicon in meters.*/ 
 	#endif  
 	/// @}
 	
