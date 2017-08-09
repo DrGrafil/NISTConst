@@ -552,47 +552,78 @@ namespace NISTConst
 	const double electricConstant =											0.0;						/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Uncertainty in electric constant in farad per meter. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
-	
-	/**< \f$ \ ()\f$ .*/ 
 	 
-	const double electron charge to mass quotient                            -1.758 820 024 e11       0.000000 011 e11        C kg^-1/**< \f$ \ ()\f$ .*/ 
-	const double electron-deuteron mag. mom. ratio                           -2143.923 499            0.000012                /**< \f$ \ ()\f$ .*/ 
-	const double electron-deuteron mass ratio                                2.724 437 107 484e-4    0.000000000 096e-4    /**< \f$ \ ()\f$ .*/ 
-	const double electron g factor                                           -2.002 319 304 361 82    0.000000000000 52     /**< \f$ \ ()\f$ .*/ 
-	const double electron gyromag. ratio                                     1.760 859 644 e11        0.000000011 e11        s^-1 T^-1/**< \f$ \ ()\f$ .*/ 
-	const double electron gyromag. ratio over 2 pi                           28 024.951 64            0.000 17                 MHz T^-1/**< \f$ \ ()\f$ .*/ 
-	const double electron-helion mass ratio                                  1.819 543 074 854e-4    0.000000000 088e-4    /**< \f$ \ ()\f$ .*/ 
-	const double electron mag. mom.                                          -928.476 4620e-26       0.0000057e-26          J T^-1/**< \f$ \ ()\f$ .*/ 
-	const double electron mag. mom. anomaly                                  1.159 652 180 91e-3     0.000000000 26e-3     /**< \f$ \ ()\f$ .*/ 
-	const double electron mag. mom. to Bohr magneton ratio                   -1.001 159 652 180 91    0.000000000000 26     /**< \f$ \ ()\f$ .*/ 
-	const double electron mag. mom. to nuclear magneton ratio                -1838.281 972 34         0.000000 17             /**< \f$ \ ()\f$ .*/ 
-	const double electron mass                                               9.109 383 56e-31        0.000000 11e-31        kg/**< \f$ \ ()\f$ .*/ 
-	const double electron mass energy equivalent  JPercSquared                           8.187 105 65e-14        0.000000 10e-14        J/**< \f$ \ ()\f$ .*/ 
-	const double electron mass energy equivalent in MeVPercSquared                      0.510 998 9461           0.0000000031           MeV/**< \f$ \ ()\f$ .*/ 
-	const double electron mass in u                                          5.485 799 090 70e-4     0.000000000 16e-4     u/**< \f$ \ ()\f$ .*/ 
-	const double electron molar mass                                         5.485 799 090 70e-7     0.000000000 16e-7     kg mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double electron-muon mag. mom. ratio                               206.766 9880             0.0000046               /**< \f$ \ ()\f$ .*/ 
-	const double electron-muon mass ratio                                    4.836 331 70e-3         0.000000 11e-3         /**< \f$ \ ()\f$ .*/ 
-	const double electron-neutron mag. mom. ratio                            960.920 50               0.000 23                 /**< \f$ \ ()\f$ .*/ 
-	const double electron-neutron mass ratio                                 5.438 673 4428e-4       0.0000000027e-4       /**< \f$ \ ()\f$ .*/ 
-	const double electron-proton mag. mom. ratio                             -658.210 6866            0.0000020               /**< \f$ \ ()\f$ .*/ 
-	const double electron-proton mass ratio                                  5.446 170 213 52e-4     0.000000000 52e-4     /**< \f$ \ ()\f$ .*/ 
-	const double electron-tau mass ratio                                     2.875 92e-4             0.000 26e-4             /**< \f$ \ ()\f$ .*/ 
-	const double electron to alpha particle mass ratio                       1.370 933 554 798e-4    0.000000000 045e-4    /**< \f$ \ ()\f$ .*/ 
-	const double electron to shielded helion mag. mom. ratio                 864.058 257              0.000010                /**< \f$ \ ()\f$ .*/ 
-	const double electron to shielded proton mag. mom. ratio                 -658.227 5971            0.0000072               /**< \f$ \ ()\f$ .*/ 
-	const double electron-triton mass ratio                                  1.819 200 062 203e-4    0.000000000 084e-4    /**< \f$ \ ()\f$ .*/ 
-	#ifdef NISTCONST_UNCERTAINTY
+	/// @addtogroup Electron
+	/// @{ 
+	const double electronChargeToMass =												-1.758820024e11;			/**< \f$\frac{-e}{m_e} \ (\frac{C}{kg})\f$ Electron charge to mass quotient in coulombs per kilogram.*/ 
+	const double electronDeuteronMagneticMomentRatio =								-2143.923499;				/**< \f$\frac{\mu_e}{\mu_D} \ (1)\f$ Electron-deuteron magnetic moment ratio.*/ 
+	const double electronDeuteronMassRatio =										2.724437107484e-4;			/**< \f$\frac{m_e}{m_D} \ (1)\f$ Electron-deuteron mass ratio.*/ 
+	const double electrongFactor =													-2.00231930436182;			/**< \f$g_e \ (1)\f$ Electron g factor.*/ 
+	const double electronGyromagneticRatio =										1.760859644e11;				/**<\gamma_e \f$ \ (\frac{Hz}{T})\f$ Electron gyromagnetic ratio in hertz per tesla.*/ 
+	const double electronGyromagneticRatioOver2pi =									28024.95164;				/**< \f$\frac{\gamma_e}{2\pi} \ (\frac{MHz}{T})\f$ Electron gyromagnetic ratio over 2 pi in megahertz per tesla.*/ 
+	const double electronHelionMassRatio =											1.819543074854e-4;			/**< \f$\frac{m_e}{m_{^3\textrm{He}}} \ (1)\f$ Electron-helion mass ratio.*/ 
+	const double electronMagneticMoment =											-928.4764620e-26;			/**< \f$\mu_e \ (\frac{J}{T})\f$ Electron magnetic moment in joules per tesla.*/ 
+	const double electronMagneticMomentAnomaly =									1.15965218091e-3;			/**< \f$a_e \ (1)\f$ Electron magnetic moment anomaly.*/ 
+	const double electronMagneticMomentToBohrMagnetonRatio =						-1.001159652180 91;			/**< \f$\frac{\mu_e}{\mu_B} \ (1)\f$ Electron magnetic moment to Bohr magneton ratio.*/ 
+	const double electronMagneticMomentToNuclearMagnetonRatio =						-1838.28197234;				/**< \f$\frac{\mu_e}{\mu_N} \ (1)\f$ Electron magnetic moment to nuclear magneton ratio.*/ 
+	const double electronMass =														9.10938356e-31;				/**< \f$m_e \ (kg)\f$ Electron mass in kilograms.*/ 
+	const double electronMassInJPercSquared =										8.18710565e-14;				/**< \f$m_e \ (\frac{J}{c^2})\f$ Electron mass in joules per speed of light squared.*/ 
+	const double electronMassInMeVPercSquared =										0.5109989461;				/**< \f$m_e \ (\frac{MeV}{c^2})\f$ Electron mass in megaelectron volts per speed of light squared.*/ 
+	const double electronMassInu =													5.48579909070e-4;			/**< \f$m_e \ (u)\f$ Electron mass in unified atomic mass units.*/ 
+	const double electronMolarMass =												5.48579909070e-7;			/**< \f$M_e \ (\frac{kg}{mol})\f$ Electron molar mass in kilograms per mole.*/ 
+	const double electronMuonMagneticMomentRatio =									206.7669880;				/**< \f$\frac{\mu_e}{\mu_\mu} \ (1)\f$ Electron-muon magnetic moment ratio.*/ 
+	const double electronMuonMassRatio =											4.83633170e-3;				/**< \f$\frac{m_e}{m_\mu} \ (1)\f$ Electron-muon mass ratio.*/ 
+	const double electronNeutronMagneticMomentRatio =								960.92050;					/**< \f$\frac{\mu_e}{\mu_n} \ (1)\f$ Electron-neutron magnetic moment ratio.*/ 
+	const double electronNeutronMassRatio =											5.4386734428e-4;			/**< \f$\frac{m_e}{m_n} \ (1)\f$ Electron-neutron mass ratio.*/ 
+	const double electronProtonMagneticMomentRatio =								-658.2106866;				/**< \f$\frac{\mu_e}{\mu_p} \ (1)\f$ Electron-proton magnetic moment ratio.*/ 
+	const double electronProtonMassRatio =											5.44617021352e-4;			/**< \f$\frac{m_e}{m_p} \ (1)\f$ Electron-proton mass ratio.*/ 
+	const double electronTauMassRatio =												2.87592e-4;					/**< \f$\frac{m_e}{m_\tau} \ (1)\f$ Electron-tau mass ratio.*/ 
+	const double electronToAlphaParticleMassRatio =									1.370933554798e-4;			/**< \f$\frac{m_e}{m_\alpha} \ (1)\f$ Electron to alpha particle mass ratio.*/ 
+	const double electronToShieldedHelionMagneticMomentRatio =						864.058257;					/**< \f$\frac{\mu_e}{\mu'_{^3\textrm{He}}} \ (1)\f$ Electron to shielded helion magnetic moment ratio.*/ 
+	const double electronToShieldedProtonMagneticMomentRatio =						-658.2275971;				/**< \f$\frac{\mu_e}{\mu'_p} \ (1)\f$ Electron to shielded proton magnetic moment ratio.*/ 
+	const double electronTritonMassRatio =											1.819200062203e-4;			/**< \f$\frac{m_e}{m_\textrm{T}} \ (1)\f$ Electron-triton mass ratio.*/ 
 	
+	#ifdef NISTCONST_UNCERTAINTY
+	const double electronChargeToMassUncertainty =									0.000000011e11;				/**< \f$\frac{-e}{m_e} \ (\frac{C}{kg})\f$ Uncertainty in electron charge to mass quotient in coulombs per kilogram.*/ 
+	const double electronDeuteronMagneticMomentRatioUncertainty =					0.000012;					/**< \f$\frac{\mu_e}{\mu_D} \ (1)\f$ Uncertainty in electron-deuteron magnetic moment ratio.*/ 
+	const double electronDeuteronMassRatioUncertainty =								0.000000000096e-4;			/**< \f$\frac{m_e}{m_D} \ (1)\f$ Uncertainty in electron-deuteron mass ratio.*/ 
+	const double electrongFactorUncertainty =										0.00000000000052;			/**< \f$g_e \ (1)\f$ Uncertainty in electron g factor.*/ 
+	const double electronGyromagneticRatioUncertainty =								0.000000011e11;				/**<\gamma_e \f$ \ (\frac{Hz}{T})\f$ Uncertainty in electron gyromagnetic ratio in hertz per tesla.*/ 
+	const double electronGyromagneticRatioOver2piUncertainty =						0.00017;					/**< \f$\frac{\gamma_e}{2\pi} \ (\frac{MHz}{T})\f$ Uncertainty in electron gyromagnetic ratio over 2 pi in megahertz per tesla.*/ 
+	const double electronHelionMassRatioUncertainty =								0.000000000088e-4;   		/**< \f$\frac{m_e}{m_{^3\textrm{He}}} \ (1)\f$ Uncertainty in electron-helion mass ratio.*/ 
+	const double electronMagneticMomentUncertainty =								0.0000057e-26;				/**< \f$\mu_e \ (\frac{J}{T})\f$ Uncertainty in electron magnetic moment in joules per tesla.*/ 
+	const double electronMagneticMomentAnomalyUncertainty =							0.00000000026e-3;			/**< \f$a_e \ (1)\f$ Uncertainty in electron magnetic moment anomaly.*/ 
+	const double electronMagneticMomentToBohrMagnetonRatioUncertainty =				0.00000000000026;			/**< \f$\frac{\mu_e}{\mu_B} \ (1)\f$ Uncertainty in electron magnetic moment to Bohr magneton ratio.*/ 
+	const double electronMagneticMomentToNuclearMagnetonRatioUncertainty =			0.00000017;					/**< \f$\frac{\mu_e}{\mu_N} \ (1)\f$ Uncertainty in electron magnetic moment to nuclear magneton ratio.*/ 
+	const double electronMassUncertainty =											0.00000011e-31;				/**< \f$m_e \ (kg)\f$ Uncertainty in electron mass in kilograms.*/ 
+	const double electronMassInJPercSquaredUncertainty =							0.00000010e-14;				/**< \f$m_e \ (\frac{J}{c^2})\f$ Uncertainty in electron mass in joules per speed of light squared.*/ 
+	const double electronMassInMeVPercSquaredUncertainty =							0.0000000031;				/**< \f$m_e \ (\frac{MeV}{c^2})\f$ Uncertainty in electron mass in megaelectron volts per speed of light squared.*/ 
+	const double electronMassInuUncertainty =										0.00000000016e-4;			/**< \f$m_e \ (u)\f$ Uncertainty in electron mass in unified atomic mass units.*/ 
+	const double electronMolarMassUncertainty =										0.00000000016e-7;			/**< \f$M_e \ (\frac{kg}{mol})\f$ Uncertainty in electron molar mass in kilograms per mole.*/ 
+	const double electronMuonMagneticMomentRatioUncertainty =						0.0000046;					/**< \f$\frac{\mu_e}{\mu_\mu} \ (1)\f$ Uncertainty in electron-muon magnetic moment ratio.*/ 
+	const double electronMuonMassRatioUncertainty =									0.00000011e-3;				/**< \f$\frac{m_e}{m_\mu} \ (1)\f$ Uncertainty in electron-muon mass ratio.*/ 
+	const double electronNeutronMagneticMomentRatioUncertainty =					0.00023;					/**< \f$\frac{\mu_e}{\mu_n} \ (1)\f$ Uncertainty in electron-neutron magnetic moment ratio.*/ 
+	const double electronNeutronMassRatioUncertainty =								0.0000000027e-4;			/**< \f$\frac{m_e}{m_n} \ (1)\f$ Uncertainty in electron-neutron mass ratio.*/ 
+	const double electronProtonMagneticMomentRatioUncertainty =						0.0000020;					/**< \f$\frac{\mu_e}{\mu_p} \ (1)\f$ Uncertainty in electron-proton magnetic moment ratio.*/ 
+	const double electronProtonMassRatioUncertainty =								0.00000000052e-4;			/**< \f$\frac{m_e}{m_p} \ (1)\f$ Uncertainty in electron-proton mass ratio.*/ 
+	const double electronTauMassRatioUncertainty =									0.00026e-4;					/**< \f$\frac{m_e}{m_\tau} \ (1)\f$ Uncertainty in electron-tau mass ratio.*/ 
+	const double electronToAlphaParticleMassRatioUncertainty =						0.000000000045e-4;			/**< \f$\frac{m_e}{m_\alpha} \ (1)\f$ Uncertainty in electron to alpha particle mass ratio.*/ 
+	const double electronToShieldedHelionMagneticMomentRatioUncertainty =			0.000010;					/**< \f$\frac{\mu_e}{\mu'_{^3\textrm{He}}} \ (1)\f$ Uncertainty in electron to shielded helion magnetic moment ratio.*/ 
+	const double electronToShieldedProtonMagneticMomentRatioUncertainty =			0.0000072;					/**< \f$\frac{\mu_e}{\mu'_p} \ (1)\f$ Uncertainty in electron to shielded proton magnetic moment ratio.*/ 
+	const double electronTritonMassRatioUncertainty =								0.000000000084e-4;			/**< \f$\frac{m_e}{m_\textrm{T}} \ (1)\f$ Uncertainty in electron-triton mass ratio.*/ 
 	#endif  
 	/// @}
 	
+	/// @addtogroup ElectronVoltUnit
+	/// @{
 	const double electron volt                                               1.602 176 6208e-19      0.0000000098e-19      J/**< \f$ \ ()\f$ .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	
 	#endif  
 	/// @}
 	
+	/// @addtogroup ElectronVolt
+	/// @{
 	const double electron volt-atomic mass unit relationship                 1.073 544 1105e-9       0.0000000066e-9       u/**< \f$ \ ()\f$ .*/ 
 	const double electron volt-hartree relationship                          3.674 932 248e-2        0.000000023e-2        E_h/**< \f$ \ ()\f$ .*/ 
 	const double electron volt-hertz relationship                            2.417 989 262 e14        0.000000015 e14        Hz/**< \f$ \ ()\f$ .*/ 
@@ -605,6 +636,8 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
+	/// @addtogroup ElementaryCharge
+	/// @{
 	const double elementary charge                                           1.602 176 6208e-19      0.0000000098e-19      C/**< \f$ \ ()\f$ .*/ 
 	const double elementary charge over h                                    2.417 989 262 e14        0.000000015 e14        A J^-1/**< \f$ \ ()\f$ .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -612,6 +645,8 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
+	/// @addtogroup 
+	/// @{
 	const double Faraday constant                                            96 485.332 89            0.000 59                 C mol^-1/**< \f$ \ ()\f$ .*/ 
 	const double Faraday constant for conventional electric current          96 485.3251              0.0012                   C_90 mol^-1/**< \f$ \ ()\f$ .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -619,19 +654,56 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
+	/// @addtogroup 
+	/// @{
 	const double Fermi coupling constant                                     1.166 3787e-5           0.0000006e-5           GeV^-2/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double fine-structure constant                                     7.297 352 5664e-3       0.0000000017e-3       /**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double first radiation constant                                    3.741 771 790e-16       0.000000046e-16       W m^2/**< \f$ \ ()\f$ .*/ 
 	const double first radiation constant for spectral radiance              1.191 042 953e-16       0.000000015e-16       W m^2 sr^-1/**< \f$ \ ()\f$ .*/ 
-	const double hartree-atomic mass unit relationship                       2.921 262 3197e-8       0.0000000013e-8       u/**< \f$ \ ()\f$ .*/ 
-	const double hartree-electron volt relationship                          27.211 386 02            0.000000 17             eV/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double Hartree energy                                              4.359 744 650e-18       0.000000054e-18       J/**< \f$ \ ()\f$ .*/ 
 	const double Hartree energy in eV                                        27.211 386 02            0.000000 17             eV/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
+	const double hartree-atomic mass unit relationship                       2.921 262 3197e-8       0.0000000013e-8       u/**< \f$ \ ()\f$ .*/ 
+	const double hartree-electron volt relationship                          27.211 386 02            0.000000 17             eV/**< \f$ \ ()\f$ .*/	
 	const double hartree-hertz relationship                                  6.579 683 920 711 e15    0.000000000 039 e15    Hz/**< \f$ \ ()\f$ .*/ 
 	const double hartree-inverse meter relationship                          2.194 746 313 702 e7     0.000000000 013 e7     m^-1/**< \f$ \ ()\f$ .*/ 
 	const double hartree-joule relationship                                  4.359 744 650e-18       0.000000054e-18       J/**< \f$ \ ()\f$ .*/ 
 	const double hartree-kelvin relationship                                 3.157 7513 e5            0.0000018 e5            K/**< \f$ \ ()\f$ .*/ 
 	const double hartree-kilogram relationship                               4.850 870 129e-35       0.000000060e-35       kg/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double helion-electron mass ratio                                  5495.885 279 22          0.000000 27             /**< \f$ \ ()\f$ .*/ 
 	const double helion g factor                                             -4.255 250 616           0.000000050            /**< \f$ \ ()\f$ .*/ 
 	const double helion mag. mom.                                            -1.074 617 522e-26      0.000000014e-26       J T^-1/**< \f$ \ ()\f$ .*/ 
@@ -643,6 +715,13 @@ namespace NISTConst
 	const double helion mass in u                                            3.014 932 246 73         0.000000000 12         u/**< \f$ \ ()\f$ .*/ 
 	const double helion molar mass                                           3.014 932 246 73e-3     0.000000000 12e-3     kg mol^-1/**< \f$ \ ()\f$ .*/ 
 	const double helion-proton mass ratio                                    2.993 152 670 46         0.000000000 29         /**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double hertz-atomic mass unit relationship                         4.439 821 6616e-24      0.0000000020e-24      u/**< \f$ \ ()\f$ .*/ 
 	const double hertz-electron volt relationship                            4.135 667 662e-15       0.000000025e-15       eV/**< \f$ \ ()\f$ .*/ 
 	const double hertz-hartree relationship                                  1.519 829 846 0088e-16  0.000000000 0090e-16  E_h/**< \f$ \ ()\f$ .*/ 
@@ -650,7 +729,21 @@ namespace NISTConst
 	const double hertz-joule relationship                                    6.626 070 040e-34       0.000000081e-34       J/**< \f$ \ ()\f$ .*/ 
 	const double hertz-kelvin relationship                                   4.799 2447e-11          0.0000028e-11          K/**< \f$ \ ()\f$ .*/ 
 	const double hertz-kilogram relationship                                 7.372 497 201e-51       0.000000091e-51       kg/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double inverse fine-structure constant                             137.035 999 139          0.000000031            /**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double inverse meter-atomic mass unit relationship                 1.331 025 049 00e-15    0.000000000 61e-15    u/**< \f$ \ ()\f$ .*/ 
 	const double inverse meter-electron volt relationship                    1.239 841 9739e-6       0.0000000076e-6       eV/**< \f$ \ ()\f$ .*/ 
 	const double inverse meter-hartree relationship                          4.556 335 252 767e-8    0.000000000 027e-8    E_h/**< \f$ \ ()\f$ .*/ 
@@ -658,8 +751,29 @@ namespace NISTConst
 	const double inverse meter-joule relationship                            1.986 445 824e-25       0.000000024e-25       J/**< \f$ \ ()\f$ .*/ 
 	const double inverse meter-kelvin relationship                           1.438 777 36e-2         0.000000 83e-2         K/**< \f$ \ ()\f$ .*/ 
 	const double inverse meter-kilogram relationship                         2.210 219 057e-42       0.000000027e-42       kg/**< \f$ \ ()\f$ .*/ 
-	const double inverse of conductance quantum                              12 906.403 7278          0.0000029               ohm/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
+	const double inverse of conductance quantum                              12 906.403 7278          0.0000029               ohm/**< \f$ \ ()\f$ .*/
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double Josephson constant                                          483 597.8525 e9          0.0030 e9                Hz V^-1/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double joule-atomic mass unit relationship                         6.700 535 363 e9         0.000000082 e9         u/**< \f$ \ ()\f$ .*/ 
 	const double joule-electron volt relationship                            6.241 509 126 e18        0.000000038 e18        eV/**< \f$ \ ()\f$ .*/ 
 	const double joule-hartree relationship                                  2.293 712 317 e17        0.000000028 e17        E_h/**< \f$ \ ()\f$ .*/ 
@@ -667,6 +781,13 @@ namespace NISTConst
 	const double joule-inverse meter relationship                            5.034 116 651 e24        0.000000062 e24        m^-1/**< \f$ \ ()\f$ .*/ 
 	const double joule-kelvin relationship                                   7.242 9731 e22           0.0000042 e22           K/**< \f$ \ ()\f$ .*/ 
 	const double joule-kilogram relationship                                 1.112 650 056...e-17    (exact)                  kg/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double kelvin-atomic mass unit relationship                        9.251 0842e-14          0.0000053e-14          u/**< \f$ \ ()\f$ .*/ 
 	const double kelvin-electron volt relationship                           8.617 3303e-5           0.0000050e-5           eV/**< \f$ \ ()\f$ .*/ 
 	const double kelvin-hartree relationship                                 3.166 8105e-6           0.0000018e-6           E_h/**< \f$ \ ()\f$ .*/ 
@@ -674,6 +795,13 @@ namespace NISTConst
 	const double kelvin-inverse meter relationship                           69.503 457               0.000040                m^-1/**< \f$ \ ()\f$ .*/ 
 	const double kelvin-joule relationship                                   1.380 648 52e-23        0.000000 79e-23        J/**< \f$ \ ()\f$ .*/ 
 	const double kelvin-kilogram relationship                                1.536 178 65e-40        0.000000 88e-40        kg/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double kilogram-atomic mass unit relationship                      6.022 140 857 e26        0.000000074 e26        u/**< \f$ \ ()\f$ .*/ 
 	const double kilogram-electron volt relationship                         5.609 588 650 e35        0.000000034 e35        eV/**< \f$ \ ()\f$ .*/ 
 	const double kilogram-hartree relationship                               2.061 485 823 e34        0.000000025 e34        E_h/**< \f$ \ ()\f$ .*/ 
@@ -681,20 +809,74 @@ namespace NISTConst
 	const double kilogram-inverse meter relationship                         4.524 438 411 e41        0.000000056 e41        m^-1/**< \f$ \ ()\f$ .*/ 
 	const double kilogram-joule relationship                                 8.987 551 787... e16     (exact)                  J/**< \f$ \ ()\f$ .*/ 
 	const double kilogram-kelvin relationship                                6.509 6595 e39           0.0000037 e39           K/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double lattice parameter of silicon                                543.102 0504e-12        0.0000089e-12          m/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double Loschmidt constant (273.15 K, 100 kPa)                      2.651 6467 e25           0.0000015 e25           m^-3/**< \f$ \ ()\f$ .*/ 
 	const double Loschmidt constant (273.15 K, 101.325 kPa)                  2.686 7811 e25           0.0000015 e25           m^-3/**< \f$ \ ()\f$ .*/ 
+	
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double mag. constant                                               12.566 370 614...e-7    (exact)                  N A^-2/**< \f$ \ ()\f$ .*/ 
 	const double mag. flux quantum                                           2.067 833 831e-15       0.000000013e-15       Wb/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double molar gas constant                                          8.314 4598               0.0000048               J mol^-1 K^-1/**< \f$ \ ()\f$ .*/ 
+	
 	const double molar mass constant                                         1e-3                    (exact)                  kg mol^-1/**< \f$ \ ()\f$ .*/ 
 	const double molar mass of carbon-12                                     12e-3                   (exact)                  kg mol^-1/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double molar Planck constant                                       3.990 312 7110e-10      0.0000000018e-10      J s mol^-1/**< \f$ \ ()\f$ .*/ 
 	const double molar Planck constant times c                               0.119 626 565 582        0.000000000 054        J m mol^-1/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
+	
+	/// @addtogroup 
+	/// @{
 	const double molar volume of ideal gas (273.15 K, 100 kPa)               22.710 947e-3           0.000013e-3            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
 	const double molar volume of ideal gas (273.15 K, 101.325 kPa)           22.413 962e-3           0.000013e-3            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double molar volume of silicon                                     12.058 832 14e-6        0.000000 61e-6         m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
 	
+	#endif  
+	/// @}
+	
+	/// @addtogroup Silicon
+	/// @{
+	const double molar volume of silicon                                     12.058 832 14e-6        0.000000 61e-6         m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	
+	#endif  
+	/// @}
 	
 	/// @addtogroup Molybdenum
 	/// @{
