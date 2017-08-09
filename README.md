@@ -14,7 +14,8 @@ All constants are fully documented. You can read the documentation [HERE](https:
 #define NISTCONST_UNCERTAINTY // To include uncertainties
 #include <NISTConst/NISTConst.hpp>
 
-//Calculates the mass defect, the difference between the mass of the atom and the sum of the masses of its parts in unified atomic mass units.
+//Calculates the mass defect, the difference between the mass of the atom 
+//and the sum of the masses of its parts in unified atomic mass units.
 double MassDefectInu(int const atomicNumber, int const massNumber, double massAtom)
 {
 	double protonMass = atomicNumber * NISTConst::protonMassInu;
@@ -29,15 +30,13 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 
 1. Will you support other languages besides C/C++?
 
-...Yes. We eventually intend to support Swift, GO, Java and a few other languages.
+... Yes. We eventually intend to support Swift, GO, Java and a few other languages.
 
 2. Why are you missing _____ constant?
-
 ...Currently NISTConst intends to only have the constants defined by CODATA and listed by NIST as well as some common aliases. There are some obvious omitions especially in for atomic constants. Eventually we will release a way to include these "missing" constants. 
 
 3. Why does wikipedia and google disagree with some of your values?
-
-...It is because NISTConst values are frozen to the values present in 2014 CODATA while google and wikipedia are able to pick values from any source. An example of this is for the mass of the proton. As of 8/8/17:
+... It is because NISTConst values are frozen to the values present in 2014 CODATA while google and wikipedia are able to pick values from any source. An example of this is for the mass of the proton. As of 8/8/17:
 
 | Proton Mass | Source |
 | --- | --- |
