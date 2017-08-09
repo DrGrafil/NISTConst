@@ -679,12 +679,13 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup FirstRadiationConstant
 	/// @{
-	const double first radiation constant                                    3.741 771 790e-16       0.000000046e-16       W m^2/**< \f$ \ ()\f$ .*/ 
-	const double first radiation constant for spectral radiance              1.191 042 953e-16       0.000000015e-16       W m^2 sr^-1/**< \f$ \ ()\f$ .*/ 
+	const double firstRadiationConstant =											3.741771790e-16;			/**< \f$c_1 \ (\frac{W}{m^2})\f$ first radiation constant  in watts per meter squared.*/ 
+	const double firstRadiationConstantForSpectralRadiance =						1.191042953e-16;			/**< \f$c_{1L} \ (\frac{W}{m^2 sr})\f$ first radiation constant for spectral radiance in watts per meter squared steradian.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double firstRadiationConstantUncertainty =								0.000000046e-16;			/**< \f$c_1 \ (\frac{W}{m^2})\f$ Uncertainty in first radiation constant in watts per meter squared.*/ 
+	const double firstRadiationConstantForSpectralRadianceUncertainty =				0.000000015e-16;			/**< \f$c_{1L} \ (\frac{W}{m^2 sr})\f$ Uncertainty in first radiation constant for spectral radiance in watts per meter squared steradian.*/ 
 	#endif  
 	/// @}
 	
