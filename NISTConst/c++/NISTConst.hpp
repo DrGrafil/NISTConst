@@ -109,7 +109,7 @@
 /// 	@defgroup FineStructure Fine-structure constant  
 /// 	@ingroup Atomic
 
-/// 	@defgroup Hartree Hartree energy
+/// 	@defgroup HartreeEnergy Hartree energy
 /// 	@ingroup Atomic
 
 /// 	@defgroup Helion Helion (Helium-3 nucleus)
@@ -686,26 +686,33 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup HartreeEnergy
 	/// @{
-	const double Hartree energy                                              4.359 744 650e-18       0.000000054e-18       J/**< \f$ \ ()\f$ .*/ 
-	const double Hartree energy in eV                                        27.211 386 02            0.000000 17             eV/**< \f$ \ ()\f$ .*/ 
+	const double HartreeEnergy =													4.359744650e-18;			/**< \f$E_h \ (J)\f$ Hartree energy in joules.*/ 
+	const double HartreeEnergyIneV =												27.21138602;				/**< \f$E_h \ (eV)\f$ Hartree energy in electron volts.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double HartreeEnergyUncertainty =											0.000000054e-18;			/**< \f$E_h \ (J)\f$ Uncertainty in hartree energy in joules.*/ 
+	const double HartreeEnergyIneVUncertainty =										0.00000017;					/**< \f$E_h \ (eV)\f$ Uncertainty in hartree energy in electron volts.*/ 
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup Hartree
 	/// @{
-	const double hartreeToAtomicMassUnit =                       2.9212623197e-8       0.0000000013e-8       u/**< \f$ \ (u)\f$ .*/ 
-	const double hartreeToElectronVolt =                          27.21138602            0.00000017             eV/**< \f$ \ (eV)\f$ .*/	
-	const double hartreeToHertz =                                  6.579683920711e15    0.000000000039e15    Hz/**< \f$ \ (Hz)\f$ .*/ 
-	const double hartreeToInverseMeter =                          2.194746313702e7     0.000000000013e7     m^-1/**< \f$ \ (\frac{1}{m})\f$ .*/ 
-	const double hartreeToJoule =                                  4.359744650e-18       0.000000054e-18       J/**< \f$ \ (J)\f$ .*/ 
-	const double hartreeToKelvin =                                 3.1577513e5            0.0000018e5            K/**< \f$ \ (K)\f$ .*/ 
-	const double hartreeToKilogram =                               4.850870129e-35       0.000000060e-35       kg/**< \f$ \ (kg)\f$ .*/ 
+	const double hartreeToAtomicMassUnit =											2.9212623197e-8;			/**< \f$\frac{(1\ E_h)}{c^2} \ (u)\f$ Hartree-atomic mass unit relationship.*/ 
+	const double hartreeToElectronVolt =											27.21138602;				/**< \f$(1\ E_h) \ (eV)\f$ Hartree-electron volt relationship .*/	
+	const double hartreeToHertz =													6.579683920711e15;			/**< \f$\frac{(1\ E_h)}{h} \ (Hz)\f$ Hartree-hertz relationship .*/ 
+	const double hartreeToInverseMeter =											2.194746313702e7;			/**< \f$\frac{(1\ E_h)}{hc} \ (\frac{1}{m})\f$ Hartree-inverse meter relationship.*/ 
+	const double hartreeToJoule =													4.359744650e-18;			/**< \f$(1\ E_h) \ (J)\f$ Hartree-joule relationship.*/ 
+	const double hartreeToKelvin =													3.1577513e5;				/**< \f$\frac{(1\ E_h)}{k} \ (K)\f$ Hartree-kelvin relationship .*/ 
+	const double hartreeToKilogram =												4.850870129e-35;			/**< \f$\frac{(1\ E_h)}{c^2} \ (kg)\f$ Hartree-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double hartreeToAtomicMassUnitUncertainty =								0.0000000013e-8;			/**< \f$\frac{(1\ E_h)}{c^2} \ (u)\f$ Uncertainty in hartree-atomic mass unit relationship.*/ 
+	const double hartreeToElectronVoltUncertainty =									0.00000017;					/**< \f$(1\ E_h) \ (eV)\f$ Uncertainty in hartree-electron volt relationship .*/	
+	const double hartreeToHertzUncertainty =										0.000000000039e15;			/**< \f$\frac{(1\ E_h)}{h} \ (Hz)\f$ Uncertainty in hartree-hertz relationship .*/ 
+	const double hartreeToInverseMeterUncertainty =									0.000000000013e7;			/**< \f$\frac{(1\ E_h)}{hc} \ (\frac{1}{m})\f$ Uncertainty in hartree-inverse meter relationship.*/ 
+	const double hartreeToJouleUncertainty =										0.000000054e-18;			/**< \f$(1\ E_h) \ (J)\f$ Uncertainty in hartree-joule relationship.*/ 
+	const double hartreeToKelvinUncertainty =										0.0000018e5;				/**< \f$\frac{(1\ E_h)}{k} \ (K)\f$ Uncertainty in hartree-kelvin relationship .*/ 
+	const double hartreeToKilogramUncertainty =										0.000000060e-35;			/**< \f$\frac{(1\ E_h)}{c^2} \ (kg)\f$ Uncertainty in hartree-kilogram relationship.*/ 
 	#endif  
 	/// @}
 	
