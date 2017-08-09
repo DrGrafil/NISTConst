@@ -719,21 +719,32 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	^3\textrm{He}
+	/// @addtogroup Helion
 	/// @{
-	const double helion-electron mass ratio                                  5495.885 279 22          0.000000 27             /**< \f$ \ ()\f$ .*/ 
-	const double helion g factor                                             -4.255 250 616           0.000000050            /**< \f$ \ ()\f$ .*/ 
-	const double helion mag. mom.                                            -1.074 617 522e-26      0.000000014e-26       J T^-1/**< \f$ \ ()\f$ .*/ 
-	const double helion mag. mom. to Bohr magneton ratio                     -1.158 740 958e-3       0.000000014e-3        /**< \f$ \ ()\f$ .*/ 
-	const double helion mag. mom. to nuclear magneton ratio                  -2.127 625 308           0.000000025            /**< \f$ \ ()\f$ .*/ 
-	const double helion mass                                                 5.006 412 700e-27       0.000000062e-27       kg/**< \f$ \ ()\f$ .*/ 
-	const double helion mass energy equivalent                               4.499 539 341e-10       0.000000055e-10       J/**< \f$ \ ()\f$ .*/ 
-	const double helion mass energy equivalent in MeV                        2808.391 586             0.000017                MeV/**< \f$ \ ()\f$ .*/ 
-	const double helion mass in u                                            3.014 932 246 73         0.000000000 12         u/**< \f$ \ ()\f$ .*/ 
-	const double helion molar mass                                           3.014 932 246 73e-3     0.000000000 12e-3     kg mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double helion-proton mass ratio                                    2.993 152 670 46         0.000000000 29         /**< \f$ \ ()\f$ .*/ 
+	const double helionElectronMassRatio =											5495.88527922;				/**< \f$\frac{m_{^3\textrm{He}}}{m_e} \ (1)\f$ Helion-electron mass ratio.*/ 
+	const double heliongFactor =													-4.255250616;				/**< \f$g_{^3\textrm{He}} \ (1)\f$ Helion g factor.*/ 
+	const double helionMagneticMoment =												-1.074617522e-26;			/**< \f$\mu_{^3\textrm{He}} \ (\frac{J}{T})\f$ Helion magnetic moment in joules per tesla.*/ 
+	const double helionMagneticMomentToBohrMagnetonRatio =							-1.158740958e-3;			/**< \f$\frac{\mu_{^3\textrm{He}}}{\mu_B} \ (1)\f$ Helion magnetic moment to Bohr magneton ratio.*/ 
+	const double helionMagneticMomentToNuclearMagnetonRatio =						-2.127625308;				/**< \f$\frac{\mu_{^3\textrm{He}}}{\mu_N} \ (1)\f$ Helion magnetic moment to nuclear magneton ratio.*/ 
+	const double helionMass =														5.006412700e-27;			/**< \f$m_{^3\textrm{He}} \ (kg)\f$ Helion mass in kilograms.*/ 
+	const double helionMassInJPercSquared =											4.499539341e-10;			/**< \f$m_{^3\textrm{He}} \ (\frac{J}{c^2})\f$ Helion mass in joules per speed of light squared.*/ 
+	const double helionMassInMeVPercSquared =										2808.391586;				/**< \f$m_{^3\textrm{He}} \ (\frac{MeV}{c^2})\f$ Helion mass in megaelectron volts per speed of light squared.*/ 
+	const double helionMassInu =													3.01493224673;				/**< \f$m_{^3\textrm{He}} \ (u)\f$ Helion mass in unified atomic mass units.*/ 
+	const double helionMolarMass =													3.01493224673e-3;			/**< \f$M_{^3\textrm{He}} \ (\frac{kg}{mol})\f$ Helion molar mass in kilograms per mole.*/ 
+	const double helionProtonMassRatio =											2.99315267046;				/**< \f$\frac{m_{^3\textrm{He}}}{m_p} \ (1)\f$ Helion-proton mass ratio .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double helionElectronMassRatioUncertainty =								0.00000027;					/**< \f$\frac{m_{^3\textrm{He}}}{m_e} \ (1)\f$ Uncertainty in helion-electron mass ratio.*/ 
+	const double heliongFactorUncertainty =											0.000000050;				/**< \f$g_{^3\textrm{He}} \ (1)\f$ Uncertainty in helion g factor.*/ 
+	const double helionMagneticMomentUncertainty =									0.000000014e-26;			/**< \f$\mu_{^3\textrm{He}} \ (\frac{J}{T})\f$ Uncertainty in helion magnetic moment in joules per tesla.*/ 
+	const double helionMagneticMomentToBohrMagnetonRatioUncertainty =				0.000000014e-3;				/**< \f$\frac{\mu_{^3\textrm{He}}}{\mu_B} \ (1)\f$ Uncertainty in helion magnetic moment to Bohr magneton ratio.*/ 
+	const double helionMagneticMomentToNuclearMagnetonRatioUncertainty =			0.000000025;				/**< \f$\frac{\mu_{^3\textrm{He}}}{\mu_N} \ (1)\f$ Uncertainty in helion magnetic moment to nuclear magneton ratio.*/ 
+	const double helionMassUncertainty =											0.000000062e-27;			/**< \f$m_{^3\textrm{He}} \ (kg)\f$ Uncertainty in helion mass in kilograms.*/ 
+	const double helionMassInJPercSquaredUncertainty =								0.000000055e-10;			/**< \f$m_{^3\textrm{He}} \ (\frac{J}{c^2})\f$ Uncertainty in helion mass in joules per speed of light squared.*/ 
+	const double helionMassInMeVPercSquaredUncertainty =							0.000017;					/**< \f$m_{^3\textrm{He}} \ (\frac{MeV}{c^2})\f$ Uncertainty in helion mass in megaelectron volts per speed of light squared.*/ 
+	const double helionMassInuUncertainty =											0.00000000012;				/**< \f$m_{^3\textrm{He}} \ (u)\f$ Uncertainty in helion mass in unified atomic mass units.*/ 
+	const double helionMolarMassUncertainty =										0.00000000012e-3;			/**< \f$M_{^3\textrm{He}} \ (\frac{kg}{mol})\f$ Uncertainty in helion molar mass in kilograms per mole.*/ 
+	const double helionProtonMassRatioUncertainty =									0.00000000029;				/**< \f$\frac{m_{^3\textrm{He}}}{m_p} \ (1)\f$ Uncertainty in helion-proton mass ratio .*/ 
 	#endif  
 	/// @}
 	
