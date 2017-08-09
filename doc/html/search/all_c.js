@@ -14,7 +14,7 @@ var searchData=
   ['molarplanckconstanttimesc',['molarPlanckConstantTimesc',['../group___molar_planck_constant.html#ga4ead25403deaa41d6f95b1252140b8b0',1,'NISTConst']]],
   ['molarplanckconstanttimescuncertainty',['molarPlanckConstantTimescUncertainty',['../group___molar_planck_constant.html#ga933b4c46e23c5f1f1380f3dc21299ad6',1,'NISTConst']]],
   ['molarplanckconstantuncertainty',['molarPlanckConstantUncertainty',['../group___molar_planck_constant.html#ga7634e99b3b26690645162c46aa910ee8',1,'NISTConst']]],
-  ['molar_20volume_20of_20ideal_20gas',['molar volume of ideal gas',['../group___molar_volume.html',1,'']]],
+  ['molar_20volume_20of_20ideal_20gas',['Molar volume of ideal gas',['../group___molar_volume.html',1,'']]],
   ['molarvolumeofidealgas',['molarVolumeOfIdealGas',['../group___molar_volume.html#ga666dc78c2b916ed12bcaf3ec15d7c4d3',1,'NISTConst']]],
   ['molarvolumeofidealgasatm',['molarVolumeOfIdealGasatm',['../group___molar_volume.html#ga005e08baa33a25a474bd2287281883c4',1,'NISTConst']]],
   ['molarvolumeofidealgasatmuncertainty',['molarVolumeOfIdealGasatmUncertainty',['../group___molar_volume.html#gaff48f0b13c5f974735f0826b7585a0c7',1,'NISTConst']]],

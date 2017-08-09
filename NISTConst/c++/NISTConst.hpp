@@ -160,7 +160,7 @@
 /// 	@defgroup FaradayConstant Faraday constant
 /// 	@ingroup PhysicoChemical
 
-/// 	@defgroup FirstRadiationConstant first radiation constant 
+/// 	@defgroup FirstRadiationConstant First radiation constant 
 /// 	@ingroup PhysicoChemical
 
 /// 	@defgroup LoschmidtConstant Loschmidt constant  
@@ -172,7 +172,7 @@
 /// 	@defgroup MolarPlanckConstant Molar Planck constant 
 /// 	@ingroup PhysicoChemical
 
-/// 	@defgroup MolarVolume molar volume of ideal gas
+/// 	@defgroup MolarVolume Molar volume of ideal gas
 /// 	@ingroup PhysicoChemical
 
 /// 	@defgroup SackurTetrodeConstant Sackur-Tetrode constant
@@ -436,12 +436,12 @@ namespace NISTConst
 	const double BoltzmannConstant =												1.38064852e-23;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in joules per kelvin.*/
 	const double BoltzmannConstantIneVPerK =										8.6173303e-5;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in electron volts per kelvin.*/
 	const double BoltzmannConstantInHzPerK =										2.0836612e10;				/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$  Boltzmann constant in hertz per kelvin.*/
-	const double BoltzmannConstantInInversemK =										69.503457;					/**< \f$\frac{k}{h c} \ (\frac{1}{m K})\f$  Boltzmann constant in inverse meters per kelvin.*/
+	const double BoltzmannConstantInInversemK =										69.503457;					/**< \f$\frac{k}{h c} \ (\frac{1}{m\ K})\f$  Boltzmann constant in inverse meters kelvin.*/
 	#ifdef NISTCONST_UNCERTAINTY
 	const double BoltzmannConstantUncertainty =										0.00000079e-23;				/**< \f$k \ (\frac{J}{K})\f$ Uncertainty in Boltzmann constant in joules per kelvin.*/
 	const double BoltzmannConstantIneVPerKUncertainty =								0.0000050e-5;				/**< \f$k \ (\frac{J}{K})\f$ Uncertainty in Boltzmann constant in electron volts per kelvin.*/
 	const double BoltzmannConstantInHzPerKUncertainty =								0.0000012e10;				/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$ Uncertainty in Boltzmann constant in hertz per kelvin.*/
-	const double BoltzmannConstantInInversemKUncertainty =							0.000040; 					/**< \f$\frac{k}{h c} \ (\frac{1}{m K})\f$ Uncertainty in Boltzmann constant in inverse meters per kelvin.*/
+	const double BoltzmannConstantInInversemKUncertainty =							0.000040; 					/**< \f$\frac{k}{h c} \ (\frac{1}{m\ K})\f$ Uncertainty in Boltzmann constant in inverse meters kelvin.*/
 	#endif  
 	/// @}
 	
@@ -653,10 +653,10 @@ namespace NISTConst
 	/// @addtogroup FaradayConstant
 	/// @{
 	const double FaradayConstant =													96485.33289;				/**< \f$F \ (\frac{C}{mol})\f$ Faraday constant in coulombs per mole.*/ 
-	const double FaradayConstantForConventionalElectricCurrent =					96485.3251;					/**< \f$F^\ast \ (\frac{C_90}{mol})\f$ Faraday constant for conventional electric current in coulombs per mole.*/ 
+	const double FaradayConstantForConventionalElectricCurrent =					96485.3251;					/**< \f$F^\ast \ (\frac{C_{90}}{mol})\f$ Faraday constant for conventional electric current in coulombs per mole.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	const double FaradayConstantUncertainty =										0.00059;					/**< \f$F \ (\frac{C}{mol})\f$ Uncertainty in Faraday constant in coulombs per mole.*/ 
-	const double FaradayConstantForConventionalElectricCurrentUncertainty =			0.0012;						/**< \f$F^\ast \ (\frac{C_90}{mol})\f$ Uncertainty in Faraday constant for conventional electric current in coulombs per mole.*/ 
+	const double FaradayConstantForConventionalElectricCurrentUncertainty =			0.0012;						/**< \f$F^\ast \ (\frac{C_{90}}{mol})\f$ Uncertainty in Faraday constant for conventional electric current in coulombs per mole.*/ 
 	#endif  
 	/// @}
 	
@@ -878,11 +878,11 @@ namespace NISTConst
 	
 	/// @addtogroup LoschmidtConstant
 	/// @{
-	const double LoschmidtConstant =												2.6516467e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant (273.15 K, 100 kPa) in inverse meters cubed.*/ 
-	const double LoschmidtConstantatm =												2.6867811e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant (273.15 K, 101.325 kPa) in inverse meters cubed.*/ 
+	const double LoschmidtConstant =												2.6516467e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed.*/ 
+	const double LoschmidtConstantatm =												2.6867811e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 101.325 kPa (1 atm) in inverse meters cubed.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double LoschmidtConstantUncertainty =										0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant (273.15 K, 100 kPa) in inverse meters cubed.*/ 
-	const double LoschmidtConstantatmUncertainty =									0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant (273.15 K, 101.325 kPa) in inverse meters cubed.*/ 
+	const double LoschmidtConstantUncertainty =										0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed.*/ 
+	const double LoschmidtConstantatmUncertainty =									0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant at 273.15 K, 101.325 kPa (1 atm) in inverse meters cubed.*/ 
 	#endif  
 	/// @}
 	
@@ -904,9 +904,9 @@ namespace NISTConst
 	
 	/// @addtogroup MolarGasConstant
 	/// @{
-	const double molarGasConstant =													8.3144598;					/**< \f$R \ (\frac{J}{mol K})\f$ Molar gas constant in joules per mole kelvin.*/ 
+	const double molarGasConstant =													8.3144598;					/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double molarGasConstantUncertainty =										0.0000048;					/**< \f$R \ (\frac{J}{mol K})\f$ Uncertainty in molar gas constant in joules per mole kelvin.*/ 
+	const double molarGasConstantUncertainty =										0.0000048;					/**< \f$R \ (\frac{J}{mol\ K})\f$ Uncertainty in molar gas constant in joules per mole kelvin.*/ 
 	#endif  
 	/// @}
 	
@@ -922,21 +922,21 @@ namespace NISTConst
 	
 	/// @addtogroup MolarPlanckConstant
 	/// @{
-	const double molarPlanckConstant =												3.9903127110e-10;			/**< \f$N_A h \ (\frac{J s}{mol})\f$ Molar Planck constant in joules second per mole.*/ 
-	const double molarPlanckConstantTimesc =										0.119626565582;				/**< \f$N_A hc \ (\frac{J m}{mol})\f$ Molar Planck constant times c in joules meter per mole.*/ 
+	const double molarPlanckConstant =												3.9903127110e-10;			/**< \f$N_A h \ (\frac{J\ s}{mol})\f$ Molar Planck constant in joules second per mole.*/ 
+	const double molarPlanckConstantTimesc =										0.119626565582;				/**< \f$N_A hc \ (\frac{J\ m}{mol})\f$ Molar Planck constant times c in joules meter per mole.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double molarPlanckConstantUncertainty =									0.0000000018e-10;			/**< \f$N_A h \ (\frac{J s}{mol})\f$ Uncertainty in molar Planck constant in joules second per mole.*/ 
-	const double molarPlanckConstantTimescUncertainty =								0.000000000054;				/**< \f$N_A hc \ (\frac{J m}{mol})\f$ Uncertainty in molar Planck constant times c in joules meter per mole.*/ 
+	const double molarPlanckConstantUncertainty =									0.0000000018e-10;			/**< \f$N_A h \ (\frac{J\ s}{mol})\f$ Uncertainty in molar Planck constant in joules second per mole.*/ 
+	const double molarPlanckConstantTimescUncertainty =								0.000000000054;				/**< \f$N_A hc \ (\frac{J\ m}{mol})\f$ Uncertainty in molar Planck constant times c in joules meter per mole.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup MolarVolume 
 	/// @{
-	const double molarVolumeOfIdealGas =											22.710947e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas (273.15 K, 100 kPa)  in meters cubed per mole.*/ 
-	const double molarVolumeOfIdealGasatm =											22.413962e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas (273.15 K, 101.325 kPa) in meters cubed per mole.*/ 
+	const double molarVolumeOfIdealGas =											22.710947e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas at 273.15 K, 100 kPa in meters cubed per mole.*/ 
+	const double molarVolumeOfIdealGasatm =											22.413962e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas at 273.15 K, 101.325 kPa (1 atm) in meters cubed per mole.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double molarVolumeOfIdealGasUncertainty =									0.000013e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Uncertainty in molar volume of ideal gas (273.15 K, 100 kPa)  in meters cubed per mole.*/ 
-	const double molarVolumeOfIdealGasatmUncertainty =								0.000013e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Uncertainty in molar volume of ideal gas (273.15 K, 101.325 kPa) in meters cubed per mole.*/ 
+	const double molarVolumeOfIdealGasUncertainty =									0.000013e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Uncertainty in molar volume of ideal gas at 273.15 K, 100 kPa in meters cubed per mole.*/ 
+	const double molarVolumeOfIdealGasatmUncertainty =								0.000013e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Uncertainty in molar volume of ideal gas at 273.15 K, 101.325 kPa (1 atm) in meters cubed per mole.*/ 
 	#endif  
 	/// @}
 	
@@ -1416,11 +1416,11 @@ namespace NISTConst
 	/// @addtogroup WienDisplacement 
 	/// @{ 
 	const double WienFrequencyDisplacementLawConstant =								5.8789238e10;				/**< \f$b' \ (\frac{Hz}{K})\f$ Wien frequency displacement law constant in hertz per kelvin.*/ 
-	const double WienWavelengthDisplacementLawConstant =							2.8977729e-3;				/**< \f$b \ (m K)\f$ Wien wavelength displacement law constant in meters kelvin.*/ 
+	const double WienWavelengthDisplacementLawConstant =							2.8977729e-3;				/**< \f$b \ (m\ K)\f$ Wien wavelength displacement law constant in meters kelvin.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
 	const double WienFrequencyDisplacementLawConstantUncertainty =					0.0000034e10;				/**< \f$b' \ (\frac{Hz}{K})\f$ Uncertainty in Wien frequency displacement law constant in hertz per kelvin.*/ 
-	const double WienWavelengthDisplacementLawConstantUncertainty =					0.0000017e-3;				/**< \f$b \ (m K)\f$ Uncertainty in Wien wavelength displacement law constant in meters kelvin.*/ 
+	const double WienWavelengthDisplacementLawConstantUncertainty =					0.0000017e-3;				/**< \f$b \ (m\ K)\f$ Uncertainty in Wien wavelength displacement law constant in meters kelvin.*/ 
 	#endif  
 	/// @}	
 
@@ -1514,8 +1514,25 @@ Weinberg angle = weakMixingAngle.
 HartreeEnergy = Eh
 HartreeEnergyIneV =EhIneV
 
+AvogadroConstant =NA
+
+BoltzmannConstant = kB
+BoltzmannConstantIneVPerK = kBIneVPerK
+BoltzmannConstantInHzPerK = kBInHzPerK
+BoltzmannConstantInInversemK = kBInInversemK
+
+LoschmidtConstant =n0
+LoschmidtConstant =Loschmidt's number
+
+FaradayConstant = F
 
 
+molarGasConstant = R
+molarGasConstant = gasConstant
+molarGasConstant = universalConstant
+molarGasConstant = idealConstant
+
+StefanBoltzmannConstant = sigma
 
 common names characteristic impedance of vacuum z0
 e0
