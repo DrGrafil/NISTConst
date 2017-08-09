@@ -329,15 +329,21 @@ namespace NISTConst
 	
 	/// @addtogroup AtomicMassUnit
 	/// @{
-	const double atomic mass unit-electron volt relationship                 931.4940954e6;          0.0000057e6;            eV/**< \f$ \ ()\f$ .*/ 
-	const double atomic mass unit-hartree relationship                       3.4231776902e7;        0.0000000016e7;        E_h/**< \f$ \ ()\f$ .*/ 
-	const double atomic mass unit-hertz relationship                         2.2523427206e23;       0.0000000010e23;       Hz/**< \f$ \ ()\f$ .*/ 
-	const double atomic mass unit-inverse meter relationship                 7.5130066166e14;       0.0000000034e14;       m^-1/**< \f$ \ ()\f$ .*/ 
-	const double atomic mass unit-joule relationship                         1.492418062e-10;       0.000000018e-10;       J/**< \f$ \ ()\f$ .*/ 
-	const double atomic mass unit-kelvin relationship                        1.08095438e13;         0.00000062e13;         K/**< \f$ \ ()\f$ .*/ 
-	const double atomic mass unit-kilogram relationship                      1.660539040e-27;       0.000000020e-27;       kg/**< \f$ \ ()\f$ .*/ 
+	const double atomicMassUnitToElectronVolt =								931.4940954e6;				/**< \f$(1\ u)c^2 \ (eV)\f$ Atomic mass unit-electron volt relationship in electron volts.*/ 
+	const double atomicMassUnitToHartree =									3.4231776902e7;				/**< \f$(1\ u)c^2 \ (E_h)\f$ Atomic mass unit-hartree relationship in hartree.*/ 
+	const double atomicMassUnitToHertz =									2.2523427206e23;			/**< \f$\frac{(1\ u)c^2}{h} \ (Hz)\f$ Atomic mass unit-hertz relationship in hertz.*/ 
+	const double atomicMassUnitToInverseMeter =								7.5130066166e14;			/**< \f$\frac{(1\ u)c}{h} \ (\frac{1}{m})\f$ Atomic mass unit-inverse meter relationship in inverse meters.*/ 
+	const double atomicMassUnitToJoule =									1.492418062e-10;			/**< \f$(1\ u)c^2 \ (J)\f$ Atomic mass unit-joule relationship in joules.*/ 
+	const double atomicMassUnitToKelvin =									1.08095438e13;				/**< \f$\frac{(1\ u)c^2}{k} \ (K)\f$ Atomic mass unit-kelvin relationship in kelvin.*/ 
+	const double atomicMassUnitToKilogram =									1.660539040e-27;			/**< \f$1\ u\ (kg)\f$ Atomic mass unit-kilogram relationship in kilograms.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double atomicMassUnitToElectronVoltUncertainty =					0.0000057e6;				/**< \f$(1\ u)c^2 \ (eV)\f$ Uncertainty in atomic mass unit-electron volt relationship in electron volts.*/ 
+	const double atomicMassUnitToHartreeUncertainty =						0.0000000016e7;				/**< \f$(1\ u)c^2 \ (E_h)\f$ Uncertainty in atomic mass unit-hartree relationship in hartree.*/ 
+	const double atomicMassUnitToHertzUncertainty =							0.0000000010e23;			/**< \f$\frac{(1\ u)c^2}{h} \ (Hz)\f$ Uncertainty in atomic mass unit-hertz relationship in hertz.*/ 
+	const double atomicMassUnitToInverseMeterUncertainty =					0.0000000034e14;			/**< \f$\frac{(1\ u)c}{h} \ (\frac{1}{m})\f$ Uncertainty in atomic mass unit-inverse meter relationship in inverse meters.*/ 
+	const double atomicMassUnitToJouleUncertainty =							0.000000018e-10;			/**< \f$(1\ u)c^2 \ (J)\f$ Uncertainty in atomic mass unit-joule relationship in joules.*/ 
+	const double atomicMassUnitToKelvinUncertainty =						0.00000062e13;				/**< \f$\frac{(1\ u)c^2}{k} \ (K)\f$ Uncertainty in atomic mass unit-kelvin relationship in kelvin.*/ 
+	const double atomicMassUnitToKilogramUncertainty =						0.000000020e-27;			/**< \f$1\ u\ (kg)\f$ Uncertainty in atomic mass unit-kilogram relationship in kilograms.*/ 
 	#endif  
 	/// @}
 	
@@ -561,8 +567,8 @@ namespace NISTConst
 	const double electron mag. mom. to Bohr magneton ratio                   -1.001 159 652 180 91    0.000000000000 26     
 	const double electron mag. mom. to nuclear magneton ratio                -1838.281 972 34         0.000000 17             
 	const double electron mass                                               9.109 383 56e-31        0.000000 11e-31        kg
-	const double electron mass energy equivalent                             8.187 105 65e-14        0.000000 10e-14        J
-	const double electron mass energy equivalent in MeV                      0.510 998 9461           0.0000000031           MeV
+	const double electron mass energy equivalent  JPercSquared                           8.187 105 65e-14        0.000000 10e-14        J
+	const double electron mass energy equivalent in MeVPercSquared                      0.510 998 9461           0.0000000031           MeV
 	const double electron mass in u                                          5.485 799 090 70e-4     0.000000000 16e-4     u
 	const double electron molar mass                                         5.485 799 090 70e-7     0.000000000 16e-7     kg mol^-1
 	const double electron-muon mag. mom. ratio                               206.766 9880             0.0000046               
@@ -705,8 +711,8 @@ namespace NISTConst
 	const double muon mag. mom. to Bohr magneton ratio                       -4.841 970 48e-3        0.000000 11e-3         
 	const double muon mag. mom. to nuclear magneton ratio                    -8.890 597 05            0.000000 20             
 	const double muon mass                                                   1.883 531 594e-28       0.000000048e-28       kg
-	const double muon mass energy equivalent                                 1.692 833 774e-11       0.000000043e-11       J
-	const double muon mass energy equivalent in MeV                          105.658 3745             0.0000024               MeV
+	const double muon mass energy equivalent    JPercSquared                             1.692 833 774e-11       0.000000043e-11       J
+	const double muon mass energy equivalent in MeVPercSquared                          105.658 3745             0.0000024               MeV
 	const double muon mass in u                                              0.113 428 9257           0.0000000025           u
 	const double muon molar mass                                             0.113 428 9257e-3       0.0000000025e-3       kg mol^-1
 	const double muon-neutron mass ratio                                     0.112 454 5167           0.0000000025           

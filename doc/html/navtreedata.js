@@ -12,7 +12,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_n_i_s_t_const_8hpp.html",
-"group___copper.html#gaefed00ac64123e598d5c20abac22f22f"
+"group___bohr_magneton.html#ga4fcb81eff2823748ae5fced898ecc0ec"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

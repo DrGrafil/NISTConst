@@ -1,6 +1,6 @@
 var group___physico_chemical =
 [
-    [ "Atomic mass constant", "group___atomic_mass_constant.html", null ],
+    [ "Atomic mass constant", "group___atomic_mass_constant.html", "group___atomic_mass_constant" ],
     [ "Avogadro constant", "group___avogadro_constant.html", "group___avogadro_constant" ],
     [ "Boltzmann constant", "group___boltzmann_constant.html", "group___boltzmann_constant" ],
     [ "Faraday constant", "group___faraday_constant.html", null ],
