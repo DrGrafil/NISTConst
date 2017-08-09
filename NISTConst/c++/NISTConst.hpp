@@ -375,181 +375,181 @@ namespace NISTConst
 	const double atomicUnitOfVelocity =										2.18769126277e6;			/**< \f$\frac{a_0 E_h}{\hbar} \ (\frac{m}{s})\f$ Atomic unit of velocity.*/ 
 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double atomicUnitOf1stHyperpolarizabilityUncertainty =			0.000000020e-53;			/**< \f$\frac{e^3 a_0^3}{E_h^2} \ (\frac{C^3 m^3}{J^2})\f$ Uncertainty in atomic unit of 1st hyperpolarizability.*/
-	const double atomicUnitOf2ndHyperpolarizabilityUncertainty =			0.000000077e-65;			/**< \f$\frac{e^4 a_0^4}{E_h^3} \ (\frac{C^4 m^4}{J^3})\f$ Uncertainty in atomic unit of 2nd hyperpolarizability.*/
-	const double atomicUnitOfActionUncertainty =							0.000000013e-34;			/**< \f$\hbar \ (J s)\f$ Uncertainty in atomic unit of action.*/ 
-	const double atomicUnitOfChargeUncertainty =							0.0000000098e-19;			/**< \f$e \ (C)\f$ Uncertainty in atomic unit of charge.*/ 
-	const double atomicUnitOfChargeDensityUncertainty =						0.0000000067e12;			/**< \f$\frac{e}{a_0^3} \ (\frac{C}{m^3})\f$ Uncertainty in atomic unit of charge density.*/ 
-	const double atomicUnitOfCurrentUncertainty =							0.000000041e-3;				/**< \f$ \frac{e E_h}{\hbar} \ (A)\f$ Uncertainty in atomic unit of current.*/ 
-	const double atomicUnitOfElectricDipoleMomentUncertainty =				0.000000052e-30;			/**< \f$ e a_0 \ (C m)\f$ Uncertainty in atomic unit of electric dipole moment. */ 
-	const double atomicUnitOfElectricFieldUncertainty = 					0.000000032e11;				/**< \f$\frac{E_h}{e a_0} \ (\frac{V}{m})\f$ Uncertainty in atomic unit of electric field.*/ 
-	const double atomicUnitOfElectricFieldGradientUncertainty =				0.000000060e21;				/**< \f$\frac{E_h}{e a_0^2}\ (\frac{V}{m^2})\f$ Uncertainty in atomic unit of electric field gradient.*/ 
-	const double atomicUnitOfElectricPolarizabilityUncertainty =			0.0000000011e-41;			/**< \f$\frac{e^2 a_0^2}{E_h} \ (\frac{C^2 m^2}{J})\f$ Uncertainty in atomic unit of electric polarizability. */ 
-	const double atomicUnitOfElectricPotentialUncertainty =					0.00000017;					/**< \f$ \frac{E_h}{e}\ (V)\f$ Uncertainty in atomic unit of electric potential.*/ 
-	const double atomicUnitOfElectricQuadrupoleMomentUncertainty =			0.000000028e-40;			/**< \f$e a_0^2 \ (C m^2)\f$ Uncertainty in atomic unit of electric quadrupole moment.*/ 
-	const double atomicUnitOfEnergyUncertainty =							0.000000054e-18;			/**< \f$E_h \ (J)\f$ Uncertainty in atomic unit of energy.*/ 
-	const double atomicUnitOfForceUncertainty =								0.00000010e-8;				/**< \f$\frac{E_h}{a_0} \ (N)\f$ Uncertainty in atomic unit of force.*/ 
-	const double atomicUnitOfLengthUncertainty =							0.00000000012e-10;			/**< \f$a_0 \ (m)\f$ Uncertainty in atomic unit of length.*/ 
-	const double atomicUnitOfMagneticDipoleMomentUncertainty =				0.000000011e-23;			/**< \f$\frac{\hbar e}{m_e} \ (\frac{J}{T})\f$ Uncertainty in atomic unit of magnetic dipole moment.*/ 
-	const double atomicUnitOfMagneticFluxDensityUncertainty =				0.000000014e5;				/**< \f$\frac{\hbar}{e a_0^2} \ (T)\f$ Uncertainty in atomic unit of magnetic flux density.*/ 
-	const double atomicUnitOfMagnetizabilityUncertainty =					0.0000000090e-29;			/**< \f$\frac{e^2a_0^2}{m_e} \ (\frac{J}{T^2})\f$ Uncertainty in atomic unit of magnetizability.*/ 
-	const double atomicUnitOfMassUncertainty =								0.00000011e-31;				/**< \f$m_e \ (kg)\f$ Uncertainty in atomic unit of mass.*/ 
-	const double atomicUnitOfMomentumUncertainty =							0.000000024e-24;			/**< \f$\frac{\hbar}{a_0} \ (\frac{kg m}{s})\f$ Uncertainty in atomic unit of momentum.*/ 
-	const double atomicUnitOfPermittivityUncertainty =                      0.0;						/**< \f$\frac{e^2}{a_0 E_h} \ (\frac{F}{m})\f$ Uncertainty in atomic unit of permittivity. Note should be 0.0 since it is a defined value.*/ 
-	const double atomicUnitOfTimeUncertainty =								0.000000000014e-17;			/**< \f$\frac{\hbar}{E_h} \ (s)\f$ Uncertainty in atomic unit of time.*/ 
-	const double atomicUnitOfVelocityUncertainty =							0.00000000050e6;			/**< \f$\frac{a_0 E_h}{\hbar} \ (\frac{m}{s})\f$ Uncertainty in atomic unit of velocity.*/ 
+	const double atomicUnitOf1stHyperpolarizabilityUncertainty =					0.000000020e-53;			/**< \f$\frac{e^3 a_0^3}{E_h^2} \ (\frac{C^3 m^3}{J^2})\f$ Uncertainty in atomic unit of 1st hyperpolarizability.*/
+	const double atomicUnitOf2ndHyperpolarizabilityUncertainty =					0.000000077e-65;			/**< \f$\frac{e^4 a_0^4}{E_h^3} \ (\frac{C^4 m^4}{J^3})\f$ Uncertainty in atomic unit of 2nd hyperpolarizability.*/
+	const double atomicUnitOfActionUncertainty =									0.000000013e-34;			/**< \f$\hbar \ (J s)\f$ Uncertainty in atomic unit of action.*/ 
+	const double atomicUnitOfChargeUncertainty =									0.0000000098e-19;			/**< \f$e \ (C)\f$ Uncertainty in atomic unit of charge.*/ 
+	const double atomicUnitOfChargeDensityUncertainty =								0.0000000067e12;			/**< \f$\frac{e}{a_0^3} \ (\frac{C}{m^3})\f$ Uncertainty in atomic unit of charge density.*/ 
+	const double atomicUnitOfCurrentUncertainty =									0.000000041e-3;				/**< \f$ \frac{e E_h}{\hbar} \ (A)\f$ Uncertainty in atomic unit of current.*/ 
+	const double atomicUnitOfElectricDipoleMomentUncertainty =						0.000000052e-30;			/**< \f$ e a_0 \ (C m)\f$ Uncertainty in atomic unit of electric dipole moment. */ 
+	const double atomicUnitOfElectricFieldUncertainty = 							0.000000032e11;				/**< \f$\frac{E_h}{e a_0} \ (\frac{V}{m})\f$ Uncertainty in atomic unit of electric field.*/ 
+	const double atomicUnitOfElectricFieldGradientUncertainty =						0.000000060e21;				/**< \f$\frac{E_h}{e a_0^2}\ (\frac{V}{m^2})\f$ Uncertainty in atomic unit of electric field gradient.*/ 
+	const double atomicUnitOfElectricPolarizabilityUncertainty =					0.0000000011e-41;			/**< \f$\frac{e^2 a_0^2}{E_h} \ (\frac{C^2 m^2}{J})\f$ Uncertainty in atomic unit of electric polarizability. */ 
+	const double atomicUnitOfElectricPotentialUncertainty =							0.00000017;					/**< \f$ \frac{E_h}{e}\ (V)\f$ Uncertainty in atomic unit of electric potential.*/ 
+	const double atomicUnitOfElectricQuadrupoleMomentUncertainty =					0.000000028e-40;			/**< \f$e a_0^2 \ (C m^2)\f$ Uncertainty in atomic unit of electric quadrupole moment.*/ 
+	const double atomicUnitOfEnergyUncertainty =									0.000000054e-18;			/**< \f$E_h \ (J)\f$ Uncertainty in atomic unit of energy.*/ 
+	const double atomicUnitOfForceUncertainty =										0.00000010e-8;				/**< \f$\frac{E_h}{a_0} \ (N)\f$ Uncertainty in atomic unit of force.*/ 
+	const double atomicUnitOfLengthUncertainty =									0.00000000012e-10;			/**< \f$a_0 \ (m)\f$ Uncertainty in atomic unit of length.*/ 
+	const double atomicUnitOfMagneticDipoleMomentUncertainty =						0.000000011e-23;			/**< \f$\frac{\hbar e}{m_e} \ (\frac{J}{T})\f$ Uncertainty in atomic unit of magnetic dipole moment.*/ 
+	const double atomicUnitOfMagneticFluxDensityUncertainty =						0.000000014e5;				/**< \f$\frac{\hbar}{e a_0^2} \ (T)\f$ Uncertainty in atomic unit of magnetic flux density.*/ 
+	const double atomicUnitOfMagnetizabilityUncertainty =							0.0000000090e-29;			/**< \f$\frac{e^2a_0^2}{m_e} \ (\frac{J}{T^2})\f$ Uncertainty in atomic unit of magnetizability.*/ 
+	const double atomicUnitOfMassUncertainty =										0.00000011e-31;				/**< \f$m_e \ (kg)\f$ Uncertainty in atomic unit of mass.*/ 
+	const double atomicUnitOfMomentumUncertainty =									0.000000024e-24;			/**< \f$\frac{\hbar}{a_0} \ (\frac{kg m}{s})\f$ Uncertainty in atomic unit of momentum.*/ 
+	const double atomicUnitOfPermittivityUncertainty =       		               0.0;						/**< \f$\frac{e^2}{a_0 E_h} \ (\frac{F}{m})\f$ Uncertainty in atomic unit of permittivity. Note should be 0.0 since it is a defined value.*/ 
+	const double atomicUnitOfTimeUncertainty =										0.000000000014e-17;			/**< \f$\frac{\hbar}{E_h} \ (s)\f$ Uncertainty in atomic unit of time.*/ 
+	const double atomicUnitOfVelocityUncertainty =									0.00000000050e6;			/**< \f$\frac{a_0 E_h}{\hbar} \ (\frac{m}{s})\f$ Uncertainty in atomic unit of velocity.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup AvogadroConstant 
 	/// @{
-	const double AvogadroConstant =											6.022140857e23;				/**< \f$N_A \ (\frac{1}{mol})\f$ Avogadro constant.*/ 
+	const double AvogadroConstant =													6.022140857e23;				/**< \f$N_A \ (\frac{1}{mol})\f$ Avogadro constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double AvogadroConstantUncertainty =								0.000000074e23;				/**< \f$N_A \ (\frac{1}{mol})\f$ Uncertainty in Avogadro constant.*/ 
+	const double AvogadroConstantUncertainty =										0.000000074e23;				/**< \f$N_A \ (\frac{1}{mol})\f$ Uncertainty in Avogadro constant.*/ 
 	#endif  
 	/// @}
 
 	/// @addtogroup BohrMagneton
 	/// @{
-	const double BohrMagneton =												927.4009994e-26;			/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla.*/ 
-	const double BohrMagnetonIneVPerT =										5.7883818012e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesela.*/ 
-	const double BohrMagnetonInHzPerT =										13.996245042e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Bohr magneton in hertz per tesela.*/ 
-	const double BohrMagnetonInInversemPerT	=								46.68644814;				/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m T})\f$ Bohr magneton in inverse meters tesla.*/ 
-	const double BohrMagnetonInKPerT =										0.67171405;					/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Bohr magneton in kelvin per tesla.*/ 
+	const double BohrMagneton =														927.4009994e-26;			/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla.*/ 
+	const double BohrMagnetonIneVPerT =												5.7883818012e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesela.*/ 
+	const double BohrMagnetonInHzPerT =												13.996245042e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Bohr magneton in hertz per tesela.*/ 
+	const double BohrMagnetonInInversemPerT	=										46.68644814;				/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m T})\f$ Bohr magneton in inverse meters tesla.*/ 
+	const double BohrMagnetonInKPerT =												0.67171405;					/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Bohr magneton in kelvin per tesla.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double BohrMagnetonUncertainty =									0.0000057e-26;				/**< \f$\mu_B \ (\frac{J}{T})\f$ Uncertainty in Bohr magneton in joules per tesla.*/ 
-	const double BohrMagnetonIneVPerTUncertainty =							0.0000000026e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Uncertainty in Bohr magneton in electron volts per tesela.*/ 
-	const double BohrMagnetonInHzPerTUncertainty =							0.000000086e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Uncertainty in Bohr magneton in hertz per tesela.*/ 
-	const double BohrMagnetonInInversemPerTUncertainty	=					0.00000029;					/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m T})\f$ Uncertainty in Bohr magneton in inverse meters tesla.*/ 
-	const double BohrMagnetonInKPerTUncertainty =							0.00000039;					/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Uncertainty in Bohr magneton in kelvin per tesla.*/ 
+	const double BohrMagnetonUncertainty =											0.0000057e-26;				/**< \f$\mu_B \ (\frac{J}{T})\f$ Uncertainty in Bohr magneton in joules per tesla.*/ 
+	const double BohrMagnetonIneVPerTUncertainty =									0.0000000026e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Uncertainty in Bohr magneton in electron volts per tesela.*/ 
+	const double BohrMagnetonInHzPerTUncertainty =									0.000000086e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Uncertainty in Bohr magneton in hertz per tesela.*/ 
+	const double BohrMagnetonInInversemPerTUncertainty	=							0.00000029;					/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m T})\f$ Uncertainty in Bohr magneton in inverse meters tesla.*/ 
+	const double BohrMagnetonInKPerTUncertainty =									0.00000039;					/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Uncertainty in Bohr magneton in kelvin per tesla.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup BohrRadius
 	/// @{
-	const double BohrRadius =												0.52917721067e-10;			/**< \f$a_0 \ (m)\f$ Bohr radius in meters.*/ 
+	const double BohrRadius =														0.52917721067e-10;			/**< \f$a_0 \ (m)\f$ Bohr radius in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double BohrRadiusUncertainty =									0.00000000012e-10;			/**< \f$a_0 \ (m)\f$ Uncertainty in Bohr radius in meters.*/ 
+	const double BohrRadiusUncertainty =											0.00000000012e-10;			/**< \f$a_0 \ (m)\f$ Uncertainty in Bohr radius in meters.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup BoltzmannConstant
 	/// @{
-	const double BoltzmannConstant =										1.38064852e-23;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in joules per kelvin.*/
-	const double BoltzmannConstantIneVPerK =								8.6173303e-5;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in electron volts per kelvin.*/
-	const double BoltzmannConstantInHzPerK =								2.0836612e10;				/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$  Boltzmann constant in hertz per kelvin.*/
-	const double BoltzmannConstantInInversemK =								69.503457;					/**< \f$\frac{k}{h c} \ (\frac{1}{m K})\f$  Boltzmann constant in inverse meters per kelvin.*/
+	const double BoltzmannConstant =												1.38064852e-23;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in joules per kelvin.*/
+	const double BoltzmannConstantIneVPerK =										8.6173303e-5;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in electron volts per kelvin.*/
+	const double BoltzmannConstantInHzPerK =										2.0836612e10;				/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$  Boltzmann constant in hertz per kelvin.*/
+	const double BoltzmannConstantInInversemK =										69.503457;					/**< \f$\frac{k}{h c} \ (\frac{1}{m K})\f$  Boltzmann constant in inverse meters per kelvin.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double BoltzmannConstantUncertainty =								0.00000079e-23;				/**< \f$k \ (\frac{J}{K})\f$ Uncertainty in Boltzmann constant in joules per kelvin.*/
-	const double BoltzmannConstantIneVPerKUncertainty =						0.0000050e-5;				/**< \f$k \ (\frac{J}{K})\f$ Uncertainty in Boltzmann constant in electron volts per kelvin.*/
-	const double BoltzmannConstantInHzPerKUncertainty =						0.0000012e10;				/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$ Uncertainty in Boltzmann constant in hertz per kelvin.*/
-	const double BoltzmannConstantInInversemKUncertainty =					0.000040; 					/**< \f$\frac{k}{h c} \ (\frac{1}{m K})\f$ Uncertainty in Boltzmann constant in inverse meters per kelvin.*/
+	const double BoltzmannConstantUncertainty =										0.00000079e-23;				/**< \f$k \ (\frac{J}{K})\f$ Uncertainty in Boltzmann constant in joules per kelvin.*/
+	const double BoltzmannConstantIneVPerKUncertainty =								0.0000050e-5;				/**< \f$k \ (\frac{J}{K})\f$ Uncertainty in Boltzmann constant in electron volts per kelvin.*/
+	const double BoltzmannConstantInHzPerKUncertainty =								0.0000012e10;				/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$ Uncertainty in Boltzmann constant in hertz per kelvin.*/
+	const double BoltzmannConstantInInversemKUncertainty =							0.000040; 					/**< \f$\frac{k}{h c} \ (\frac{1}{m K})\f$ Uncertainty in Boltzmann constant in inverse meters per kelvin.*/
 	#endif  
 	/// @}
 	
 	
 	/// @addtogroup ImpedanceOfVacuum
 	/// @{
-	const double impedanceOfVacuum =										376.730313461;				/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohm.*/ 
+	const double impedanceOfVacuum =												376.730313461;				/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohm.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double impedanceOfVacuum =										0.0;						/**< \f$Z_0 \ (\Omega)\f$ Uncertainty in characteristic impedance of vacuum in ohm. Note should be 0.0 since it is a defined value.*/ 
+	const double impedanceOfVacuum =												0.0;						/**< \f$Z_0 \ (\Omega)\f$ Uncertainty in characteristic impedance of vacuum in ohm. Note should be 0.0 since it is a defined value.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup Electron
 	/// @{
-	const double classicalElectronRadius =									2.8179403227e-15;			/**< \f$r_e \ (m)\f$ Classical electron radius in meters.*/
+	const double classicalElectronRadius =											2.8179403227e-15;			/**< \f$r_e \ (m)\f$ Classical electron radius in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double classicalElectronRadiusUncertainty =						0.0000000019e-15;			/**< \f$r_e \ (m)\f$ Uncertainty in classical electron radiusin meters.*/
+	const double classicalElectronRadiusUncertainty =								0.0000000019e-15;			/**< \f$r_e \ (m)\f$ Uncertainty in classical electron radiusin meters.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup ComptonWavelength
 	/// @{
-	const double ComptonWavelength =										2.4263102367e-12;			/**< \f$\lambda_C \ (m)\f$ Compton wavelength in meters.*/
-	const double ComptonWavelengthOver2Pi =									386.15926764e-15;			/**< \f$\lambdabar_C \ (m)\f$ Compton wavelength over 2 pi in meters.*/
+	const double ComptonWavelength =												2.4263102367e-12;			/**< \f$\lambda_C \ (m)\f$ Compton wavelength in meters.*/
+	const double ComptonWavelengthOver2Pi =											386.15926764e-15;			/**< \f$\lambdabar_C \ (m)\f$ Compton wavelength over 2 pi in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double ComptonWavelengthUncertainty =								0.0000000011e-12;			/**< \f$\lambda_C \ (m)\f$ Uncertainty in Compton wavelength in meters.*/
-	const double ComptonWavelengthOver2PiUncertainty =						0.00000018e-15;				/**< \f$\lambdabar_C \ (m)\f$ Uncertainty in Compton wavelength over 2 pi in meters.*/
+	const double ComptonWavelengthUncertainty =										0.0000000011e-12;			/**< \f$\lambda_C \ (m)\f$ Uncertainty in Compton wavelength in meters.*/
+	const double ComptonWavelengthOver2PiUncertainty =								0.00000018e-15;				/**< \f$\lambdabar_C \ (m)\f$ Uncertainty in Compton wavelength over 2 pi in meters.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup ConductanceQuantum
 	/// @{
-	const double conductanceQuantum =										7.7480917310e-5;			/**< \f$G_0 \ (S)\f$ Conductance quantum in siemens.*/
+	const double conductanceQuantum =												7.7480917310e-5;			/**< \f$G_0 \ (S)\f$ Conductance quantum in siemens.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double conductanceQuantumUncertainty =							0.0000000018e-5;			/**< \f$G_0 \ (S)\f$ Uncertainty in conductance quantum in siemens.*/
+	const double conductanceQuantumUncertainty =									0.0000000018e-5;			/**< \f$G_0 \ (S)\f$ Uncertainty in conductance quantum in siemens.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup ConventionalJosephsonConstant
 	/// @{
-	const double conventionalJosephsonConstant =							483597.9e9;					/**< \f$K_{J-90} \ (\frac{Hz}{V})\f$ Conventional value of Josephson constant in hertz per volt.*/
+	const double conventionalJosephsonConstant =									483597.9e9;					/**< \f$K_{J-90} \ (\frac{Hz}{V})\f$ Conventional value of Josephson constant in hertz per volt.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double conventionalJosephsonConstantUncertainty =					0.0;						/**< \f$K_{J-90} \ (\frac{Hz}{V})\f$ Uncertainty in conventional value of Josephson constant in hertz per volt. Note should be 0.0 since it is a defined value.*/
+	const double conventionalJosephsonConstantUncertainty =							0.0;						/**< \f$K_{J-90} \ (\frac{Hz}{V})\f$ Uncertainty in conventional value of Josephson constant in hertz per volt. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 	
 	
 	/// @addtogroup ConventionalvonKlitzingConstant
 	/// @{
-	const double conventionalvonKlitzingConstant =							25812.807;					/**< \f$R_{K-90} \ (\Omega)\f$ Conventional value of von Klitzing constant.*/
+	const double conventionalvonKlitzingConstant =									25812.807;					/**< \f$R_{K-90} \ (\Omega)\f$ Conventional value of von Klitzing constant.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double conventionalvonKlitzingConstantUncertainty =				25812.807;					/**< \f$R_{K-90} \ (\Omega)\f$ Uncertainty in conventional value of von Klitzing constant. Note should be 0.0 since it is a defined value.*/
+	const double conventionalvonKlitzingConstantUncertainty =						25812.807;					/**< \f$R_{K-90} \ (\Omega)\f$ Uncertainty in conventional value of von Klitzing constant. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup Copper
 	/// @{
-	const double CuXUnit =													1.00207697e-13;				/**< \f$xu(CuK\alpha_1) \ (m)\f$ Cu X unit in meters.*/
+	const double CuXUnit =															1.00207697e-13;				/**< \f$xu(CuK\alpha_1) \ (m)\f$ Cu X unit in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double CuXUnitUncertainty =										0.00000028e-13;				/**< \f$xu(CuK\alpha_1) \ (m)\f$ Uncertainty in Cu X unit in meters.*/
+	const double CuXUnitUncertainty =												0.00000028e-13;				/**< \f$xu(CuK\alpha_1) \ (m)\f$ Uncertainty in Cu X unit in meters.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup Deuteron
 	/// @{ 
-	const double deuterongFactor =											0.8574382311;				/**< \f$g_D \ (1)\f$ Deuteron g factor.*/   
-	const double deuteronElectronMagneticMomentRatio =						-4.664345535e-4;			/**< \f$\frac{\mu_D}{\mu_e} \ (1)\f$ Deuteron-electron magnetic moment ratio.*/         
-	const double deuteronElectronMassRatio =								3670.48296785;				/**< \f$\frac{m_D}{m_e} \ (1)\f$ Deuteron-electron mass ratio.*/            
-	const double deuteronMagneticMoment =									0.4330735040e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Deuteron magnetic moment in joules per tesela.*/
-	const double deuteronMagneticMomentToBohrMagnetonRatio =				0.4669754554e-3;			/**< \f$\frac{\mu_D}{\mu_B} \ (1)\f$ Deuteron magnetic moment to Bohr magneton ratio.*/        
-	const double deuteronMagneticMomentToNuclearMagnetonRatio =				0.8574382311;				/**< \f$\frac{\mu_D}{\mu_N} \ (1)\f$ Deuteron magnetic moment to nuclear magneton ratio.*/            
-	const double deuteronMass =												3.343583719e-27;			/**< \f$m_D \ (kg)\f$ Deuteron mass in kg.*/
-	const double deuteronMassInJPercSquared =								3.005063183e-10;			/**< \f$m_D \ (\frac{J}{c^2})\f$ Deuteron mass in joules per speed of light squared.*/
-	const double deuteronMassInMeVPercSquared =								1875.612928;				/**< \f$m_D \ (\frac{MeV}{c^2})\f$ Deuteron mass in MeV per speed of light squared.*/
-	const double deuteronMassInu =											2.013553212745;				/**< \f$m_D \ (u)\f$ Deuteron mass in unified atomic mass units.*/
-	const double deuteronMolarMass =										2.013553212745e-3;			/**< \f$M_D \ (\frac{1}{mol})\f$ Deuteron molar mass in inverse mols.*/
-	const double deuteronNeutronMagneticMomentRatio =						-0.44820652;				/**< \f$\frac{\mu_D}{\mu_n} \ (1)\f$ Deuteron-neutron magnetic moment ratio.*/              
-	const double deuteronProtonMagneticMomentRatio =						0.3070122077;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Deuteron-neutron magnetic moment ratio.*/            
-	const double deuteronProtonMassRatio =									1.99900750087;				/**< \f$\frac{m_D}{m_p} \ (1)\f$ Deuteron-proton magnetic moment ratio.*/          
-	const double deuteronrmsChargeRadius =									2.1413e-15;					/**< \f$r_D \ (m)\f$ Deuteron rms charge radius in meters.*/
+	const double deuterongFactor =													0.8574382311;				/**< \f$g_D \ (1)\f$ Deuteron g factor.*/   
+	const double deuteronElectronMagneticMomentRatio =								-4.664345535e-4;			/**< \f$\frac{\mu_D}{\mu_e} \ (1)\f$ Deuteron-electron magnetic moment ratio.*/         
+	const double deuteronElectronMassRatio =										3670.48296785;				/**< \f$\frac{m_D}{m_e} \ (1)\f$ Deuteron-electron mass ratio.*/            
+	const double deuteronMagneticMoment =											0.4330735040e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Deuteron magnetic moment in joules per tesela.*/
+	const double deuteronMagneticMomentToBohrMagnetonRatio =						0.4669754554e-3;			/**< \f$\frac{\mu_D}{\mu_B} \ (1)\f$ Deuteron magnetic moment to Bohr magneton ratio.*/        
+	const double deuteronMagneticMomentToNuclearMagnetonRatio =						0.8574382311;				/**< \f$\frac{\mu_D}{\mu_N} \ (1)\f$ Deuteron magnetic moment to nuclear magneton ratio.*/            
+	const double deuteronMass =														3.343583719e-27;			/**< \f$m_D \ (kg)\f$ Deuteron mass in kg.*/
+	const double deuteronMassInJPercSquared =										3.005063183e-10;			/**< \f$m_D \ (\frac{J}{c^2})\f$ Deuteron mass in joules per speed of light squared.*/
+	const double deuteronMassInMeVPercSquared =										1875.612928;				/**< \f$m_D \ (\frac{MeV}{c^2})\f$ Deuteron mass in MeV per speed of light squared.*/
+	const double deuteronMassInu =													2.013553212745;				/**< \f$m_D \ (u)\f$ Deuteron mass in unified atomic mass units.*/
+	const double deuteronMolarMass =												2.013553212745e-3;			/**< \f$M_D \ (\frac{1}{mol})\f$ Deuteron molar mass in inverse mols.*/
+	const double deuteronNeutronMagneticMomentRatio =								-0.44820652;				/**< \f$\frac{\mu_D}{\mu_n} \ (1)\f$ Deuteron-neutron magnetic moment ratio.*/              
+	const double deuteronProtonMagneticMomentRatio =								0.3070122077;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Deuteron-neutron magnetic moment ratio.*/            
+	const double deuteronProtonMassRatio =											1.99900750087;				/**< \f$\frac{m_D}{m_p} \ (1)\f$ Deuteron-proton magnetic moment ratio.*/          
+	const double deuteronrmsChargeRadius =											2.1413e-15;					/**< \f$r_D \ (m)\f$ Deuteron rms charge radius in meters.*/
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double deuterongFactorUncertainty =								0.0000000048;				/**< \f$g_D \ (1)\f$ Uncertainty in deuteron g factor.*/   
-	const double deuteronElectronMagneticMomentRatioUncertainty =			0.000000026e-4;				/**< \f$\frac{\mu_D}{\mu_e} \ (1)\f$ Uncertainty in deuteron-electron magnetic moment ratio.*/         
-	const double deuteronElectronMassRatioUncertainty =						0.00000013;					/**< \f$\frac{m_D}{m_e} \ (1)\f$ Uncertainty in deuteron-electron mass ratio.*/            
-	const double deuteronMagneticMomentUncertainty =						0.0000000036e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Uncertainty in deuteron magnetic moment in joules per tesela.*/
-	const double deuteronMagneticMomentToBohrMagnetonRatioUncertainty =		0.0000000026e-3;			/**< \f$\frac{\mu_D}{\mu_B} \ (1)\f$ Uncertainty in deuteron magnetic moment to Bohr magneton ratio.*/        
-	const double deuteronMagneticMomentToNuclearMagnetonRatioUncertainty =	0.0000000048;				/**< \f$\frac{\mu_D}{\mu_N} \ (1)\f$ Uncertainty in deuteron magnetic moment to nuclear magneton ratio.*/            
-	const double deuteronMassUncertainty =									0.000000041e-27;			/**< \f$m_D \ (kg)\f$ Uncertainty in deuteron mass in kg.*/
-	const double deuteronMassInJPercSquaredUncertainty =					0.000000037e-10;			/**< \f$m_D \ (\frac{J}{c^2})\f$ Uncertainty in deuteron mass in joules per speed of light squared.*/
-	const double deuteronMassInMeVPercSquaredUncertainty =					0.000012;					/**< \f$m_D \ (\frac{MeV}{c^2})\f$ Uncertainty in deuteron mass in MeV per speed of light squared.*/
-	const double deuteronMassInuUncertainty =								0.000000000040;				/**< \f$m_D \ (u)\f$ Uncertainty in deuteron mass in unified atomic mass units.*/
-	const double deuteronMolarMassUncertainty =								0.000000000040e-3;			/**< \f$M_D \ (\frac{1}{mol})\f$ Uncertainty in deuteron molar mass in inverse mols.*/
-	const double deuteronNeutronMagneticMomentRatioUncertainty =			0.00000011;					/**< \f$\frac{\mu_D}{\mu_n} \ (1)\f$ Uncertainty in deuteron-neutron magnetic moment ratio.*/              
-	const double deuteronProtonMagneticMomentRatioUncertainty =				0.0000000015;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Uncertainty in deuteron-neutron magnetic moment ratio.*/            
-	const double deuteronProtonMassRatioUncertainty =						0.00000000019;				/**< \f$\frac{m_D}{m_p} \ (1)\f$ Uncertainty in deuteron-proton magnetic moment ratio.*/          
-	const double deuteronrmsChargeRadiusUncertainty =						0.0025e-15;					/**< \f$r_D \ (m)\f$ Uncertainty in deuteron rms charge radius in meters.*/
+	const double deuterongFactorUncertainty =										0.0000000048;				/**< \f$g_D \ (1)\f$ Uncertainty in deuteron g factor.*/   
+	const double deuteronElectronMagneticMomentRatioUncertainty =					0.000000026e-4;				/**< \f$\frac{\mu_D}{\mu_e} \ (1)\f$ Uncertainty in deuteron-electron magnetic moment ratio.*/         
+	const double deuteronElectronMassRatioUncertainty =								0.00000013;					/**< \f$\frac{m_D}{m_e} \ (1)\f$ Uncertainty in deuteron-electron mass ratio.*/            
+	const double deuteronMagneticMomentUncertainty =								0.0000000036e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Uncertainty in deuteron magnetic moment in joules per tesela.*/
+	const double deuteronMagneticMomentToBohrMagnetonRatioUncertainty =				0.0000000026e-3;			/**< \f$\frac{\mu_D}{\mu_B} \ (1)\f$ Uncertainty in deuteron magnetic moment to Bohr magneton ratio.*/        
+	const double deuteronMagneticMomentToNuclearMagnetonRatioUncertainty =			0.0000000048;				/**< \f$\frac{\mu_D}{\mu_N} \ (1)\f$ Uncertainty in deuteron magnetic moment to nuclear magneton ratio.*/            
+	const double deuteronMassUncertainty =											0.000000041e-27;			/**< \f$m_D \ (kg)\f$ Uncertainty in deuteron mass in kg.*/
+	const double deuteronMassInJPercSquaredUncertainty =							0.000000037e-10;			/**< \f$m_D \ (\frac{J}{c^2})\f$ Uncertainty in deuteron mass in joules per speed of light squared.*/
+	const double deuteronMassInMeVPercSquaredUncertainty =							0.000012;					/**< \f$m_D \ (\frac{MeV}{c^2})\f$ Uncertainty in deuteron mass in MeV per speed of light squared.*/
+	const double deuteronMassInuUncertainty =										0.000000000040;				/**< \f$m_D \ (u)\f$ Uncertainty in deuteron mass in unified atomic mass units.*/
+	const double deuteronMolarMassUncertainty =										0.000000000040e-3;			/**< \f$M_D \ (\frac{1}{mol})\f$ Uncertainty in deuteron molar mass in inverse mols.*/
+	const double deuteronNeutronMagneticMomentRatioUncertainty =					0.00000011;					/**< \f$\frac{\mu_D}{\mu_n} \ (1)\f$ Uncertainty in deuteron-neutron magnetic moment ratio.*/              
+	const double deuteronProtonMagneticMomentRatioUncertainty =						0.0000000015;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Uncertainty in deuteron-neutron magnetic moment ratio.*/            
+	const double deuteronProtonMassRatioUncertainty =								0.00000000019;				/**< \f$\frac{m_D}{m_p} \ (1)\f$ Uncertainty in deuteron-proton magnetic moment ratio.*/          
+	const double deuteronrmsChargeRadiusUncertainty =								0.0025e-15;					/**< \f$r_D \ (m)\f$ Uncertainty in deuteron rms charge radius in meters.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup ElectricConstant
 	/// @{ 
-	const double electricConstant =											8.854187817e-12;			/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farad per meter.*/
+	const double electricConstant =													8.854187817e-12;			/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farad per meter.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double electricConstant =											0.0;						/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Uncertainty in electric constant in farad per meter. Note should be 0.0 since it is a defined value.*/
+	const double electricConstant =													0.0;						/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Uncertainty in electric constant in farad per meter. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 	 
