@@ -412,16 +412,16 @@ namespace NISTConst
 	/// @addtogroup BohrMagneton
 	/// @{
 	const double BohrMagneton =														927.4009994e-26;			/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla.*/ 
-	const double BohrMagnetonIneVPerT =												5.7883818012e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesela.*/ 
-	const double BohrMagnetonInHzPerT =												13.996245042e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Bohr magneton in hertz per tesela.*/ 
-	const double BohrMagnetonInInversemPerT	=										46.68644814;				/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m T})\f$ Bohr magneton in inverse meters tesla.*/ 
+	const double BohrMagnetonIneVPerT =												5.7883818012e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesla.*/ 
+	const double BohrMagnetonInHzPerT =												13.996245042e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Bohr magneton in hertz per tesla.*/ 
+	const double BohrMagnetonInInversemPerT	=										46.68644814;				/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Bohr magneton in inverse meters tesla.*/ 
 	const double BohrMagnetonInKPerT =												0.67171405;					/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Bohr magneton in kelvin per tesla.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
 	const double BohrMagnetonUncertainty =											0.0000057e-26;				/**< \f$\mu_B \ (\frac{J}{T})\f$ Uncertainty in Bohr magneton in joules per tesla.*/ 
-	const double BohrMagnetonIneVPerTUncertainty =									0.0000000026e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Uncertainty in Bohr magneton in electron volts per tesela.*/ 
-	const double BohrMagnetonInHzPerTUncertainty =									0.000000086e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Uncertainty in Bohr magneton in hertz per tesela.*/ 
-	const double BohrMagnetonInInversemPerTUncertainty	=							0.00000029;					/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m T})\f$ Uncertainty in Bohr magneton in inverse meters tesla.*/ 
+	const double BohrMagnetonIneVPerTUncertainty =									0.0000000026e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Uncertainty in Bohr magneton in electron volts per tesla.*/ 
+	const double BohrMagnetonInHzPerTUncertainty =									0.000000086e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Uncertainty in Bohr magneton in hertz per tesla.*/ 
+	const double BohrMagnetonInInversemPerTUncertainty	=							0.00000029;					/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Uncertainty in Bohr magneton in inverse meters tesla.*/ 
 	const double BohrMagnetonInKPerTUncertainty =									0.00000039;					/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Uncertainty in Bohr magneton in kelvin per tesla.*/ 
 	#endif  
 	/// @}
@@ -513,7 +513,7 @@ namespace NISTConst
 	const double deuterongFactor =													0.8574382311;				/**< \f$g_D \ (1)\f$ Deuteron g factor.*/   
 	const double deuteronElectronMagneticMomentRatio =								-4.664345535e-4;			/**< \f$\frac{\mu_D}{\mu_e} \ (1)\f$ Deuteron-electron magnetic moment ratio.*/         
 	const double deuteronElectronMassRatio =										3670.48296785;				/**< \f$\frac{m_D}{m_e} \ (1)\f$ Deuteron-electron mass ratio.*/            
-	const double deuteronMagneticMoment =											0.4330735040e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Deuteron magnetic moment in joules per tesela.*/
+	const double deuteronMagneticMoment =											0.4330735040e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Deuteron magnetic moment in joules per tesla.*/
 	const double deuteronMagneticMomentToBohrMagnetonRatio =						0.4669754554e-3;			/**< \f$\frac{\mu_D}{\mu_B} \ (1)\f$ Deuteron magnetic moment to Bohr magneton ratio.*/        
 	const double deuteronMagneticMomentToNuclearMagnetonRatio =						0.8574382311;				/**< \f$\frac{\mu_D}{\mu_N} \ (1)\f$ Deuteron magnetic moment to nuclear magneton ratio.*/            
 	const double deuteronMass =														3.343583719e-27;			/**< \f$m_D \ (kg)\f$ Deuteron mass in kg.*/
@@ -530,7 +530,7 @@ namespace NISTConst
 	const double deuterongFactorUncertainty =										0.0000000048;				/**< \f$g_D \ (1)\f$ Uncertainty in deuteron g factor.*/   
 	const double deuteronElectronMagneticMomentRatioUncertainty =					0.000000026e-4;				/**< \f$\frac{\mu_D}{\mu_e} \ (1)\f$ Uncertainty in deuteron-electron magnetic moment ratio.*/         
 	const double deuteronElectronMassRatioUncertainty =								0.00000013;					/**< \f$\frac{m_D}{m_e} \ (1)\f$ Uncertainty in deuteron-electron mass ratio.*/            
-	const double deuteronMagneticMomentUncertainty =								0.0000000036e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Uncertainty in deuteron magnetic moment in joules per tesela.*/
+	const double deuteronMagneticMomentUncertainty =								0.0000000036e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Uncertainty in deuteron magnetic moment in joules per tesla.*/
 	const double deuteronMagneticMomentToBohrMagnetonRatioUncertainty =				0.0000000026e-3;			/**< \f$\frac{\mu_D}{\mu_B} \ (1)\f$ Uncertainty in deuteron magnetic moment to Bohr magneton ratio.*/        
 	const double deuteronMagneticMomentToNuclearMagnetonRatioUncertainty =			0.0000000048;				/**< \f$\frac{\mu_D}{\mu_N} \ (1)\f$ Uncertainty in deuteron magnetic moment to nuclear magneton ratio.*/            
 	const double deuteronMassUncertainty =											0.000000041e-27;			/**< \f$m_D \ (kg)\f$ Uncertainty in deuteron mass in kg.*/
@@ -797,9 +797,9 @@ namespace NISTConst
 	
 	/// @addtogroup ConductanceQuantum 
 	/// @{
-	const double inverseOfConductanceQuantum =										12906.4037278;				/**< \f$G_0^-1 \ (\Omega)\f$ Inverse of conductance quantum in ohms.*/
+	const double inverseOfConductanceQuantum =										12906.4037278;				/**< \f$G_0^{-1} \ (\Omega)\f$ Inverse of conductance quantum in ohms.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double inverseOfConductanceQuantumUncertainty =							0.0000029;					/**< \f$G_0^-1 \ (\Omega)\f$ Uncertainty in inverse of conductance quantum in ohms.*/
+	const double inverseOfConductanceQuantumUncertainty =							0.0000029;					/**< \f$G_0^{-1} \ (\Omega)\f$ Uncertainty in inverse of conductance quantum in ohms.*/
 	#endif  
 	/// @}
 	
@@ -1095,14 +1095,14 @@ namespace NISTConst
 	/// @{
 	const double nuclearMagneton =													5.050783699e-27;			/**< \f$\mu_N \ (\frac{J}{T})\f$ Nuclear magneton in joules per tesla.*/
 	const double nuclearMagnetonIneVPerT =											3.1524512550e-8;			/**< \f$ \ (\frac{eV}{T})\f$ Nuclear magneton in electron volts per tesla.*/
-	const double nuclearMagnetonInInversemT =										2.542623432e-2;				/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{mT})\f$ Nuclear magneton in inverse meters tesla.*/
-	const double nuclearMagnetonInKPerT =											3.6582690e-4;				/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Nuclear magneton in electron kelvin per tesla.*/
+	const double nuclearMagnetonInInversemT =										2.542623432e-2;				/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{m\ T})\f$ Nuclear magneton in inverse meters tesla.*/
+	const double nuclearMagnetonInKPerT =											3.6582690e-4;				/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Nuclear magneton in kelvins per tesla.*/
 	const double nuclearMagnetonInMHzPerT =											7.622593285;				/**< \f$\frac{\mu_N}{h} \ (\frac{MHz}{T})\f$ Nuclear magneton in megahertz per tesla.*/
 	#ifdef NISTCONST_UNCERTAINTY
 	const double nuclearMagnetonUncertainty =										0.000000031e-27;			/**< \f$\mu_N \ (\frac{J}{T})\f$ Uncertainty in nuclear magneton in joules per tesla.*/
 	const double nuclearMagnetonIneVPerTUncertainty =								0.0000000015e-8;			/**< \f$ \ (\frac{eV}{T})\f$ Uncertainty in nuclear magneton in electron volts per tesla.*/
-	const double nuclearMagnetonInInversemTUncertainty =							0.000000016e-2;				/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{mT})\f$ Uncertainty in nuclear magneton in inverse meters tesla.*/
-	const double nuclearMagnetonInKPerTUncertainty =								0.0000021e-4;				/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Uncertainty in nuclear magneton in electron kelvin per tesla.*/
+	const double nuclearMagnetonInInversemTUncertainty =							0.000000016e-2;				/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{m\ T})\f$ Uncertainty in nuclear magneton in inverse meters tesla.*/
+	const double nuclearMagnetonInKPerTUncertainty =								0.0000021e-4;				/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Uncertainty in nuclear magneton in kelvins per tesla.*/
 	const double nuclearMagnetonInMHzPerTUncertainty =								0.000000047;				/**< \f$\frac{\mu_N}{h} \ (\frac{MHz}{T})\f$ Uncertainty in nuclear magneton in megahertz per tesla.*/
 	#endif  
 	/// @}
@@ -1469,8 +1469,39 @@ PlanckConstantOver2PiIneVs = hbarIneVs
 PlanckConstantOver2PiTimescInMeVfm = hbarcInMeVfm
 
 
-speed of light
+
+BohrMagneton = muB
+ 
+BohrMagnetonIneVPerT = muBIneVPerT
+ 
+BohrMagnetonInHzPerT = muBInHzPerT
+ 
+BohrMagnetonInInversemPerT = muBInInversemPerT
+BohrMagnetonInKPerT = muBInKPerT
+
+
+elementaryCharge = e
+elementary positive charge
+
+speedOfLightInVacuum =speed of light
 c
+
+conductanceQuantum = G0
+
+nuclearMagneton = muN
+nuclearMagnetonIneVPerT = muNIneVPerT 
+ 
+nuclearMagnetonInInversemT = muNInInversemT
+ 
+nuclearMagnetonInKPerT = muNInKPerT
+ 
+nuclearMagnetonInMHzPerT = muNInMHzPerT
+
+vonKlitzingConstant = RK
+
+Josephson constant = KJ
+
+magneticFluxQuantum = Phi0
 
 common names characteristic impedance of vacuum z0
 e0

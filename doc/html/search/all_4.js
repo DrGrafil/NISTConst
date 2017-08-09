@@ -1,6 +1,7 @@
 var searchData=
 [
   ['electricconstant',['electricConstant',['../group___electric_constant.html#gae5a425228125285727dd53333725ef76',1,'NISTConst::electricConstant()'],['../group___electric_constant.html',1,'(Global Namespace)']]],
+  ['electricconstantuncertainty',['electricConstantUncertainty',['../group___electric_constant.html#gaf65e89a9fe674a6f80f5a66bbe101aab',1,'NISTConst']]],
   ['electromagnetic',['Electromagnetic',['../group___electromagnetic.html',1,'']]],
   ['electron_20particle',['Electron particle',['../group___electron.html',1,'']]],
   ['electronchargetomass',['electronChargeToMass',['../group___electron.html#ga941e6299b6ef4b90cc525c335d9989dc',1,'NISTConst']]],

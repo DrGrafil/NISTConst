@@ -1,5 +1,10 @@
 var NAVTREEINDEX4 =
 {
+"group___helion.html#gaed43f2ab9c5e89c6dda577a3b5fc265c":[0,0,2,8,23],
+"group___helion.html#gaf3b7dabd6de7a263aba710256e793c8e":[0,0,2,8,22],
+"group___helion.html#gaf5d319d55655483f25e39f5036efd12a":[0,0,2,8,8],
+"group___hertz.html":[0,0,6,3],
+"group___hertz.html#ga035f43de5d8ad8208675c53a0057d14d":[0,0,6,3,2],
 "group___hertz.html#ga2ededb8b750b44cde6d83c1c07b6a870":[0,0,6,3,4],
 "group___hertz.html#ga4a12fd74059017b7f715ed732182c47b":[0,0,6,3,7],
 "group___hertz.html#ga5e2fd7ea13ae13a34435ff0578082d34":[0,0,6,3,0],
@@ -14,6 +19,7 @@ var NAVTREEINDEX4 =
 "group___hertz.html#gacda137a5d10ebba59b340d770802678f":[0,0,6,3,10],
 "group___hertz.html#gacdec68d8c592492309f427551ae82a21":[0,0,6,3,11],
 "group___impedance_of_vacuum.html":[0,0,0,0],
+"group___impedance_of_vacuum.html#ga0d686b0016dc8c1f0bda161283b4f9c5":[0,0,0,0,1],
 "group___impedance_of_vacuum.html#ga51e1aede5d89041ea7423522b526dd0e":[0,0,0,0,0],
 "group___inverse_fine_structure_constant.html":[0,0,2,9],
 "group___inverse_fine_structure_constant.html#gaa4cd257f5376577cf0331e71dd952bb6":[0,0,2,9,0],
@@ -243,11 +249,5 @@ var NAVTREEINDEX4 =
 "group___planck_constant.html#gae5db39f3f8b53c75ed26b3b83b74bb42":[0,0,0,4,7],
 "group___planck_constant.html#gaf490152b8477c6ead134e42e76753f64":[0,0,0,4,9],
 "group___planck_length.html":[0,0,0,5],
-"group___planck_length.html#ga1bc5c33e67f9810e7505b30076df5ca3":[0,0,0,5,0],
-"group___planck_length.html#ga2d3d3a738fb656be716e3acf32fdc7d5":[0,0,0,5,1],
-"group___planck_mass.html":[0,0,0,6],
-"group___planck_mass.html#ga500eef372db7d6dcddd4a4a2d3e03b00":[0,0,0,6,3],
-"group___planck_mass.html#ga71709062f673aeed0bed395299d84a68":[0,0,0,6,1],
-"group___planck_mass.html#ga8699da3ffe64687b76fb5f262a63997f":[0,0,0,6,0],
-"group___planck_mass.html#gaab9eed84a649fb1ee6e90b2e15c86b0a":[0,0,0,6,2]
+"group___planck_length.html#ga1bc5c33e67f9810e7505b30076df5ca3":[0,0,0,5,0]
 };

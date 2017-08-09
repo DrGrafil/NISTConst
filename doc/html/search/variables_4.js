@@ -1,6 +1,7 @@
 var searchData=
 [
   ['electricconstant',['electricConstant',['../group___electric_constant.html#gae5a425228125285727dd53333725ef76',1,'NISTConst']]],
+  ['electricconstantuncertainty',['electricConstantUncertainty',['../group___electric_constant.html#gaf65e89a9fe674a6f80f5a66bbe101aab',1,'NISTConst']]],
   ['electronchargetomass',['electronChargeToMass',['../group___electron.html#ga941e6299b6ef4b90cc525c335d9989dc',1,'NISTConst']]],
   ['electronchargetomassuncertainty',['electronChargeToMassUncertainty',['../group___electron.html#ga90e4e7aa66c8c40335aaafed9095e3ac',1,'NISTConst']]],
   ['electrondeuteronmagneticmomentratio',['electronDeuteronMagneticMomentRatio',['../group___electron.html#ga3dea53b57010903586a46d81a49fc80f',1,'NISTConst']]],

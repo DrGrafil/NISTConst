@@ -73,6 +73,7 @@ var searchData=
   ['newtonianconstantofgravitation',['NewtonianConstantOfGravitation',['../group___gravitational_constant.html#gaba6371307f4cebde50b3c61a07c724c5',1,'NISTConst']]],
   ['newtonianconstantofgravitationoverhbarc',['NewtonianConstantOfGravitationOverhbarc',['../group___gravitational_constant.html#gad7c8d8ef09f60e8f3f36f86f98df0472',1,'NISTConst']]],
   ['newtonianconstantofgravitationoverhbarcuncertainty',['NewtonianConstantOfGravitationOverhbarcUncertainty',['../group___gravitational_constant.html#gaf10cbbd8ad1ece4ec01e35fe3d86854f',1,'NISTConst']]],
+  ['newtonianconstantofgravitationuncertainty',['NewtonianConstantOfGravitationUncertainty',['../group___gravitational_constant.html#ga8fc40fce6dc42f5e84a3c908553e6586',1,'NISTConst']]],
   ['nist_20constants',['NIST Constants',['../group___n_i_s_t_const.html',1,'']]],
   ['nistconst_2ehpp',['NISTConst.hpp',['../_n_i_s_t_const_8hpp.html',1,'']]],
   ['non_2dsi_20units',['Non-SI units',['../group___non-_s_i.html',1,'']]],
