@@ -698,9 +698,9 @@ namespace NISTConst
 	
 	/// @addtogroup Molybdenum
 	/// @{
-	const double Mo x unit    1.002 099 52e-13        0.000000 53e-13        m/**< \f$ \ ()\f$ .*/ 
+	const double MoXUnit =															1.00209952e-13;				/**< \f$xu(MoK\alpha_1) \ (m)\f$ Mo x unit in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double MoXUnitUncertainty =												0.00000053e-13;				/**< \f$xu(MoK\alpha_1) \ (m)\f$ Uncertainty in Mo x unit in meters.*/ 
 	#endif  
 	/// @}
 	
