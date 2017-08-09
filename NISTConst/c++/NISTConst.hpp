@@ -519,7 +519,7 @@ namespace NISTConst
 	const double deuteronMass =												3.343583719e-27;			/**< \f$m_D \ (kg)\f$ Deuteron mass in kg.*/
 	const double deuteronMassInJPercSquared =								3.005063183e-10;			/**< \f$m_D \ (\frac{J}{c^2})\f$ Deuteron mass in joules per speed of light squared.*/
 	const double deuteronMassInMeVPercSquared =								1875.612928;				/**< \f$m_D \ (\frac{MeV}{c^2})\f$ Deuteron mass in MeV per speed of light squared.*/
-	const double deuteronMassInu =											2.013553212745;				/**< \f$m_D \ (u)\f$ Deuteron mass in atomic mass units.*/
+	const double deuteronMassInu =											2.013553212745;				/**< \f$m_D \ (u)\f$ Deuteron mass in unified atomic mass units.*/
 	const double deuteronMolarMass =										2.013553212745e-3;			/**< \f$M_D \ (\frac{1}{mol})\f$ Deuteron molar mass in inverse mols.*/
 	const double deuteronNeutronMagneticMomentRatio =						-0.44820652;				/**< \f$\frac{\mu_D}{\mu_n} \ (1)\f$ Deuteron-neutron magnetic moment ratio.*/              
 	const double deuteronProtonMagneticMomentRatio =						0.3070122077;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Deuteron-neutron magnetic moment ratio.*/            
@@ -536,7 +536,7 @@ namespace NISTConst
 	const double deuteronMassUncertainty =									0.000000041e-27;			/**< \f$m_D \ (kg)\f$ Uncertainty in deuteron mass in kg.*/
 	const double deuteronMassInJPercSquaredUncertainty =					0.000000037e-10;			/**< \f$m_D \ (\frac{J}{c^2})\f$ Uncertainty in deuteron mass in joules per speed of light squared.*/
 	const double deuteronMassInMeVPercSquaredUncertainty =					0.000012;					/**< \f$m_D \ (\frac{MeV}{c^2})\f$ Uncertainty in deuteron mass in MeV per speed of light squared.*/
-	const double deuteronMassInuUncertainty =								0.000000000040;				/**< \f$m_D \ (u)\f$ Uncertainty in deuteron mass in atomic mass units.*/
+	const double deuteronMassInuUncertainty =								0.000000000040;				/**< \f$m_D \ (u)\f$ Uncertainty in deuteron mass in unified atomic mass units.*/
 	const double deuteronMolarMassUncertainty =								0.000000000040e-3;			/**< \f$M_D \ (\frac{1}{mol})\f$ Uncertainty in deuteron molar mass in inverse mols.*/
 	const double deuteronNeutronMagneticMomentRatioUncertainty =			0.00000011;					/**< \f$\frac{\mu_D}{\mu_n} \ (1)\f$ Uncertainty in deuteron-neutron magnetic moment ratio.*/              
 	const double deuteronProtonMagneticMomentRatioUncertainty =				0.0000000015;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Uncertainty in deuteron-neutron magnetic moment ratio.*/            
@@ -696,43 +696,67 @@ namespace NISTConst
 	const double molar volume of silicon                                     12.058 832 14e-6        0.000000 61e-6         m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
 	
 	
+	/// @addtogroup Molybdenum
+	/// @{
 	const double Mo x unit    1.002 099 52e-13        0.000000 53e-13        m/**< \f$ \ ()\f$ .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	
 	#endif  
 	/// @}
 	
-	const double muon Compton wavelength                                     11.734 441 11e-15       0.000000 26e-15        m/**< \f$ \ ()\f$ .*/ 
-	const double muon Compton wavelength over 2 pi                           1.867 594 308e-15       0.000000042e-15       m/**< \f$ \ ()\f$ .*/ 
-	const double muon-electron mass ratio                                    206.768 2826             0.0000046               /**< \f$ \ ()\f$ .*/ 
-	const double muon g factor                                               -2.002 331 8418          0.0000000013           /**< \f$ \ ()\f$ .*/ 
-	const double muon mag. mom.                                              -4.490 448 26e-26       0.000000 10e-26        J T^-1/**< \f$ \ ()\f$ .*/ 
-	const double muon mag. mom. anomaly                                      1.165 920 89e-3         0.000000 63e-3         /**< \f$ \ ()\f$ .*/ 
-	const double muon mag. mom. to Bohr magneton ratio                       -4.841 970 48e-3        0.000000 11e-3         /**< \f$ \ ()\f$ .*/ 
-	const double muon mag. mom. to nuclear magneton ratio                    -8.890 597 05            0.000000 20             /**< \f$ \ ()\f$ .*/ 
-	const double muon mass                                                   1.883 531 594e-28       0.000000048e-28       kg/**< \f$ \ ()\f$ .*/ 
-	const double muon mass energy equivalent    JPercSquared                             1.692 833 774e-11       0.000000043e-11       J/**< \f$ \ ()\f$ .*/ 
-	const double muon mass energy equivalent in MeVPercSquared                          105.658 3745             0.0000024               MeV/**< \f$ \ ()\f$ .*/ 
-	const double muon mass in u                                              0.113 428 9257           0.0000000025           u/**< \f$ \ ()\f$ .*/ 
-	const double muon molar mass                                             0.113 428 9257e-3       0.0000000025e-3       kg mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double muon-neutron mass ratio                                     0.112 454 5167           0.0000000025           /**< \f$ \ ()\f$ .*/ 
-	const double muon-proton mag. mom. ratio                                 -3.183 345 142           0.000000071            /**< \f$ \ ()\f$ .*/ 
-	const double muon-proton mass ratio                                      0.112 609 5262           0.0000000025           /**< \f$ \ ()\f$ .*/ 
-	const double muon-tau mass ratio                                         5.946 49e-2             0.000 54e-2             /**< \f$ \ ()\f$ .*/ 
-	#ifdef NISTCONST_UNCERTAINTY
+	/// @addtogroup Muon
+	/// @{
+	const double muonComptonWavelength =											11.73444111e-15;			/**< \f$\lambda_{C,\mu} \ (m)\f$ muon Compton wavelength in meters.*/ 
+	const double muonComptonWavelengthOver2pi =										1.867594308e-15;			/**< \f$\lambdabar_{C,\mu} \ (m)\f$ muon Compton wavelength over 2 pi in meters.*/ 
+	const double muonElectronMassRatio =											206.7682826;				/**< \f$\frac{m_\mu}{m_e} \ (1)\f$ muon-electron mass ratio.*/ 
+	const double muongFactor =														-2.0023318418;				/**< \f$g_\mu \ (1)\f$ muon g factor.*/ 
+	const double muonMagneticMoment =												-4.49044826e-26;			/**< \f$\mu_\mu \ (\frac{J}{T})\f$ muon magnetic moment in joules per tesla.*/ 
+	const double muonMagneticMomentAnomaly =										1.16592089e-3;				/**< \f$a_\mu \ (1)\f$ muon magnetic moment anomaly.*/ 
+	const double muonMagneticMomentToBohrMagnetonRatio =							-4.84197048e-3;				/**< \f$\frac{\mu_\mu}{\mu_B} \ (1)\f$ muon magnetic moment to Bohr magneton ratio.*/ 
+	const double muonMagneticMomentToNuclearMagnetonRatio =							-8.89059705;				/**< \f$\frac{\mu_\mu}{\mu_N} \ (1)\f$ muon magnetic moment to nuclear magneton ratio .*/ 
+	const double muonMass =															1.883531594e-28;			/**< \f$m_\mu \ (kg)\f$ muon mass in kilograms.*/ 
+	const double muonMassInJPercSquared =											1.692833774e-11;			/**< \f$m_\mu \ (\frac{J}{c^2})\f$ muon mass in joules per speed of light squared.*/ 
+	const double muonMassInMeVPercSquared =											105.6583745;				/**< \f$m_\mu \ (\frac{MeV}{c^2})\f$ muon mass in megaelectron volts per speed of light squared.*/ 
+	const double muonMassInu =														0.1134289257;				/**< \f$m_\mu \ (u)\f$ muon mass in unified atomic mass units.*/ 
+	const double muonMolarMass =													0.1134289257e-3;			/**< \f$M_\mu \ (\frac{kg}{mol})\f$ muon molar mass in kilograms per mole.*/ 
+	const double muonNeutronMassRatio =												0.1124545167;				/**< \f$\frac{m_\mu}{m_n} \ (1)\f$ muon-neutron mass ratio.*/ 
+	const double muonProtonMagneticMomentRatio =									-3.183345142;				/**< \f$\frac{\mu_\mu}{\mu_p} \ (1)\f$ muon-proton magnetic moment ratio.*/ 
+	const double muonProtonMassRatio =												0.1126095262;				/**< \f$\frac{m_\mu}{m_p} \ (1)\f$ muon-proton mass ratio.*/ 
+	const double muonTauMassRatio =													5.94649e-2;					/**< \f$\frac{m_\mu}{m_\tau} \ (1)\f$ muon-tau mass ratio.*/ 
 	
+	#ifdef NISTCONST_UNCERTAINTY
+	const double muonComptonWavelengthUncertainty =									0.00000026e-15;				/**< \f$\lambda_{C,\mu} \ (m)\f$ Uncertainty in muon Compton wavelength in meters.*/ 
+	const double muonComptonWavelengthOver2piUncertainty =							0.000000042e-15;			/**< \f$\lambdabar_{C,\mu} \ (m)\f$ Uncertainty in muon Compton wavelength over 2 pi in meters.*/ 
+	const double muonElectronMassRatioUncertainty =									0.0000046;					/**< \f$\frac{m_\mu}{m_e} \ (1)\f$ Uncertainty in muon-electron mass ratio.*/ 
+	const double muongFactorUncertainty =											0.0000000013;				/**< \f$g_\mu \ (1)\f$ Uncertainty in muon g factor.*/ 
+	const double muonMagneticMomentUncertainty =									0.00000010e-26;				/**< \f$\mu_\mu \ (\frac{J}{T})\f$ Uncertainty in muon magnetic moment in joules per tesla.*/ 
+	const double muonMagneticMomentAnomalyUncertainty =								0.00000063e-3;				/**< \f$a_\mu \ (1)\f$ Uncertainty in muon magnetic moment anomaly.*/ 
+	const double muonMagneticMomentToBohrMagnetonRatioUncertainty =					0.00000011e-3;				/**< \f$\frac{\mu_\mu}{\mu_B} \ (1)\f$ Uncertainty in muon magnetic moment to Bohr magneton ratio.*/ 
+	const double muonMagneticMomentToNuclearMagnetonRatioUncertainty =				0.00000020;					/**< \f$\frac{\mu_\mu}{\mu_N} \ (1)\f$ Uncertainty in muon magnetic moment to nuclear magneton ratio .*/ 
+	const double muonMassUncertainty =												0.000000048e-28;			/**< \f$m_\mu \ (kg)\f$ Uncertainty in muon mass in kilograms.*/ 
+	const double muonMassInJPercSquaredUncertainty =								0.000000043e-11;			/**< \f$m_\mu \ (\frac{J}{c^2})\f$ Uncertainty in muon mass in joules per speed of light squared.*/ 
+	const double muonMassInMeVPercSquaredUncertainty =								0.0000024;					/**< \f$m_\mu \ (\frac{MeV}{c^2})\f$ Uncertainty in muon mass in megaelectron volts per speed of light squared.*/ 
+	const double muonMassInuUncertainty =											0.0000000025;				/**< \f$m_\mu \ (u)\f$ Uncertainty in muon mass in unified atomic mass units.*/ 
+	const double muonMolarMassUncertainty =											0.0000000025e-3;			/**< \f$M_\mu \ (\frac{kg}{mol})\f$ Uncertainty in muon molar mass in kilograms per mole.*/ 
+	const double muonNeutronMassRatioUncertainty =									0.0000000025;				/**< \f$\frac{m_\mu}{m_n} \ (1)\f$ Uncertainty in muon-neutron mass ratio.*/ 
+	const double muonProtonMagneticMomentRatio =									0.000000071;				/**< \f$\frac{\mu_\mu}{\mu_p} \ (1)\f$ Uncertainty in muon-proton magnetic moment ratio.*/ 
+	const double muonProtonMassRatioUncertainty =									0.0000000025;				/**< \f$\frac{m_\mu}{m_p} \ (1)\f$ Uncertainty in muon-proton mass ratio.*/ 
+	const double muonTauMassRatioUncertainty =										0.00054e-2;					/**< \f$\frac{m_\mu}{m_\tau} \ (1)\f$ Uncertainty in muon-tau mass ratio.*/ 
 	#endif  
-	/// @}	
-	const double naturalUnitOfAction =												1.054571800e-34;			/**< \f$\hbar \ (J\ s)\f$ natural unit of action in joules second.*/ 
-	const double naturalUnitOfActionIneVs =											6.582119514e-16;			/**< \f$\hbar \ (eV\ s)\f$ natural unit of action in electron volts second.*/ 
-	const double naturalUnitOfEnergy =												8.18710565e-14;				/**< \f$m_e c^2 \ (J)\f$ natural unit of energy in joules.*/ 
-	const double naturalUnitOfEnergyInMeV =											0.5109989461;				/**< \f$m_e c^2 \ (MeV)\f$ natural unit of energy in megaelectron volts.*/ 
-	const double naturalUnitOfLength =												386.15926764e-15;			/**< \f$\lambdabar_C \ (m)\f$ natural unit of length in meters.*/ 
-	const double naturalUnitOfMass =												9.10938356e-31;				/**< \f$m_e \ (kg)\f$ natural unit of mass in kilograms.*/ 
-	const double naturalUnitOfMomentum =											2.730924488e-22;			/**<m_e c \f$ \ (\frac{kg\ m}{s})\f$ natural unit of momentum in kilogram meters per second.*/ 
-	const double naturalUnitOfMomentumInMeVPerc =									0.5109989461;				/**< \f$m_e c \ (\frac{MeV}{c})\f$ natural unit of momentum in megaelectron volts per speed of light.*/ 
-	const double naturalUnitOfTime =												1.28808866712e-21;			/**< \f$\frac{\hbar}{m_e c^2} \ (s)\f$ natural unit of time in seconds.*/ 
-	const double naturalUnitOfVelocity =											299792458;					/**< \f$c \ (\frac{m}{s})\f$ natural unit of velocity in meters per second.*/ 
+	/// @}
+	
+	/// @addtogroup NaturalUnit
+	/// @{
+	const double naturalUnitOfAction =												1.054571800e-34;			/**< \f$\hbar \ (J\ s)\f$ Natural unit of action in joules second.*/ 
+	const double naturalUnitOfActionIneVs =											6.582119514e-16;			/**< \f$\hbar \ (eV\ s)\f$ Natural unit of action in electron volts second.*/ 
+	const double naturalUnitOfEnergy =												8.18710565e-14;				/**< \f$m_e c^2 \ (J)\f$ Natural unit of energy in joules.*/ 
+	const double naturalUnitOfEnergyInMeV =											0.5109989461;				/**< \f$m_e c^2 \ (MeV)\f$ Natural unit of energy in megaelectron volts.*/ 
+	const double naturalUnitOfLength =												386.15926764e-15;			/**< \f$\lambdabar_C \ (m)\f$ Natural unit of length in meters.*/ 
+	const double naturalUnitOfMass =												9.10938356e-31;				/**< \f$m_e \ (kg)\f$ Natural unit of mass in kilograms.*/ 
+	const double naturalUnitOfMomentum =											2.730924488e-22;			/**<m_e c \f$ \ (\frac{kg\ m}{s})\f$ Natural unit of momentum in kilogram meters per second.*/ 
+	const double naturalUnitOfMomentumInMeVPerc =									0.5109989461;				/**< \f$m_e c \ (\frac{MeV}{c})\f$ Natural unit of momentum in megaelectron volts per speed of light.*/ 
+	const double naturalUnitOfTime =												1.28808866712e-21;			/**< \f$\frac{\hbar}{m_e c^2} \ (s)\f$ Natural unit of time in seconds.*/ 
+	const double naturalUnitOfVelocity =											299792458;					/**< \f$c \ (\frac{m}{s})\f$ Natural unit of velocity in meters per second.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	const double naturalUnitOfActionUncertainty =									0.000000013e-34;			/**< \f$\hbar \ (J\ s)\f$ Uncertainty in natural unit of action in joules second.*/ 
 	const double naturalUnitOfActionIneVsUncertainty =								0.000000040e-16;			/**< \f$\hbar \ (eV\ s)\f$ Uncertainty in natural unit of action in electron volts second.*/ 
@@ -746,7 +770,6 @@ namespace NISTConst
 	const double naturalUnitOfVelocityUncertainty =									0.0; 						/**< \f$c \ (\frac{m}{s})\f$ Uncertainty in natural unit of velocity in meters per second. Note should be 0.0 since it is a defined value.*/ 
 	#endif  
 	/// @}
-	
 	
 	/// @addtogroup Neutron
 	/// @{
