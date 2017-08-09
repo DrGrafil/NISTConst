@@ -1,4 +1,5 @@
 var group___josephson_constant =
 [
-    [ "JosephsonConstant", "group___josephson_constant.html#gae9f3553a6a6c5eed3df61ad33277cab8", null ]
+    [ "JosephsonConstant", "group___josephson_constant.html#gae9f3553a6a6c5eed3df61ad33277cab8", null ],
+    [ "JosephsonConstantUncertainty", "group___josephson_constant.html#gaa10eadf7c1811f94c5b5725ad300a099", null ]
 ];

@@ -2,13 +2,24 @@ var group___tau =
 [
     [ "tauComptonWavelength", "group___tau.html#ga02608ef1c26b9550ee7547350bbcdd5d", null ],
     [ "tauComptonWavelengthOver2Pi", "group___tau.html#ga3cca663c9ba88e04346cbd29643aba14", null ],
+    [ "tauComptonWavelengthOver2PiUncertainty", "group___tau.html#gab9853e108c4a32f465e14d286cedde7c", null ],
+    [ "tauComptonWavelengthUncertainty", "group___tau.html#ga05d2cb36c4bf4734ebedd983535cf27e", null ],
     [ "tauElectronMassRatio", "group___tau.html#ga58efae35c13c681c03e115a97659063a", null ],
+    [ "tauElectronMassRatioUncertainty", "group___tau.html#ga8c2df29fcfd51464a59702fef9b2082a", null ],
     [ "tauMass", "group___tau.html#gabb1b68dd381ed2582050fd991f210be8", null ],
     [ "tauMassInJPercSquared", "group___tau.html#gaa7d88675568d5ac0253714345b93c6f6", null ],
+    [ "tauMassInJPercSquaredUncertainty", "group___tau.html#gafe24bdc066842941bc493cfaa799ccf4", null ],
     [ "tauMassInMeVPercSquared", "group___tau.html#ga319bbad85ce875068b9e17a797f779cc", null ],
+    [ "tauMassInMeVPercSquaredUncertainty", "group___tau.html#ga0778d216f366092aaf0b3a3bbb5a731e", null ],
     [ "tauMassInu", "group___tau.html#gaa0a5019135251853d2761cb9af892aea", null ],
+    [ "tauMassInuUncertainty", "group___tau.html#gad6e1aecdf7331e89b665c40d7d6dad86", null ],
+    [ "tauMassUncertainty", "group___tau.html#gad7d60828078581e6fc33f24fa369b9f2", null ],
     [ "tauMolarMass", "group___tau.html#ga07e317845454c4534cc0273efa2e55c6", null ],
+    [ "tauMolarMassUncertainty", "group___tau.html#ga8c1b32660badce1280d13a252cae4141", null ],
     [ "tauMuonMassRatio", "group___tau.html#gac648100c94ae427f98a87390a9263379", null ],
+    [ "tauMuonMassRatioUncertainty", "group___tau.html#gab6f6e5f07b2e4e5623fa2edf6b163e53", null ],
     [ "tauNeutronMassRatio", "group___tau.html#ga024557c365e76b225bef98f0a0a9283b", null ],
-    [ "tauProtonMassRatio", "group___tau.html#ga07236b2b11bdbfaee49e581a44bb01e8", null ]
+    [ "tauNeutronMassRatioUncertainty", "group___tau.html#ga65d53ed3744dc7b5926ea16b9c62e185", null ],
+    [ "tauProtonMassRatio", "group___tau.html#ga07236b2b11bdbfaee49e581a44bb01e8", null ],
+    [ "tauProtonMassRatioUncertainty", "group___tau.html#ga8c32666623ba327b9d6d8d376fdbad3c", null ]
 ];

@@ -451,9 +451,9 @@ namespace NISTConst
 	
 	/// @addtogroup ImpedanceOfVacuum
 	/// @{
-	const double impedanceOfVacuum =												376.730313461;				/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohm.*/ 
+	const double impedanceOfVacuum =												376.730313461;				/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double impedanceOfVacuum =												0.0;						/**< \f$Z_0 \ (\Omega)\f$ Uncertainty in characteristic impedance of vacuum in ohm. Note should be 0.0 since it is a defined value.*/ 
+	const double impedanceOfVacuumUncertainty =										0.0;						/**< \f$Z_0 \ (\Omega)\f$ Uncertainty in characteristic impedance of vacuum in ohms. Note should be 0.0 since it is a defined value.*/ 
 	#endif  
 	/// @}
 	
@@ -547,9 +547,9 @@ namespace NISTConst
 	
 	/// @addtogroup ElectricConstant
 	/// @{ 
-	const double electricConstant =													8.854187817e-12;			/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farad per meter.*/
+	const double electricConstant =													8.854187817e-12;			/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double electricConstant =													0.0;						/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Uncertainty in electric constant in farad per meter. Note should be 0.0 since it is a defined value.*/
+	const double electricConstantUncertainty =										0.0;						/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Uncertainty in electric constant in farads per meter. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 	 
@@ -1083,11 +1083,11 @@ namespace NISTConst
 	
 	/// @addtogroup GravitationalConstant
 	/// @{            
-	const double NewtonianConstantOfGravitation =									6.67408e-11;				/**< \f$G \ (\frac{m^3}{kg s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
-	const double NewtonianConstantOfGravitationOverhbarcUncertainty =				6.70861e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^-2)\f$ Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
+	const double NewtonianConstantOfGravitation =									6.67408e-11;				/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
+	const double NewtonianConstantOfGravitationOverhbarc =							6.70861e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^{-2})\f$ Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double NewtonianConstantOfGravitation =									0.00031e-11;				/**< \f$G \ (\frac{m^3}{kg s^2})\f$ Uncertainty in Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
-	const double NewtonianConstantOfGravitationOverhbarcUncertainty =				0.00031e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^-2)\f$ Uncertainty in Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
+	const double NewtonianConstantOfGravitationUncertainty =						0.00031e-11;				/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Uncertainty in Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
+	const double NewtonianConstantOfGravitationOverhbarcUncertainty =				0.00031e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^{-2})\f$ Uncertainty in Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
 	#endif  
 	/// @}
 	
@@ -1125,19 +1125,19 @@ namespace NISTConst
 	
 	/// @addtogroup PlanckLength
 	/// @{
-	const double PlanckLength =														1.616229e-35;				/**< \f$l_P \ (m)\f$ Planck length in meters.*/
+	const double PlanckLength =														1.616229e-35;				/**< \f$\ell_P \ (m)\f$ Planck length in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double PlanckLengthUncertainty =											0.000038e-35;				/**< \f$l_P \ (m)\f$ Uncertainty in Planck length in meters.*/
+	const double PlanckLengthUncertainty =											0.000038e-35;				/**< \f$\ell_P \ (m)\f$ Uncertainty in Planck length in meters.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup PlanckMass
 	/// @{
 	const double PlanckMass =														2.176470e-8;				/**< \f$m_P \ (kg)\f$ Planck mass in kilograms.*/
-	const double PlanckMassInGeV =													1.220910e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Planck mass in gigaelectron volts per speed of light squared.*/
+	const double PlanckMassInGeVpercSquared =										1.220910e19;				/**< \f$m_P \ (\frac{GeV}{c^2})\f$ Planck mass in gigaelectron volts per speed of light squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
 	const double PlanckMassUncertainty =											0.000051e-8;				/**< \f$m_P \ (kg)\f$ Uncertainty in Planck mass in kilograms.*/
-	const double PlanckMassInGeVUncertainty =										0.000029e19;				/**< \f$m_P \ (\frac{GeV}{c^2)\f$ Uncertainty in Planck mass in gigaelectron volts per speed of light squared.*/
+	const double PlanckMassInGeVpercSquaredUncertainty =							0.000029e19;				/**< \f$m_P \ (\frac{GeV}{c^2})\f$ Uncertainty in Planck mass in gigaelectron volts per speed of light squared.*/
 	#endif  
 	/// @}
 	
@@ -1432,7 +1432,43 @@ namespace NISTConst
 
 
 
+
+
+
 /*
+
+impedanceOfVacuum = Z0
+impedance of free space
+
+
+NISTConst::electricConstant  = e0
+vacuum permittivity
+ permittivity of free space
+permittivity of vacuum
+
+
+ magneticConstant = mu0
+vacuum permeability 
+permeability of free space
+permeability of vacuum
+
+NewtonianConstantOfGravitation = G
+gravitational constant
+universal gravitational constant
+ Newton's constant
+ 
+ 
+ PlanckConstant = h
+ PlanckConstantIneVs = hIneVs
+ 
+PlanckConstantOver2Pi = hbar
+PlanckConstantOver2PiIneVs = hbarIneVs
+ reduced Planck constant = PlanckConstantOver2Pi
+  reduced Planck constantIneVs = PlanckConstantOver2PiIneVs
+
+PlanckConstantOver2PiTimescInMeVfm = hbarcInMeVfm
+
+
 speed of light
 c
 
