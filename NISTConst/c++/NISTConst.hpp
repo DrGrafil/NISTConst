@@ -645,10 +645,10 @@ namespace NISTConst
 	/// @addtogroup ElementaryCharge
 	/// @{
 	const double elementaryCharge =													1.6021766208e-19;			/**< \f$e \ (C)\f$ Elementary charge in coulombs.*/ 
-	const double elementaryChargeOverh =											2.417989262e14;				/**< \f$\frac{e}{h} \ (\frac{A}{J})\f$ Elementary charge over h in amps per joule.*/ 
+	const double elementaryChargeOverh =											2.417989262e14;				/**< \f$\frac{e}{h} \ (\frac{A}{J})\f$ Elementary charge over h in amperes per joule.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	const double elementaryChargeUncertainty =										0.0000000098e-19;			/**< \f$e \ (C)\f$ Uncertainty in elementary charge in coulombs.*/ 
-	const double elementaryChargeOverhUncertainty =									0.000000015e14;				/**< \f$\frac{e}{h} \ (\frac{A}{J})\f$ Uncertainty in elementary charge over h in amps per joule.*/
+	const double elementaryChargeOverhUncertainty =									0.000000015e14;				/**< \f$\frac{e}{h} \ (\frac{A}{J})\f$ Uncertainty in elementary charge over h in amperes per joule.*/
 	#endif  
 	/// @}
 	
@@ -888,9 +888,16 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup MagneticConstant
 	/// @{
-	const double mag. constant                                               12.566 370 614...e-7    (exact)                  N A^-2/**< \f$ \ ()\f$ .*/ 
+	const double magneticConstant =													12.566370614e-7;			/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared.*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	const double magneticConstantUncertainty =										0.0;						/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Uncertainty in magnetic constant in newtons per ampere squared.*/ 
+	#endif  
+	/// @}
+	
+	/// @addtogroup MagneticFluxQuantum
+	/// @{
 	const double mag. flux quantum                                           2.067 833 831e-15       0.000000013e-15       Wb/**< \f$ \ ()\f$ .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	
@@ -925,12 +932,13 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup MolarVolumeOfIdealGas 
 	/// @{
-	const double molarVolumeOfIdealGas =             22.710947e-3;           0.000013e-3;            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double molarVolumeOfIdealGasatm =            22.413962e-3;           0.000013e-3;            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molarVolumeOfIdealGas =											22.710947e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas (273.15 K, 100 kPa)  in meters cubed per mole.*/ 
+	const double molarVolumeOfIdealGasatm =											22.413962e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas (273.15 K, 101.325 kPa) in meters cubed per mole.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double molarVolumeOfIdealGasUncertainty =									0.000013e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Uncertainty in molar volume of ideal gas (273.15 K, 100 kPa)  in meters cubed per mole.*/ 
+	const double molarVolumeOfIdealGasatmUncertainty =								0.000013e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Uncertainty in molar volume of ideal gas (273.15 K, 101.325 kPa) in meters cubed per mole.*/ 
 	#endif  
 	/// @}
 	
