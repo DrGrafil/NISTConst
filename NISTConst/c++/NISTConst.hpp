@@ -663,11 +663,11 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup FermiCouplinConstant
 	/// @{
-	const double Fermi coupling constant                                     1.166 3787e-5           0.0000006e-5           GeV^-2/**< \f$ \ ()\f$ .*/ 
+	const double FermiCouplinConstant =												1.1663787e-5;				/**< \f$\frac{G_F}{(\hbar c)^3} \ (\frac{1}{GeV^2})\f$ Fermi coupling constant in inverse gigaelectron volts squared.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double FermiCouplinConstant =												0.0000006e-5;				/**< \f$\frac{G_F}{(\hbar c)^3} \ (\frac{1}{GeV^2})\f$ Fermi coupling constant in inverse gigaelectron volts squared.*/ 
 	#endif  
 	/// @}
 	
