@@ -559,7 +559,7 @@ namespace NISTConst
 	const double electronDeuteronMagneticMomentRatio =								-2143.923499;				/**< \f$\frac{\mu_e}{\mu_D} \ (1)\f$ Electron-deuteron magnetic moment ratio.*/ 
 	const double electronDeuteronMassRatio =										2.724437107484e-4;			/**< \f$\frac{m_e}{m_D} \ (1)\f$ Electron-deuteron mass ratio.*/ 
 	const double electrongFactor =													-2.00231930436182;			/**< \f$g_e \ (1)\f$ Electron g factor.*/ 
-	const double electronGyromagneticRatio =										1.760859644e11;				/**<\gamma_e \f$ \ (\frac{Hz}{T})\f$ Electron gyromagnetic ratio in hertz per tesla.*/ 
+	const double electronGyromagneticRatio =										1.760859644e11;				/**< \f$\gamma_e \ (\frac{Hz}{T})\f$ Electron gyromagnetic ratio in hertz per tesla.*/ 
 	const double electronGyromagneticRatioOver2pi =									28024.95164;				/**< \f$\frac{\gamma_e}{2\pi} \ (\frac{MHz}{T})\f$ Electron gyromagnetic ratio over 2 pi in megahertz per tesla.*/ 
 	const double electronHelionMassRatio =											1.819543074854e-4;			/**< \f$\frac{m_e}{m_{^3\textrm{He}}} \ (1)\f$ Electron-helion mass ratio.*/ 
 	const double electronMagneticMoment =											-928.4764620e-26;			/**< \f$\mu_e \ (\frac{J}{T})\f$ Electron magnetic moment in joules per tesla.*/ 
@@ -588,7 +588,7 @@ namespace NISTConst
 	const double electronDeuteronMagneticMomentRatioUncertainty =					0.000012;					/**< \f$\frac{\mu_e}{\mu_D} \ (1)\f$ Uncertainty in electron-deuteron magnetic moment ratio.*/ 
 	const double electronDeuteronMassRatioUncertainty =								0.000000000096e-4;			/**< \f$\frac{m_e}{m_D} \ (1)\f$ Uncertainty in electron-deuteron mass ratio.*/ 
 	const double electrongFactorUncertainty =										0.00000000000052;			/**< \f$g_e \ (1)\f$ Uncertainty in electron g factor.*/ 
-	const double electronGyromagneticRatioUncertainty =								0.000000011e11;				/**<\gamma_e \f$ \ (\frac{Hz}{T})\f$ Uncertainty in electron gyromagnetic ratio in hertz per tesla.*/ 
+	const double electronGyromagneticRatioUncertainty =								0.000000011e11;				/**< \f$\gamma_e \ (\frac{Hz}{T})\f$ Uncertainty in electron gyromagnetic ratio in hertz per tesla.*/ 
 	const double electronGyromagneticRatioOver2piUncertainty =						0.00017;					/**< \f$\frac{\gamma_e}{2\pi} \ (\frac{MHz}{T})\f$ Uncertainty in electron gyromagnetic ratio over 2 pi in megahertz per tesla.*/ 
 	const double electronHelionMassRatioUncertainty =								0.000000000088e-4;   		/**< \f$\frac{m_e}{m_{^3\textrm{He}}} \ (1)\f$ Uncertainty in electron-helion mass ratio.*/ 
 	const double electronMagneticMomentUncertainty =								0.0000057e-26;				/**< \f$\mu_e \ (\frac{J}{T})\f$ Uncertainty in electron magnetic moment in joules per tesla.*/ 
@@ -734,17 +734,23 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup Hertz
 	/// @{
-	const double hertz-atomic mass unit relationship                         4.439 821 6616e-24      0.0000000020e-24      u/**< \f$ \ ()\f$ .*/ 
-	const double hertz-electron volt relationship                            4.135 667 662e-15       0.000000025e-15       eV/**< \f$ \ ()\f$ .*/ 
-	const double hertz-hartree relationship                                  1.519 829 846 0088e-16  0.000000000 0090e-16  E_h/**< \f$ \ ()\f$ .*/ 
-	const double hertz-inverse meter relationship                            3.335 640 951...e-9     (exact)                  m^-1/**< \f$ \ ()\f$ .*/ 
-	const double hertz-joule relationship                                    6.626 070 040e-34       0.000000081e-34       J/**< \f$ \ ()\f$ .*/ 
-	const double hertz-kelvin relationship                                   4.799 2447e-11          0.0000028e-11          K/**< \f$ \ ()\f$ .*/ 
-	const double hertz-kilogram relationship                                 7.372 497 201e-51       0.000000091e-51       kg/**< \f$ \ ()\f$ .*/ 
+	const double hertzToAtomicMassUnit =											4.4398216616e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ hertz-atomic mass unit relationship.*/ 
+	const double hertzToElectronVolt =												4.135667662e-15;			/**< \f$(1 Hz)h \ (eV)\f$ hertz-electron volt relationship.*/ 
+	const double hertzToHartree =													1.5198298460088e-16;		/**< \f$(1 Hz)h \ (E_h)\f$ hertz-hartree relationship.*/ 
+	const double hertzToInverseMeter =												3.335640951e-9;				/**< \f$\frac{(1 Hz)}{c} \ (\frac{1}{m})\f$ hertz-inverse meter relationship.*/ 
+	const double hertzToJoule =														6.626070040e-34;			/**< \f$(1 Hz)h  \ (J)\f$ hertz-joule relationship.*/ 
+	const double hertzToKelvin =													4.7992447e-11;				/**< \f$\frac{(1 Hz)h}{k} \ (K)\f$ hertz-kelvin relationship.*/ 
+	const double hertzToKilogram =													7.372497201e-51;			/**< \f$\frac{(1 Hz)h}{c^2} \ (kg)\f$ hertz-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double hertzToAtomicMassUnitUncertainty =									0.0000000020e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ Uncertainty in hertz-atomic mass unit relationship.*/ 
+	const double hertzToElectronVoltUncertainty =									0.000000025e-15;			/**< \f$(1 Hz)h \ (eV)\f$ Uncertainty in hertz-electron volt relationship.*/ 
+	const double hertzToHartreeUncertainty =										0.0000000000090e-16;		/**< \f$(1 Hz)h \ (E_h)\f$ Uncertainty in hertz-hartree relationship.*/ 
+	const double hertzToInverseMeterUncertainty =									0.0;						/**< \f$\frac{(1 Hz)}{c} \ (\frac{1}{m})\f$ Uncertainty in hertz-inverse meter relationship. Note should be 0.0 since it is a defined value in terms of \frac{1}{c}. */ 
+	const double hertzToJouleUncertainty =											0.000000081e-34;			/**< \f$(1 Hz)h  \ (J)\f$ Uncertainty in hertz-joule relationship.*/ 
+	const double hertzToKelvinUncertainty =											0.0000028e-11;				/**< \f$\frac{(1 Hz)h}{k} \ (K)\f$ Uncertainty in hertz-kelvin relationship.*/ 
+	const double hertzToKilogramUncertainty =										0.000000091e-51;			/**< \f$\frac{(1 Hz)h}{c^2} \ (kg)\f$ Uncertainty in hertz-kilogram relationship.*/ 
 	#endif  
 	/// @}
 	
@@ -949,7 +955,7 @@ namespace NISTConst
 	const double naturalUnitOfEnergyInMeV =											0.5109989461;				/**< \f$m_e c^2 \ (MeV)\f$ Natural unit of energy in megaelectron volts.*/ 
 	const double naturalUnitOfLength =												386.15926764e-15;			/**< \f$\lambdabar_C \ (m)\f$ Natural unit of length in meters.*/ 
 	const double naturalUnitOfMass =												9.10938356e-31;				/**< \f$m_e \ (kg)\f$ Natural unit of mass in kilograms.*/ 
-	const double naturalUnitOfMomentum =											2.730924488e-22;			/**<m_e c \f$ \ (\frac{kg\ m}{s})\f$ Natural unit of momentum in kilogram meters per second.*/ 
+	const double naturalUnitOfMomentum =											2.730924488e-22;			/**< \f$m_e c \ (\frac{kg\ m}{s})\f$ Natural unit of momentum in kilogram meters per second.*/ 
 	const double naturalUnitOfMomentumInMeVPerc =									0.5109989461;				/**< \f$m_e c \ (\frac{MeV}{c})\f$ Natural unit of momentum in megaelectron volts per speed of light.*/ 
 	const double naturalUnitOfTime =												1.28808866712e-21;			/**< \f$\frac{\hbar}{m_e c^2} \ (s)\f$ Natural unit of time in seconds.*/ 
 	const double naturalUnitOfVelocity =											299792458;					/**< \f$c \ (\frac{m}{s})\f$ Natural unit of velocity in meters per second.*/ 
@@ -960,7 +966,7 @@ namespace NISTConst
 	const double naturalUnitOfEnergyInMeVUncertainty =								0.0000000031;				/**< \f$m_e c^2 \ (MeV)\f$ Uncertainty in natural unit of energy in megaelectron volts.*/ 
 	const double naturalUnitOfLengthUncertainty =									0.00000018e-15;				/**< \f$\lambdabar_C \ (m)\f$ Uncertainty in natural unit of length in meters.*/ 
 	const double naturalUnitOfMassUncertainty =										0.00000011e-31;				/**< \f$m_e \ (kg)\f$ Uncertainty in natural unit of mass in kilograms.*/ 
-	const double naturalUnitOfMomentumUncertainty =									0.000000034e-22;			/**<m_e c \f$ \ (\frac{kg\ m}{s})\f$ Uncertainty in natural unit of momentum in kilogram meters per second.*/ 
+	const double naturalUnitOfMomentumUncertainty =									0.000000034e-22;			/**< \f$m_e c \ (\frac{kg\ m}{s})\f$ Uncertainty in natural unit of momentum in kilogram meters per second.*/ 
 	const double naturalUnitOfMomentumInMeVPercUncertainty =						0.0000000031;				/**< \f$m_e c \ (\frac{MeV}{c})\f$ Uncertainty in natural unit of momentum in megaelectron volts per speed of light.*/ 
 	const double naturalUnitOfTimeUncertainty =										0.00000000058e-21;			/**< \f$\frac{\hbar}{m_e c^2} \ (s)\f$ Uncertainty in natural unit of time in seconds.*/ 
 	const double naturalUnitOfVelocityUncertainty =									0.0; 						/**< \f$c \ (\frac{m}{s})\f$ Uncertainty in natural unit of velocity in meters per second. Note should be 0.0 since it is a defined value.*/ 
