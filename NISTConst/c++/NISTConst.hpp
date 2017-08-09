@@ -852,13 +852,13 @@ namespace NISTConst
 	
 	/// @addtogroup Kilogram
 	/// @{
-	const double kilogramToAtomicMassUnit =											6.022140857e26;				/**< \f$(1\ kg)\ (u)\f$ kilogram-atomic mass unit relationship.*/ 
-	const double kilogramToElectronVolt =											5.609588650e35;				/**< \f$(1\ kg)c^2 \ (eV)\f$ kilogram-electron volt relationship.*/ 
-	const double kilogramToHartree =												2.061485823e34;				/**< \f$(1\ kg)c^2 \ (E_h)\f$ kilogram-hartree relationship.*/ 
-	const double kilogramToHertz =													1.356392512e50;				/**< \f$\frac{(1\ kg)c^2}{h} \ (Hz)\f$ kilogram-hertz relationship .*/ 
-	const double kilogramToInverseMeter =											4.524438411e41;				/**< \f$\frac{(1\ kg)c}{h} \ (\frac{1}{m})\f$ kilogram-inverse meter relationship.*/ 
-	const double kilogramToJoule =													8.987551787e16;				/**< \f$(1\ kg)c^2 \ (J)\f$ kilogram-joule relationship.*/ 
-	const double kilogramToKelvin =													6.5096595e39;				/**< \f$\frac{(1\ kg)c^2}{K} \ (K)\f$ kilogram-kelvin relationship.*/ 
+	const double kilogramToAtomicMassUnit =											6.022140857e26;				/**< \f$(1\ kg)\ (u)\f$ Kilogram-atomic mass unit relationship.*/ 
+	const double kilogramToElectronVolt =											5.609588650e35;				/**< \f$(1\ kg)c^2 \ (eV)\f$ Kilogram-electron volt relationship.*/ 
+	const double kilogramToHartree =												2.061485823e34;				/**< \f$(1\ kg)c^2 \ (E_h)\f$ Kilogram-hartree relationship.*/ 
+	const double kilogramToHertz =													1.356392512e50;				/**< \f$\frac{(1\ kg)c^2}{h} \ (Hz)\f$ Kilogram-hertz relationship .*/ 
+	const double kilogramToInverseMeter =											4.524438411e41;				/**< \f$\frac{(1\ kg)c}{h} \ (\frac{1}{m})\f$ Kilogram-inverse meter relationship.*/ 
+	const double kilogramToJoule =													8.987551787e16;				/**< \f$(1\ kg)c^2 \ (J)\f$ Kilogram-joule relationship.*/ 
+	const double kilogramToKelvin =													6.5096595e39;				/**< \f$\frac{(1\ kg)c^2}{K} \ (K)\f$ Kilogram-kelvin relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	const double kilogramToAtomicMassUnitUncertainty =								0.000000074e26;				/**< \f$(1\ kg)\ (u)\f$ Uncertainty in kilogram-atomic mass unit relationship.*/ 
 	const double kilogramToElectronVoltUncertainty =								0.000000034e35;				/**< \f$(1\ kg)c^2 \ (eV)\f$ Uncertainty in kilogram-electron volt relationship.*/ 
@@ -928,9 +928,9 @@ namespace NISTConst
 	
 	/// @addtogroup Silicon
 	/// @{
-	const double molar volume of silicon                                     12.058 832 14e-6        0.000000 61e-6         m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molarVolumeOfSilicon =												12.05883214e-6;				/**< \f$V_m(Si) \ (\frac{m^3}{mol})\f$ Molar volume of silicon in meters cubed per mole.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double molarVolumeOfSiliconUncertainty =									0.00000061e-6;				/**< \f$V_m(Si) \ (\frac{m^3}{mol})\f$ Uncertainty in molar volume of silicon in meters cubed per mole.*/ 
 	#endif  
 	/// @}
 	
