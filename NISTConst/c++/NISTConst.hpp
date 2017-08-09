@@ -754,11 +754,11 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup InverseFineStructureConstant 
 	/// @{
-	const double inverse fine-structure constant                             137.035 999 139          0.000000031            /**< \f$ \ ()\f$ .*/ 
+	const double inverseFineStructureConstant =										137.035999139;				/**<\alpha^-1 \f$ \ (1)\f$ inverse fine-structure constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double inverseFineStructureConstantUncertainty =							0.000000031;            	/**<\alpha^-1 \f$ \ (1)\f$ Uncertainty in inverse fine-structure constant.*/ 
 	#endif  
 	/// @}
 	
