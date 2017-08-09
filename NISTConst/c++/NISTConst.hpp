@@ -802,11 +802,11 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup JosephsonConstant
 	/// @{
-	const double Josephson constant                                          483 597.8525 e9          0.0030 e9                Hz V^-1/**< \f$ \ ()\f$ .*/ 
+	const double JosephsonConstant =												483597.8525e9;				/**< \f$K_J \ (\frac{Hz}{V})\f$ Josephson constant  in hertz per volt.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double JosephsonConstantUncertainty =										0.0030e9;					/**< \f$K_J \ (\frac{Hz}{V})\f$ Uncertainty in Josephson constant  in hertz per volt.*/
 	#endif  
 	/// @}
 	
