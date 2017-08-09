@@ -645,10 +645,11 @@ namespace NISTConst
 	
 	/// @addtogroup ElementaryCharge
 	/// @{
-	const double elementary charge                                           1.602 176 6208e-19      0.0000000098e-19      C/**< \f$ \ ()\f$ .*/ 
-	const double elementary charge over h                                    2.417 989 262 e14        0.000000015 e14        A J^-1/**< \f$ \ ()\f$ .*/ 
+	const double elementaryCharge =													1.6021766208e-19;			/**< \f$e \ (C)\f$ Elementary charge in coulombs.*/ 
+	const double elementaryChargeOverh =											2.417989262e14;				/**< \f$\frac{e}{h} \ (\frac{A}{J})\f$ Elementary charge over h in amps per joule.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double elementaryChargeUncertainty =										0.0000000098e-19;			/**< \f$e \ (C)\f$ Uncertainty in elementary charge in coulombs.*/ 
+	const double elementaryChargeOverhUncertainty =									0.000000015e14;				/**< \f$\frac{e}{h} \ (\frac{A}{J})\f$ Uncertainty in elementary charge over h in amps per joule.*/
 	#endif  
 	/// @}
 	
