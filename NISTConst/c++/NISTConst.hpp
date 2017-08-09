@@ -663,19 +663,19 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup FermiCouplinConstant
+	/// @addtogroup FermiCouplingConstant
 	/// @{
-	const double FermiCouplinConstant =												1.1663787e-5;				/**< \f$\frac{G_F}{(\hbar c)^3} \ (\frac{1}{GeV^2})\f$ Fermi coupling constant in inverse gigaelectron volts squared.*/ 
+	const double FermiCouplingConstant =											1.1663787e-5;				/**< \f$\frac{G_F}{(\hbar c)^3} \ (\frac{1}{GeV^2})\f$ Fermi coupling constant in inverse gigaelectron volts squared.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double FermiCouplinConstant =												0.0000006e-5;				/**< \f$\frac{G_F}{(\hbar c)^3} \ (\frac{1}{GeV^2})\f$ Fermi coupling constant in inverse gigaelectron volts squared.*/ 
+	const double FermiCouplingConstantUncertainty =									0.0000006e-5;				/**< \f$\frac{G_F}{(\hbar c)^3} \ (\frac{1}{GeV^2})\f$ Uncertainty in Fermi coupling constant in inverse gigaelectron volts squared.*/ 
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup FineStructureConstant
 	/// @{
-	const double fine-structure constant                                     7.297 352 5664e-3       0.0000000017e-3       /**< \f$ \ ()\f$ .*/ 
+	const double fineStructureConstant =											7.2973525664e-3;			/**< \f$\alpha \ (1)\f$ fine-structure constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double fineStructureConstantUncertainty =									0.0000000017e-3;			/**< \f$\alpha \ (1)\f$ Uncertainty in fine-structure constant.*/ 
 	#endif  
 	/// @}
 	
