@@ -1,10 +1,11 @@
 /// @file NISTConst.hpp
 ///
 /// @brief NIST Constants
-///
+/// 
 //	 http://physics.nist.gov/constants
 /// @author Elliot Grafil (Metex)
-/// @date 8/5/17
+/// @date 8/9/17
+/// @version 0.7.0
 /// @todo: Resolve \lambdabar display issue https://tex.stackexchange.com/questions/96479/how-can-i-type-lambda-bar
 
 //=================================
