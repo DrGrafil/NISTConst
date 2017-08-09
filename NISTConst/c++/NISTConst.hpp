@@ -616,9 +616,9 @@ namespace NISTConst
 	
 	/// @addtogroup ElectronVoltUnit
 	/// @{
-	const double electron volt                                               1.602 176 6208e-19      0.0000000098e-19      J/**< \f$ \ ()\f$ .*/ 
+	const double electronVolt =														1.6021766208e-19;			/**< \f$eV \ (J)\f$ Electron volt in joules.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double electronVolt =														0.0000000098e-19;			/**< \f$eV \ (J)\f$ Uncertainty in electron volt in joules.*/ 
 	#endif  
 	/// @}
 	
