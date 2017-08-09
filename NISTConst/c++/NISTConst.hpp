@@ -306,39 +306,41 @@ namespace NISTConst
 	const double alphaParticleProtonMassRatioUncertainty =					0.00000000036;         		/**< \f$m_\alpha/m_p \ (1)\f$  */ 
 	#endif  
 	/// @}
-/*
+
 	/// @addtogroup AngstromStar
 	/// @{
-	const double AngstromStar =                                               1.00001495e-10;        0.00000090e-10;        m
+	const double AngstromStar =												1.00001495e-10;				/**< \f$\textrm{\AA}^{\ast} \ (m)\f$ Angstrom star in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double AngstromStarUncertainty =									0.00000090e-10;				/**< \f$\textrm{\AA}^{\ast} \ (m)\f$ Uncertainty in angstrom star in meters.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup AtomicMassConstant
 	/// @{
-	const double atomicMassConstant =                                       1.660539040e-27;       0.000000020e-27;       kg
-	const double atomicMassConstantInJ =                     1.492418062e-10;       0.000000018e-10;       J
-	const double atomicMassConstantInMeV =               931.4940954;             0.0000057;               MeV
+	const double atomicMassConstant =										1.660539040e-27;			/**< \f$m_u \ (kg)\f$ Atomic mass constant in kilograms.*/ 
+	const double atomicMassConstantInJPercSquared =							1.492418062e-10;			/**< \f$m_u \ (\frac{J}{c^2})\f$ Atomic mass constant in joules per speed of light squared.*/ 
+	const double atomicMassConstantInMeVPercSquared =						931.4940954;				/**< \f$m_u \ (\frac{MeV}{c^2})\f$ Atomic mass constant in megaelectron volts per speed of light squared.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double atomicMassConstantUncertainty =							0.000000020e-27;			/**< \f$m_u \ (kg)\f$ Uncertainty in atomic mass constant in kilograms.*/ 
+	const double atomicMassConstantInJPercSquaredUncertainty =				0.000000018e-10;			/**< \f$m_u \ (\frac{J}{c^2})\f$ Uncertainty in atomic mass constant in joules per speed of light squared.*/ 
+	const double atomicMassConstantInMeVPercSquaredUncertainty =			0.0000057;					/**< \f$m_u \ (\frac{MeV}{c^2})\f$ Uncertainty in atomic mass constant in megaelectron volts per speed of light squared.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup AtomicMassUnit
 	/// @{
-	const double atomic mass unit-electron volt relationship                 931.4940954e6;          0.0000057e6;            eV
-	const double atomic mass unit-hartree relationship                       3.4231776902e7;        0.0000000016e7;        E_h
-	const double atomic mass unit-hertz relationship                         2.2523427206e23;       0.0000000010e23;       Hz
-	const double atomic mass unit-inverse meter relationship                 7.5130066166e14;       0.0000000034e14;       m^-1
-	const double atomic mass unit-joule relationship                         1.492418062e-10;       0.000000018e-10;       J
-	const double atomic mass unit-kelvin relationship                        1.08095438e13;         0.00000062e13;         K
-	const double atomic mass unit-kilogram relationship                      1.660539040e-27;       0.000000020e-27;       kg
+	const double atomic mass unit-electron volt relationship                 931.4940954e6;          0.0000057e6;            eV/**< \f$ \ ()\f$ .*/ 
+	const double atomic mass unit-hartree relationship                       3.4231776902e7;        0.0000000016e7;        E_h/**< \f$ \ ()\f$ .*/ 
+	const double atomic mass unit-hertz relationship                         2.2523427206e23;       0.0000000010e23;       Hz/**< \f$ \ ()\f$ .*/ 
+	const double atomic mass unit-inverse meter relationship                 7.5130066166e14;       0.0000000034e14;       m^-1/**< \f$ \ ()\f$ .*/ 
+	const double atomic mass unit-joule relationship                         1.492418062e-10;       0.000000018e-10;       J/**< \f$ \ ()\f$ .*/ 
+	const double atomic mass unit-kelvin relationship                        1.08095438e13;         0.00000062e13;         K/**< \f$ \ ()\f$ .*/ 
+	const double atomic mass unit-kilogram relationship                      1.660539040e-27;       0.000000020e-27;       kg/**< \f$ \ ()\f$ .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
 	/// @}
-	*/
+	
 	
 	/// @addtogroup AtomicUnit
 	/// @{
