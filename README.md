@@ -53,22 +53,22 @@ The latest value will probably be adopted by both google and wikipedia in the ne
 
 ### [NISTConst 0.7.7](https://github.com/Metex/NISTConst/releases/latest)
 #### Features:
--Completed documentation.
+- Completed documentation.
 
 #### Improvements:
--Added units in documentation to all atomic units.
--Clarified atomic mass unit to unified atomic mass unit.
--Added spaces where necissary in units documentation.
--Moved inverse fine structure constant to be under Fine structure constant.
--Brining tau particle and triton notation inline with other particles.
--Renamed PlanckMassInGeV to PlanckMassInGeVpercSquared.
--Replaced lambdabar with lambda/2pi in documentation.
+- Added units in documentation to all atomic units.
+- Clarified atomic mass unit to unified atomic mass unit.
+- Added spaces where necissary in units documentation.
+- Moved inverse fine structure constant to be under Fine structure constant.
+- Brining tau particle and triton notation inline with other particles.
+- Renamed PlanckMassInGeV to PlanckMassInGeVpercSquared.
+- Replaced lambdabar with lambda/2pi in documentation.
 
 #### Fixes:
--Fixed issue when compiling with NISTCONST_UNCERTAINTY defined.  
--Fixed uncertainty constant names for: electronVolt
--Fixed error in name of NewtonianConstantOfGravitationOverhbarc
--Fixed misspelling of tesla in few places
+- Fixed issue when compiling with NISTCONST_UNCERTAINTY defined.  
+- Fixed uncertainty constant names for: electronVolt
+- Fixed error in name of NewtonianConstantOfGravitationOverhbarc
+- Fixed misspelling of tesla in few places
 ---
 
 ### [NISTConst 0.7.0](https://github.com/Metex/NISTConst/tree/0.7.0)
