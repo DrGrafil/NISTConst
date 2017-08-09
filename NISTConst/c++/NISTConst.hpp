@@ -5,8 +5,8 @@
 //	 http://physics.nist.gov/constants
 /// @author Elliot Grafil (Metex)
 /// @date 8/9/17
-/// @version 0.7.0
-/// @todo Add radd to all gyromagnetic ratio
+/// @version 0.7.7
+/// @todo Add rad to all gyromagnetic ratio
 
 
 //=================================
