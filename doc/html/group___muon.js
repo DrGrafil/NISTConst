@@ -29,6 +29,7 @@ var group___muon =
     [ "muonNeutronMassRatio", "group___muon.html#ga8f63813d3e0283a611f3e66b6d0b681d", null ],
     [ "muonNeutronMassRatioUncertainty", "group___muon.html#gaf1e3125615d29e354cc1ade185c1831c", null ],
     [ "muonProtonMagneticMomentRatio", "group___muon.html#gae49d53271e3ee71dc74d718028782d06", null ],
+    [ "muonProtonMagneticMomentRatioUncertainty", "group___muon.html#ga366c3261916ab8b323810bb54cb69edc", null ],
     [ "muonProtonMassRatio", "group___muon.html#ga72ca5408215ae40bb36ef1bff9107cf7", null ],
     [ "muonProtonMassRatioUncertainty", "group___muon.html#ga61cddfc40a08640b83041efd9d4dbbe2", null ],
     [ "muonTauMassRatio", "group___muon.html#gaaf24aa0c43f6d4a1935963fdd4c44789", null ],

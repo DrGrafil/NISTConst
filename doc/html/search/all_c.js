@@ -54,6 +54,7 @@ var searchData=
   ['muonneutronmassratio',['muonNeutronMassRatio',['../group___muon.html#ga8f63813d3e0283a611f3e66b6d0b681d',1,'NISTConst']]],
   ['muonneutronmassratiouncertainty',['muonNeutronMassRatioUncertainty',['../group___muon.html#gaf1e3125615d29e354cc1ade185c1831c',1,'NISTConst']]],
   ['muonprotonmagneticmomentratio',['muonProtonMagneticMomentRatio',['../group___muon.html#gae49d53271e3ee71dc74d718028782d06',1,'NISTConst']]],
+  ['muonprotonmagneticmomentratiouncertainty',['muonProtonMagneticMomentRatioUncertainty',['../group___muon.html#ga366c3261916ab8b323810bb54cb69edc',1,'NISTConst']]],
   ['muonprotonmassratio',['muonProtonMassRatio',['../group___muon.html#ga72ca5408215ae40bb36ef1bff9107cf7',1,'NISTConst']]],
   ['muonprotonmassratiouncertainty',['muonProtonMassRatioUncertainty',['../group___muon.html#ga61cddfc40a08640b83041efd9d4dbbe2',1,'NISTConst']]],
   ['muontaumassratio',['muonTauMassRatio',['../group___muon.html#gaaf24aa0c43f6d4a1935963fdd4c44789',1,'NISTConst']]],

@@ -9,7 +9,6 @@ var group___atomic =
     [ "Fine-structure constant", "group___fine_structure_constant.html", "group___fine_structure_constant" ],
     [ "Hartree energy", "group___hartree_energy.html", "group___hartree_energy" ],
     [ "Helion (Helium-3 nucleus)", "group___helion.html", "group___helion" ],
-    [ "inverse fine-structure constant", "group___inverse_fine_structure_constant.html", "group___inverse_fine_structure_constant" ],
     [ "Muon particle", "group___muon.html", "group___muon" ],
     [ "Neutron particle", "group___neutron.html", "group___neutron" ],
     [ "Proton particle", "group___proton.html", "group___proton" ],

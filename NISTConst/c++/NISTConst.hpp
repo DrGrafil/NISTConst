@@ -6,6 +6,7 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/9/17
 /// @version 0.7.0
+/// @todo Add radd to all gyromagnetic ratio
 
 
 //=================================
@@ -113,10 +114,6 @@
 /// 	@ingroup Atomic
 
 /// 	@defgroup Helion Helion (Helium-3 nucleus)
-/// 	@ingroup Atomic
-
-// moved from Conversion Factors to Atomic since it seemed weird that it was in conversion factors in nist database
-/// 	@defgroup InverseFineStructureConstant inverse fine-structure constant  
 /// 	@ingroup Atomic
 
 /// 	@defgroup Muon Muon particle
@@ -516,13 +513,13 @@ namespace NISTConst
 	const double deuteronMagneticMoment =											0.4330735040e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Deuteron magnetic moment in joules per tesla.*/
 	const double deuteronMagneticMomentToBohrMagnetonRatio =						0.4669754554e-3;			/**< \f$\frac{\mu_D}{\mu_B} \ (1)\f$ Deuteron magnetic moment to Bohr magneton ratio.*/        
 	const double deuteronMagneticMomentToNuclearMagnetonRatio =						0.8574382311;				/**< \f$\frac{\mu_D}{\mu_N} \ (1)\f$ Deuteron magnetic moment to nuclear magneton ratio.*/            
-	const double deuteronMass =														3.343583719e-27;			/**< \f$m_D \ (kg)\f$ Deuteron mass in kg.*/
+	const double deuteronMass =														3.343583719e-27;			/**< \f$m_D \ (kg)\f$ Deuteron mass in kilograms.*/
 	const double deuteronMassInJPercSquared =										3.005063183e-10;			/**< \f$m_D \ (\frac{J}{c^2})\f$ Deuteron mass in joules per speed of light squared.*/
 	const double deuteronMassInMeVPercSquared =										1875.612928;				/**< \f$m_D \ (\frac{MeV}{c^2})\f$ Deuteron mass in megaelectron volts per speed of light squared.*/
 	const double deuteronMassInu =													2.013553212745;				/**< \f$m_D \ (u)\f$ Deuteron mass in unified atomic mass units.*/
 	const double deuteronMolarMass =												2.013553212745e-3;			/**< \f$M_D \ (\frac{1}{mol})\f$ Deuteron molar mass in inverse mols.*/
 	const double deuteronNeutronMagneticMomentRatio =								-0.44820652;				/**< \f$\frac{\mu_D}{\mu_n} \ (1)\f$ Deuteron-neutron magnetic moment ratio.*/              
-	const double deuteronProtonMagneticMomentRatio =								0.3070122077;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Deuteron-neutron magnetic moment ratio.*/            
+	const double deuteronProtonMagneticMomentRatio =								0.3070122077;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Deuteron-proton magnetic moment ratio.*/            
 	const double deuteronProtonMassRatio =											1.99900750087;				/**< \f$\frac{m_D}{m_p} \ (1)\f$ Deuteron-proton magnetic moment ratio.*/          
 	const double deuteronrmsChargeRadius =											2.1413e-15;					/**< \f$r_D \ (m)\f$ Deuteron rms charge radius in meters.*/
 	
@@ -533,13 +530,13 @@ namespace NISTConst
 	const double deuteronMagneticMomentUncertainty =								0.0000000036e-26;			/**< \f$\mu_D \ (\frac{J}{T})\f$ Uncertainty in deuteron magnetic moment in joules per tesla.*/
 	const double deuteronMagneticMomentToBohrMagnetonRatioUncertainty =				0.0000000026e-3;			/**< \f$\frac{\mu_D}{\mu_B} \ (1)\f$ Uncertainty in deuteron magnetic moment to Bohr magneton ratio.*/        
 	const double deuteronMagneticMomentToNuclearMagnetonRatioUncertainty =			0.0000000048;				/**< \f$\frac{\mu_D}{\mu_N} \ (1)\f$ Uncertainty in deuteron magnetic moment to nuclear magneton ratio.*/            
-	const double deuteronMassUncertainty =											0.000000041e-27;			/**< \f$m_D \ (kg)\f$ Uncertainty in deuteron mass in kg.*/
+	const double deuteronMassUncertainty =											0.000000041e-27;			/**< \f$m_D \ (kg)\f$ Uncertainty in deuteron mass in kilograms.*/
 	const double deuteronMassInJPercSquaredUncertainty =							0.000000037e-10;			/**< \f$m_D \ (\frac{J}{c^2})\f$ Uncertainty in deuteron mass in joules per speed of light squared.*/
 	const double deuteronMassInMeVPercSquaredUncertainty =							0.000012;					/**< \f$m_D \ (\frac{MeV}{c^2})\f$ Uncertainty in deuteron mass in megaelectron volts per speed of light squared.*/
 	const double deuteronMassInuUncertainty =										0.000000000040;				/**< \f$m_D \ (u)\f$ Uncertainty in deuteron mass in unified atomic mass units.*/
 	const double deuteronMolarMassUncertainty =										0.000000000040e-3;			/**< \f$M_D \ (\frac{1}{mol})\f$ Uncertainty in deuteron molar mass in inverse mols.*/
 	const double deuteronNeutronMagneticMomentRatioUncertainty =					0.00000011;					/**< \f$\frac{\mu_D}{\mu_n} \ (1)\f$ Uncertainty in deuteron-neutron magnetic moment ratio.*/              
-	const double deuteronProtonMagneticMomentRatioUncertainty =						0.0000000015;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Uncertainty in deuteron-neutron magnetic moment ratio.*/            
+	const double deuteronProtonMagneticMomentRatioUncertainty =						0.0000000015;				/**< \f$\frac{\mu_D}{\mu_p} \ (1)\f$ Uncertainty in deuteron-proton magnetic moment ratio.*/            
 	const double deuteronProtonMassRatioUncertainty =								0.00000000019;				/**< \f$\frac{m_D}{m_p} \ (1)\f$ Uncertainty in deuteron-proton magnetic moment ratio.*/          
 	const double deuteronrmsChargeRadiusUncertainty =								0.0025e-15;					/**< \f$r_D \ (m)\f$ Uncertainty in deuteron rms charge radius in meters.*/
 	#endif  
@@ -767,11 +764,11 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup InverseFineStructureConstant 
+	/// @addtogroup FineStructureConstant 
 	/// @{
-	const double inverseFineStructureConstant =										137.035999139;				/**< \f$\alpha^-1  \ (1)\f$ Inverse fine-structure constant.*/ 
+	const double inverseFineStructureConstant =										137.035999139;				/**< \f$\alpha^{-1}  \ (1)\f$ Inverse fine-structure constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double inverseFineStructureConstantUncertainty =							0.000000031;            	/**< \f$\alpha^-1  \ (1)\f$ Uncertainty in inverse fine-structure constant.*/ 
+	const double inverseFineStructureConstantUncertainty =							0.000000031;            	/**< \f$\alpha^{}-1}  \ (1)\f$ Uncertainty in inverse fine-structure constant.*/ 
 	#endif  
 	/// @}
 	
@@ -994,7 +991,7 @@ namespace NISTConst
 	const double muonMassInuUncertainty =											0.0000000025;				/**< \f$m_\mu \ (u)\f$ Uncertainty in muon mass in unified atomic mass units.*/ 
 	const double muonMolarMassUncertainty =											0.0000000025e-3;			/**< \f$M_\mu \ (\frac{kg}{mol})\f$ Uncertainty in muon molar mass in kilograms per mole.*/ 
 	const double muonNeutronMassRatioUncertainty =									0.0000000025;				/**< \f$\frac{m_\mu}{m_n} \ (1)\f$ Uncertainty in muon-neutron mass ratio.*/ 
-	const double muonProtonMagneticMomentRatio =									0.000000071;				/**< \f$\frac{\mu_\mu}{\mu_p} \ (1)\f$ Uncertainty in muon-proton magnetic moment ratio.*/ 
+	const double muonProtonMagneticMomentRatioUncertainty =							0.000000071;				/**< \f$\frac{\mu_\mu}{\mu_p} \ (1)\f$ Uncertainty in muon-proton magnetic moment ratio.*/ 
 	const double muonProtonMassRatioUncertainty =									0.0000000025;				/**< \f$\frac{m_\mu}{m_p} \ (1)\f$ Uncertainty in muon-proton mass ratio.*/ 
 	const double muonTauMassRatioUncertainty =										0.00054e-2;					/**< \f$\frac{m_\mu}{m_\tau} \ (1)\f$ Uncertainty in muon-tau mass ratio.*/ 
 	#endif  
@@ -1209,10 +1206,10 @@ namespace NISTConst
 	/// @addtogroup QuantumOfCirculation 
 	/// @{   
 	const double quantumOfCirculation =												3.6369475486e-4;			/**< \f$\frac{h}{2 m_e} \ (\frac{m^2}{s})\f$ Quantum of circulation in meters squared per second.*/
-	const double quantumOfCirculationTimes2 =										7.2738950972e-4;			/**< \f$\frac{h}{m_e} \ (\frac{m^2}{s})\f$ Quantum of circulation times 2.*/
+	const double quantumOfCirculationTimes2 =										7.2738950972e-4;			/**< \f$\frac{h}{m_e} \ (\frac{m^2}{s})\f$ Quantum of circulation times 2 in meters squared per second.*/
 	#ifdef NISTCONST_UNCERTAINTY
 	const double quantumOfCirculationUncertainty =									0.0000000017e-4;			/**< \f$\frac{h}{2 m_e} \ (\frac{m^2}{s})\f$ Uncertainty in quantum of circulation in meters squared per second.*/
-	const double quantumOfCirculationTimes2Uncertainty =							0.0000000033e-4;			/**< \f$\frac{h}{m_e} \ (\frac{m^2}{s})\f$ Uncertainty in quantum of circulation times 2.*/
+	const double quantumOfCirculationTimes2Uncertainty =							0.0000000033e-4;			/**< \f$\frac{h}{m_e} \ (\frac{m^2}{s})\f$ Uncertainty in quantum of circulation times 2 in meters squared per second.*/
 	#endif  
 	/// @}
 	
@@ -1330,28 +1327,28 @@ namespace NISTConst
 	/// @{
 	const double tauComptonWavelength =												0.697787e-15; 				/**< \f$\lambda_{C,\tau} \ (m)\f$ Tau Compton wavelength in meters.*/ 
 	const double tauComptonWavelengthOver2Pi =										0.111056e-15;        		/**< \f$\frac{\lambda_{C,\tau}}{2\pi} \ (m)\f$ Tau Compton wavelength over 2 pi in meters.*/ 
-	const double tauElectronMassRatio =												3477.15;                  	/**< \f$m_\tau/m_e \ (1)\f$ Tau-electron mass ratio.*/ 
+	const double tauElectronMassRatio =												3477.15;                  	/**< \f$\frac{m_\tau}{m_e} \ (1)\f$ Tau-electron mass ratio.*/ 
 	const double tauMass =															3.16747e-27;           		/**< \f$m_\tau \ (kg)\f$ Tau mass in kilograms.*/ 
 	const double tauMassInJPercSquared =                                 			2.84678e-10;				/**< \f$m_\tau \ (\frac{J}{c^2})\f$ Tau mass in joules per speed of light squared.*/ 
 	const double tauMassInMeVPercSquared =                          				1776.82;					/**< \f$m_\tau \ (\frac{MeV}{c^2})\f$ Tau mass in megaelectron volts per speed of light squared.*/ 
 	const double tauMassInu =														1.90749;					/**< \f$m_\tau \ (u)\f$ Tau mass in unified atomic mass units.*/ 
 	const double tauMolarMass =														1.90749e-3;					/**< \f$M_\tau \ (\frac{kg}{mol})\f$ Tau molar mass in kilograms per mole.*/ 
-	const double tauMuonMassRatio =													16.8167;					/**< \f$m_\tau/m_\mu \ (1)\f$ Tau-muon mass ratio.*/ 
-	const double tauNeutronMassRatio =												1.89111;					/**< \f$m_\tau/m_n \ (1)\f$ Tau-neutron mass ratio.*/ 
-	const double tauProtonMassRatio	=												1.89372;					/**< \f$m_\tau/m_p \ (1)\f$ Tau-proton mass ratio.*/ 
+	const double tauMuonMassRatio =													16.8167;					/**< \f$\frac{m_\tau}{m_\mu} \ (1)\f$ Tau-muon mass ratio.*/ 
+	const double tauNeutronMassRatio =												1.89111;					/**< \f$\frac{m_\tau}{m_n} \ (1)\f$ Tau-neutron mass ratio.*/ 
+	const double tauProtonMassRatio	=												1.89372;					/**< \f$\frac{m_\tau}{m_p} \ (1)\f$ Tau-proton mass ratio.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
 	const double tauComptonWavelengthUncertainty =									0.000063e-15;				/**< \f$\lambda_{C,\tau} \ (m)\f$ Uncertainty in tau Compton wavelength in meters.*/ 
 	const double tauComptonWavelengthOver2PiUncertainty =							0.000010e-15; 				/**< \f$\frac{\lambda_{C,\tau}}{2\pi} \ (m)\f$ Uncertainty in tau Compton wavelength over 2 pi in meters.*/ 
-	const double tauElectronMassRatioUncertainty =									0.31;                     	/**< \f$m_\tau/m_e \ (1)\f$ Uncertainty in tau-electron mass ratio.*/ 
+	const double tauElectronMassRatioUncertainty =									0.31;                     	/**< \f$\frac{m_\tau}{m_e} \ (1)\f$ Uncertainty in tau-electron mass ratio.*/ 
 	const double tauMassUncertainty =												0.00029e-27;        		/**< \f$m_\tau \ (kg)\f$ Uncertainty in tau mass in kilograms.*/ 
 	const double tauMassInJPercSquaredUncertainty =									0.00026e-10; 				/**< \f$m_\tau \ (\frac{J}{c^2})\f$ Uncertainty in tau mass in joules per speed of light squared.*/ 
 	const double tauMassInMeVPercSquaredUncertainty =								0.16;     					/**< \f$m_\tau \ (\frac{MeV}{c^2})\f$ Uncertainty in tau mass in megaelectron volts per speed of light squared.*/ 
 	const double tauMassInuUncertainty =											0.00017;               		/**< \f$m_\tau \ (u)\f$ Uncertainty in tau mass in unified atomic mass units.*/ 
 	const double tauMolarMassUncertainty =											0.00017e-3;             	/**< \f$M_\tau \ (\frac{kg}{mol})\f$ Uncertainty in tau molar mass in kilograms per mole.*/ 
-	const double tauMuonMassRatioUncertainty =										0.0015;                   	/**< \f$m_\tau/m_\mu \ (1)\f$ Uncertainty in tau-muon mass ratio.*/ 
-	const double tauNeutronMassRatioUncertainty =									0.00017;                 	/**< \f$m_\tau/m_n \ (1)\f$ Uncertainty in tau-neutron mass ratio.*/ 
-	const double tauProtonMassRatioUncertainty =									0.00017;       				/**< \f$m_\tau/m_p \ (1)\f$ Uncertainty in tau-proton mass ratio.*/ 	
+	const double tauMuonMassRatioUncertainty =										0.0015;                   	/**< \f$\frac{m_\tau}{m_\mu}\ (1)\f$ Uncertainty in tau-muon mass ratio.*/ 
+	const double tauNeutronMassRatioUncertainty =									0.00017;                 	/**< \f$\frac{m_\tau}{m_n} \ (1)\f$ Uncertainty in tau-neutron mass ratio.*/ 
+	const double tauProtonMassRatioUncertainty =									0.00017;       				/**< \f$\frac{m_\tau}{m_p} \ (1)\f$ Uncertainty in tau-proton mass ratio.*/ 	
 	#endif  
 	/// @}
 	
@@ -1365,30 +1362,30 @@ namespace NISTConst
 
 	/// @addtogroup Triton
 	/// @{
-	const double tritonElectronMassRatio =											5496.92153588;				/**< \f$m_{\textrm{T}}/m_e \ (1)\f$ Triton-electron mass ratio.*/
+	const double tritonElectronMassRatio =											5496.92153588;				/**< \f$\frac{m_{\textrm{T}}}{m_e} \ (1)\f$ Triton-electron mass ratio.*/
 	const double tritongFactor =													5.957924920;				/**< \f$g_{\textrm{T}} \ (1)\f$ Triton g factor.*/       
 	const double tritonMagneticMoment =												1.504609503e-26;			/**< \f$\mu_{\textrm{T}} \ (\frac{J}{T})\f$ Triton magnetic moment in joules per tesla.*/
-	const double tritonMagneticMomentToBohrMagnetonRatio =							1.6223936616e-3;			/**< \f$\mu_{\textrm{T}}/\mu_B \ (1)\f$ Triton magnetic moment to Bohr magneton ratio.*/
-	const double tritonMagneticMomentToNuclearMagnetonRatio =						2.978962460;				/**< \f$\mu_{\textrm{T}}/\mu_N \ (1)\f$ Triton magnetic moment to nuclear magneton ratio*/
+	const double tritonMagneticMomentToBohrMagnetonRatio =							1.6223936616e-3;			/**< \f$\frac{\mu_{\textrm{T}}}{\mu_B} \ (1)\f$ Triton magnetic moment to Bohr magneton ratio.*/
+	const double tritonMagneticMomentToNuclearMagnetonRatio =						2.978962460;				/**< \f$\frac{\mu_{\textrm{T}}}{\mu_N} \ (1)\f$ Triton magnetic moment to nuclear magneton ratio*/
 	const double tritonMass =														5.007356665e-27;			/**< \f$m_{\textrm{T}} \ (kg)\f$ Triton mass in kilograms.*/ 
 	const double tritonMassInJPercSquared =											4.500387735e-10;			/**< \f$m_{\textrm{T}} \ (\frac{J}{c^2})\f$ Triton mass in joules per speed of light squared.*/ 
 	const double tritonMassInMeVPercSquared =										2808.921112;				/**< \f$m_{\textrm{T}} \ (\frac{MeV}{c^2})\f$ Triton mass in megaelectron volts per speed of light squared.*/ 
 	const double tritonMassInu =													3.01550071632;				/**< \f$m_{\textrm{T}} \ (u)\f$ Triton mass in unified atomic mass units. */ 
 	const double tritonMolarMass =													3.01550071632e-3;			/**< \f$M_{\textrm{T}} \ (\frac{kg}{mol})\f$ Triton molar mass in kilograms per mole.*/ 
-	const double tritonProtonMassRatio =											2.99371703348;				/**< \f$m_{\textrm{T}}/m_p \ (1)\f$ Triton-proton mass ratio.*/ 
+	const double tritonProtonMassRatio =											2.99371703348;				/**< \f$\frac{m_{\textrm{T}}}{m_p} \ (1)\f$ Triton-proton mass ratio.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double tritonElectronMassRatioUncertainty =								0.00000026;					/**< \f$m_{\textrm{T}}/m_e \ (1)\f$ Uncertainty in triton-electron mass ratio.*/
+	const double tritonElectronMassRatioUncertainty =								0.00000026;					/**< \f$\frac{m_{\textrm{T}}}{m_e} \ (1)\f$ Uncertainty in triton-electron mass ratio.*/
 	const double tritongFactorUncertainty =											0.000000028;				/**< \f$g_{\textrm{T}} \ (1)\f$ Uncertainty in triton g factor.*/       
 	const double tritonMagneticMomentUncertainty =									0.000000012e-26;			/**< \f$\mu_{\textrm{T}} \ (\frac{J}{T})\f$ Uncertainty in triton magnetic moment in joules per tesla.*/
-	const double tritonMagneticMomentToBohrMagnetonRatioUncertainty =				0.0000000076e-3;			/**< \f$\mu_{\textrm{T}}/\mu_B \ (1)\f$ Uncertainty in triton magnetic moment to Bohr magneton ratio.*/
-	const double tritonMagneticMomentToNuclearMagnetonRatioUncertainty =			0.000000014;				/**< \f$\mu_{\textrm{T}}/\mu_N \ (1)\f$ Uncertainty in triton magnetic moment to nuclear magneton ratio.*/
+	const double tritonMagneticMomentToBohrMagnetonRatioUncertainty =				0.0000000076e-3;			/**< \f$\frac{\mu_{\textrm{T}}}{\mu_B} \ (1)\f$ Uncertainty in triton magnetic moment to Bohr magneton ratio.*/
+	const double tritonMagneticMomentToNuclearMagnetonRatioUncertainty =			0.000000014;				/**< \f$\frac{\mu_{\textrm{T}}}{\mu_N} \ (1)\f$ Uncertainty in triton magnetic moment to nuclear magneton ratio.*/
 	const double tritonMassUncertainty =											0.000000062e-27;			/**< \f$m_{\textrm{T}} \ (kg)\f$ Uncertainty in triton mass in kilograms.*/ 
 	const double tritonMassInJPercSquaredUncertainty =								0.000000055e-10;			/**< \f$m_{\textrm{T}} \ (\frac{J}{c^2})\f$ Uncertainty in triton mass in joules per speed of light squared.*/ 
 	const double tritonMassInMeVPercSquaredUncertainty =							0.000017; 					/**< \f$m_{\textrm{T}} \ (\frac{MeV}{c^2})\f$ Uncertainty in triton mass in megaelectron volts per speed of light squared.*/ 
 	const double tritonMassInuUncertainty =											0.00000000011;				/**< \f$m_{\textrm{T}} \ (u)\f$ Uncertainty in triton mass in unified atomic mass units.*/ 
 	const double tritonMolarMassUncertainty =										0.00000000011e-3;			/**< \f$M_{\textrm{T}} \ (\frac{kg}{mol})\f$ Uncertainty in triton molar mass in kilograms per mole.*/ 
-	const double tritonProtonMassRatioUncertainty =									0.00000000022;				/**< \f$m_{\textrm{T}}/m_p \ (1)\f$ Uncertainty in triton-proton mass ratio.*/ 
+	const double tritonProtonMassRatioUncertainty =									0.00000000022;				/**< \f$\frac{m_{\textrm{T}}}{m_p} \ (1)\f$ Uncertainty in triton-proton mass ratio.*/ 
 	#endif  
 	/// @}	
 	
@@ -1502,6 +1499,23 @@ vonKlitzingConstant = RK
 Josephson constant = KJ
 
 magneticFluxQuantum = Phi0
+
+BohrRadius = a0
+BohrRadius = rBohr
+
+fineStructureConstant = alpha
+fineStructureConstant = Sommerfeld's constant
+
+ComptonWavelength = lambdaC
+lambdaCOver2Pi = ComptonWavelengthOver2Pi
+
+Weinberg angle = weakMixingAngle.
+
+HartreeEnergy = Eh
+HartreeEnergyIneV =EhIneV
+
+
+
 
 common names characteristic impedance of vacuum z0
 e0

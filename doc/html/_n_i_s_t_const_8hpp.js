@@ -412,6 +412,7 @@ var _n_i_s_t_const_8hpp =
     [ "muonNeutronMassRatio", "_n_i_s_t_const_8hpp.html#ga8f63813d3e0283a611f3e66b6d0b681d", null ],
     [ "muonNeutronMassRatioUncertainty", "_n_i_s_t_const_8hpp.html#gaf1e3125615d29e354cc1ade185c1831c", null ],
     [ "muonProtonMagneticMomentRatio", "_n_i_s_t_const_8hpp.html#gae49d53271e3ee71dc74d718028782d06", null ],
+    [ "muonProtonMagneticMomentRatioUncertainty", "_n_i_s_t_const_8hpp.html#ga366c3261916ab8b323810bb54cb69edc", null ],
     [ "muonProtonMassRatio", "_n_i_s_t_const_8hpp.html#ga72ca5408215ae40bb36ef1bff9107cf7", null ],
     [ "muonProtonMassRatioUncertainty", "_n_i_s_t_const_8hpp.html#ga61cddfc40a08640b83041efd9d4dbbe2", null ],
     [ "muonTauMassRatio", "_n_i_s_t_const_8hpp.html#gaaf24aa0c43f6d4a1935963fdd4c44789", null ],
