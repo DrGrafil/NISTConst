@@ -624,15 +624,22 @@ namespace NISTConst
 	
 	/// @addtogroup ElectronVolt
 	/// @{
-	const double electron volt-atomic mass unit relationship                 1.073 544 1105e-9       0.0000000066e-9       u/**< \f$ \ ()\f$ .*/ 
-	const double electron volt-hartree relationship                          3.674 932 248e-2        0.000000023e-2        E_h/**< \f$ \ ()\f$ .*/ 
-	const double electron volt-hertz relationship                            2.417 989 262 e14        0.000000015 e14        Hz/**< \f$ \ ()\f$ .*/ 
-	const double electron volt-inverse meter relationship                    8.065 544 005 e5         0.000000050 e5         m^-1/**< \f$ \ ()\f$ .*/ 
-	const double electron volt-joule relationship                            1.602 176 6208e-19      0.0000000098e-19      J/**< \f$ \ ()\f$ .*/ 
-	const double electron volt-kelvin relationship                           1.160 452 21 e4          0.000000 67 e4          K/**< \f$ \ ()\f$ .*/ 
-	const double electron volt-kilogram relationship                         1.782 661 907e-36       0.000000011e-36       kg/**< \f$ \ ()\f$ .*/ 
-	#ifdef NISTCONST_UNCERTAINTY
+	const double electronVoltToAtomicMassUnit =										1.0735441105e-9;			/**< \f$\frac{(1\ eV)}{c^2}\ (u)\f$ Electron volt-atomic mass unit relationship .*/ 
+	const double electronVoltToHartree =											3.674932248e-2;				/**< \f$(1\ eV) \ (E_h)\f$ Electron volt-hartree relationship.*/ 
+	const double electronVoltToHertz =												2.417989262e14;				/**< \f$\frac{(1\ eV)}{h} \ (Hz)\f$ Electron volt-hertz relationship.*/ 
+	const double electronVoltToInverseMeter =										8.065544005e5;				/**< \f$\frac{(1\ eV)}{hc} \ (\frac{1}{m})\f$ Electron volt-inverse meter relationship.*/ 
+	const double electronVoltToJoule =												1.6021766208e-19;			/**< \f$(1\ eV) \ (J)\f$ Electron volt-joule relationship.*/ 
+	const double electronVoltToKelvin =												1.16045221e4;				/**< \f$\frac{(1\ eV)}{k} \ (K)\f$ Electron volt-kelvin relationship .*/ 
+	const double electronVoltToKilogram =											1.782661907e-36;			/**< \f$\frac{(1\ eV)}{c^2} \ (kg)\f$ Electron volt-kilogram relationship.*/ 
 	
+	#ifdef NISTCONST_UNCERTAINTY
+	const double electronVoltToAtomicMassUnitUncertainty =							0.0000000066e-9;			/**< \f$\frac{(1\ eV)}{c^2}\ (u)\f$ Uncertainty in electron volt-atomic mass unit relationship .*/ 
+	const double electronVoltToHartreeUncertainty =									0.000000023e-2;				/**< \f$(1\ eV) \ (E_h)\f$ Uncertainty in electron volt-hartree relationship.*/ 
+	const double electronVoltToHertzUncertainty =									0.000000015e14;				/**< \f$\frac{(1\ eV)}{h} \ (Hz)\f$ Uncertainty in electron volt-hertz relationship.*/ 
+	const double electronVoltToInverseMeterUncertainty =							0.000000050e5;				/**< \f$\frac{(1\ eV)}{hc} \ (\frac{1}{m})\f$ Uncertainty in electron volt-inverse meter relationship.*/ 
+	const double electronVoltToJouleUncertainty =									0.0000000098e-19;			/**< \f$(1\ eV) \ (J)\f$ Uncertainty in electron volt-joule relationship.*/ 
+	const double electronVoltToKelvinUncertainty =									0.00000067e4;				/**< \f$\frac{(1\ eV)}{k} \ (K)\f$ Uncertainty in electron volt-kelvin relationship .*/ 
+	const double electronVoltToKilogramUncertainty =								0.000000011e-36;			/**< \f$\frac{(1\ eV)}{c^2} \ (kg)\f$ Uncertainty in electron volt-kilogram relationship.*/ 
 	#endif  
 	/// @}
 	
