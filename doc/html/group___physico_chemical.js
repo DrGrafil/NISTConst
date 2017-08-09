@@ -4,7 +4,7 @@ var group___physico_chemical =
     [ "Avogadro constant", "group___avogadro_constant.html", "group___avogadro_constant" ],
     [ "Boltzmann constant", "group___boltzmann_constant.html", "group___boltzmann_constant" ],
     [ "Faraday constant", "group___faraday_constant.html", "group___faraday_constant" ],
-    [ "first radiation constant", "group___first_radiation_constant.html", null ],
+    [ "first radiation constant", "group___first_radiation_constant.html", "group___first_radiation_constant" ],
     [ "Loschmidt constant", "group___loschmidt_constant.html", null ],
     [ "Molar gas constant", "group___molar_gas_constant.html", null ],
     [ "Molar Planck constant", "group___molar_planck_constant.html", null ],
