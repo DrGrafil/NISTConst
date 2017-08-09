@@ -898,9 +898,9 @@ namespace NISTConst
 	
 	/// @addtogroup MagneticFluxQuantum
 	/// @{
-	const double mag. flux quantum                                           2.067 833 831e-15       0.000000013e-15       Wb/**< \f$ \ ()\f$ .*/ 
+	const double magneticFluxQuantum =												2.067833831e-15;			/**< \f$\Phi_0 \ (Wb)\f$ Magnetic flux quantum in weber.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double magneticFluxQuantumUncertainty =									0.000000013e-15;			/**< \f$\Phi_0 \ (Wb)\f$ Uncertainty in magnetic flux quantum in weber.*/ 
 	#endif  
 	/// @}
 	
