@@ -883,8 +883,8 @@ namespace NISTConst
 	const double LoschmidtConstant =												2.6516467e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant (273.15 K, 100 kPa) in inverse meters cubed.*/ 
 	const double LoschmidtConstantatm =												2.6867811e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant (273.15 K, 101.325 kPa) in inverse meters cubed.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double LoschmidtConstant =												0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant (273.15 K, 100 kPa) in inverse meters cubed.*/ 
-	const double LoschmidtConstantatm =												0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant (273.15 K, 101.325 kPa) in inverse meters cubed.*/ 
+	const double LoschmidtConstantUncertainty =										0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant (273.15 K, 100 kPa) in inverse meters cubed.*/ 
+	const double LoschmidtConstantatmUncertainty =									0.0000015e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant (273.15 K, 101.325 kPa) in inverse meters cubed.*/ 
 	#endif  
 	/// @}
 	
@@ -897,14 +897,21 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup MolarGasConstant
 	/// @{
-	const double molar gas constant                                          8.3144598;               0.0000048;               J mol^-1 K^-1/**< \f$ \ ()\f$ .*/ 
-	
-	const double molar mass constant                                         1e-3;                    (exact)                  kg mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double molar mass of carbon-12                                     12e-3;                   (exact)                  kg mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molarGasConstant =													8.3144598;					/**< \f$R \ (\frac{J}{mol K})\f$ Molar gas constant in joules per mole kelvin.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
+	const double molarGasConstantUncertainty =										0.0000048;					/**< \f$R \ (\frac{J}{mol K})\f$ Uncertainty in molar gas constant in joules per mole kelvin.*/ 
+	#endif  
+	/// @}
 	
+	/// @addtogroup MolarMassConstant
+	/// @{
+	const double molarMassConstant =												1e-3;						/**< \f$M_u \ (\frac{kg}{mol})\f$ Molar mass constant in kilograms per mole.*/ 
+	const double molarMassOfCarbon12 =												12e-3;						/**< \f$M({^12C}) \ (\frac{kg}{mol})\f$ Molar mass of carbon-12 in kilograms per mole.*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+	const double molarMassConstantUncertainty =										0.0;						/**< \f$M_u \ (\frac{kg}{mol})\f$ Uncertainty in molar mass constant in kilograms per mole. Note should be 0.0 since it is a defined value.*/ 
+	const double molarMassOfCarbon12Uncertainty =									0.0;						/**< \f$M({^12C}) \ (\frac{kg}{mol})\f$ Uncertainty in molar mass of carbon-12 in kilograms per mole. Note should be 0.0 since it is a defined value.*/ 
 	#endif  
 	/// @}
 	
