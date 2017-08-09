@@ -1,11 +1,10 @@
 var group___conversion_factors =
 [
     [ "Atomic mass unit", "group___atomic_mass_unit.html", "group___atomic_mass_unit" ],
-    [ "Electron volt", "group___electron_volt.html", null ],
-    [ "Hartree energy", "group___hartree.html", null ],
-    [ "Hertz", "group___hertz.html", null ],
-    [ "inverse fine-structure constant", "group___inverse_fine_structure_constant.html", null ],
-    [ "inverse meter", "group___inverse_meter.html", null ],
+    [ "Electron volt", "group___electron_volt.html", "group___electron_volt" ],
+    [ "Hartree", "group___hartree.html", "group___hartree" ],
+    [ "Hertz", "group___hertz.html", "group___hertz" ],
+    [ "inverse meter", "group___inverse_meter.html", "group___inverse_meter" ],
     [ "Joule", "group___joule.html", null ],
     [ "Kelvin", "group___kelvin.html", null ],
     [ "Kilogram", "group___kilogram.html", null ]

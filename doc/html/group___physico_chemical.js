@@ -3,7 +3,7 @@ var group___physico_chemical =
     [ "Atomic mass constant", "group___atomic_mass_constant.html", "group___atomic_mass_constant" ],
     [ "Avogadro constant", "group___avogadro_constant.html", "group___avogadro_constant" ],
     [ "Boltzmann constant", "group___boltzmann_constant.html", "group___boltzmann_constant" ],
-    [ "Faraday constant", "group___faraday_constant.html", null ],
+    [ "Faraday constant", "group___faraday_constant.html", "group___faraday_constant" ],
     [ "first radiation constant", "group___first_radiation_constant.html", null ],
     [ "Loschmidt constant", "group___loschmidt_constant.html", null ],
     [ "Molar gas constant", "group___molar_gas_constant.html", null ],

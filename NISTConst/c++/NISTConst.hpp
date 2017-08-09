@@ -653,12 +653,13 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup FaradayConstant
 	/// @{
-	const double Faraday constant                                            96 485.332 89            0.000 59                 C mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double Faraday constant for conventional electric current          96 485.3251              0.0012                   C_90 mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double FaradayConstant =													96485.33289;				/**< \f$F \ (\frac{C}{mol})\f$ Faraday constant in coulombs per mole.*/ 
+	const double FaradayConstantForConventionalElectricCurrent =					96485.3251;					/**< \f$F^\ast \ (\frac{C_90}{mol})\f$ Faraday constant for conventional electric current in coulombs per mole.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double FaradayConstantUncertainty =										0.00059;					/**< \f$F \ (\frac{C}{mol})\f$ Uncertainty in Faraday constant in coulombs per mole.*/ 
+	const double FaradayConstantForConventionalElectricCurrentUncertainty =			0.0012;						/**< \f$F^\ast \ (\frac{C_90}{mol})\f$ Uncertainty in Faraday constant for conventional electric current in coulombs per mole.*/ 
 	#endif  
 	/// @}
 	
@@ -776,7 +777,7 @@ namespace NISTConst
 	const double inverseMeterToAtomicMassUnitUncertainty =							0.00000000061e-15;			/**< \f$\frac{(1\ m^-1)h}{c} \ (u)\f$ Uncertainty in inverse meter-atomic mass unit relationship.*/ 
 	const double inverseMeterToElectronVoltUncertainty =							0.0000000076e-6;			/**< \f$(1\ m^-1)hc \ (eV)\f$ Uncertainty in inverse meter-electron volt relationship.*/ 
 	const double inverseMeterToHartreeUncertainty =									0.000000000027e-8;			/**< \f$(1\ m^-1)hc \ (E_h)\f$ Uncertainty in inverse meter-hartree relationship.*/ 
-	const double inverseMeterToHertzUncertainty =									0.0;						/**< \f$(1\ m^-1)c \ (Hz)\f$ Uncertainty in inverse meter-hertz relationship.*/ 
+	const double inverseMeterToHertzUncertainty =									0.0;						/**< \f$(1\ m^-1)c \ (Hz)\f$ Uncertainty in inverse meter-hertz relationship. Note should be 0.0 since it is a defined value.*/ 
 	const double inverseMeterToJouleUncertainty =									0.000000024e-25;			/**< \f$(1\ m^-1)hc \ (J)\f$ Uncertainty in inverse meter-joule relationship.*/ 
 	const double inverseMeterToKelvinUncertainty =									0.00000083e-2;				/**< \f$\frac{(1\ m^-1)hc}{k} \ (K)\f$ Uncertainty in inverse meter-kelvin relationship.*/ 
 	const double inverseMeterToKilogramUncertainty =								0.000000027e-42;			/**< \f$\frac{(1\ m^-1)h}{c} \ (kg)\f$ Uncertainty in inverse meter-kilogram relationship.*/

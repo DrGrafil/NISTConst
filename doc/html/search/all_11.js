@@ -15,6 +15,7 @@ var searchData=
   ['shieldedprotonmagneticmoment',['shieldedProtonMagneticMoment',['../group___proton.html#ga3e2c09881642d47d3e869c7803862e6f',1,'NISTConst']]],
   ['shieldedprotonmagneticmomenttobohrmagnetonratio',['shieldedProtonMagneticMomentToBohrMagnetonRatio',['../group___proton.html#ga175eb518370bc31471e8ad763e760b72',1,'NISTConst']]],
   ['shieldedprotonmagneticmomenttonuclearmagnetonratio',['shieldedProtonMagneticMomentToNuclearMagnetonRatio',['../group___proton.html#ga03e84ef0d1452fa7c647f8866913fbc3',1,'NISTConst']]],
+  ['silicon',['Silicon',['../group___silicon.html',1,'']]],
   ['sillicon',['Sillicon',['../group___sillicon.html',1,'']]],
   ['speed_20of_20light',['Speed of light',['../group___speed_of_light.html',1,'']]],
   ['speedoflightinvacuum',['speedOfLightInVacuum',['../group___speed_of_light.html#gacb4a04d9cca33259effabdd28c28e964',1,'NISTConst']]],

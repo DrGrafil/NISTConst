@@ -1,4 +1,31 @@
 var group___electron =
 [
-    [ "classicalElectronRadius", "group___electron.html#gac67d6a01d8d75cb66290a36f7123942b", null ]
+    [ "classicalElectronRadius", "group___electron.html#gac67d6a01d8d75cb66290a36f7123942b", null ],
+    [ "electronChargeToMass", "group___electron.html#ga941e6299b6ef4b90cc525c335d9989dc", null ],
+    [ "electronDeuteronMagneticMomentRatio", "group___electron.html#ga3dea53b57010903586a46d81a49fc80f", null ],
+    [ "electronDeuteronMassRatio", "group___electron.html#gad526d455579237804ce6194b50782c0e", null ],
+    [ "electrongFactor", "group___electron.html#ga65a20f263f8ef8f324ea6d1879050a66", null ],
+    [ "electronGyromagneticRatio", "group___electron.html#ga7c738b9078ca0308ee45d3b8bbafadb6", null ],
+    [ "electronGyromagneticRatioOver2pi", "group___electron.html#ga67e6ebbd2c2d8043cbdb09979dc7247b", null ],
+    [ "electronHelionMassRatio", "group___electron.html#ga5039598cd8a51d15d9dfbb0463c109d6", null ],
+    [ "electronMagneticMoment", "group___electron.html#ga81fc83bd665b7b4fb83e9901ed7d6628", null ],
+    [ "electronMagneticMomentAnomaly", "group___electron.html#gaf1a0633191464e7a695240858b9b407c", null ],
+    [ "electronMagneticMomentToBohrMagnetonRatio", "group___electron.html#ga921889f482e157189bf19818e428532f", null ],
+    [ "electronMagneticMomentToNuclearMagnetonRatio", "group___electron.html#ga2c0f984bb3ae4dd8ca2696d4fec8f9bf", null ],
+    [ "electronMass", "group___electron.html#ga2c9773ce81cfbe85e9042adccd788589", null ],
+    [ "electronMassInJPercSquared", "group___electron.html#gad128828903af19e91fdc1a95ef9cbb24", null ],
+    [ "electronMassInMeVPercSquared", "group___electron.html#ga6a41b7cbd78c00ef17e9b17944ab5f5c", null ],
+    [ "electronMassInu", "group___electron.html#gaa6fc2ab3a81cd61f6d78d64eec8a670d", null ],
+    [ "electronMolarMass", "group___electron.html#gaebecd54c70326d72d25d790c0ab62145", null ],
+    [ "electronMuonMagneticMomentRatio", "group___electron.html#gacd4a3b462095f6b3ec3de099a34b9726", null ],
+    [ "electronMuonMassRatio", "group___electron.html#ga6b6bb303de5ee3bd95d18e8024880eea", null ],
+    [ "electronNeutronMagneticMomentRatio", "group___electron.html#ga556c66115bf01b011616c5675e8b33c1", null ],
+    [ "electronNeutronMassRatio", "group___electron.html#gad051ac865a63e667306850054f912ab1", null ],
+    [ "electronProtonMagneticMomentRatio", "group___electron.html#ga8ea70b9b79c3f8b4f9825c48d1758f44", null ],
+    [ "electronProtonMassRatio", "group___electron.html#gabbaa23094e18f2b83e6145adaebbb6e7", null ],
+    [ "electronTauMassRatio", "group___electron.html#ga513e30853388cdd091c192dfb6371fa8", null ],
+    [ "electronToAlphaParticleMassRatio", "group___electron.html#ga1090a3f764cafde391a3dfe7f459a94d", null ],
+    [ "electronToShieldedHelionMagneticMomentRatio", "group___electron.html#gaff98723ab3ee4e1be57a04f2a0f6034d", null ],
+    [ "electronToShieldedProtonMagneticMomentRatio", "group___electron.html#gacf35e7562c94178f6b182cff46131b6d", null ],
+    [ "electronTritonMassRatio", "group___electron.html#gac9bfee1055b6fd5d3dabb3126318b52e", null ]
 ];
