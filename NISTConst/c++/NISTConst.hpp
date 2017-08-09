@@ -5,7 +5,6 @@
 //	 http://physics.nist.gov/constants
 /// @author Elliot Grafil (Metex)
 /// @date 8/5/17
-/// @todo: require units on all things that have multiple unit definitions?
 /// @todo: Resolve \lambdabar display issue https://tex.stackexchange.com/questions/96479/how-can-i-type-lambda-bar
 /// @todo: Resolve \AA display issue
 //=================================
@@ -811,17 +810,23 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup Joule
 	/// @{
-	const double joule-atomic mass unit relationship                         6.700 535 363 e9         0.000000082 e9         u/**< \f$ \ ()\f$ .*/ 
-	const double joule-electron volt relationship                            6.241 509 126 e18        0.000000038 e18        eV/**< \f$ \ ()\f$ .*/ 
-	const double joule-hartree relationship                                  2.293 712 317 e17        0.000000028 e17        E_h/**< \f$ \ ()\f$ .*/ 
-	const double joule-hertz relationship                                    1.509 190 205 e33        0.000000019 e33        Hz/**< \f$ \ ()\f$ .*/ 
-	const double joule-inverse meter relationship                            5.034 116 651 e24        0.000000062 e24        m^-1/**< \f$ \ ()\f$ .*/ 
-	const double joule-kelvin relationship                                   7.242 9731 e22           0.0000042 e22           K/**< \f$ \ ()\f$ .*/ 
-	const double joule-kilogram relationship                                 1.112 650 056...e-17    (exact)                  kg/**< \f$ \ ()\f$ .*/ 
+	const double jouleToAtomicMassUnit =											6.700535363e9;				/**< \f$\frac{(1\ J)}{c^2} \ (u)\f$ joule-atomic mass unit relationship.*/ 
+	const double jouleToElectronVolt =												6.241509126e18;				/**< \f$(1\ J) \ (eV)\f$ joule-electron volt relationship.*/ 
+	const double jouleToHartree =													2.293712317e17;				/**< \f$(1\ J) \ (E_h)\f$ joule-hartree relationship.*/ 
+	const double jouleToHertz =														1.509190205e33;				/**< \f$\frac{(1\ J)}{h} \ (Hz)\f$ joule-hertz relationship.*/ 
+	const double jouleToInverseMeter =												5.034116651e24;				/**< \f$\frac{(1\ J)}{hc} \ (\frac{1}{m})\f$ joule-inverse meter relationship.*/ 
+	const double jouleToKelvin =													7.2429731e22;				/**< \f$\frac{(1\ J)}{k} \ (K)\f$ joule-kelvin relationship.*/ 
+	const double jouleToKilogram =													1.112650056e-17;			/**< \f$\frac{(1\ J)}{c^2} \ (kg)\f$ joule-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double jouleToAtomicMassUnit =											0.000000082e9;				/**< \f$\frac{(1\ J)}{c^2} \ (u)\f$ joule-atomic mass unit relationship.*/ 
+	const double jouleToElectronVolt =												0.000000038e18;				/**< \f$(1\ J) \ (eV)\f$ joule-electron volt relationship.*/ 
+	const double jouleToHartree =													0.000000028e17;				/**< \f$(1\ J) \ (E_h)\f$ joule-hartree relationship.*/ 
+	const double jouleToHertz =														0.000000019e33;				/**< \f$\frac{(1\ J)}{h} \ (Hz)\f$ joule-hertz relationship.*/ 
+	const double jouleToInverseMeter =												0.000000062e24;				/**< \f$\frac{(1\ J)}{hc} \ (\frac{1}{m})\f$ joule-inverse meter relationship.*/ 
+	const double jouleToKelvin =													0.0000042e22;				/**< \f$\frac{(1\ J)}{k} \ (K)\f$ joule-kelvin relationship.*/ 
+	const double jouleToKilogram =													0.0;						/**< \f$\frac{(1\ J)}{c^2} \ (kg)\f$ joule-kilogram relationship. Note should be 0.0 since it is a defined value.*/ 
 	#endif  
 	/// @}
 	
