@@ -5,7 +5,7 @@ var group___conversion_factors =
     [ "Hartree", "group___hartree.html", "group___hartree" ],
     [ "Hertz", "group___hertz.html", "group___hertz" ],
     [ "inverse meter", "group___inverse_meter.html", "group___inverse_meter" ],
-    [ "Joule", "group___joule.html", null ],
-    [ "Kelvin", "group___kelvin.html", null ],
+    [ "Joule", "group___joule.html", "group___joule" ],
+    [ "Kelvin", "group___kelvin.html", "group___kelvin" ],
     [ "Kilogram", "group___kilogram.html", null ]
 ];
