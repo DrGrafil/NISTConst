@@ -6,7 +6,7 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/9/17
 /// @version 0.7.0
-/// @todo: Resolve \lambdabar display issue https://tex.stackexchange.com/questions/96479/how-can-i-type-lambda-bar
+
 
 //=================================
 // Header guard
@@ -468,10 +468,10 @@ namespace NISTConst
 	/// @addtogroup ComptonWavelength
 	/// @{
 	const double ComptonWavelength =												2.4263102367e-12;			/**< \f$\lambda_C \ (m)\f$ Compton wavelength in meters.*/
-	const double ComptonWavelengthOver2Pi =											386.15926764e-15;			/**< \f$\lambdabar_C \ (m)\f$ Compton wavelength over 2 pi in meters.*/
+	const double ComptonWavelengthOver2Pi =											386.15926764e-15;			/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Compton wavelength over 2 pi in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
 	const double ComptonWavelengthUncertainty =										0.0000000011e-12;			/**< \f$\lambda_C \ (m)\f$ Uncertainty in Compton wavelength in meters.*/
-	const double ComptonWavelengthOver2PiUncertainty =								0.00000018e-15;				/**< \f$\lambdabar_C \ (m)\f$ Uncertainty in Compton wavelength over 2 pi in meters.*/
+	const double ComptonWavelengthOver2PiUncertainty =								0.00000018e-15;				/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Uncertainty in Compton wavelength over 2 pi in meters.*/
 	#endif  
 	/// @}
 	
@@ -962,7 +962,7 @@ namespace NISTConst
 	/// @addtogroup Muon
 	/// @{
 	const double muonComptonWavelength =											11.73444111e-15;			/**< \f$\lambda_{C,\mu} \ (m)\f$ Muon Compton wavelength in meters.*/ 
-	const double muonComptonWavelengthOver2pi =										1.867594308e-15;			/**< \f$\lambdabar_{C,\mu} \ (m)\f$ Muon Compton wavelength over 2 pi in meters.*/ 
+	const double muonComptonWavelengthOver2pi =										1.867594308e-15;			/**< \f$\frac{\lambda_{C,\mu}}{2\pi} \ (m)\f$ Muon Compton wavelength over 2 pi in meters.*/ 
 	const double muonElectronMassRatio =											206.7682826;				/**< \f$\frac{m_\mu}{m_e} \ (1)\f$ Muon-electron mass ratio.*/ 
 	const double muongFactor =														-2.0023318418;				/**< \f$g_\mu \ (1)\f$ Muon g factor.*/ 
 	const double muonMagneticMoment =												-4.49044826e-26;			/**< \f$\mu_\mu \ (\frac{J}{T})\f$ Muon magnetic moment in joules per tesla.*/ 
@@ -981,7 +981,7 @@ namespace NISTConst
 	
 	#ifdef NISTCONST_UNCERTAINTY
 	const double muonComptonWavelengthUncertainty =									0.00000026e-15;				/**< \f$\lambda_{C,\mu} \ (m)\f$ Uncertainty in muon Compton wavelength in meters.*/ 
-	const double muonComptonWavelengthOver2piUncertainty =							0.000000042e-15;			/**< \f$\lambdabar_{C,\mu} \ (m)\f$ Uncertainty in muon Compton wavelength over 2 pi in meters.*/ 
+	const double muonComptonWavelengthOver2piUncertainty =							0.000000042e-15;			/**< \f$\frac{\lambda_{C,\mu}}{2\pi} \ (m)\f$ Uncertainty in muon Compton wavelength over 2 pi in meters.*/ 
 	const double muonElectronMassRatioUncertainty =									0.0000046;					/**< \f$\frac{m_\mu}{m_e} \ (1)\f$ Uncertainty in muon-electron mass ratio.*/ 
 	const double muongFactorUncertainty =											0.0000000013;				/**< \f$g_\mu \ (1)\f$ Uncertainty in muon g factor.*/ 
 	const double muonMagneticMomentUncertainty =									0.00000010e-26;				/**< \f$\mu_\mu \ (\frac{J}{T})\f$ Uncertainty in muon magnetic moment in joules per tesla.*/ 
@@ -1006,7 +1006,7 @@ namespace NISTConst
 	const double naturalUnitOfActionIneVs =											6.582119514e-16;			/**< \f$\hbar \ (eV\ s)\f$ Natural unit of action in electron volts second.*/ 
 	const double naturalUnitOfEnergy =												8.18710565e-14;				/**< \f$m_e c^2 \ (J)\f$ Natural unit of energy in joules.*/ 
 	const double naturalUnitOfEnergyInMeV =											0.5109989461;				/**< \f$m_e c^2 \ (MeV)\f$ Natural unit of energy in megaelectron volts.*/ 
-	const double naturalUnitOfLength =												386.15926764e-15;			/**< \f$\lambdabar_C \ (m)\f$ Natural unit of length in meters.*/ 
+	const double naturalUnitOfLength =												386.15926764e-15;			/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Natural unit of length in meters.*/ 
 	const double naturalUnitOfMass =												9.10938356e-31;				/**< \f$m_e \ (kg)\f$ Natural unit of mass in kilograms.*/ 
 	const double naturalUnitOfMomentum =											2.730924488e-22;			/**< \f$m_e c \ (\frac{kg\ m}{s})\f$ Natural unit of momentum in kilogram meters per second.*/ 
 	const double naturalUnitOfMomentumInMeVPerc =									0.5109989461;				/**< \f$m_e c \ (\frac{MeV}{c})\f$ Natural unit of momentum in megaelectron volts per speed of light.*/ 
@@ -1017,7 +1017,7 @@ namespace NISTConst
 	const double naturalUnitOfActionIneVsUncertainty =								0.000000040e-16;			/**< \f$\hbar \ (eV\ s)\f$ Uncertainty in natural unit of action in electron volts second.*/ 
 	const double naturalUnitOfEnergyUncertainty =									0.00000010e-14;				/**< \f$m_e c^2 \ (J)\f$ Uncertainty in natural unit of energy in joules.*/ 
 	const double naturalUnitOfEnergyInMeVUncertainty =								0.0000000031;				/**< \f$m_e c^2 \ (MeV)\f$ Uncertainty in natural unit of energy in megaelectron volts.*/ 
-	const double naturalUnitOfLengthUncertainty =									0.00000018e-15;				/**< \f$\lambdabar_C \ (m)\f$ Uncertainty in natural unit of length in meters.*/ 
+	const double naturalUnitOfLengthUncertainty =									0.00000018e-15;				/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Uncertainty in natural unit of length in meters.*/ 
 	const double naturalUnitOfMassUncertainty =										0.00000011e-31;				/**< \f$m_e \ (kg)\f$ Uncertainty in natural unit of mass in kilograms.*/ 
 	const double naturalUnitOfMomentumUncertainty =									0.000000034e-22;			/**< \f$m_e c \ (\frac{kg\ m}{s})\f$ Uncertainty in natural unit of momentum in kilogram meters per second.*/ 
 	const double naturalUnitOfMomentumInMeVPercUncertainty =						0.0000000031;				/**< \f$m_e c \ (\frac{MeV}{c})\f$ Uncertainty in natural unit of momentum in megaelectron volts per speed of light.*/ 
@@ -1029,7 +1029,7 @@ namespace NISTConst
 	/// @addtogroup Neutron
 	/// @{
 	const double neutronComptonWavelength =											1.31959090481e-15;			/**< \f$\lambda_{C,n} \ (m)\f$ Neutron Compton wavelength in meters.*/
-	const double neutronComptonWavelengthOver2Pi =									0.21001941536e-15;			/**< \f$\lambdabar_{C,n} \ (m)\f$ Neutron Compton wavelength over 2 pi in meters.*/
+	const double neutronComptonWavelengthOver2Pi =									0.21001941536e-15;			/**< \f$\frac{\lambda_{C,n}}{2\pi} \ (m)\f$ Neutron Compton wavelength over 2 pi in meters.*/
 	const double neutronElectronMagneticMomentRatio =								1.04066882e-3;				/**< \f$\frac{\mu_n}{\mu_e} \ (1)\f$ Neutron-electron magnetic moment ratio.*/
 	const double neutronElectronMassRatio =											1838.68366158;				/**< \f$\frac{m_n}{m_e} \ (1)\f$ Neutron-electron mass ratio.*/
 	const double neutrongFactor =													-3.82608545;				/**< \f$g_n \ (1)\f$ Neutron g factor.*/
@@ -1055,7 +1055,7 @@ namespace NISTConst
 	
 	#ifdef NISTCONST_UNCERTAINTY
 	const double neutronComptonWavelengthUncertainty =								0.00000000088e-15;			/**< \f$\lambda_{C,n} \ (m)\f$ Uncertainty in neutron Compton wavelength in meters.*/
-	const double neutronComptonWavelengthOver2PiUncertainty =						0.00000000014e-15;			/**< \f$\lambdabar_{C,n} \ (m)\f$ Uncertainty in neutron Compton wavelength over 2 pi in meters.*/
+	const double neutronComptonWavelengthOver2PiUncertainty =						0.00000000014e-15;			/**< \f$\frac{\lambda_{C,n}}{2\pi} \ (m)\f$ Uncertainty in neutron Compton wavelength over 2 pi in meters.*/
 	const double neutronElectronMagneticMomentRatioUncertainty =					0.00000025e-3;				/**< \f$\frac{\mu_n}{\mu_e} \ (1)\f$ Uncertainty in neutron-electron magnetic moment ratio.*/
 	const double neutronElectronMassRatioUncertainty =								0.00000090;					/**< \f$\frac{m_n}{m_e} \ (1)\f$ Uncertainty in neutron-electron mass ratio .*/
 	const double neutrongFactorUncertainty =										0.00000090;					/**< \f$g_n \ (1)\f$ Uncertainty in neutron g factor.*/
@@ -1161,7 +1161,7 @@ namespace NISTConst
 	/// @{
 	const double protonChargeToMassQuotient =										9.578833226e7;				/**< \f$\frac{e}{m_p} \ (\frac{C}{kg})\f$ Proton charge to mass quotient in coulombs per kilogram.*/
 	const double protonComptonWavelength =											1.32140985396e-15;			/**< \f$\lambda_{C,p} \ (m)\f$ Proton Compton wavelength in meters.*/
-	const double protonComptonWavelengthOver2Pi =									0.210308910109e-15;			/**< \f$\lambdabar_{C,p} \ (m)\f$ Proton Compton wavelength over 2 pi in meters.*/
+	const double protonComptonWavelengthOver2Pi =									0.210308910109e-15;			/**< \f$\frac{\lambda_{C,p}}{2\pi}\ (m)\f$ Proton Compton wavelength over 2 pi in meters.*/
 	const double protonElectronMassRatio =											1836.15267389;				/**< \f$\frac{m_p}{m_e} \ (1)\f$ Proton-electron mass ratio.*/
 	const double protongFactor =													5.585694702;				/**< \f$g_p \ (1)\f$ Proton g factor.*/
 	const double protonGyromagneticRatio =											2.675221900e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
@@ -1184,7 +1184,7 @@ namespace NISTConst
     #ifdef NISTCONST_UNCERTAINTY
 	const double protonChargeToMassQuotientUncertainty =							0.000000059e7;				/**< \f$\frac{e}{m_p} \ (\frac{C}{kg})\f$ Uncertainty in proton charge to mass quotient in coulombs per kilogram.*/
 	const double protonComptonWavelengthUncertainty =								0.00000000061e-15;			/**< \f$\lambda_{C,p} \ (m)\f$ Uncertainty in proton Compton wavelength in meters.*/
-	const double protonComptonWavelengthOver2PiUncertainty =						0.000000000097e-15;			/**< \f$\lambdabar_{C,p} \ (m)\f$ Uncertainty in proton Compton wavelength over 2 pi in meters.*/
+	const double protonComptonWavelengthOver2PiUncertainty =						0.000000000097e-15;			/**< \f$\frac{\lambda_{C,p}}{2\pi} \ (m)\f$ Uncertainty in proton Compton wavelength over 2 pi in meters.*/
 	const double protonElectronMassRatioUncertainty =								0.00000017;					/**< \f$\frac{m_p}{m_e} \ (1)\f$ Uncertainty in proton-electron mass ratio.*/
 	const double protongFactorUncertainty =											0.000000017;				/**< \f$g_p \ (1)\f$ Uncertainty in proton g factor.*/
 	const double protonGyromagneticRatioUncertainty =								0.000000018e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Uncertainty in proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
@@ -1329,7 +1329,7 @@ namespace NISTConst
 	/// @addtogroup Tau
 	/// @{
 	const double tauComptonWavelength =												0.697787e-15; 				/**< \f$\lambda_{C,\tau} \ (m)\f$ Tau Compton wavelength in meters.*/ 
-	const double tauComptonWavelengthOver2Pi =										0.111056e-15;        		/**< \f$\lambdabar_{C,\tau} \ (m)\f$ Tau Compton wavelength over 2 pi in meters.*/ 
+	const double tauComptonWavelengthOver2Pi =										0.111056e-15;        		/**< \f$\frac{\lambda_{C,\tau}}{2\pi} \ (m)\f$ Tau Compton wavelength over 2 pi in meters.*/ 
 	const double tauElectronMassRatio =												3477.15;                  	/**< \f$m_\tau/m_e \ (1)\f$ Tau-electron mass ratio.*/ 
 	const double tauMass =															3.16747e-27;           		/**< \f$m_\tau \ (kg)\f$ Tau mass in kilograms.*/ 
 	const double tauMassInJPercSquared =                                 			2.84678e-10;				/**< \f$m_\tau \ (\frac{J}{c^2})\f$ Tau mass in joules per speed of light squared.*/ 
@@ -1342,7 +1342,7 @@ namespace NISTConst
 	
 	#ifdef NISTCONST_UNCERTAINTY
 	const double tauComptonWavelengthUncertainty =									0.000063e-15;				/**< \f$\lambda_{C,\tau} \ (m)\f$ Uncertainty in tau Compton wavelength in meters.*/ 
-	const double tauComptonWavelengthOver2PiUncertainty =							0.000010e-15; 				/**< \f$\lambdabar_{C,\tau} \ (m)\f$ Uncertainty in tau Compton wavelength over 2 pi in meters.*/ 
+	const double tauComptonWavelengthOver2PiUncertainty =							0.000010e-15; 				/**< \f$\frac{\lambda_{C,\tau}}{2\pi} \ (m)\f$ Uncertainty in tau Compton wavelength over 2 pi in meters.*/ 
 	const double tauElectronMassRatioUncertainty =									0.31;                     	/**< \f$m_\tau/m_e \ (1)\f$ Uncertainty in tau-electron mass ratio.*/ 
 	const double tauMassUncertainty =												0.00029e-27;        		/**< \f$m_\tau \ (kg)\f$ Uncertainty in tau mass in kilograms.*/ 
 	const double tauMassInJPercSquaredUncertainty =									0.00026e-10; 				/**< \f$m_\tau \ (\frac{J}{c^2})\f$ Uncertainty in tau mass in joules per speed of light squared.*/ 
