@@ -850,17 +850,23 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup Kilogram
 	/// @{
-	const double kilogramToAtomicMassUnit =                      6.022140857e26;        0.000000074e26;        u/**< \f$ \ (u)\f$ .*/ 
-	const double kilogramToElectronVolt =                         5.609588650e35;        0.000000034e35;        eV/**< \f$ \ (eV)\f$ .*/ 
-	const double kilogramToHartree =                               2.061485823e34;        0.000000025e34;        E_h/**< \f$ \ (E_h)\f$ .*/ 
-	const double kilogramToHertz =                                 1.356392512e50;        0.000000017e50;        Hz/**< \f$ \ (Hz)\f$ .*/ 
-	const double kilogramToInverseMeter =                         4.524438411e41;        0.000000056e41;        m^-1/**< \f$ \ (\frac{1}{m})\f$ .*/ 
-	const double kilogramToJoule =                                 8.987551787e16;     (exact)                  J/**< \f$ \ (J)\f$ .*/ 
-	const double kilogramToKelvin =                                6.5096595e39;           0.0000037e39;           K/**< \f$ \ (K)\f$ .*/ 
+	const double kilogramToAtomicMassUnit =											6.022140857e26;				/**< \f$(1\ kg)\ (u)\f$ kilogram-atomic mass unit relationship.*/ 
+	const double kilogramToElectronVolt =											5.609588650e35;				/**< \f$(1\ kg)c^2 \ (eV)\f$ kilogram-electron volt relationship.*/ 
+	const double kilogramToHartree =												2.061485823e34;				/**< \f$(1\ kg)c^2 \ (E_h)\f$ kilogram-hartree relationship.*/ 
+	const double kilogramToHertz =													1.356392512e50;				/**< \f$\frac{(1\ kg)c^2}{h} \ (Hz)\f$ kilogram-hertz relationship .*/ 
+	const double kilogramToInverseMeter =											4.524438411e41;				/**< \f$\frac{(1\ kg)c}{h} \ (\frac{1}{m})\f$ kilogram-inverse meter relationship.*/ 
+	const double kilogramToJoule =													8.987551787e16;				/**< \f$(1\ kg)c^2 \ (J)\f$ kilogram-joule relationship.*/ 
+	const double kilogramToKelvin =													6.5096595e39;				/**< \f$\frac{(1\ kg)c^2}{K} \ (K)\f$ kilogram-kelvin relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double kilogramToAtomicMassUnitUncertainty =								0.000000074e26;				/**< \f$(1\ kg)\ (u)\f$ Uncertainty in kilogram-atomic mass unit relationship.*/ 
+	const double kilogramToElectronVoltUncertainty =								0.000000034e35;				/**< \f$(1\ kg)c^2 \ (eV)\f$ Uncertainty in kilogram-electron volt relationship.*/ 
+	const double kilogramToHartreeUncertainty =										0.000000025e34;				/**< \f$(1\ kg)c^2 \ (E_h)\f$ Uncertainty in kilogram-hartree relationship.*/ 
+	const double kilogramToHertzUncertainty =										0.000000017e50;				/**< \f$\frac{(1\ kg)c^2}{h} \ (Hz)\f$ Uncertainty in kilogram-hertz relationship .*/ 
+	const double kilogramToInverseMeterUncertainty =								0.000000056e41;				/**< \f$\frac{(1\ kg)c}{h} \ (\frac{1}{m})\f$ Uncertainty in kilogram-inverse meter relationship.*/ 
+	const double kilogramToJouleUncertainty =										0.0;						/**< \f$(1\ kg)c^2 \ (J)\f$ Uncertainty in kilogram-joule relationship. Note should be 0.0 since it is a defined value.*/ 
+	const double kilogramToKelvinUncertainty =										0.0000037e39;				/**< \f$\frac{(1\ kg)c^2}{K} \ (K)\f$ Uncertainty in kilogram-kelvin relationship.*/ 
 	#endif  
 	/// @}
 	
