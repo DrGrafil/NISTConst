@@ -309,9 +309,9 @@ namespace NISTConst
 
 	/// @addtogroup AngstromStar
 	/// @{
-	const double AngstromStar =												1.00001495e-10;				/**< \f$\textrm{\AA}^{\ast} \ (m)\f$ Angstrom star in meters.*/ 
+	const double AngstromStar =												1.00001495e-10;				/**< \f$\unicode{x212B}^{\ast} \ (m)\f$ Angstrom star in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double AngstromStarUncertainty =									0.00000090e-10;				/**< \f$\textrm{\AA}^{\ast} \ (m)\f$ Uncertainty in angstrom star in meters.*/ 
+	const double AngstromStarUncertainty =									0.00000090e-10;				/**< \f$\unicode{x212B}^{\ast} \ (m)\f$ Uncertainty in angstrom star in meters.*/ 
 	#endif  
 	/// @}
 	
