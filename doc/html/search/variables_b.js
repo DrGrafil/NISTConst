@@ -1,8 +1,14 @@
 var searchData=
 [
+  ['magneticconstant',['magneticConstant',['../group___magnetic_constant.html#ga511860d1f2830ae6a85e1b1df8522071',1,'NISTConst']]],
+  ['magneticfluxquantum',['magneticFluxQuantum',['../group___magnetic_flux_quantum.html#ga2ed9e5fb19a6f2cc0c25ad945ea6b562',1,'NISTConst']]],
+  ['molargasconstant',['molarGasConstant',['../group___molar_gas_constant.html#ga923e5cda42e8fec4a70640b82051d309',1,'NISTConst']]],
+  ['molarmassconstant',['molarMassConstant',['../group___molar_mass_constant.html#ga83c1719df0cda1b4eae15de014b8f857',1,'NISTConst']]],
+  ['molarmassofcarbon12',['molarMassOfCarbon12',['../group___molar_mass_constant.html#gab1aae3b38f21cb9a15fdc8209d3cf1f0',1,'NISTConst']]],
   ['molarplanckconstant',['molarPlanckConstant',['../group___molar_planck_constant.html#gaf75c23aa4c9305b0670bc8162fa25b66',1,'NISTConst']]],
   ['molarplanckconstanttimesc',['molarPlanckConstantTimesc',['../group___molar_planck_constant.html#ga4ead25403deaa41d6f95b1252140b8b0',1,'NISTConst']]],
-  ['molarvolumeofidealgasatm',['molarVolumeOfIdealGasatm',['../_n_i_s_t_const_8hpp.html#a0fa16accabc663b907bd4b6239a57c13',1,'NISTConst']]],
+  ['molarvolumeofidealgas',['molarVolumeOfIdealGas',['../group___molar_volume.html#ga666dc78c2b916ed12bcaf3ec15d7c4d3',1,'NISTConst']]],
+  ['molarvolumeofidealgasatm',['molarVolumeOfIdealGasatm',['../group___molar_volume.html#ga005e08baa33a25a474bd2287281883c4',1,'NISTConst']]],
   ['molarvolumeofsilicon',['molarVolumeOfSilicon',['../group___silicon.html#gaf084f6d4668f778d204cd782269f082c',1,'NISTConst']]],
   ['moxunit',['MoXUnit',['../group___molybdenum.html#ga31f18ed601e6b0e9ebe95a3ac3d962f5',1,'NISTConst']]],
   ['muoncomptonwavelength',['muonComptonWavelength',['../group___muon.html#ga344399a1ac3bc2f57614ccdca4f4f1c1',1,'NISTConst']]],

@@ -6,7 +6,7 @@
 /// @author Elliot Grafil (Metex)
 /// @date 8/5/17
 /// @todo: Resolve \lambdabar display issue https://tex.stackexchange.com/questions/96479/how-can-i-type-lambda-bar
-/// @todo: Resolve \AA display issue
+
 //=================================
 // Header guard
 #pragma once
@@ -200,7 +200,7 @@
 /// 	@defgroup ConventionalvonKlitzingConstant von Klitzing constant 
 /// 	@ingroup Adopted
 
-/// 	@defgroup MolarMass Molar mass   
+/// 	@defgroup MolarMassConstant Molar mass constant  
 /// 	@ingroup Adopted
 
 /// 	@defgroup GravityAcceleration Gravity acceleration
@@ -563,7 +563,7 @@ namespace NISTConst
 	const double electronHelionMassRatio =											1.819543074854e-4;			/**< \f$\frac{m_e}{m_{^3\textrm{He}}} \ (1)\f$ Electron-helion mass ratio.*/ 
 	const double electronMagneticMoment =											-928.4764620e-26;			/**< \f$\mu_e \ (\frac{J}{T})\f$ Electron magnetic moment in joules per tesla.*/ 
 	const double electronMagneticMomentAnomaly =									1.15965218091e-3;			/**< \f$a_e \ (1)\f$ Electron magnetic moment anomaly.*/ 
-	const double electronMagneticMomentToBohrMagnetonRatio =						-1.001159652180 91;			/**< \f$\frac{\mu_e}{\mu_B} \ (1)\f$ Electron magnetic moment to Bohr magneton ratio.*/ 
+	const double electronMagneticMomentToBohrMagnetonRatio =						-1.00115965218091;			/**< \f$\frac{\mu_e}{\mu_B} \ (1)\f$ Electron magnetic moment to Bohr magneton ratio.*/ 
 	const double electronMagneticMomentToNuclearMagnetonRatio =						-1838.28197234;				/**< \f$\frac{\mu_e}{\mu_N} \ (1)\f$ Electron magnetic moment to nuclear magneton ratio.*/ 
 	const double electronMass =														9.10938356e-31;				/**< \f$m_e \ (kg)\f$ Electron mass in kilograms.*/ 
 	const double electronMassInJPercSquared =										8.18710565e-14;				/**< \f$m_e \ (\frac{J}{c^2})\f$ Electron mass in joules per speed of light squared.*/ 
@@ -932,7 +932,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup MolarVolumeOfIdealGas 
+	/// @addtogroup MolarVolume 
 	/// @{
 	const double molarVolumeOfIdealGas =											22.710947e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas (273.15 K, 100 kPa)  in meters cubed per mole.*/ 
 	const double molarVolumeOfIdealGasatm =											22.413962e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas (273.15 K, 101.325 kPa) in meters cubed per mole.*/ 

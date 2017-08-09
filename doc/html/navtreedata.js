@@ -12,8 +12,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_n_i_s_t_const_8hpp.html",
-"_n_i_s_t_const_8hpp.html#gabf641ec13f8a8d63762992724dd6d670",
-"group___helion.html"
+"_n_i_s_t_const_8hpp.html#gabd56c1195e7ce2bb9c314e88b43e30ab",
+"group___hartree_energy.html",
+"group___wien_displacement.html#ga73d0d9fcd8606de359046224389369e8"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
