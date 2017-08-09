@@ -280,9 +280,9 @@ namespace NISTConst
 
 	/// @addtogroup Sillicon
 	/// @{
-	const double latticeSpacingOfSilicon =									192.0155714e-12;			/**< \f$d_{220} \ (m)\f$  {220} lattice spacing of silicon in meters.*/ 
+	const double latticeSpacingOfSilicon =									192.0155714e-12;			/**< \f$d_{220} \ (m)\f$  Silicon {220} lattice spacing in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double latticeSpacingOfSiliconUncertainty =						0.0000032e-12; 				/**< \f$d_{220} \ (m)\f$  Uncertainty in {220} lattice spacing of silicon in meters.*/ 
+	const double latticeSpacingOfSiliconUncertainty =						0.0000032e-12; 				/**< \f$d_{220} \ (m)\f$  Uncertainty in silicon {220} lattice spacing in meters.*/ 
 	#endif
 	/// @}
 
