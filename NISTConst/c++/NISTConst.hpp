@@ -115,6 +115,10 @@
 /// 	@defgroup Helion Helion (Helium-3 nucleus)
 /// 	@ingroup Atomic
 
+// moved from Conversion Factors to Atomic since it seemed weird that it was in conversion factors in nist database
+/// 	@defgroup InverseFineStructureConstant inverse fine-structure constant  
+/// 	@ingroup Atomic
+
 /// 	@defgroup Muon Muon particle
 /// 	@ingroup Atomic
 
@@ -240,10 +244,6 @@
 /// 	@ingroup ConversionFactors
 
 /// 	@defgroup Hertz	Hertz 
-/// 	@ingroup ConversionFactors
-
-// Seems weird that it is here
-/// 	@defgroup InverseFineStructureConstant inverse fine-structure constant  
 /// 	@ingroup ConversionFactors
 
 /// 	@defgroup InverseMeter inverse meter
@@ -736,13 +736,13 @@ namespace NISTConst
 	
 	/// @addtogroup Hertz
 	/// @{
-	const double hertzToAtomicMassUnit =											4.4398216616e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ hertz-atomic mass unit relationship.*/ 
-	const double hertzToElectronVolt =												4.135667662e-15;			/**< \f$(1 Hz)h \ (eV)\f$ hertz-electron volt relationship.*/ 
-	const double hertzToHartree =													1.5198298460088e-16;		/**< \f$(1 Hz)h \ (E_h)\f$ hertz-hartree relationship.*/ 
-	const double hertzToInverseMeter =												3.335640951e-9;				/**< \f$\frac{(1 Hz)}{c} \ (\frac{1}{m})\f$ hertz-inverse meter relationship.*/ 
-	const double hertzToJoule =														6.626070040e-34;			/**< \f$(1 Hz)h  \ (J)\f$ hertz-joule relationship.*/ 
-	const double hertzToKelvin =													4.7992447e-11;				/**< \f$\frac{(1 Hz)h}{k} \ (K)\f$ hertz-kelvin relationship.*/ 
-	const double hertzToKilogram =													7.372497201e-51;			/**< \f$\frac{(1 Hz)h}{c^2} \ (kg)\f$ hertz-kilogram relationship.*/ 
+	const double hertzToAtomicMassUnit =											4.4398216616e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ Hertz-atomic mass unit relationship.*/ 
+	const double hertzToElectronVolt =												4.135667662e-15;			/**< \f$(1 Hz)h \ (eV)\f$ Hertz-electron volt relationship.*/ 
+	const double hertzToHartree =													1.5198298460088e-16;		/**< \f$(1 Hz)h \ (E_h)\f$ Hertz-hartree relationship.*/ 
+	const double hertzToInverseMeter =												3.335640951e-9;				/**< \f$\frac{(1 Hz)}{c} \ (\frac{1}{m})\f$ Hertz-inverse meter relationship.*/ 
+	const double hertzToJoule =														6.626070040e-34;			/**< \f$(1 Hz)h  \ (J)\f$ Hertz-joule relationship.*/ 
+	const double hertzToKelvin =													4.7992447e-11;				/**< \f$\frac{(1 Hz)h}{k} \ (K)\f$ Hertz-kelvin relationship.*/ 
+	const double hertzToKilogram =													7.372497201e-51;			/**< \f$\frac{(1 Hz)h}{c^2} \ (kg)\f$ Hertz-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	const double hertzToAtomicMassUnitUncertainty =									0.0000000020e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ Uncertainty in hertz-atomic mass unit relationship.*/ 
 	const double hertzToElectronVoltUncertainty =									0.000000025e-15;			/**< \f$(1 Hz)h \ (eV)\f$ Uncertainty in hertz-electron volt relationship.*/ 
@@ -756,23 +756,29 @@ namespace NISTConst
 	
 	/// @addtogroup InverseFineStructureConstant 
 	/// @{
-	const double inverseFineStructureConstant =										137.035999139;				/**<\alpha^-1 \f$ \ (1)\f$ inverse fine-structure constant.*/ 
+	const double inverseFineStructureConstant =										137.035999139;				/**< \f$\alpha^-1  \ (1)\f$ Inverse fine-structure constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double inverseFineStructureConstantUncertainty =							0.000000031;            	/**<\alpha^-1 \f$ \ (1)\f$ Uncertainty in inverse fine-structure constant.*/ 
+	const double inverseFineStructureConstantUncertainty =							0.000000031;            	/**< \f$\alpha^-1  \ (1)\f$ Uncertainty in inverse fine-structure constant.*/ 
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup InverseMeter
 	/// @{
-	const double inverse meter-atomic mass unit relationship                 1.331 025 049 00e-15    0.000000000 61e-15    u/**< \f$ \ ()\f$ .*/ 
-	const double inverse meter-electron volt relationship                    1.239 841 9739e-6       0.0000000076e-6       eV/**< \f$ \ ()\f$ .*/ 
-	const double inverse meter-hartree relationship                          4.556 335 252 767e-8    0.000000000 027e-8    E_h/**< \f$ \ ()\f$ .*/ 
-	const double inverse meter-hertz relationship                            299 792 458              (exact)                  Hz/**< \f$ \ ()\f$ .*/ 
-	const double inverse meter-joule relationship                            1.986 445 824e-25       0.000000024e-25       J/**< \f$ \ ()\f$ .*/ 
-	const double inverse meter-kelvin relationship                           1.438 777 36e-2         0.000000 83e-2         K/**< \f$ \ ()\f$ .*/ 
-	const double inverse meter-kilogram relationship                         2.210 219 057e-42       0.000000027e-42       kg/**< \f$ \ ()\f$ .*/ 
+	const double inverseMeterToAtomicMassUnit =										1.33102504900e-15;			/**< \f$\frac{(1\ m^-1)h}{c} \ (u)\f$ Inverse meter-atomic mass unit relationship.*/ 
+	const double inverseMeterToElectronVolt =										1.2398419739e-6;			/**< \f$(1\ m^-1)hc \ (eV)\f$ Inverse meter-electron volt relationship.*/ 
+	const double inverseMeterToHartree =											4.556335252767e-8;			/**< \f$(1\ m^-1)hc \ (E_h)\f$ Inverse meter-hartree relationship.*/ 
+	const double inverseMeterToHertz =												299792458;					/**< \f$(1\ m^-1)c \ (Hz)\f$ Inverse meter-hertz relationship.*/ 
+	const double inverseMeterToJoule =												1.986445824e-25;			/**< \f$(1\ m^-1)hc \ (J)\f$ Inverse meter-joule relationship.*/ 
+	const double inverseMeterToKelvin =												1.43877736e-2;				/**< \f$\frac{(1\ m^-1)hc}{k} \ (K)\f$ Inverse meter-kelvin relationship.*/ 
+	const double inverseMeterToKilogram =											2.210219057e-42;			/**< \f$\frac{(1\ m^-1)h}{c} \ (kg)\f$ Inverse meter-kilogram relationship.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double inverseMeterToAtomicMassUnitUncertainty =							0.00000000061e-15;			/**< \f$\frac{(1\ m^-1)h}{c} \ (u)\f$ Uncertainty in inverse meter-atomic mass unit relationship.*/ 
+	const double inverseMeterToElectronVoltUncertainty =							0.0000000076e-6;			/**< \f$(1\ m^-1)hc \ (eV)\f$ Uncertainty in inverse meter-electron volt relationship.*/ 
+	const double inverseMeterToHartreeUncertainty =									0.000000000027e-8;			/**< \f$(1\ m^-1)hc \ (E_h)\f$ Uncertainty in inverse meter-hartree relationship.*/ 
+	const double inverseMeterToHertzUncertainty =									0.0;						/**< \f$(1\ m^-1)c \ (Hz)\f$ Uncertainty in inverse meter-hertz relationship.*/ 
+	const double inverseMeterToJouleUncertainty =									0.000000024e-25;			/**< \f$(1\ m^-1)hc \ (J)\f$ Uncertainty in inverse meter-joule relationship.*/ 
+	const double inverseMeterToKelvinUncertainty =									0.00000083e-2;				/**< \f$\frac{(1\ m^-1)hc}{k} \ (K)\f$ Uncertainty in inverse meter-kelvin relationship.*/ 
+	const double inverseMeterToKilogramUncertainty =								0.000000027e-42;			/**< \f$\frac{(1\ m^-1)h}{c} \ (kg)\f$ Uncertainty in inverse meter-kilogram relationship.*/
 	#endif  
 	/// @}
 	
