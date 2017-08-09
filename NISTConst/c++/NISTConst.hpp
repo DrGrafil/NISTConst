@@ -794,19 +794,19 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup ConductanceQuantum 
 	/// @{
-	const double inverse of conductance quantum                              12 906.403 7278          0.0000029               ohm/**< \f$ \ ()\f$ .*/
+	const double inverseOfConductanceQuantum =										12906.4037278;				/**< \f$G_0^-1 \ (\Omega)\f$ Inverse of conductance quantum in ohms.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double inverseOfConductanceQuantumUncertainty =							0.0000029;					/**< \f$G_0^-1 \ (\Omega)\f$ Uncertainty in inverse of conductance quantum in ohms.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup JosephsonConstant
 	/// @{
-	const double JosephsonConstant =												483597.8525e9;				/**< \f$K_J \ (\frac{Hz}{V})\f$ Josephson constant  in hertz per volt.*/ 
+	const double JosephsonConstant =												483597.8525e9;				/**< \f$K_J \ (\frac{Hz}{V})\f$ Josephson constant in hertz per volt.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double JosephsonConstantUncertainty =										0.0030e9;					/**< \f$K_J \ (\frac{Hz}{V})\f$ Uncertainty in Josephson constant  in hertz per volt.*/
+	const double JosephsonConstantUncertainty =										0.0030e9;					/**< \f$K_J \ (\frac{Hz}{V})\f$ Uncertainty in Josephson constant in hertz per volt.*/
 	#endif  
 	/// @}
 	
