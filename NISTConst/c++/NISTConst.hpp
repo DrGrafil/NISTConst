@@ -899,28 +899,29 @@ namespace NISTConst
 	
 	/// @addtogroup 
 	/// @{
-	const double molar gas constant                                          8.314 4598               0.0000048               J mol^-1 K^-1/**< \f$ \ ()\f$ .*/ 
+	const double molar gas constant                                          8.3144598;               0.0000048;               J mol^-1 K^-1/**< \f$ \ ()\f$ .*/ 
 	
-	const double molar mass constant                                         1e-3                    (exact)                  kg mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double molar mass of carbon-12                                     12e-3                   (exact)                  kg mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molar mass constant                                         1e-3;                    (exact)                  kg mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molar mass of carbon-12                                     12e-3;                   (exact)                  kg mol^-1/**< \f$ \ ()\f$ .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	
 	#endif  
 	/// @}
 	
-	/// @addtogroup 
+	/// @addtogroup MolarPlanckConstant
 	/// @{
-	const double molar Planck constant                                       3.990 312 7110e-10      0.0000000018e-10      J s mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double molar Planck constant times c                               0.119 626 565 582        0.000000000 054        J m mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molarPlanckConstant =												3.9903127110e-10;			/**< \f$N_A h \ (\frac{J s}{mol})\f$ Molar Planck constant in joules second per mole.*/ 
+	const double molarPlanckConstantTimesc =										0.119626565582;				/**< \f$N_A hc \ (\frac{J m}{mol})\f$ Molar Planck constant times c in joules meter per mole.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	
+	const double molarPlanckConstantUncertainty =									0.0000000018e-10;			/**< \f$N_A h \ (\frac{J s}{mol})\f$ Uncertainty in molar Planck constant in joules second per mole.*/ 
+	const double molarPlanckConstantTimescUncertainty =								0.000000000054;				/**< \f$N_A hc \ (\frac{J m}{mol})\f$ Uncertainty in molar Planck constant times c in joules meter per mole.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup 
 	/// @{
-	const double molar volume of ideal gas (273.15 K, 100 kPa)               22.710 947e-3           0.000013e-3            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
-	const double molar volume of ideal gas (273.15 K, 101.325 kPa)           22.413 962e-3           0.000013e-3            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molar volume of ideal gas (273.15 K, 100 kPa)               22.710947e-3;           0.000013e-3;            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
+	const double molar volume of ideal gas (273.15 K, 101.325 kPa)           22.413962e-3;           0.000013e-3;            m^3 mol^-1/**< \f$ \ ()\f$ .*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	
 	#endif  
