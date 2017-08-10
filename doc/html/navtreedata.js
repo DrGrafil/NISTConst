@@ -1,7 +1,6 @@
 var NAVTREE =
 [
   [ "NISTConst", "index.html", [
-    [ "Todo List", "todo.html", null ],
     [ "Modules", "modules.html", "modules" ],
     [ "Files", null, [
       [ "File List", "files.html", "files" ]

@@ -26,7 +26,6 @@ var searchData=
   ['thomson_20cross_20section',['Thomson cross section',['../group___thomson.html',1,'']]],
   ['thomsoncrosssection',['ThomsonCrossSection',['../group___thomson.html#gac0806b1a7f3e82009afeac7ea16728ce',1,'NISTConst']]],
   ['thomsoncrosssectionuncertainty',['ThomsonCrossSectionUncertainty',['../group___thomson.html#ga550451740f39d6adccba7593d7ad497d',1,'NISTConst']]],
-  ['todo_20list',['Todo List',['../todo.html',1,'']]],
   ['triton_20_28tritium_2fhydrogen_2d3_20nucleus_29',['Triton (Tritium/Hydrogen-3 nucleus)',['../group___triton.html',1,'']]],
   ['tritonelectronmassratio',['tritonElectronMassRatio',['../group___triton.html#ga8508adabd4d9f81969eeed5838a61443',1,'NISTConst']]],
   ['tritonelectronmassratiouncertainty',['tritonElectronMassRatioUncertainty',['../group___triton.html#ga43a36ee61c22d41cc102de17cdf9cb1b',1,'NISTConst']]],

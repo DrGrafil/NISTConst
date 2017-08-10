@@ -5,8 +5,7 @@
 //	 http://physics.nist.gov/constants
 /// @author Elliot Grafil (Metex)
 /// @date 8/9/17
-/// @version 0.7.7
-/// @todo Add rad to all gyromagnetic ratio
+/// @version 8.0.0
 
 
 //=================================
@@ -556,8 +555,8 @@ namespace NISTConst
 	const double electronDeuteronMagneticMomentRatio =								-2143.923499;				/**< \f$\frac{\mu_e}{\mu_D} \ (1)\f$ Electron-deuteron magnetic moment ratio.*/ 
 	const double electronDeuteronMassRatio =										2.724437107484e-4;			/**< \f$\frac{m_e}{m_D} \ (1)\f$ Electron-deuteron mass ratio.*/ 
 	const double electrongFactor =													-2.00231930436182;			/**< \f$g_e \ (1)\f$ Electron g factor.*/ 
-	const double electronGyromagneticRatio =										1.760859644e11;				/**< \f$\gamma_e \ (\frac{Hz}{T})\f$ Electron gyromagnetic ratio in hertz per tesla.*/ 
-	const double electronGyromagneticRatioOver2pi =									28024.95164;				/**< \f$\frac{\gamma_e}{2\pi} \ (\frac{MHz}{T})\f$ Electron gyromagnetic ratio over 2 pi in megahertz per tesla.*/ 
+	const double electronGyromagneticRatio =										1.760859644e11;				/**< \f$\gamma_e \ (\frac{rad\ Hz}{T})\f$ Electron gyromagnetic ratio in hertz per tesla. Note that the units of radians are added for clarity.*/ 
+	const double electronGyromagneticRatioOver2pi =									28024.95164;				/**< \f$\frac{\gamma_e}{2\pi} \ (\frac{rad\ MHz}{T})\f$ Electron gyromagnetic ratio over 2 pi in megahertz per tesla. Note that the units of radians are added for clarity.*/ 
 	const double electronHelionMassRatio =											1.819543074854e-4;			/**< \f$\frac{m_e}{m_{^3\textrm{He}}} \ (1)\f$ Electron-helion mass ratio.*/ 
 	const double electronMagneticMoment =											-928.4764620e-26;			/**< \f$\mu_e \ (\frac{J}{T})\f$ Electron magnetic moment in joules per tesla.*/ 
 	const double electronMagneticMomentAnomaly =									1.15965218091e-3;			/**< \f$a_e \ (1)\f$ Electron magnetic moment anomaly.*/ 
@@ -585,8 +584,8 @@ namespace NISTConst
 	const double electronDeuteronMagneticMomentRatioUncertainty =					0.000012;					/**< \f$\frac{\mu_e}{\mu_D} \ (1)\f$ Uncertainty in electron-deuteron magnetic moment ratio.*/ 
 	const double electronDeuteronMassRatioUncertainty =								0.000000000096e-4;			/**< \f$\frac{m_e}{m_D} \ (1)\f$ Uncertainty in electron-deuteron mass ratio.*/ 
 	const double electrongFactorUncertainty =										0.00000000000052;			/**< \f$g_e \ (1)\f$ Uncertainty in electron g factor.*/ 
-	const double electronGyromagneticRatioUncertainty =								0.000000011e11;				/**< \f$\gamma_e \ (\frac{Hz}{T})\f$ Uncertainty in electron gyromagnetic ratio in hertz per tesla.*/ 
-	const double electronGyromagneticRatioOver2piUncertainty =						0.00017;					/**< \f$\frac{\gamma_e}{2\pi} \ (\frac{MHz}{T})\f$ Uncertainty in electron gyromagnetic ratio over 2 pi in megahertz per tesla.*/ 
+	const double electronGyromagneticRatioUncertainty =								0.000000011e11;				/**< \f$\gamma_e \ (\frac{rad\ Hz}{T})\f$ Uncertainty in electron gyromagnetic ratio in hertz per tesla. Note that the units of radians are added for clarity.*/ 
+	const double electronGyromagneticRatioOver2piUncertainty =						0.00017;					/**< \f$\frac{\gamma_e}{2\pi} \ (\frac{rad\ MHz}{T})\f$ Uncertainty in electron gyromagnetic ratio over 2 pi in megahertz per tesla. Note that the units of radians are added for clarity.*/ 
 	const double electronHelionMassRatioUncertainty =								0.000000000088e-4;   		/**< \f$\frac{m_e}{m_{^3\textrm{He}}} \ (1)\f$ Uncertainty in electron-helion mass ratio.*/ 
 	const double electronMagneticMomentUncertainty =								0.0000057e-26;				/**< \f$\mu_e \ (\frac{J}{T})\f$ Uncertainty in electron magnetic moment in joules per tesla.*/ 
 	const double electronMagneticMomentAnomalyUncertainty =							0.00000000026e-3;			/**< \f$a_e \ (1)\f$ Uncertainty in electron magnetic moment anomaly.*/ 
@@ -1030,8 +1029,8 @@ namespace NISTConst
 	const double neutronElectronMagneticMomentRatio =								1.04066882e-3;				/**< \f$\frac{\mu_n}{\mu_e} \ (1)\f$ Neutron-electron magnetic moment ratio.*/
 	const double neutronElectronMassRatio =											1838.68366158;				/**< \f$\frac{m_n}{m_e} \ (1)\f$ Neutron-electron mass ratio.*/
 	const double neutrongFactor =													-3.82608545;				/**< \f$g_n \ (1)\f$ Neutron g factor.*/
-	const double neutronGyromagneticRatio =											1.83247172e8;				/**< \f$\gamma_n \ (\frac{rad Hz}{T})\f$ Neutron gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double neutronGyromagneticRatioOver2Pi =									29.1646933;					/**< \f$\frac{\gamma_n}{2\pi} \ (\frac{rad MHz}{T})\f$ Neutron gyromagnetic ratio over 2 pi in radian megahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double neutronGyromagneticRatio =											1.83247172e8;				/**< \f$\gamma_n \ (\frac{rad\ Hz}{T})\f$ Neutron gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double neutronGyromagneticRatioOver2Pi =									29.1646933;					/**< \f$\frac{\gamma_n}{2\pi} \ (\frac{rad\ MHz}{T})\f$ Neutron gyromagnetic ratio over 2 pi in radian megahertz per tesla. Note that the units of radians are added for clarity.*/
 	const double neutronMagneticMoment =											-0.96623650e-26;			/**< \f$\mu_n \ (\frac{J}{T})\f$ Neutron magnetic moment in joules per tesla.*/
 	const double neutronMagneticMomentToBohrMagnetonRatio =							-1.04187563e-3;				/**< \f$\frac{\mu_n}{\mu_B} \ (1)\f$ Neutron magnetic moment to Bohr magneton ratio.*/
 	const double neutronMagneticMomentToNuclearMagnetonRatio =						-1.91304273;				/**< \f$\frac{\mu_n}{\mu_N} \ (1)\f$ Neutron magnetic moment to nuclear magneton ratio.*/
@@ -1056,8 +1055,8 @@ namespace NISTConst
 	const double neutronElectronMagneticMomentRatioUncertainty =					0.00000025e-3;				/**< \f$\frac{\mu_n}{\mu_e} \ (1)\f$ Uncertainty in neutron-electron magnetic moment ratio.*/
 	const double neutronElectronMassRatioUncertainty =								0.00000090;					/**< \f$\frac{m_n}{m_e} \ (1)\f$ Uncertainty in neutron-electron mass ratio .*/
 	const double neutrongFactorUncertainty =										0.00000090;					/**< \f$g_n \ (1)\f$ Uncertainty in neutron g factor.*/
-	const double neutronGyromagneticRatioUncertainty =								0.00000043e8;				/**< \f$\gamma_n \ (\frac{rad Hz}{T})\f$ Uncertainty in neutron gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double neutronGyromagneticRatioOver2PiUncertainty =						0.0000069;					/**< \f$\frac{\gamma_n}{2\pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in neutron gyromagnetic ratio over 2 pi in radian megahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double neutronGyromagneticRatioUncertainty =								0.00000043e8;				/**< \f$\gamma_n \ (\frac{rad\ Hz}{T})\f$ Uncertainty in neutron gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double neutronGyromagneticRatioOver2PiUncertainty =						0.0000069;					/**< \f$\frac{\gamma_n}{2\pi} \ (\frac{rad\ MHz}{T})\f$ Uncertainty in neutron gyromagnetic ratio over 2 pi in radian megahertz per tesla. Note that the units of radians are added for clarity.*/
 	const double neutronMagneticMomentUncertainty =									0.00000023e-26;				/**< \f$\mu_n \ (\frac{J}{T})\f$ Uncertainty in neutron magnetic moment in joules per tesla.*/
 	const double neutronMagneticMomentToBohrMagnetonRatioUncertainty =				0.00000025e-3;				/**< \f$\frac{\mu_n}{\mu_B} \ (1)\f$ Uncertainty in neutron magnetic moment to Bohr magneton ratio.*/
 	const double neutronMagneticMomentToNuclearMagnetonRatioUncertainty =			0.00000045;					/**< \f$\frac{\mu_n}{\mu_N} \ (1)\f$ Uncertainty in neutron magnetic moment to nuclear magneton ratio.*/
@@ -1161,8 +1160,8 @@ namespace NISTConst
 	const double protonComptonWavelengthOver2Pi =									0.210308910109e-15;			/**< \f$\frac{\lambda_{C,p}}{2\pi}\ (m)\f$ Proton Compton wavelength over 2 pi in meters.*/
 	const double protonElectronMassRatio =											1836.15267389;				/**< \f$\frac{m_p}{m_e} \ (1)\f$ Proton-electron mass ratio.*/
 	const double protongFactor =													5.585694702;				/**< \f$g_p \ (1)\f$ Proton g factor.*/
-	const double protonGyromagneticRatio =											2.675221900e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double protonGyromagneticRatioOver2pi =									42.57747892;				/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad MHz}{T})\f$ Proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonGyromagneticRatio =											2.675221900e8;				/**< \f$\gamma_p \ (\frac{rad\ Hz}{T})\f$ Proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonGyromagneticRatioOver2pi =									42.57747892;				/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad\ MHz}{T})\f$ Proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
 	const double protonMagneticMoment =												1.4106067873e-26;			/**< \f$\mu_p \ (\frac{J}{T})\f$ Proton magnetic moment in joules per tesla.*/
 	const double protonMagneticMomentToBohrMagnetonRatio =							1.5210322053e-3;			/**< \f$\frac{\mu_p}{\mu_B} \ (1)\f$ Proton magnetic moment to Bohr magneton ratio.*/
 	const double protonMagneticMomentToNuclearMagnetonRatio =						2.7928473508;				/**< \f$\frac{\mu_p}{\mu_N} \ (1)\f$ Proton magnetic moment to nuclear magneton ratio.*/
@@ -1184,8 +1183,8 @@ namespace NISTConst
 	const double protonComptonWavelengthOver2PiUncertainty =						0.000000000097e-15;			/**< \f$\frac{\lambda_{C,p}}{2\pi} \ (m)\f$ Uncertainty in proton Compton wavelength over 2 pi in meters.*/
 	const double protonElectronMassRatioUncertainty =								0.00000017;					/**< \f$\frac{m_p}{m_e} \ (1)\f$ Uncertainty in proton-electron mass ratio.*/
 	const double protongFactorUncertainty =											0.000000017;				/**< \f$g_p \ (1)\f$ Uncertainty in proton g factor.*/
-	const double protonGyromagneticRatioUncertainty =								0.000000018e8;				/**< \f$\gamma_p \ (\frac{rad Hz}{T})\f$ Uncertainty in proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double protonGyromagneticRatioOver2piUncertainty =						0.00000029;					/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonGyromagneticRatioUncertainty =								0.000000018e8;				/**< \f$\gamma_p \ (\frac{rad\ Hz}{T})\f$ Uncertainty in proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double protonGyromagneticRatioOver2piUncertainty =						0.00000029;					/**< \f$\frac{\gamma_p}{2\pi} \ (\frac{rad\ MHz}{T})\f$ Uncertainty in proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
 	const double protonMagneticMomentUncertainty =									0.0000000097e-26;			/**< \f$\mu_p \ (\frac{J}{T})\f$ Uncertainty in proton magnetic moment in joules per tesla.*/
 	const double protonMagneticMomentToBohrMagnetonRatioUncertainty =				0.0000000046e-3;			/**< \f$\frac{\mu_p}{\mu_B} \ (1)\f$ Uncertainty in proton magnetic moment to Bohr magneton ratio.*/
 	const double protonMagneticMomentToNuclearMagnetonRatioUncertainty =			0.0000000085;				/**< \f$\frac{\mu_p}{\mu_N} \ (1)\f$ Uncertainty in proton magnetic moment to nuclear magneton ratio.*/
@@ -1247,16 +1246,16 @@ namespace NISTConst
 	
 	/// @addtogroup Helion
 	/// @{
-	const double shieldedHelionGyromagneticRatio =									2.037894585e8;				/**< \f$\gamma'_{^3\textrm{He}} \ (\frac{rad Hz}{T})\f$ Shielded helion gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double shieldedHelionGyromagneticRatioOver2Pi =							32.43409966;				/**< \f$\frac{\gamma'_{^3\textrm{He}}}{2 \pi} \ (\frac{rad MHz}{T})\f$ Shielded helion gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionGyromagneticRatio =									2.037894585e8;				/**< \f$\gamma'_{^3\textrm{He}} \ (\frac{rad\ Hz}{T})\f$ Shielded helion gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionGyromagneticRatioOver2Pi =							32.43409966;				/**< \f$\frac{\gamma'_{^3\textrm{He}}}{2 \pi} \ (\frac{rad\ MHz}{T})\f$ Shielded helion gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
 	const double shieldedHelionMagneticMoment =										-1.074553080e-26;			/**< \f$\mu'_{^3\textrm{He}} \ (\frac{J}{T})\f$ Shielded helion magnetic moment in joules per tesla.*/
 	const double shieldedHelionMagneticMomentToBohrMagnetonRatio =					-1.158671471e-3;			/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_B} \ (1)\f$ Shielded helion magnetic moment to Bohr magneton ratio.*/
 	const double shieldedHelionMagneticMomentToNuclearMagnetonRatio =				-2.127497720;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_N} \ (1)\f$ Shielded helion magnetic moment to nuclear magneton ratio.*/
 	const double shieldedHelionToProtonMagneticMomentRatio =						-0.7617665603;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_p} \ (1)\f$ Shielded helion to proton magnetic moment ratio.*/
 	const double shieldedHelionToShieldedProtonMagneticMomentRatio =				-0.7617861313;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu'_p} \ (1)\f$ Shielded helion to shielded proton magnetic moment ratio.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double shieldedHelionGyromagneticRatioUncertainty =						0.000000027e8;				/**< \f$\gamma'_{^3\textrm{He}} \ (\frac{rad Hz}{T})\f$ Uncertainty in shielded helion gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double shieldedHelionGyromagneticRatioOver2PiUncertainty =				0.00000043;					/**< \f$\frac{\gamma'_{^3\textrm{He}}}{2 \pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in shielded helion gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionGyromagneticRatioUncertainty =						0.000000027e8;				/**< \f$\gamma'_{^3\textrm{He}} \ (\frac{rad\ Hz}{T})\f$ Uncertainty in shielded helion gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedHelionGyromagneticRatioOver2PiUncertainty =				0.00000043;					/**< \f$\frac{\gamma'_{^3\textrm{He}}}{2 \pi} \ (\frac{rad\ MHz}{T})\f$ Uncertainty in shielded helion gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
 	const double shieldedHelionMagneticMomentUncertainty =							0.000000014e-26;			/**< \f$\mu'_{^3\textrm{He}} \ (\frac{J}{T})\f$ Uncertainty in shielded helion magnetic moment in joules per tesla.*/
 	const double shieldedHelionMagneticMomentToBohrMagnetonRatioUncertainty =		0.000000014e-3;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_B} \ (1)\f$ Uncertainty in shielded helion magnetic moment to Bohr magneton ratio.*/
 	const double shieldedHelionMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000025;				/**< \f$\frac{\mu'_{^3\textrm{He}}}{\mu_N} \ (1)\f$ Uncertainty in shielded helion magnetic moment to nuclear magneton ratio.*/
@@ -1267,15 +1266,15 @@ namespace NISTConst
 	
 	/// @addtogroup Proton
 	/// @{
-	const double shieldedProtonGyromagneticRatio =									2.675153171e8;				/**< \f$\gamma'_p \ (\frac{rad Hz}{T})\f$ Shielded proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double shieldedProtonGyromagneticRatioOver2Pi =							42.57638507;				/**< \f$\frac{\gamma'_p}{2 \pi} \ (\frac{rad MHz}{T})\f$ Shielded proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonGyromagneticRatio =									2.675153171e8;				/**< \f$\gamma'_p \ (\frac{rad\ Hz}{T})\f$ Shielded proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonGyromagneticRatioOver2Pi =							42.57638507;				/**< \f$\frac{\gamma'_p}{2 \pi} \ (\frac{rad\ MHz}{T})\f$ Shielded proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
 	const double shieldedProtonMagneticMoment =										1.410570547e-26;			/**< \f$\mu'_p \ (\frac{J}{T})\f$ Shielded proton magnetic moment in joules per tesla.*/
 	const double shieldedProtonMagneticMomentToBohrMagnetonRatio =					1.520993128e-3;				/**< \f$\frac{\mu'_p}{\mu_B} \ (1)\f$ Shielded proton magnetic moment to Bohr magneton ratio.*/
 	const double shieldedProtonMagneticMomentToNuclearMagnetonRatio =				2.792775600;				/**< \f$\frac{\mu'_p}{\mu_N} \ (1)\f$ Shielded proton magnetic moment to nuclear magneton ratio.*/
 	
 	#ifdef NISTCONST_UNCERTAINTY
-	const double shieldedProtonGyromagneticRatioUncertainty =						0.000000033e8;				/**< \f$\gamma'_p \ (\frac{rad Hz}{T})\f$ Uncertainty in shielded proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
-	const double shieldedProtonGyromagneticRatioOver2PiUncertainty =				0.00000053;					/**< \f$\frac{\gamma'_p}{2 \pi} \ (\frac{rad MHz}{T})\f$ Uncertainty in shielded proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonGyromagneticRatioUncertainty =						0.000000033e8;				/**< \f$\gamma'_p \ (\frac{rad\ Hz}{T})\f$ Uncertainty in shielded proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
+	const double shieldedProtonGyromagneticRatioOver2PiUncertainty =				0.00000053;					/**< \f$\frac{\gamma'_p}{2 \pi} \ (\frac{rad\ MHz}{T})\f$ Uncertainty in shielded proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
 	const double shieldedProtonMagneticMomentUncertainty =							0.000000018e-26;			/**< \f$\mu'_p \ (\frac{J}{T})\f$ Uncertainty in shielded proton magnetic moment in joules per tesla.*/
 	const double shieldedProtonMagneticMomentToBohrMagnetonRatioUncertainty =		0.000000017e-3;				/**< \f$\frac{\mu'_p}{\mu_B} \ (1)\f$ Uncertainty in shielded proton magnetic moment to Bohr magneton ratio.*/
 	const double shieldedProtonMagneticMomentToNuclearMagnetonRatioUncertainty =	0.000000030;				/**< \f$\frac{\mu'_p}{\mu_N} \ (1)\f$ Uncertainty in shielded proton magnetic moment to nuclear magneton ratio.*/
@@ -1433,6 +1432,10 @@ namespace NISTConst
 
 
 /*
+namespace NISTConst
+{
+
+} //namespace NISTConst
 
 impedanceOfVacuum = Z0
 impedance of free space

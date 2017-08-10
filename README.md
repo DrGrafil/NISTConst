@@ -39,14 +39,12 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 3. Why does wikipedia and google disagree with some of your values?
 
    It is because NISTConst values are frozen to the values present in 2014 CODATA while google and wikipedia are able to pick values from any source. An example of this is for the mass of the proton. As of 8/8/17:
-
-   | Proton Mass | Source |
+| Proton Mass | Source |
 | --- | --- |
 | 1.007276466879 u | NISTConst from NIST/CODATA 2014 |
 | 1.007276466879 u | Wikipedia |
 | 1.007276466812 u | Google |
 | 1.007276466583 u | Latest value from ["High-Precision Measurement of the Proton’s Atomic Mass"](https://doi.org/10.1103/PhysRevLett.119.033001) |
-
    The latest value will probably be adopted by both google and wikipedia in the near future.
 
 4. The value of _____ is wrong! Can you change it to ...?
@@ -59,6 +57,7 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 ### [NISTConst 0.7.7](https://github.com/Metex/NISTConst/releases/latest)
 #### Features:
 - Completed documentation.
+- Readme file that isnt one line.
 
 #### Improvements:
 - Added units in documentation to all atomic units.
@@ -68,17 +67,17 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 - Brining tau particle and triton notation inline with other particles.
 - Renamed PlanckMassInGeV to PlanckMassInGeVpercSquared.
 - Replaced lambdabar with lambda/2pi in documentation.
+- Added radians to units for gyromagnetic ratios.
 
 #### Fixes:
 - Fixed issue when compiling with NISTCONST_UNCERTAINTY defined.  
-- Fixed uncertainty constant names for: electronVolt
-- Fixed error in name of NewtonianConstantOfGravitationOverhbarc
-- Fixed misspelling of tesla in few places
+- Fixed uncertainty constant names for: electronVolt.
+- Fixed error in name of NewtonianConstantOfGravitationOverhbarc.
+- Fixed misspelling of tesla in few places.
+
 ---
 
 ### [NISTConst 0.7.0](https://github.com/Metex/NISTConst/tree/0.7.0)
 #### Features:
 - All NIST constants and uncertainties are now included.  
 - Passes compile check.
-
----
