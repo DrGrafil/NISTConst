@@ -192,10 +192,10 @@
 /// @defgroup Adopted Adopted
 /// @ingroup NISTConst
 
-/// 	@defgroup ConventionalJosephsonConstant Josephson constant 
+/// 	@defgroup ConventionalJosephsonConstant Conventional Josephson constant 
 /// 	@ingroup Adopted
 
-/// 	@defgroup ConventionalvonKlitzingConstant von Klitzing constant 
+/// 	@defgroup ConventionalvonKlitzingConstant Conventional von Klitzing constant 
 /// 	@ingroup Adopted
 
 /// 	@defgroup MolarMassConstant Molar mass constant  
@@ -913,10 +913,10 @@ namespace NISTConst
 	/// @addtogroup MolarMassConstant
 	/// @{
 	const double molarMassConstant =												1e-3;						/**< \f$M_u \ (\frac{kg}{mol})\f$ Molar mass constant in kilograms per mole.*/ 
-	const double molarMassOfCarbon12 =												12e-3;						/**< \f$M({^12C}) \ (\frac{kg}{mol})\f$ Molar mass of carbon-12 in kilograms per mole.*/ 
+	const double molarMassOfCarbon12 =												12e-3;						/**< \f$M({^{12}C}) \ (\frac{kg}{mol})\f$ Molar mass of carbon-12 in kilograms per mole.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	const double molarMassConstantUncertainty =										0.0;						/**< \f$M_u \ (\frac{kg}{mol})\f$ Uncertainty in molar mass constant in kilograms per mole. Note should be 0.0 since it is a defined value.*/ 
-	const double molarMassOfCarbon12Uncertainty =									0.0;						/**< \f$M({^12C}) \ (\frac{kg}{mol})\f$ Uncertainty in molar mass of carbon-12 in kilograms per mole. Note should be 0.0 since it is a defined value.*/ 
+	const double molarMassOfCarbon12Uncertainty =									0.0;						/**< \f$M({^{12}C}) \ (\frac{kg}{mol})\f$ Uncertainty in molar mass of carbon-12 in kilograms per mole. Note should be 0.0 since it is a defined value.*/ 
 	#endif  
 	/// @}
 	
@@ -1292,9 +1292,9 @@ namespace NISTConst
 	
 	/// @addtogroup GravityAcceleration
 	/// @{    
-	const double standardAccelerationOfGravity =									9.80665;					/**< \f$g_n \ (\frac{m}{s^2)\f$ Standard acceleration of gravity in meters per second squared.*/
+	const double standardAccelerationOfGravity =									9.80665;					/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
-	const double standardAccelerationOfGravityUncertainty =							0.0;						/**< \f$g_n \ (\frac{m}{s^2)\f$ Uncertainty in standard acceleration of gravity in meters per second squared. Note should be 0.0 since it is a defined value.*/
+	const double standardAccelerationOfGravityUncertainty =							0.0;						/**< \f$g_n \ (\frac{m}{s^2})\f$ Uncertainty in standard acceleration of gravity in meters per second squared. Note should be 0.0 since it is a defined value.*/
 	#endif  
 	/// @}
 	
@@ -1536,6 +1536,15 @@ StefanBoltzmannConstant = sigma
 
 common names characteristic impedance of vacuum z0
 e0
+
+molarMassConstant = Mu
+
+standardAccelerationOfGravity = g0
+standardAccelerationOfGravity = standard acceleration due to gravity
+
+standardAtmosphere = atm
+standardAtmosphere = Atmospheric pressure
+standardAtmosphere = barometric pressure
 
 // atomicMassUnitToElectronVolt should do unified version of it
 */

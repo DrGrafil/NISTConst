@@ -40,7 +40,7 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 
    It is because NISTConst values are frozen to the values present in 2014 CODATA while google and wikipedia are able to pick values from any source. An example of this is for the mass of the proton. As of 8/8/17:
 
-| Proton Mass | Source |
+   | Proton Mass | Source |
 | --- | --- |
 | 1.007276466879 u | NISTConst from NIST/CODATA 2014 |
 | 1.007276466879 u | Wikipedia |
@@ -51,7 +51,7 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 
 4. The value of _____ is wrong! Can you change it to ...?
 
-   Check either from HERE or HERE before e-mailing us. NISTConst sticks stricktly to the values reported by NIST/CODATA. If NISTConst disagrees with NIST/CODATA we will change the value to be in agreement with NIST/CODATA.
+   Check either from [HERE](https://github.com/Metex/NISTConst/blob/master/CODATA/Table%20of%20NIST%20Constant%20CODATA%202014.txt) or [HERE](https://physics.nist.gov/cuu/Constants/) before e-mailing us. NISTConst sticks stricktly to the values reported by NIST/CODATA. If NISTConst disagrees with NIST/CODATA we will change the value to be in agreement with NIST/CODATA.
 
 ---
 ## Release notes
