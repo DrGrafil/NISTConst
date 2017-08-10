@@ -5,7 +5,7 @@
 //	 http://physics.nist.gov/constants
 /// @author Elliot Grafil (Metex)
 /// @date 8/9/17
-/// @version 8.0.0
+/// @version 8.1.0
 
 
 //=================================
@@ -1430,125 +1430,277 @@ namespace NISTConst
 
 
 
+//=================================
+// Common names and symbols
 
-/*
+#ifdef NISTCONST_COMMON_SYMBOLS_NAMES
 namespace NISTConst
 {
+	/// @addtogroup AvogadroConstant 
+	/// @{
+	const double NA = AvogadroConstant;
+	#ifdef NISTCONST_UNCERTAINTY
 
+	#endif  
+	/// @}
+
+	/// @addtogroup BoltzmannConstant 
+	/// @{
+	const double kB = BoltzmannConstant;
+	const double kBIneVPerK = BoltzmannConstantIneVPerK;
+	const double kBInHzPerK = BoltzmannConstantInHzPerK;
+	const double kBInInversemK = BoltzmannConstantInInversemK;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup BohrRadius 
+	/// @{
+	const double a0 = BohrRadius;
+	const double rBohr = BohrRadius;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup BohrMagneton 
+	/// @{
+	const double muB = BohrMagneton;
+	const double muBIneVPerT = BohrMagnetonIneVPerT;
+	const double muBInHzPerT = BohrMagnetonInHzPerT;
+	const double muBInInversemPerT = BohrMagnetonInInversemPerT;
+	const double muBInKPerT = BohrMagnetonInKPerT;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+
+	/// @addtogroup ComptonWavelength 
+	/// @{
+	const double lambdaC = ComptonWavelength;
+	const double lambdaCOver2Pi = ComptonWavelengthOver2Pi;
+	const double lambdabarC= ComptonWavelengthOver2Pi;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup ConductanceQuantum 
+	/// @{
+	const double G0 = conductanceQuantum;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup ElectricConstant
+	/// @{
+	const double e0 = electricConstant;
+	const double vacuumPermittivity = electricConstant;
+	const double permittivityOfFreeSpace = electricConstant;
+	const double permittivityOfVacuum = electricConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+
+	/// @addtogroup ElementaryCharge
+	/// @{
+	const double e = elementaryCharge;
+	const double elementaryPositiveCharge = elementaryCharge;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup ImpedanceOfVacuum
+	/// @{
+	const double Z0 = impedanceOfVacuum;
+	const double impedanceOfFreeSpace = impedanceOfVacuum;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}	
+	
+	/// @addtogroup JosephsonConstant
+	/// @{
+	const double KJ = JosephsonConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup MagneticConstant 
+	/// @{
+	const double mu0 = magneticConstant;
+	const double vacuumPermeability = magneticConstant;
+	const double permeabilityOfFreeSpace = magneticConstant;
+	const double permeabilityOfVacuum = magneticConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup FaradayConstant 
+	/// @{
+	const double F = FaradayConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+
+	/// @addtogroup FineStructureConstant 
+	/// @{
+	const double alpha = fineStructureConstant;
+	const double SommerfeldsConstant= fineStructureConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup GravitationalConstant  
+	/// @{
+	const double G = NewtonianConstantOfGravitation;
+	const double gravitationalConstant= NewtonianConstantOfGravitation;
+	const double universalGravitationalConstant= NewtonianConstantOfGravitation;
+	const double NewtonsConstant = NewtonianConstantOfGravitation;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup HartreeEnergy  
+	/// @{
+	const double Eh = HartreeEnergy;
+	const double EhIneV = HartreeEnergyIneV;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+
+	/// @addtogroup LoschmidtConstant 
+	/// @{
+	const double n0 = LoschmidtConstant;
+	const double LoschmidtsNumber = LoschmidtConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+
+	/// @addtogroup  MagneticFluxQuantum
+	/// @{
+	const double Phi0 = magneticFluxQuantum;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup MolarGasConstant 
+	/// @{
+	const double R = molarGasConstant;
+	const double gasConstant = molarGasConstant;
+	const double universalGasConstant = molarGasConstant;
+	const double idealGasConstant = molarGasConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+
+	/// @addtogroup MolarMassConstant 
+	/// @{
+	const double Mu = molarMassConstant;
+	const double L = molarMassConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup NuclearMagneton
+	/// @{
+	const double muN = nuclearMagneton;
+	const double muNIneVPerT = nuclearMagnetonIneVPerT;
+	const double muNInInversemT = nuclearMagnetonInInversemT;
+	const double muNInKPerT = nuclearMagnetonInKPerT;
+	const double muNInMHzPerT = nuclearMagnetonInMHzPerT;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup PlanckConstant 
+	/// @{
+	const double h = PlanckConstant;
+	const double hIneVs = PlanckConstantIneVs;
+	const double hbar= PlanckConstantOver2Pi;
+	const double hbarIneVs = PlanckConstantOver2PiIneVs;
+	const double reducedPlanckConstant = PlanckConstantOver2Pi;
+	const double reducedPlanckConstantIneVs = PlanckConstantOver2PiIneVs;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	
+	/// @addtogroup SpeedOfLight 
+	/// @{
+	const double c = speedOfLightInVacuum;
+	const double speedOfLight = speedOfLightInVacuum;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup GravityAcceleration
+	/// @{
+	const double g0 = standardAccelerationOfGravity;
+	const double standardAccelerationDueToGravity = standardAccelerationOfGravity;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+
+	/// @addtogroup StandardAtmosphere 
+	/// @{
+	const double atm = standardAtmosphere;
+	const double atmosphericPressure = standardAtmosphere;
+	const double barometricPressure = standardAtmosphere;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup StefanBoltzmannConstant 
+	/// @{
+	const double sigma = StefanBoltzmannConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup vonKlitzingConstant 
+	/// @{
+	const double RK = vonKlitzingConstant;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+
+	/// @addtogroup WeakMixingAngle 
+	/// @{
+	const double WeinbergAngle = weakMixingAngle;
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
 } //namespace NISTConst
 
-impedanceOfVacuum = Z0
-impedance of free space
+#endif 
 
 
-NISTConst::electricConstant  = e0
-vacuum permittivity
- permittivity of free space
-permittivity of vacuum
-
-
- magneticConstant = mu0
-vacuum permeability 
-permeability of free space
-permeability of vacuum
-
-NewtonianConstantOfGravitation = G
-gravitational constant
-universal gravitational constant
- Newton's constant
- 
- 
- PlanckConstant = h
- PlanckConstantIneVs = hIneVs
- 
-PlanckConstantOver2Pi = hbar
-PlanckConstantOver2PiIneVs = hbarIneVs
- reduced Planck constant = PlanckConstantOver2Pi
-  reduced Planck constantIneVs = PlanckConstantOver2PiIneVs
-
-PlanckConstantOver2PiTimescInMeVfm = hbarcInMeVfm
-
-
-
-BohrMagneton = muB
- 
-BohrMagnetonIneVPerT = muBIneVPerT
- 
-BohrMagnetonInHzPerT = muBInHzPerT
- 
-BohrMagnetonInInversemPerT = muBInInversemPerT
-BohrMagnetonInKPerT = muBInKPerT
-
-
-elementaryCharge = e
-elementary positive charge
-
-speedOfLightInVacuum =speed of light
-c
-
-conductanceQuantum = G0
-
-nuclearMagneton = muN
-nuclearMagnetonIneVPerT = muNIneVPerT 
- 
-nuclearMagnetonInInversemT = muNInInversemT
- 
-nuclearMagnetonInKPerT = muNInKPerT
- 
-nuclearMagnetonInMHzPerT = muNInMHzPerT
-
-vonKlitzingConstant = RK
-
-Josephson constant = KJ
-
-magneticFluxQuantum = Phi0
-
-BohrRadius = a0
-BohrRadius = rBohr
-
-fineStructureConstant = alpha
-fineStructureConstant = Sommerfeld's constant
-
-ComptonWavelength = lambdaC
-lambdaCOver2Pi = ComptonWavelengthOver2Pi
-
-Weinberg angle = weakMixingAngle.
-
-HartreeEnergy = Eh
-HartreeEnergyIneV =EhIneV
-
-AvogadroConstant =NA
-
-BoltzmannConstant = kB
-BoltzmannConstantIneVPerK = kBIneVPerK
-BoltzmannConstantInHzPerK = kBInHzPerK
-BoltzmannConstantInInversemK = kBInInversemK
-
-LoschmidtConstant =n0
-LoschmidtConstant =Loschmidt's number
-
-FaradayConstant = F
-
-
-molarGasConstant = R
-molarGasConstant = gasConstant
-molarGasConstant = universalConstant
-molarGasConstant = idealConstant
-
-StefanBoltzmannConstant = sigma
-
-common names characteristic impedance of vacuum z0
-e0
-
-molarMassConstant = Mu
-
-standardAccelerationOfGravity = g0
-standardAccelerationOfGravity = standard acceleration due to gravity
-
-standardAtmosphere = atm
-standardAtmosphere = Atmospheric pressure
-standardAtmosphere = barometric pressure
 
 // atomicMassUnitToElectronVolt should do unified version of it
-*/
+
 

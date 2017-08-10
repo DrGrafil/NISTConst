@@ -12,6 +12,7 @@ All constants are fully documented. You can read the documentation [HERE](https:
 
 ```cpp
 #define NISTCONST_UNCERTAINTY // To include uncertainties
+#define NISTCONST_COMMON_SYMBOLS_NAMES // Common symbols and names for constants.
 #include <NISTConst/NISTConst.hpp>
 
 //Calculates the mass defect, the difference between the mass of the atom 
@@ -54,7 +55,17 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 ---
 ## Release notes
 
-### [NISTConst 0.7.7](https://github.com/Metex/NISTConst/releases/latest)
+### [NISTConst 0.8.1](https://github.com/Metex/NISTConst/releases/latest)
+#### Features:
+-Adding common 
+
+#### Improvements:
+
+#### Fixes:
+
+---
+
+### [NISTConst 0.8.0](https://github.com/Metex/NISTConst/tree/0.8.0)
 #### Features:
 - Completed documentation.
 - Readme file that isnt one line.
