@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['h',['h',['../group___planck_constant.html#ga772638524d12d0e8a63abb25441f87a9',1,'NISTConst']]],
   ['hartree',['Hartree',['../group___hartree.html',1,'']]],
   ['hartreeenergy',['HartreeEnergy',['../group___hartree_energy.html#gab58dc1c4e59e83d4fb1217778fe9f29b',1,'NISTConst::HartreeEnergy()'],['../group___hartree_energy.html',1,'(Global Namespace)']]],
   ['hartreeenergyinev',['HartreeEnergyIneV',['../group___hartree_energy.html#ga400eb5b8c9b55b0f601870ba54120364',1,'NISTConst']]],
@@ -19,6 +20,8 @@ var searchData=
   ['hartreetokelvinuncertainty',['hartreeToKelvinUncertainty',['../group___hartree.html#gace6578c3f664e11b0eba73a20efd7f16',1,'NISTConst']]],
   ['hartreetokilogram',['hartreeToKilogram',['../group___hartree.html#ga1184624f36892653b10c2bb068541f82',1,'NISTConst']]],
   ['hartreetokilogramuncertainty',['hartreeToKilogramUncertainty',['../group___hartree.html#ga88a5e0e81776199fdc7d4b5a424196a8',1,'NISTConst']]],
+  ['hbar',['hbar',['../group___planck_constant.html#gaec21867afdeb1950b150e667513cd842',1,'NISTConst']]],
+  ['hbarinevs',['hbarIneVs',['../group___planck_constant.html#gacbb39d7d0090ed14cb725a1d6eaa3fd3',1,'NISTConst']]],
   ['helion_20_28helium_2d3_20nucleus_29',['Helion (Helium-3 nucleus)',['../group___helion.html',1,'']]],
   ['helionelectronmassratio',['helionElectronMassRatio',['../group___helion.html#ga5c779784a4f223f0936cb067e2674474',1,'NISTConst']]],
   ['helionelectronmassratiouncertainty',['helionElectronMassRatioUncertainty',['../group___helion.html#ga2672db60c9c3de90d9815370c208d9cf',1,'NISTConst']]],
@@ -56,5 +59,6 @@ var searchData=
   ['hertztokelvin',['hertzToKelvin',['../group___hertz.html#gacda137a5d10ebba59b340d770802678f',1,'NISTConst']]],
   ['hertztokelvinuncertainty',['hertzToKelvinUncertainty',['../group___hertz.html#gacdec68d8c592492309f427551ae82a21',1,'NISTConst']]],
   ['hertztokilogram',['hertzToKilogram',['../group___hertz.html#ga7b63758ab74cb80c236d4eacd5b89484',1,'NISTConst']]],
-  ['hertztokilogramuncertainty',['hertzToKilogramUncertainty',['../group___hertz.html#gab0659e6441271775cddea1c3bef17708',1,'NISTConst']]]
+  ['hertztokilogramuncertainty',['hertzToKilogramUncertainty',['../group___hertz.html#gab0659e6441271775cddea1c3bef17708',1,'NISTConst']]],
+  ['hinevs',['hIneVs',['../group___planck_constant.html#gabdd6f21b3e5325e4df4a021ee6b6a506',1,'NISTConst']]]
 ];

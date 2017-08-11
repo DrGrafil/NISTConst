@@ -1,5 +1,9 @@
 var group___planck_constant =
 [
+    [ "h", "group___planck_constant.html#ga772638524d12d0e8a63abb25441f87a9", null ],
+    [ "hbar", "group___planck_constant.html#gaec21867afdeb1950b150e667513cd842", null ],
+    [ "hbarIneVs", "group___planck_constant.html#gacbb39d7d0090ed14cb725a1d6eaa3fd3", null ],
+    [ "hIneVs", "group___planck_constant.html#gabdd6f21b3e5325e4df4a021ee6b6a506", null ],
     [ "PlanckConstant", "group___planck_constant.html#ga6caa482b17de2f08f423eff1a521b0d7", null ],
     [ "PlanckConstantIneVs", "group___planck_constant.html#ga4587d736f45c35788453a9509eaee7f2", null ],
     [ "PlanckConstantIneVsUncertainty", "group___planck_constant.html#ga566abddd238d05d995f61aa5d8663b3c", null ],
@@ -9,5 +13,7 @@ var group___planck_constant =
     [ "PlanckConstantOver2PiTimescInMeVfm", "group___planck_constant.html#ga76ea84456bc32be18fa15034da108214", null ],
     [ "PlanckConstantOver2PiTimescInMeVfmUncertainty", "group___planck_constant.html#gae5db39f3f8b53c75ed26b3b83b74bb42", null ],
     [ "PlanckConstantOver2PiUncertainty", "group___planck_constant.html#ga9a87455000578edf387376117fd5bfd8", null ],
-    [ "PlanckConstantUncertainty", "group___planck_constant.html#gaf490152b8477c6ead134e42e76753f64", null ]
+    [ "PlanckConstantUncertainty", "group___planck_constant.html#gaf490152b8477c6ead134e42e76753f64", null ],
+    [ "reducedPlanckConstant", "group___planck_constant.html#ga91e80f15330603015f6f8f8e8f49c926", null ],
+    [ "reducedPlanckConstantIneVs", "group___planck_constant.html#gab9efdc081c1c1a03ca7a233d1589b1d8", null ]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['barometricpressure',['barometricPressure',['../group___standard_atmosphere.html#ga09e2a2bce1e1f38985f98c22d5a8d43d',1,'NISTConst']]],
   ['bohrmagneton',['BohrMagneton',['../group___bohr_magneton.html#gaace59be8951a23257cedcbef8f320c66',1,'NISTConst::BohrMagneton()'],['../group___bohr_magneton.html',1,'(Global Namespace)']]],
   ['bohrmagnetoninevpert',['BohrMagnetonIneVPerT',['../group___bohr_magneton.html#ga8b97d10b13a2c5de4f0d268370bc3c50',1,'NISTConst']]],
   ['bohrmagnetoninevpertuncertainty',['BohrMagnetonIneVPerTUncertainty',['../group___bohr_magneton.html#gaaecd1151f7f9e12288a05ba80fb94bbd',1,'NISTConst']]],

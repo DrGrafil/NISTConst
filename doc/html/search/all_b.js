@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['l',['L',['../group___avogadro_constant.html#ga0d410e47da7c9d6841958899d80e4b75',1,'NISTConst']]],
   ['latticeparameterofsilicon',['latticeParameterOfSilicon',['../group___silicon.html#ga8ab64e0d4d7e0ebde43f1dd5f4ff68bf',1,'NISTConst']]],
   ['latticeparameterofsiliconuncertainty',['latticeParameterOfSiliconUncertainty',['../group___silicon.html#ga4ced8c2e5ea89443bad8360b0a822660',1,'NISTConst']]],
   ['latticespacingofsilicon',['latticeSpacingOfSilicon',['../group___silicon.html#ga439c53134da8a910d17c996b136da7a8',1,'NISTConst']]],

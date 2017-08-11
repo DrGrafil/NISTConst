@@ -1438,7 +1438,8 @@ namespace NISTConst
 {
 	/// @addtogroup AvogadroConstant 
 	/// @{
-	const double NA = AvogadroConstant;
+	const double L = AvogadroConstant;												/**< \f$L \ (\frac{1}{mol})\f$ Avogadro constant. Alias of AvogadroConstant.*/
+	const double NA = AvogadroConstant; 											/**< \f$N_A \ (\frac{1}{mol})\f$ Avogadro constant. Alias of AvogadroConstant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1611,7 +1612,6 @@ namespace NISTConst
 	/// @addtogroup MolarMassConstant 
 	/// @{
 	const double Mu = molarMassConstant;
-	const double L = molarMassConstant;
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1619,11 +1619,11 @@ namespace NISTConst
 	
 	/// @addtogroup NuclearMagneton
 	/// @{
-	const double muN = nuclearMagneton;
-	const double muNIneVPerT = nuclearMagnetonIneVPerT;
-	const double muNInInversemT = nuclearMagnetonInInversemT;
-	const double muNInKPerT = nuclearMagnetonInKPerT;
-	const double muNInMHzPerT = nuclearMagnetonInMHzPerT;
+	const double muN = nuclearMagneton;															/**< \f$\mu_N \ (\frac{J}{T})\f$ Nuclear magneton in joules per tesla. Alias of nuclearMagneton.*/
+	const double muNIneVPerT = nuclearMagnetonIneVPerT;											/**< \f$ \ (\frac{eV}{T})\f$ Nuclear magneton in electron volts per tesla. Alias of nuclearMagnetonIneVPerT.*/
+	const double muNInInversemT = nuclearMagnetonInInversemT;									/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{m\ T})\f$ Nuclear magneton in inverse meters tesla. Alias of nuclearMagnetonInInversemT.*/
+	const double muNInKPerT = nuclearMagnetonInKPerT;											/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Nuclear magneton in kelvins per tesla. Alias of nuclearMagnetonInKPerT.*/
+	const double muNInMHzPerT = nuclearMagnetonInMHzPerT;										/**< \f$\frac{\mu_N}{h} \ (\frac{MHz}{T})\f$ Nuclear magneton in megahertz per tesla. Alias of nuclearMagnetonInMHzPerT.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1631,12 +1631,12 @@ namespace NISTConst
 	
 	/// @addtogroup PlanckConstant 
 	/// @{
-	const double h = PlanckConstant;
-	const double hIneVs = PlanckConstantIneVs;
-	const double hbar= PlanckConstantOver2Pi;
-	const double hbarIneVs = PlanckConstantOver2PiIneVs;
-	const double reducedPlanckConstant = PlanckConstantOver2Pi;
-	const double reducedPlanckConstantIneVs = PlanckConstantOver2PiIneVs;
+	const double h = PlanckConstant;															/**< \f$h \ (J s)\f$ Planck constant in joule seconds. Alias of PlanckConstant.*/
+	const double hIneVs = PlanckConstantIneVs;													/**< \f$h \ (eV s)\f$ Planck constant in electron volt seconds. Alias of PlanckConstantIneVs.*/
+	const double hbar= PlanckConstantOver2Pi;													/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds. Alias of PlanckConstantOver2Pi.*/
+	const double hbarIneVs = PlanckConstantOver2PiIneVs;										/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds. Alias of PlanckConstantOver2PiIneVs.*/
+	const double reducedPlanckConstant = PlanckConstantOver2Pi;									/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds. Alias of PlanckConstantOver2Pi.*/
+	const double reducedPlanckConstantIneVs = PlanckConstantOver2PiIneVs;						/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds. Alias of PlanckConstantOver2PiIneVs.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1645,8 +1645,8 @@ namespace NISTConst
 	
 	/// @addtogroup SpeedOfLight 
 	/// @{
-	const double c = speedOfLightInVacuum;
-	const double speedOfLight = speedOfLightInVacuum;
+	const double c = speedOfLightInVacuum;														/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second. Alias of speedOfLightInVacuum.*/
+	const double speedOfLight = speedOfLightInVacuum;											/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second. Alias of speedOfLightInVacuum.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1654,8 +1654,8 @@ namespace NISTConst
 	
 	/// @addtogroup GravityAcceleration
 	/// @{
-	const double g0 = standardAccelerationOfGravity;
-	const double standardAccelerationDueToGravity = standardAccelerationOfGravity;
+	const double g0 = standardAccelerationOfGravity;											/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravity.*/
+	const double standardAccelerationDueToGravity = standardAccelerationOfGravity; 				/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravity.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1663,9 +1663,9 @@ namespace NISTConst
 
 	/// @addtogroup StandardAtmosphere 
 	/// @{
-	const double atm = standardAtmosphere;
-	const double atmosphericPressure = standardAtmosphere;
-	const double barometricPressure = standardAtmosphere;
+	const double atm = standardAtmosphere; 														/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
+	const double atmosphericPressure = standardAtmosphere;										/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
+	const double barometricPressure = standardAtmosphere;										/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1673,7 +1673,7 @@ namespace NISTConst
 	
 	/// @addtogroup StefanBoltzmannConstant 
 	/// @{
-	const double sigma = StefanBoltzmannConstant;
+	const double sigma = StefanBoltzmannConstant; 												/**< \f$\sigma \ (\frac{W}{m^2 K^4})\f$ Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th. Alias of StefanBoltzmannConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1681,7 +1681,7 @@ namespace NISTConst
 	
 	/// @addtogroup vonKlitzingConstant 
 	/// @{
-	const double RK = vonKlitzingConstant;
+	const double RK = vonKlitzingConstant;														/**< \f$R_K \ (\Omega)\f$ von Klitzing constant in ohms. Alias of vonKlitzingConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1689,7 +1689,7 @@ namespace NISTConst
 
 	/// @addtogroup WeakMixingAngle 
 	/// @{
-	const double WeinbergAngle = weakMixingAngle;
+	const double WeinbergAngle = weakMixingAngle; 												/**< \f$sin^2 \theta_W \ (1)\f$ Weak mixing angle. Alias of weakMixingAngle.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  

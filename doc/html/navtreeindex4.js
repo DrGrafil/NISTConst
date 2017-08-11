@@ -1,5 +1,7 @@
 var NAVTREEINDEX4 =
 {
+"group___fermi_coupling_constant.html":[0,0,2,5],
+"group___fermi_coupling_constant.html#ga0348e7c9835697c05fa7f68029bfb15a":[0,0,2,5,0],
 "group___fermi_coupling_constant.html#gaf419e34a813e9b1aeeddc54937905aa0":[0,0,2,5,1],
 "group___fine_structure_constant.html":[0,0,2,6],
 "group___fine_structure_constant.html#ga0f1ddaca2627b7253ed177aa1b074724":[0,0,2,6,0],
@@ -17,8 +19,10 @@ var NAVTREEINDEX4 =
 "group___gravitational_constant.html#gad7c8d8ef09f60e8f3f36f86f98df0472":[0,0,0,3,1],
 "group___gravitational_constant.html#gaf10cbbd8ad1ece4ec01e35fe3d86854f":[0,0,0,3,2],
 "group___gravity_acceleration.html":[0,0,4,3],
-"group___gravity_acceleration.html#gaabc6df92c25677a5b767445f101d4f57":[0,0,4,3,1],
-"group___gravity_acceleration.html#gad5bc5f7f030bc2c467a8430e00b42f5e":[0,0,4,3,0],
+"group___gravity_acceleration.html#ga1fd0cec0a449e40eb603ac6292027924":[0,0,4,3,0],
+"group___gravity_acceleration.html#ga7d417cb0027680e48ff481ab68a0864e":[0,0,4,3,1],
+"group___gravity_acceleration.html#gaabc6df92c25677a5b767445f101d4f57":[0,0,4,3,3],
+"group___gravity_acceleration.html#gad5bc5f7f030bc2c467a8430e00b42f5e":[0,0,4,3,2],
 "group___hartree.html":[0,0,6,2],
 "group___hartree.html#ga0554c0859210dac9ff459c44c1bd70ca":[0,0,6,2,7],
 "group___hartree.html#ga0c47e6885cdf30ceb56ac3c9420cb81c":[0,0,6,2,8],
@@ -245,9 +249,5 @@ var NAVTREEINDEX4 =
 "group___natural_unit.html#gab193769ac3b3bf95a370e30b186b0728":[0,0,5,2,3],
 "group___natural_unit.html#gabb48c3143ddc02570de65d6fe02a7c7b":[0,0,5,2,17],
 "group___natural_unit.html#gabf96b874ece35b6b5ada8207d80bab73":[0,0,5,2,11],
-"group___natural_unit.html#gad129c66b980f820219b193de0daacbc6":[0,0,5,2,1],
-"group___neutron.html":[0,0,2,10],
-"group___neutron.html#ga01b6142f2d5dd4cd6ff10d2938a312cf":[0,0,2,10,15],
-"group___neutron.html#ga027ad989f7bdaeb277518dd928470e4e":[0,0,2,10,18],
-"group___neutron.html#ga036634170600c84498e80133e11f1228":[0,0,2,10,16]
+"group___natural_unit.html#gad129c66b980f820219b193de0daacbc6":[0,0,5,2,1]
 };

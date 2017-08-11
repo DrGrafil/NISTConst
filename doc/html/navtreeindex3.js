@@ -83,7 +83,9 @@ var NAVTREEINDEX3 =
 "group___atomic_unit.html#gaf22e630a5412176c4d94dbc8b1e36f70":[0,0,5,0,44],
 "group___atomic_unit.html#gafc60ae3e5ac09e358e8c6fdf1358e592":[0,0,5,0,29],
 "group___avogadro_constant.html":[0,0,3,1],
+"group___avogadro_constant.html#ga0d410e47da7c9d6841958899d80e4b75":[0,0,3,1,2],
 "group___avogadro_constant.html#ga38f3e71e31d844bbfe2dfacf7100c4d1":[0,0,3,1,1],
+"group___avogadro_constant.html#gad08af58ac1b1ee41e25bd8564a74bc42":[0,0,3,1,3],
 "group___avogadro_constant.html#gad82b2a4777628c4e67a87b8f5b99174e":[0,0,3,1,0],
 "group___bohr_magneton.html":[0,0,1,0],
 "group___bohr_magneton.html#ga0c3cc268d0e1abc4703ea8f2c11ccab8":[0,0,1,0,3],
@@ -247,7 +249,5 @@ var NAVTREEINDEX3 =
 "group___faraday_constant.html#ga06079db2ebfcb103460b80a977171ac0":[0,0,3,3,1],
 "group___faraday_constant.html#ga3a2104c5d85a6e687d615ec8004aa4c5":[0,0,3,3,0],
 "group___faraday_constant.html#ga3b9280c2cf0f28e5ec6122b2f585eb81":[0,0,3,3,2],
-"group___faraday_constant.html#ga9b0f9181caac73b346e91602673272c1":[0,0,3,3,3],
-"group___fermi_coupling_constant.html":[0,0,2,5],
-"group___fermi_coupling_constant.html#ga0348e7c9835697c05fa7f68029bfb15a":[0,0,2,5,0]
+"group___faraday_constant.html#ga9b0f9181caac73b346e91602673272c1":[0,0,3,3,3]
 };

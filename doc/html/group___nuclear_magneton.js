@@ -1,5 +1,10 @@
 var group___nuclear_magneton =
 [
+    [ "muN", "group___nuclear_magneton.html#ga5b19bcb311479cc6f5c36b551356e580", null ],
+    [ "muNIneVPerT", "group___nuclear_magneton.html#ga2c8a56a6542df06b37fed3b2b5444ff6", null ],
+    [ "muNInInversemT", "group___nuclear_magneton.html#ga9c4499c279614bf4bb837c9c4c74b208", null ],
+    [ "muNInKPerT", "group___nuclear_magneton.html#gaca6a801a34347be9fd04e7882187484c", null ],
+    [ "muNInMHzPerT", "group___nuclear_magneton.html#ga4c2e37b42112c282a0dc5969f351187e", null ],
     [ "nuclearMagneton", "group___nuclear_magneton.html#gacf9b0d2a2517113d30300e4ed7b56cc7", null ],
     [ "nuclearMagnetonIneVPerT", "group___nuclear_magneton.html#ga5a31a1865923a1c14cd7f22c8973186e", null ],
     [ "nuclearMagnetonIneVPerTUncertainty", "group___nuclear_magneton.html#gad4934d98a9f09cb4bae556e2aa11ff84", null ],
