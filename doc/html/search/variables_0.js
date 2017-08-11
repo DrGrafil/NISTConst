@@ -1,6 +1,7 @@
 var searchData=
 [
   ['a0',['a0',['../group___bohr_radius.html#gaa79b6b930d252d0cda2711c7993e918a',1,'NISTConst']]],
+  ['a0uncertainty',['a0Uncertainty',['../group___bohr_radius.html#ga69cffcfd4d8bdc8525818d56ac079b8d',1,'NISTConst']]],
   ['alpha',['alpha',['../group___fine_structure_constant.html#gac2d74edeb9ba449e5e687a2cdbb139e9',1,'NISTConst']]],
   ['alphaparticleelectronmassratio',['alphaParticleElectronMassRatio',['../group___alpha.html#ga9f00b32c60f1bc5b8a950b58e64d08c8',1,'NISTConst']]],
   ['alphaparticleelectronmassratiouncertainty',['alphaParticleElectronMassRatioUncertainty',['../group___alpha.html#gab0ff5a8444a405504f7bc319cc48561d',1,'NISTConst']]],
@@ -16,10 +17,13 @@ var searchData=
   ['alphaparticlemolarmassuncertainty',['alphaParticleMolarMassUncertainty',['../group___alpha.html#ga5f78e2dab7e63e1dd553c5e515dd6304',1,'NISTConst']]],
   ['alphaparticleprotonmassratio',['alphaParticleProtonMassRatio',['../group___alpha.html#ga4629465057dc35ad7eecca610bcbd092',1,'NISTConst']]],
   ['alphaparticleprotonmassratiouncertainty',['alphaParticleProtonMassRatioUncertainty',['../group___alpha.html#gaf3dee14bcd671fad701d7bbd15f2de45',1,'NISTConst']]],
+  ['alphauncertainty',['alphaUncertainty',['../group___fine_structure_constant.html#ga861407c811dfb66edddeb6ad55f5bdae',1,'NISTConst']]],
   ['angstromstar',['AngstromStar',['../group___angstrom_star.html#ga42db9558ed1ddd9706c14e4d0b0863cc',1,'NISTConst']]],
   ['angstromstaruncertainty',['AngstromStarUncertainty',['../group___angstrom_star.html#ga13575debadc16e90aefbe76fdfa771a6',1,'NISTConst']]],
   ['atm',['atm',['../group___standard_atmosphere.html#ga93a81873c4680c07e0a212604ce6e106',1,'NISTConst']]],
   ['atmosphericpressure',['atmosphericPressure',['../group___standard_atmosphere.html#gab92a3a9d0d82fc926390602e825afea5',1,'NISTConst']]],
+  ['atmosphericpressureuncertainty',['atmosphericPressureUncertainty',['../group___standard_atmosphere.html#gab6ab2c05e40b36d9e6284e8ebaceed37',1,'NISTConst']]],
+  ['atmuncertainty',['atmUncertainty',['../group___standard_atmosphere.html#gace6ef7e45b2b26b9f48c8495d8a349d0',1,'NISTConst']]],
   ['atomicmassconstant',['atomicMassConstant',['../group___atomic_mass_constant.html#ga2c815ce73f942601621223bef09be40a',1,'NISTConst']]],
   ['atomicmassconstantinjpercsquared',['atomicMassConstantInJPercSquared',['../group___atomic_mass_constant.html#ga59e3df8073f8ba5570bc3c9308655215',1,'NISTConst']]],
   ['atomicmassconstantinjpercsquareduncertainty',['atomicMassConstantInJPercSquaredUncertainty',['../group___atomic_mass_constant.html#ga297ea3567a4df316bd697b4ec0dc0a65',1,'NISTConst']]],

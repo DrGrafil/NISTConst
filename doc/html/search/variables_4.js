@@ -2,8 +2,11 @@ var searchData=
 [
   ['e',['e',['../group___elementary_charge.html#gad3e7e33fe20772dfbc4b39e433eb2f3a',1,'NISTConst']]],
   ['e0',['e0',['../group___electric_constant.html#ga6fa2aaf171b8dafe96bbd87c7aa95f59',1,'NISTConst']]],
+  ['e0uncertainty',['e0Uncertainty',['../group___electric_constant.html#ga35084e49b0f999bcafda4ae95038913c',1,'NISTConst']]],
   ['eh',['Eh',['../group___hartree_energy.html#ga1955ca3dc0e0714b0caa7304e7389140',1,'NISTConst']]],
   ['ehinev',['EhIneV',['../group___hartree_energy.html#ga45991f1895507078b66f94f85e2e8af5',1,'NISTConst']]],
+  ['ehinevuncertainty',['EhIneVUncertainty',['../group___hartree_energy.html#ga44de589dbe84c79573b441fa366d320d',1,'NISTConst']]],
+  ['ehuncertainty',['EhUncertainty',['../group___hartree_energy.html#ga52137cfba941de2bd3b1b584bd1f31ee',1,'NISTConst']]],
   ['electricconstant',['electricConstant',['../group___electric_constant.html#gae5a425228125285727dd53333725ef76',1,'NISTConst']]],
   ['electricconstantuncertainty',['electricConstantUncertainty',['../group___electric_constant.html#gaf65e89a9fe674a6f80f5a66bbe101aab',1,'NISTConst']]],
   ['electronchargetomass',['electronChargeToMass',['../group___electron.html#ga941e6299b6ef4b90cc525c335d9989dc',1,'NISTConst']]],
@@ -80,5 +83,7 @@ var searchData=
   ['elementarychargeoverh',['elementaryChargeOverh',['../group___elementary_charge.html#ga262dea92054df909a97626e3c804f1b4',1,'NISTConst']]],
   ['elementarychargeoverhuncertainty',['elementaryChargeOverhUncertainty',['../group___elementary_charge.html#gadc450d412ab46877fee4e29d8ccf7ce3',1,'NISTConst']]],
   ['elementarychargeuncertainty',['elementaryChargeUncertainty',['../group___elementary_charge.html#ga8e2ed13fe11bd4253e61c6f893a6778d',1,'NISTConst']]],
-  ['elementarypositivecharge',['elementaryPositiveCharge',['../group___elementary_charge.html#ga1177663318bfe8bfa4b0c4fa489fbfb2',1,'NISTConst']]]
+  ['elementarypositivecharge',['elementaryPositiveCharge',['../group___elementary_charge.html#ga1177663318bfe8bfa4b0c4fa489fbfb2',1,'NISTConst']]],
+  ['elementarypositivechargeuncertainty',['elementaryPositiveChargeUncertainty',['../group___elementary_charge.html#gab7ff4a358af518837d1e8f6fd6b26360',1,'NISTConst']]],
+  ['euncertainty',['eUncertainty',['../group___elementary_charge.html#ga2c92e71a42a5f0e7facd87c2c15c0f2b',1,'NISTConst']]]
 ];

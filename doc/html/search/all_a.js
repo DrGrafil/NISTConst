@@ -2,8 +2,12 @@ var searchData=
 [
   ['kb',['kB',['../group___boltzmann_constant.html#ga6c7ead5913113ec6e980e80f21d27fd0',1,'NISTConst']]],
   ['kbinevperk',['kBIneVPerK',['../group___boltzmann_constant.html#gae6941828181b77b14f5f24a8b713570f',1,'NISTConst']]],
+  ['kbinevperkuncertainty',['kBIneVPerKUncertainty',['../group___boltzmann_constant.html#gaf7b77bfffef71941035ce9d3164c94ab',1,'NISTConst']]],
   ['kbinhzperk',['kBInHzPerK',['../group___boltzmann_constant.html#gaa7a3aa5798c9617d09120f8041c93433',1,'NISTConst']]],
+  ['kbinhzperkuncertainty',['kBInHzPerKUncertainty',['../group___boltzmann_constant.html#gacee490b0a8b778a3a5f381be776f493e',1,'NISTConst']]],
   ['kbininversemk',['kBInInversemK',['../group___boltzmann_constant.html#ga54bf445c848dc6dc425076bf6ab45d83',1,'NISTConst']]],
+  ['kbininversemkuncertainty',['kBInInversemKUncertainty',['../group___boltzmann_constant.html#gafb5daa855b569ec25364ad61ecea9b2a',1,'NISTConst']]],
+  ['kbuncertainty',['kBUncertainty',['../group___boltzmann_constant.html#ga60fef44440e26486ae70903ff601a8e5',1,'NISTConst']]],
   ['kelvin',['Kelvin',['../group___kelvin.html',1,'']]],
   ['kelvintoatomicmassunit',['kelvinToAtomicMassUnit',['../group___kelvin.html#gadad57a8f65f4d323846c97fbe0c485b1',1,'NISTConst']]],
   ['kelvintoatomicmassunituncertainty',['kelvinToAtomicMassUnitUncertainty',['../group___kelvin.html#ga9a73cc5e600276756aa8054000db2a12',1,'NISTConst']]],
@@ -34,5 +38,6 @@ var searchData=
   ['kilogramtojouleuncertainty',['kilogramToJouleUncertainty',['../group___kilogram.html#gacf96db99d7b828aca5c24fda34406550',1,'NISTConst']]],
   ['kilogramtokelvin',['kilogramToKelvin',['../group___kilogram.html#ga79d71b550888761f76eaca5ffc4a29cb',1,'NISTConst']]],
   ['kilogramtokelvinuncertainty',['kilogramToKelvinUncertainty',['../group___kilogram.html#ga744389701b8d90c75aa01618867ed42e',1,'NISTConst']]],
-  ['kj',['KJ',['../group___josephson_constant.html#ga75e8a1fd7b1434083e96c2f0291eb756',1,'NISTConst']]]
+  ['kj',['KJ',['../group___josephson_constant.html#ga75e8a1fd7b1434083e96c2f0291eb756',1,'NISTConst']]],
+  ['kjuncertainty',['KJUncertainty',['../group___josephson_constant.html#ga8501536b42a3f29278ec30b3bf054321',1,'NISTConst']]]
 ];

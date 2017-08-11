@@ -12,5 +12,6 @@ var searchData=
   ['firstradiationconstant',['firstRadiationConstant',['../group___first_radiation_constant.html#ga59a54a84c539969a14695bd822b116cb',1,'NISTConst']]],
   ['firstradiationconstantforspectralradiance',['firstRadiationConstantForSpectralRadiance',['../group___first_radiation_constant.html#ga877c0bc2579b88ae515b80aeb58aa68e',1,'NISTConst']]],
   ['firstradiationconstantforspectralradianceuncertainty',['firstRadiationConstantForSpectralRadianceUncertainty',['../group___first_radiation_constant.html#gaa5c56cdaf9f43061450ff67b73dbba35',1,'NISTConst']]],
-  ['firstradiationconstantuncertainty',['firstRadiationConstantUncertainty',['../group___first_radiation_constant.html#ga1b1ea4335364c4f0b19810842fd6c741',1,'NISTConst']]]
+  ['firstradiationconstantuncertainty',['firstRadiationConstantUncertainty',['../group___first_radiation_constant.html#ga1b1ea4335364c4f0b19810842fd6c741',1,'NISTConst']]],
+  ['funcertainty',['FUncertainty',['../group___faraday_constant.html#ga00c3ecdf32da676583d7f64f8a6a4e07',1,'NISTConst']]]
 ];

@@ -15,6 +15,7 @@ var searchData=
   ['conventionalvonklitzingconstantuncertainty',['conventionalvonKlitzingConstantUncertainty',['../group___conventionalvon_klitzing_constant.html#gad820d4afd8b26103c01023bf69ac749b',1,'NISTConst']]],
   ['conversion_20factors',['Conversion factors',['../group___conversion_factors.html',1,'']]],
   ['copper',['Copper',['../group___copper.html',1,'']]],
+  ['cuncertainty',['cUncertainty',['../group___speed_of_light.html#ga21cb144a81f599986c7d6aff034bf6cb',1,'NISTConst']]],
   ['cuxunit',['CuXUnit',['../group___copper.html#gaefed00ac64123e598d5c20abac22f22f',1,'NISTConst']]],
   ['cuxunituncertainty',['CuXUnitUncertainty',['../group___copper.html#ga288d0a3002970fa7dc68df68e182f508',1,'NISTConst']]]
 ];

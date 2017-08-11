@@ -13,6 +13,7 @@ var searchData=
   ['conventionaljosephsonconstantuncertainty',['conventionalJosephsonConstantUncertainty',['../group___conventional_josephson_constant.html#ga0a76d60ad55268297c99761c7492220f',1,'NISTConst']]],
   ['conventionalvonklitzingconstant',['conventionalvonKlitzingConstant',['../group___conventionalvon_klitzing_constant.html#gabf641ec13f8a8d63762992724dd6d670',1,'NISTConst']]],
   ['conventionalvonklitzingconstantuncertainty',['conventionalvonKlitzingConstantUncertainty',['../group___conventionalvon_klitzing_constant.html#gad820d4afd8b26103c01023bf69ac749b',1,'NISTConst']]],
+  ['cuncertainty',['cUncertainty',['../group___speed_of_light.html#ga21cb144a81f599986c7d6aff034bf6cb',1,'NISTConst']]],
   ['cuxunit',['CuXUnit',['../group___copper.html#gaefed00ac64123e598d5c20abac22f22f',1,'NISTConst']]],
   ['cuxunituncertainty',['CuXUnitUncertainty',['../group___copper.html#ga288d0a3002970fa7dc68df68e182f508',1,'NISTConst']]]
 ];

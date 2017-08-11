@@ -12,7 +12,12 @@ var group___bohr_magneton =
     [ "BohrMagnetonUncertainty", "group___bohr_magneton.html#gaf2591aab0321fec9056cc1a8479cb05b", null ],
     [ "muB", "group___bohr_magneton.html#gab42ee32e5e0323fc6268a5e14ac40b39", null ],
     [ "muBIneVPerT", "group___bohr_magneton.html#gad2bd4164d07de53146b14398c6d4790d", null ],
+    [ "muBIneVPerTUncertainty", "group___bohr_magneton.html#ga3090988be27d3988c99418e32a538a18", null ],
     [ "muBInHzPerT", "group___bohr_magneton.html#gac590bf03985de37cfaeea7982dac2aa8", null ],
+    [ "muBInHzPerTUncertainty", "group___bohr_magneton.html#gadcf78ed6cafce3517c8dc7d308c06cc2", null ],
     [ "muBInInversemPerT", "group___bohr_magneton.html#ga4d426841ef01963272df91bd0534a966", null ],
-    [ "muBInKPerT", "group___bohr_magneton.html#ga51473ab154d1c4e8e9afca84952db156", null ]
+    [ "muBInInversemPerTUncertainty", "group___bohr_magneton.html#ga51cabaa66ef3fd011187bc9ad5226cc8", null ],
+    [ "muBInKPerT", "group___bohr_magneton.html#ga51473ab154d1c4e8e9afca84952db156", null ],
+    [ "muBInKPerTUncertainty", "group___bohr_magneton.html#ga3e329894e17506d60948fd563cee0368", null ],
+    [ "muBUncertainty", "group___bohr_magneton.html#ga6f7d483b5984d92f63b7fbe199fa3985", null ]
 ];

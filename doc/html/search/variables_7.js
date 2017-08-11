@@ -21,6 +21,8 @@ var searchData=
   ['hartreetokilogramuncertainty',['hartreeToKilogramUncertainty',['../group___hartree.html#ga88a5e0e81776199fdc7d4b5a424196a8',1,'NISTConst']]],
   ['hbar',['hbar',['../group___planck_constant.html#gaec21867afdeb1950b150e667513cd842',1,'NISTConst']]],
   ['hbarinevs',['hbarIneVs',['../group___planck_constant.html#gacbb39d7d0090ed14cb725a1d6eaa3fd3',1,'NISTConst']]],
+  ['hbarinevsuncertainty',['hbarIneVsUncertainty',['../group___planck_constant.html#ga58501029ba9f6b757d6d9992dfb56b4f',1,'NISTConst']]],
+  ['hbaruncertainty',['hbarUncertainty',['../group___planck_constant.html#ga2f2785d3e09a94615ed207e936f73f74',1,'NISTConst']]],
   ['helionelectronmassratio',['helionElectronMassRatio',['../group___helion.html#ga5c779784a4f223f0936cb067e2674474',1,'NISTConst']]],
   ['helionelectronmassratiouncertainty',['helionElectronMassRatioUncertainty',['../group___helion.html#ga2672db60c9c3de90d9815370c208d9cf',1,'NISTConst']]],
   ['heliongfactor',['heliongFactor',['../group___helion.html#ga93c08fee128607b2609355ea6ddbc76e',1,'NISTConst']]],
@@ -57,5 +59,7 @@ var searchData=
   ['hertztokelvinuncertainty',['hertzToKelvinUncertainty',['../group___hertz.html#gacdec68d8c592492309f427551ae82a21',1,'NISTConst']]],
   ['hertztokilogram',['hertzToKilogram',['../group___hertz.html#ga7b63758ab74cb80c236d4eacd5b89484',1,'NISTConst']]],
   ['hertztokilogramuncertainty',['hertzToKilogramUncertainty',['../group___hertz.html#gab0659e6441271775cddea1c3bef17708',1,'NISTConst']]],
-  ['hinevs',['hIneVs',['../group___planck_constant.html#gabdd6f21b3e5325e4df4a021ee6b6a506',1,'NISTConst']]]
+  ['hinevs',['hIneVs',['../group___planck_constant.html#gabdd6f21b3e5325e4df4a021ee6b6a506',1,'NISTConst']]],
+  ['hinevsuncertainty',['hIneVsUncertainty',['../group___planck_constant.html#gadbf2b61fe6b0389e003a788047ad0c43',1,'NISTConst']]],
+  ['huncertainty',['hUncertainty',['../group___planck_constant.html#gaa3328612ae3a58889a270b440849b73a',1,'NISTConst']]]
 ];

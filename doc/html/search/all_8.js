@@ -1,7 +1,9 @@
 var searchData=
 [
   ['idealgasconstant',['idealGasConstant',['../group___molar_gas_constant.html#ga0315ba6edc63c93914224443ef8a6e17',1,'NISTConst']]],
+  ['idealgasconstantuncertainty',['idealGasConstantUncertainty',['../group___molar_gas_constant.html#ga479ccecafa4058b2d5e9ebc672a85ca4',1,'NISTConst']]],
   ['impedanceoffreespace',['impedanceOfFreeSpace',['../group___impedance_of_vacuum.html#ga299cd5a5d3a7df43dd6b8c8335bbc8c6',1,'NISTConst']]],
+  ['impedanceoffreespaceuncertainty',['impedanceOfFreeSpaceUncertainty',['../group___impedance_of_vacuum.html#ga16b669e68f98b1314ca4df5973203147',1,'NISTConst']]],
   ['impedanceofvacuum',['impedanceOfVacuum',['../group___impedance_of_vacuum.html#ga51e1aede5d89041ea7423522b526dd0e',1,'NISTConst::impedanceOfVacuum()'],['../group___impedance_of_vacuum.html',1,'(Global Namespace)']]],
   ['impedanceofvacuumuncertainty',['impedanceOfVacuumUncertainty',['../group___impedance_of_vacuum.html#ga0d686b0016dc8c1f0bda161283b4f9c5',1,'NISTConst']]],
   ['inversefinestructureconstant',['inverseFineStructureConstant',['../group___fine_structure_constant.html#gaa4cd257f5376577cf0331e71dd952bb6',1,'NISTConst']]],
