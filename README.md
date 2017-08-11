@@ -40,12 +40,14 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 3. Why does wikipedia and google disagree with some of your values?
 
    It is because NISTConst values are frozen to the values present in 2014 CODATA while google and wikipedia are able to pick values from any source. An example of this is for the mass of the proton. As of 8/8/17:
+
 | Proton Mass | Source |
 | --- | --- |
 | 1.007276466879 u | NISTConst from NIST/CODATA 2014 |
 | 1.007276466879 u | Wikipedia |
 | 1.007276466812 u | Google |
 | 1.007276466583 u | Latest value from ["High-Precision Measurement of the Proton’s Atomic Mass"](https://doi.org/10.1103/PhysRevLett.119.033001) |
+
    The latest value will probably be adopted by both google and wikipedia in the near future.
 
 4. The value of _____ is wrong! Can you change it to ...?
@@ -55,13 +57,20 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 ---
 ## Release notes
 
-### [NISTConst 0.8.1](https://github.com/Metex/NISTConst/releases/latest)
+### [NISTConst 0.8.2](https://github.com/Metex/NISTConst/releases/latest)
 #### Features:
--Adding common 
+- Created aliases to all constants using common names and symbols.
+- Alias included through #define NISTCONST_COMMON_SYMBOLS_NAMES.
+- Added uncertainty constants to all common names and symbols constants.
+- Documented all common names and symbols constants.
 
 #### Improvements:
+- Renamed BohrMagnetonInInversemPerT to BohrMagnetonInInversemT
+- Switched License to MIT
 
 #### Fixes:
+- Capitalized Fine-structure
+
 
 ---
 
