@@ -39,7 +39,7 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 
 3. Why does wikipedia and google disagree with some of your values?
 
-   It is because NISTConst values are frozen to the values present in 2014 CODATA while google and wikipedia are able to pick values from any source. An example of this is for the mass of the proton. As of 8/8/17:
+   It is because NISTConst values are frozen to the values present in [CODATA-2014](https://dx.doi.org/10.1063/1.4954402) while google and wikipedia are able to pick values from any source. An example of this is for the mass of the proton. As of 8/8/17:
 
 | Proton Mass | Source |
 | --- | --- |
@@ -52,12 +52,12 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 
 4. The value of _____ is wrong! Can you change it to ...?
 
-   Check either from [HERE](https://github.com/Metex/NISTConst/blob/master/CODATA/Table%20of%20NIST%20Constant%20CODATA%202014.txt) or [HERE](https://physics.nist.gov/cuu/Constants/) before e-mailing us. NISTConst sticks stricktly to the values reported by NIST/CODATA. If NISTConst disagrees with NIST/CODATA we will change the value to be in agreement with NIST/CODATA.
+   Check either from [HERE](https://github.com/Metex/NISTConst/blob/master/CODATA/Table%20of%20NIST%20Constant%20CODATA%202014.txt) or [HERE](https://physics.nist.gov/cuu/Constants/) or [HERE](https://dx.doi.org/10.1063/1.4954402) before e-mailing us. NISTConst sticks stricktly to the values reported by NIST/CODATA. If NISTConst disagrees with NIST/CODATA we will change the value to be in agreement with NIST/CODATA.
 
 ---
 ## Release notes
 
-### [NISTConst 0.8.2](https://github.com/Metex/NISTConst/releases/latest)
+### [NISTConst 0.9.0](https://github.com/Metex/NISTConst/releases/latest)
 #### Features:
 - Created aliases to all constants using common names and symbols.
 - Alias included through #define NISTCONST_COMMON_SYMBOLS_NAMES.

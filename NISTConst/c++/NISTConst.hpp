@@ -1,8 +1,47 @@
+/******************************************************************************
+* NISTConst 0.9.0
+* A constants library for physics and chemistry using data from the  
+* National Institute of Standards and Technology (NIST).
+*
+* Based off of CODATA-2014: https://dx.doi.org/10.1063/1.4954402
+*------------------------------------------------------------------------
+* Copyright (c) 8/9/2017 Elliot M. Grafil
+*
+*                       Distributed under the MIT License
+*
+* Permission is hereby granted, free of charge, to any person obtaining a copy
+* of this software and associated documentation files (the "Software"), to deal
+* in the Software without restriction, including without limitation the rights
+* to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+* copies of the Software, and to permit persons to whom the Software is
+* furnished to do so, subject to the following conditions:
+*
+* The above copyright notice and this permission notice shall be included in all
+* copies or substantial portions of the Software.
+
+* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+* IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+* FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+* AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+* LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+* OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+* SOFTWARE.
+********************************************************************************/
+
+
 /// @file NISTConst.hpp
-///
-/// @brief NIST Constants
+/// @brief Constants library for physics and chemistry based off of data from NIST
 /// 
-//	 http://physics.nist.gov/constants
+///	NISTConst contains a total of 335 constants compiled by the National Institute of 
+/// Standards and Technology (NIST) as well as their associated uncertainties.
+/// This library provides access to the current set of basic constants and conversion
+/// factors for physics and chemistry recommended by the Committee on Data for Science
+/// and Technology (CODATA).
+///
+/// Constants are from CODATA-2014.
+///
+/// See https://dx.doi.org/10.1063/1.4954402
+///
 /// @author Elliot Grafil (Metex)
 /// @date 8/9/17
 /// @version 8.2.0
@@ -23,6 +62,11 @@
 // Following grouping done by NIST for constants
 
 /// @defgroup NISTConst NIST Constants
+/// @brief Constants library for physics and chemistry based off of data from NIST.
+///
+/// Constants are from CODATA-2014
+///
+/// https://dx.doi.org/10.1063/1.4954402
 
 /// @defgroup Universal Universal
 /// @ingroup NISTConst
@@ -1740,3 +1784,4 @@ namespace NISTConst
 } //namespace NISTConst
 
 #endif
+
