@@ -1,5 +1,5 @@
 /******************************************************************************
-* NISTConst 0.9.0
+* NISTConst 1.0.0
 * A constants library for physics and chemistry using data from the  
 * National Institute of Standards and Technology (NIST).
 *
@@ -44,7 +44,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 8/9/17
-/// @version 8.2.0
+/// @version 1.0.0
 
 
 //=================================
@@ -811,7 +811,7 @@ namespace NISTConst
 	/// @{
 	const double inverseFineStructureConstant =										137.035999139;				/**< \f$\alpha^{-1}  \ (1)\f$ Inverse fine-structure constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-	const double inverseFineStructureConstantUncertainty =							0.000000031;            	/**< \f$\alpha^{}-1}  \ (1)\f$ Uncertainty in inverse fine-structure constant.*/ 
+	const double inverseFineStructureConstantUncertainty =							0.000000031;            	/**< \f$\alpha^{-1}  \ (1)\f$ Uncertainty in inverse fine-structure constant.*/ 
 	#endif  
 	/// @}
 	

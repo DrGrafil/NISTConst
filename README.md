@@ -6,9 +6,19 @@ This library provides access to the current set of basic constants and conversio
 
 The data was compiled from the [Physical Measurement Laboratory of NIST](https://physics.nist.gov/cuu/Constants/). Currently NISTConst is based off of the 2014 CODATA recommended values.
 
-All constants are fully documented. You can read the documentation [HERE](https://rawgit.com/Metex/NISTConst/master/doc/html/index.html)
+All constants are fully documented. You can read the documentation [HERE](https://rawgit.com/Metex/NISTConst/master/doc/html/index.html). If the variable names and units are not displaying correctly, downloading the doc foldering and viewing it usually solves the issue.  
 
-## Usage
+## Setup
+
+NISTConst is a header-only library, and therfore does not need to be compiled. All that needs to be done is copy the NISTConst folder to your include directories and add `#include <NISTConst/NISTConst.hpp>`. 
+
+### Additional Options
+
+By default NISTConst doesn't set the uncertainties associated with all the constants. To add these uncertainties to your program you need to `#define NISTCONST_UNCERTAINTY` before you include NISTConst. All uncertainties are accessed by just adding `Uncertainty` to a the variable name. For example the uncertainty in the planck constant, `PlanckConstant`, is simply `PlanckConstantUncertainty`.
+
+NISTConst also includes a list of common aliases to all the constants like `c` for speed of light. To add these aliases to your program you need to `#define NISTCONST_COMMON_SYMBOLS_NAMES` before you include NISTConst. These are seperated out since there are multiple one letter variable definitions. This can result in variable name collisions with existing code if you decide to make all symbols in NISTConst namespace visible without adding the namespace prefix via `using namespace NISTConst;`.
+
+## Example Usage
 
 ```cpp
 #define NISTCONST_UNCERTAINTY // To include uncertainties

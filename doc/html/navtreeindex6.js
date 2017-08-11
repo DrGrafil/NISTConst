@@ -1,6 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"group___planck_constant.html#gab9efdc081c1c1a03ca7a233d1589b1d8":[0,0,0,4,19],
 "group___planck_constant.html#gabdd6f21b3e5325e4df4a021ee6b6a506":[0,0,0,4,5],
 "group___planck_constant.html#gacbb39d7d0090ed14cb725a1d6eaa3fd3":[0,0,0,4,2],
 "group___planck_constant.html#gadbf2b61fe6b0389e003a788047ad0c43":[0,0,0,4,6],

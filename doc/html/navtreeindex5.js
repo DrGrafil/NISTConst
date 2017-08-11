@@ -1,6 +1,5 @@
 var NAVTREEINDEX5 =
 {
-"group___josephson_constant.html#ga75e8a1fd7b1434083e96c2f0291eb756":[0,0,1,3,2],
 "group___josephson_constant.html#ga8501536b42a3f29278ec30b3bf054321":[0,0,1,3,3],
 "group___josephson_constant.html#gaa10eadf7c1811f94c5b5725ad300a099":[0,0,1,3,1],
 "group___josephson_constant.html#gae9f3553a6a6c5eed3df61ad33277cab8":[0,0,1,3,0],
@@ -249,5 +248,6 @@ var NAVTREEINDEX5 =
 "group___planck_constant.html#ga91e80f15330603015f6f8f8e8f49c926":[0,0,0,4,18],
 "group___planck_constant.html#ga9a87455000578edf387376117fd5bfd8":[0,0,0,4,16],
 "group___planck_constant.html#ga9b3484c3c80e4a97206c7945b0db539b":[0,0,0,4,11],
-"group___planck_constant.html#gaa3328612ae3a58889a270b440849b73a":[0,0,0,4,7]
+"group___planck_constant.html#gaa3328612ae3a58889a270b440849b73a":[0,0,0,4,7],
+"group___planck_constant.html#gab9efdc081c1c1a03ca7a233d1589b1d8":[0,0,0,4,19]
 };

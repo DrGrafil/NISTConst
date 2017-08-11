@@ -1,6 +1,5 @@
 var NAVTREEINDEX4 =
 {
-"group___deuteron.html#gaac523a6a3c61390396544e4b0acb3c05":[0,0,2,3,24],
 "group___deuteron.html#gaad8a0231ec17f5669c9c22a4daba5a77":[0,0,2,3,22],
 "group___deuteron.html#gabe2731d4997c2227da2cc2d7e7cda194":[0,0,2,3,26],
 "group___deuteron.html#gac689dcb4af65af6e079aebd27f6d1c47":[0,0,2,3,8],
@@ -249,5 +248,6 @@ var NAVTREEINDEX4 =
 "group___inverse_meter.html#gaf5a61f53f6757db329df597b76b2df69":[0,0,6,4,10],
 "group___inverse_meter.html#gafdede27a7699d3a180bb829b65fac447":[0,0,6,4,2],
 "group___inverse_meter.html#gaffb7462545a03fb13544c9f65d77dc7e":[0,0,6,4,3],
-"group___josephson_constant.html":[0,0,1,3]
+"group___josephson_constant.html":[0,0,1,3],
+"group___josephson_constant.html#ga75e8a1fd7b1434083e96c2f0291eb756":[0,0,1,3,2]
 };
