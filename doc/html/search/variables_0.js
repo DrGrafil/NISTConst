@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['a0',['a0',['../group___bohr_radius.html#gaa79b6b930d252d0cda2711c7993e918a',1,'NISTConst']]],
+  ['alpha',['alpha',['../group___fine_structure_constant.html#gac2d74edeb9ba449e5e687a2cdbb139e9',1,'NISTConst']]],
   ['alphaparticleelectronmassratio',['alphaParticleElectronMassRatio',['../group___alpha.html#ga9f00b32c60f1bc5b8a950b58e64d08c8',1,'NISTConst']]],
   ['alphaparticleelectronmassratiouncertainty',['alphaParticleElectronMassRatioUncertainty',['../group___alpha.html#gab0ff5a8444a405504f7bc319cc48561d',1,'NISTConst']]],
   ['alphaparticlemass',['alphaParticleMass',['../group___alpha.html#ga5a2a4f4310d2e3584253471fe4381b93',1,'NISTConst']]],

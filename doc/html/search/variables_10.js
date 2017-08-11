@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['r',['R',['../group___molar_gas_constant.html#gaa556f6ded49d1e2f9d5059fdd382bfd4',1,'NISTConst']]],
+  ['rbohr',['rBohr',['../group___bohr_radius.html#gad2a74a106c13086263e42411835b6352',1,'NISTConst']]],
   ['reducedplanckconstant',['reducedPlanckConstant',['../group___planck_constant.html#ga91e80f15330603015f6f8f8e8f49c926',1,'NISTConst']]],
   ['reducedplanckconstantinevs',['reducedPlanckConstantIneVs',['../group___planck_constant.html#gab9efdc081c1c1a03ca7a233d1589b1d8',1,'NISTConst']]],
   ['rk',['RK',['../group__von_klitzing_constant.html#ga49d5fad3e8e7b5800765ce47a748ebae',1,'NISTConst']]],

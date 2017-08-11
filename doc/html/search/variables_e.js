@@ -1,5 +1,10 @@
 var searchData=
 [
+  ['permeabilityoffreespace',['permeabilityOfFreeSpace',['../group___magnetic_constant.html#gad7321a170873a7532ecfb8383d827d1e',1,'NISTConst']]],
+  ['permeabilityofvacuum',['permeabilityOfVacuum',['../group___magnetic_constant.html#ga7210c41dfc8fb9dbc41c83282eafebc6',1,'NISTConst']]],
+  ['permittivityoffreespace',['permittivityOfFreeSpace',['../group___electric_constant.html#ga56d0b5b81201a3a81b724d45a4a73b81',1,'NISTConst']]],
+  ['permittivityofvacuum',['permittivityOfVacuum',['../group___electric_constant.html#ga81378e87b977f5b3403002e187d3d22c',1,'NISTConst']]],
+  ['phi0',['Phi0',['../group___magnetic_flux_quantum.html#ga17c4e5dc1a9ccc86990f9236ffbc42a3',1,'NISTConst']]],
   ['planckconstant',['PlanckConstant',['../group___planck_constant.html#ga6caa482b17de2f08f423eff1a521b0d7',1,'NISTConst']]],
   ['planckconstantinevs',['PlanckConstantIneVs',['../group___planck_constant.html#ga4587d736f45c35788453a9509eaee7f2',1,'NISTConst']]],
   ['planckconstantinevsuncertainty',['PlanckConstantIneVsUncertainty',['../group___planck_constant.html#ga566abddd238d05d995f61aa5d8663b3c',1,'NISTConst']]],

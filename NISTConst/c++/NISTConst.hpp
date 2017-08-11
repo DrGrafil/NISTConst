@@ -410,14 +410,14 @@ namespace NISTConst
 	const double BohrMagneton =														927.4009994e-26;			/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla.*/ 
 	const double BohrMagnetonIneVPerT =												5.7883818012e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesla.*/ 
 	const double BohrMagnetonInHzPerT =												13.996245042e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Bohr magneton in hertz per tesla.*/ 
-	const double BohrMagnetonInInversemPerT	=										46.68644814;				/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Bohr magneton in inverse meters tesla.*/ 
+	const double BohrMagnetonInInversemT	=										46.68644814;				/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Bohr magneton in inverse meters tesla.*/ 
 	const double BohrMagnetonInKPerT =												0.67171405;					/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Bohr magneton in kelvin per tesla.*/ 
 	
 	#ifdef NISTCONST_UNCERTAINTY
 	const double BohrMagnetonUncertainty =											0.0000057e-26;				/**< \f$\mu_B \ (\frac{J}{T})\f$ Uncertainty in Bohr magneton in joules per tesla.*/ 
 	const double BohrMagnetonIneVPerTUncertainty =									0.0000000026e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Uncertainty in Bohr magneton in electron volts per tesla.*/ 
 	const double BohrMagnetonInHzPerTUncertainty =									0.000000086e9;				/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Uncertainty in Bohr magneton in hertz per tesla.*/ 
-	const double BohrMagnetonInInversemPerTUncertainty	=							0.00000029;					/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Uncertainty in Bohr magneton in inverse meters tesla.*/ 
+	const double BohrMagnetonInInversemTUncertainty	=								0.00000029;					/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Uncertainty in Bohr magneton in inverse meters tesla.*/ 
 	const double BohrMagnetonInKPerTUncertainty =									0.00000039;					/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Uncertainty in Bohr magneton in kelvin per tesla.*/ 
 	#endif  
 	/// @}
@@ -1447,19 +1447,10 @@ namespace NISTConst
 
 	/// @addtogroup BoltzmannConstant 
 	/// @{
-	const double kB = BoltzmannConstant;
-	const double kBIneVPerK = BoltzmannConstantIneVPerK;
-	const double kBInHzPerK = BoltzmannConstantInHzPerK;
-	const double kBInInversemK = BoltzmannConstantInInversemK;
-	#ifdef NISTCONST_UNCERTAINTY
-
-	#endif  
-	/// @}
-	
-	/// @addtogroup BohrRadius 
-	/// @{
-	const double a0 = BohrRadius;
-	const double rBohr = BohrRadius;
+	const double kB = BoltzmannConstant;														/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in joules per kelvin. Alias of BoltzmannConstant.*/
+	const double kBIneVPerK = BoltzmannConstantIneVPerK;										/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in electron volts per kelvin. Alias of BoltzmannConstantIneVPerK.*/
+	const double kBInHzPerK = BoltzmannConstantInHzPerK;										/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$  Boltzmann constant in hertz per kelvin. Alias of BoltzmannConstantInHzPerK.*/
+	const double kBInInversemK = BoltzmannConstantInInversemK;									/**< \f$\frac{k}{h c} \ (\frac{1}{m\ K})\f$  Boltzmann constant in inverse meters kelvin. Alias of BoltzmannConstantInInversemK.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1467,21 +1458,30 @@ namespace NISTConst
 	
 	/// @addtogroup BohrMagneton 
 	/// @{
-	const double muB = BohrMagneton;
-	const double muBIneVPerT = BohrMagnetonIneVPerT;
-	const double muBInHzPerT = BohrMagnetonInHzPerT;
-	const double muBInInversemPerT = BohrMagnetonInInversemPerT;
-	const double muBInKPerT = BohrMagnetonInKPerT;
+	const double muB = BohrMagneton;															/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla. Alias of BohrMagneton.*/ 
+	const double muBIneVPerT = BohrMagnetonIneVPerT;											/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesla. Alias of BohrMagnetonIneVPerT.*/ 
+	const double muBInHzPerT = BohrMagnetonInHzPerT;											/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Bohr magneton in hertz per tesla. Alias of BohrMagnetonInHzPerT.*/
+	const double muBInInversemPerT = BohrMagnetonInInversemT;									/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Bohr magneton in inverse meters tesla. Alias of BohrMagnetonInInversemT.*/ 
+	const double muBInKPerT = BohrMagnetonInKPerT;												/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Bohr magneton in kelvin per tesla. Alias of BohrMagnetonInKPerT.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
 	/// @}
 
+	/// @addtogroup BohrRadius 
+	/// @{
+	const double a0 = BohrRadius;																/**< \f$a_0 \ (m)\f$ Bohr radius in meters. Alias of BohrRadius.*/ 
+	const double rBohr = BohrRadius;															/**< \f$a_0 \ (m)\f$ Bohr radius in meters. Alias of BohrRadius.*/ 
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
 	/// @addtogroup ComptonWavelength 
 	/// @{
-	const double lambdaC = ComptonWavelength;
-	const double lambdaCOver2Pi = ComptonWavelengthOver2Pi;
-	const double lambdabarC= ComptonWavelengthOver2Pi;
+	const double lambdaC = ComptonWavelength;													/**< \f$\lambda_C \ (m)\f$ Compton wavelength in meters. Alias of ComptonWavelength.*/
+	const double lambdaCOver2Pi = ComptonWavelengthOver2Pi;										/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Compton wavelength over 2 pi in meters. Alias of ComptonWavelengthOver2Pi.*/
+	const double lambdabarC= ComptonWavelengthOver2Pi;											/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Compton wavelength over 2 pi in meters. Alias of ComptonWavelengthOver2Pi.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1489,7 +1489,7 @@ namespace NISTConst
 	
 	/// @addtogroup ConductanceQuantum 
 	/// @{
-	const double G0 = conductanceQuantum;
+	const double G0 = conductanceQuantum;														/**< \f$G_0 \ (S)\f$ Conductance quantum in siemens. Alias of conductanceQuantum.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1497,10 +1497,10 @@ namespace NISTConst
 	
 	/// @addtogroup ElectricConstant
 	/// @{
-	const double e0 = electricConstant;
-	const double vacuumPermittivity = electricConstant;
-	const double permittivityOfFreeSpace = electricConstant;
-	const double permittivityOfVacuum = electricConstant;
+	const double e0 = electricConstant;															/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
+	const double vacuumPermittivity = electricConstant;											/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
+	const double permittivityOfFreeSpace = electricConstant;									/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/		
+	const double permittivityOfVacuum = electricConstant;										/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1509,8 +1509,8 @@ namespace NISTConst
 
 	/// @addtogroup ElementaryCharge
 	/// @{
-	const double e = elementaryCharge;
-	const double elementaryPositiveCharge = elementaryCharge;
+	const double e = elementaryCharge;															/**< \f$e \ (C)\f$ Elementary charge in coulombs. Alias of elementaryCharge.*/ 
+	const double elementaryPositiveCharge = elementaryCharge;									/**< \f$e \ (C)\f$ Elementary charge in coulombs. Alias of elementaryCharge.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1518,8 +1518,8 @@ namespace NISTConst
 	
 	/// @addtogroup ImpedanceOfVacuum
 	/// @{
-	const double Z0 = impedanceOfVacuum;
-	const double impedanceOfFreeSpace = impedanceOfVacuum;
+	const double Z0 = impedanceOfVacuum;														/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuum.*/ 
+	const double impedanceOfFreeSpace = impedanceOfVacuum;										/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuum.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1527,26 +1527,16 @@ namespace NISTConst
 	
 	/// @addtogroup JosephsonConstant
 	/// @{
-	const double KJ = JosephsonConstant;
+	const double KJ = JosephsonConstant;														/**< \f$K_J \ (\frac{Hz}{V})\f$ Josephson constant in hertz per volt. Alias of JosephsonConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
 	/// @}
 	
-	/// @addtogroup MagneticConstant 
-	/// @{
-	const double mu0 = magneticConstant;
-	const double vacuumPermeability = magneticConstant;
-	const double permeabilityOfFreeSpace = magneticConstant;
-	const double permeabilityOfVacuum = magneticConstant;
-	#ifdef NISTCONST_UNCERTAINTY
-
-	#endif  
-	/// @}
 	
 	/// @addtogroup FaradayConstant 
 	/// @{
-	const double F = FaradayConstant;
+	const double F = FaradayConstant;															/**< \f$F \ (\frac{C}{mol})\f$ Faraday constant in coulombs per mole. Alias of FaradayConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1554,19 +1544,8 @@ namespace NISTConst
 
 	/// @addtogroup FineStructureConstant 
 	/// @{
-	const double alpha = fineStructureConstant;
-	const double SommerfeldsConstant= fineStructureConstant;
-	#ifdef NISTCONST_UNCERTAINTY
-
-	#endif  
-	/// @}
-	
-	/// @addtogroup GravitationalConstant  
-	/// @{
-	const double G = NewtonianConstantOfGravitation;
-	const double gravitationalConstant= NewtonianConstantOfGravitation;
-	const double universalGravitationalConstant= NewtonianConstantOfGravitation;
-	const double NewtonsConstant = NewtonianConstantOfGravitation;
+	const double alpha = fineStructureConstant;													/**< \f$\alpha \ (1)\f$ fine-structure constant. Alias of fineStructureConstant.*/ 
+	const double SommerfeldsConstant= fineStructureConstant;									/**< \f$\alpha \ (1)\f$ fine-structure constant. Alias of fineStructureConstant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1574,8 +1553,8 @@ namespace NISTConst
 	
 	/// @addtogroup HartreeEnergy  
 	/// @{
-	const double Eh = HartreeEnergy;
-	const double EhIneV = HartreeEnergyIneV;
+	const double Eh = HartreeEnergy;															/**< \f$E_h \ (J)\f$ Hartree energy in joules. Alias of HartreeEnergy.*/
+	const double EhIneV = HartreeEnergyIneV;													/**< \f$E_h \ (eV)\f$ Hartree energy in electron volts. Alias of HartreeEnergyIneV.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1583,16 +1562,27 @@ namespace NISTConst
 
 	/// @addtogroup LoschmidtConstant 
 	/// @{
-	const double n0 = LoschmidtConstant;
-	const double LoschmidtsNumber = LoschmidtConstant;
+	const double n0 = LoschmidtConstant; 														/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstant.*/
+	const double LoschmidtsNumber = LoschmidtConstant; 											/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
 	/// @}
 
+	/// @addtogroup MagneticConstant 
+	/// @{
+	const double mu0 = magneticConstant;														/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
+	const double vacuumPermeability = magneticConstant;											/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
+	const double permeabilityOfFreeSpace = magneticConstant;									/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
+	const double permeabilityOfVacuum = magneticConstant;										/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
 	/// @addtogroup  MagneticFluxQuantum
 	/// @{
-	const double Phi0 = magneticFluxQuantum;
+	const double Phi0 = magneticFluxQuantum;													/**< \f$\Phi_0 \ (Wb)\f$ Magnetic flux quantum in weber. Alias of magneticFluxQuantum.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1600,10 +1590,10 @@ namespace NISTConst
 	
 	/// @addtogroup MolarGasConstant 
 	/// @{
-	const double R = molarGasConstant;
-	const double gasConstant = molarGasConstant;
-	const double universalGasConstant = molarGasConstant;
-	const double idealGasConstant = molarGasConstant;
+	const double R = molarGasConstant;															/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
+	const double gasConstant = molarGasConstant;												/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
+	const double universalGasConstant = molarGasConstant;										/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
+	const double idealGasConstant = molarGasConstant;											/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1611,7 +1601,7 @@ namespace NISTConst
 
 	/// @addtogroup MolarMassConstant 
 	/// @{
-	const double Mu = molarMassConstant;
+	const double Mu = molarMassConstant;														/**< \f$M_u \ (\frac{kg}{mol})\f$ Molar mass constant in kilograms per mole. Alias of molarMassConstant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  
@@ -1624,6 +1614,17 @@ namespace NISTConst
 	const double muNInInversemT = nuclearMagnetonInInversemT;									/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{m\ T})\f$ Nuclear magneton in inverse meters tesla. Alias of nuclearMagnetonInInversemT.*/
 	const double muNInKPerT = nuclearMagnetonInKPerT;											/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Nuclear magneton in kelvins per tesla. Alias of nuclearMagnetonInKPerT.*/
 	const double muNInMHzPerT = nuclearMagnetonInMHzPerT;										/**< \f$\frac{\mu_N}{h} \ (\frac{MHz}{T})\f$ Nuclear magneton in megahertz per tesla. Alias of nuclearMagnetonInMHzPerT.*/
+	#ifdef NISTCONST_UNCERTAINTY
+
+	#endif  
+	/// @}
+	
+	/// @addtogroup GravitationalConstant  
+	/// @{
+	const double G = NewtonianConstantOfGravitation;											/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
+	const double gravitationalConstant= NewtonianConstantOfGravitation;							/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
+	const double universalGravitationalConstant= NewtonianConstantOfGravitation;				/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
+	const double NewtonsConstant = NewtonianConstantOfGravitation;								/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
 	#ifdef NISTCONST_UNCERTAINTY
 
 	#endif  

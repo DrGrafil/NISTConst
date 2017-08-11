@@ -32,6 +32,7 @@ var searchData=
   ['shieldedprotonmagneticmomentuncertainty',['shieldedProtonMagneticMomentUncertainty',['../group___proton.html#gafe8c348ee7683aa218402bf235838fbf',1,'NISTConst']]],
   ['sigma',['sigma',['../group___stefan_boltzmann_constant.html#ga73dd51ea1c04650cc4d93c7a454c7b8f',1,'NISTConst']]],
   ['silicon',['Silicon',['../group___silicon.html',1,'']]],
+  ['sommerfeldsconstant',['SommerfeldsConstant',['../group___fine_structure_constant.html#gaa076e4b419cd726407c8e2e9a44a381b',1,'NISTConst']]],
   ['speedoflight',['speedOfLight',['../group___speed_of_light.html#ga0be1be2f994cccb0cc27bac50f6dd7a3',1,'NISTConst::speedOfLight()'],['../group___speed_of_light.html',1,'(Global Namespace)']]],
   ['speedoflightinvacuum',['speedOfLightInVacuum',['../group___speed_of_light.html#gacb4a04d9cca33259effabdd28c28e964',1,'NISTConst']]],
   ['speedoflightinvacuumuncertainty',['speedOfLightInVacuumUncertainty',['../group___speed_of_light.html#gafb67b7afe777d6e23a70ae69e83542d1',1,'NISTConst']]],

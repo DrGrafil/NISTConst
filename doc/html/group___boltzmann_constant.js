@@ -7,5 +7,9 @@ var group___boltzmann_constant =
     [ "BoltzmannConstantInHzPerKUncertainty", "group___boltzmann_constant.html#gaa87e06f419f94e4ea1ac8dcd769537ee", null ],
     [ "BoltzmannConstantInInversemK", "group___boltzmann_constant.html#ga4f4d8adf824657420f54680daa6340d5", null ],
     [ "BoltzmannConstantInInversemKUncertainty", "group___boltzmann_constant.html#gadb520d4ce5d980c8ba24d9499f500873", null ],
-    [ "BoltzmannConstantUncertainty", "group___boltzmann_constant.html#gaa32ac947c545e70076f0e08aceb3ce16", null ]
+    [ "BoltzmannConstantUncertainty", "group___boltzmann_constant.html#gaa32ac947c545e70076f0e08aceb3ce16", null ],
+    [ "kB", "group___boltzmann_constant.html#ga6c7ead5913113ec6e980e80f21d27fd0", null ],
+    [ "kBIneVPerK", "group___boltzmann_constant.html#gae6941828181b77b14f5f24a8b713570f", null ],
+    [ "kBInHzPerK", "group___boltzmann_constant.html#gaa7a3aa5798c9617d09120f8041c93433", null ],
+    [ "kBInInversemK", "group___boltzmann_constant.html#ga54bf445c848dc6dc425076bf6ab45d83", null ]
 ];

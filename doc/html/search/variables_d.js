@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['n0',['n0',['../group___loschmidt_constant.html#ga95b0a12ed1a4d5aa9f05a08927be123c',1,'NISTConst']]],
   ['na',['NA',['../group___avogadro_constant.html#gad08af58ac1b1ee41e25bd8564a74bc42',1,'NISTConst']]],
   ['naturalunitofaction',['naturalUnitOfAction',['../group___natural_unit.html#ga6470eede777c792729aeb594d11b1005',1,'NISTConst']]],
   ['naturalunitofactioninevs',['naturalUnitOfActionIneVs',['../group___natural_unit.html#gad129c66b980f820219b193de0daacbc6',1,'NISTConst']]],
@@ -73,6 +74,7 @@ var searchData=
   ['newtonianconstantofgravitationoverhbarc',['NewtonianConstantOfGravitationOverhbarc',['../group___gravitational_constant.html#gad7c8d8ef09f60e8f3f36f86f98df0472',1,'NISTConst']]],
   ['newtonianconstantofgravitationoverhbarcuncertainty',['NewtonianConstantOfGravitationOverhbarcUncertainty',['../group___gravitational_constant.html#gaf10cbbd8ad1ece4ec01e35fe3d86854f',1,'NISTConst']]],
   ['newtonianconstantofgravitationuncertainty',['NewtonianConstantOfGravitationUncertainty',['../group___gravitational_constant.html#ga8fc40fce6dc42f5e84a3c908553e6586',1,'NISTConst']]],
+  ['newtonsconstant',['NewtonsConstant',['../group___gravitational_constant.html#ga3d83beb8e9a1e0970e5520fe8ca1ace5',1,'NISTConst']]],
   ['nuclearmagneton',['nuclearMagneton',['../group___nuclear_magneton.html#gacf9b0d2a2517113d30300e4ed7b56cc7',1,'NISTConst']]],
   ['nuclearmagnetoninevpert',['nuclearMagnetonIneVPerT',['../group___nuclear_magneton.html#ga5a31a1865923a1c14cd7f22c8973186e',1,'NISTConst']]],
   ['nuclearmagnetoninevpertuncertainty',['nuclearMagnetonIneVPerTUncertainty',['../group___nuclear_magneton.html#gad4934d98a9f09cb4bae556e2aa11ff84',1,'NISTConst']]],
