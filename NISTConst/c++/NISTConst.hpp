@@ -5,7 +5,7 @@
 //	 http://physics.nist.gov/constants
 /// @author Elliot Grafil (Metex)
 /// @date 8/9/17
-/// @version 8.1.0
+/// @version 8.2.0
 
 
 //=================================
@@ -669,7 +669,7 @@ namespace NISTConst
 	
 	/// @addtogroup FineStructureConstant
 	/// @{
-	const double fineStructureConstant =											7.2973525664e-3;			/**< \f$\alpha \ (1)\f$ fine-structure constant.*/ 
+	const double fineStructureConstant =											7.2973525664e-3;			/**< \f$\alpha \ (1)\f$ Fine-structure constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
 	const double fineStructureConstantUncertainty =									0.0000000017e-3;			/**< \f$\alpha \ (1)\f$ Uncertainty in fine-structure constant.*/ 
 	#endif  
@@ -1438,270 +1438,305 @@ namespace NISTConst
 {
 	/// @addtogroup AvogadroConstant 
 	/// @{
-	const double L = AvogadroConstant;												/**< \f$L \ (\frac{1}{mol})\f$ Avogadro constant. Alias of AvogadroConstant.*/
-	const double NA = AvogadroConstant; 											/**< \f$N_A \ (\frac{1}{mol})\f$ Avogadro constant. Alias of AvogadroConstant.*/ 
+	const double L = AvogadroConstant;																			/**< \f$L \ (\frac{1}{mol})\f$ Avogadro constant. Alias of AvogadroConstant.*/
+	const double NA = AvogadroConstant; 																		/**< \f$N_A \ (\frac{1}{mol})\f$ Avogadro constant. Alias of AvogadroConstant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double LUncertainty = AvogadroConstantUncertainty;													/**< \f$L \ (\frac{1}{mol})\f$ Uncertainty in Avogadro constant. Alias of AvogadroConstantUncertainty.*/
+	const double NAUncertainty = AvogadroConstantUncertainty; 													/**< \f$N_A \ (\frac{1}{mol})\f$ Uncertainty in Avogadro constant. Alias of AvogadroConstantUncertainty.*/ 
 	#endif  
 	/// @}
 
 	/// @addtogroup BoltzmannConstant 
 	/// @{
-	const double kB = BoltzmannConstant;														/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in joules per kelvin. Alias of BoltzmannConstant.*/
-	const double kBIneVPerK = BoltzmannConstantIneVPerK;										/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in electron volts per kelvin. Alias of BoltzmannConstantIneVPerK.*/
-	const double kBInHzPerK = BoltzmannConstantInHzPerK;										/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$  Boltzmann constant in hertz per kelvin. Alias of BoltzmannConstantInHzPerK.*/
-	const double kBInInversemK = BoltzmannConstantInInversemK;									/**< \f$\frac{k}{h c} \ (\frac{1}{m\ K})\f$  Boltzmann constant in inverse meters kelvin. Alias of BoltzmannConstantInInversemK.*/
+	const double kB = BoltzmannConstant;																		/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in joules per kelvin. Alias of BoltzmannConstant.*/
+	const double kBIneVPerK = BoltzmannConstantIneVPerK;														/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in electron volts per kelvin. Alias of BoltzmannConstantIneVPerK.*/
+	const double kBInHzPerK = BoltzmannConstantInHzPerK;														/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$  Boltzmann constant in hertz per kelvin. Alias of BoltzmannConstantInHzPerK.*/
+	const double kBInInversemK = BoltzmannConstantInInversemK;													/**< \f$\frac{k}{h c} \ (\frac{1}{m\ K})\f$  Boltzmann constant in inverse meters kelvin. Alias of BoltzmannConstantInInversemK.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double kBUncertainty = BoltzmannConstantUncertainty;													/**< \f$k \ (\frac{J}{K})\f$  Uncertainty in Boltzmann constant in joules per kelvin. Alias of BoltzmannConstantUncertainty.*/
+	const double kBIneVPerKUncertainty = BoltzmannConstantIneVPerKUncertainty;									/**< \f$k \ (\frac{J}{K})\f$  Uncertainty in Boltzmann constant in electron volts per kelvin. Alias of BoltzmannConstantIneVPerKUncertainty.*/
+	const double kBInHzPerKUncertainty = BoltzmannConstantInHzPerKUncertainty;									/**< \f$\frac{k}{h} \ (\frac{Hz}{K})\f$  Uncertainty in Boltzmann constant in hertz per kelvin. Alias of BoltzmannConstantInHzPerKUncertainty.*/
+	const double kBInInversemKUncertainty = BoltzmannConstantInInversemKUncertainty;							/**< \f$\frac{k}{h c} \ (\frac{1}{m\ K})\f$  Uncertainty in Boltzmann constant in inverse meters kelvin. Alias of BoltzmannConstantInInversemKUncertainty.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup BohrMagneton 
 	/// @{
-	const double muB = BohrMagneton;															/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla. Alias of BohrMagneton.*/ 
-	const double muBIneVPerT = BohrMagnetonIneVPerT;											/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesla. Alias of BohrMagnetonIneVPerT.*/ 
-	const double muBInHzPerT = BohrMagnetonInHzPerT;											/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Bohr magneton in hertz per tesla. Alias of BohrMagnetonInHzPerT.*/
-	const double muBInInversemPerT = BohrMagnetonInInversemT;									/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Bohr magneton in inverse meters tesla. Alias of BohrMagnetonInInversemT.*/ 
-	const double muBInKPerT = BohrMagnetonInKPerT;												/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Bohr magneton in kelvin per tesla. Alias of BohrMagnetonInKPerT.*/
+	const double muB = BohrMagneton;																			/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla. Alias of BohrMagneton.*/ 
+	const double muBIneVPerT = BohrMagnetonIneVPerT;															/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesla. Alias of BohrMagnetonIneVPerT.*/ 
+	const double muBInHzPerT = BohrMagnetonInHzPerT;															/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Bohr magneton in hertz per tesla. Alias of BohrMagnetonInHzPerT.*/
+	const double muBInInversemPerT = BohrMagnetonInInversemT;													/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Bohr magneton in inverse meters tesla. Alias of BohrMagnetonInInversemT.*/ 
+	const double muBInKPerT = BohrMagnetonInKPerT;																/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Bohr magneton in kelvin per tesla. Alias of BohrMagnetonInKPerT.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double muBUncertainty = BohrMagnetonUncertainty;														/**< \f$\mu_B \ (\frac{J}{T})\f$ Uncertainty in Bohr magneton in joules per tesla. Alias of BohrMagnetonUncertainty.*/ 
+	const double muBIneVPerTUncertainty = BohrMagnetonIneVPerTUncertainty;										/**< \f$\mu_B \ (\frac{eV}{T})\f$ Uncertainty in Bohr magneton in electron volts per tesla. Alias of BohrMagnetonIneVPerTUncertainty.*/ 
+	const double muBInHzPerTUncertainty = BohrMagnetonInHzPerTUncertainty;										/**< \f$\frac{\mu_B}{h} \ (\frac{Hz}{T})\f$ Uncertainty in Bohr magneton in hertz per tesla. Alias of BohrMagnetonInHzPerTUncertainty.*/
+	const double muBInInversemPerTUncertainty = BohrMagnetonInInversemTUncertainty;								/**< \f$\frac{\mu_B}{hc} \ (\frac{1}{m\ T})\f$ Uncertainty in Bohr magneton in inverse meters tesla. Alias of BohrMagnetonInInversemTUncertainty.*/ 
+	const double muBInKPerTUncertainty = BohrMagnetonInKPerTUncertainty;										/**< \f$\frac{\mu_B}{k} \ (\frac{K}{T})\f$ Uncertainty in Bohr magneton in kelvin per tesla. Alias of BohrMagnetonInKPerTUncertainty.*/
 	#endif  
 	/// @}
 
 	/// @addtogroup BohrRadius 
 	/// @{
-	const double a0 = BohrRadius;																/**< \f$a_0 \ (m)\f$ Bohr radius in meters. Alias of BohrRadius.*/ 
-	const double rBohr = BohrRadius;															/**< \f$a_0 \ (m)\f$ Bohr radius in meters. Alias of BohrRadius.*/ 
+	const double a0 = BohrRadius;																				/**< \f$a_0 \ (m)\f$ Bohr radius in meters. Alias of BohrRadius.*/ 
+	const double rBohr = BohrRadius;																			/**< \f$a_0 \ (m)\f$ Bohr radius in meters. Alias of BohrRadius.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double a0Uncertainty = BohrRadiusUncertainty;															/**< \f$a_0 \ (m)\f$ Uncertainty in Bohr radius in meters. Alias of BohrRadiusUncertainty.*/ 
+	const double rBohrUncertainty = BohrRadiusUncertainty;														/**< \f$a_0 \ (m)\f$ Uncertainty in Bohr radius in meters. Alias of BohrRadiusUncertainty.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup ComptonWavelength 
 	/// @{
-	const double lambdaC = ComptonWavelength;													/**< \f$\lambda_C \ (m)\f$ Compton wavelength in meters. Alias of ComptonWavelength.*/
-	const double lambdaCOver2Pi = ComptonWavelengthOver2Pi;										/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Compton wavelength over 2 pi in meters. Alias of ComptonWavelengthOver2Pi.*/
-	const double lambdabarC= ComptonWavelengthOver2Pi;											/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Compton wavelength over 2 pi in meters. Alias of ComptonWavelengthOver2Pi.*/
+	const double lambdaC = ComptonWavelength;																	/**< \f$\lambda_C \ (m)\f$ Compton wavelength in meters. Alias of ComptonWavelength.*/
+	const double lambdaCOver2Pi = ComptonWavelengthOver2Pi;														/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Compton wavelength over 2 pi in meters. Alias of ComptonWavelengthOver2Pi.*/
+	const double lambdabarC = ComptonWavelengthOver2Pi;															/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Compton wavelength over 2 pi in meters. Alias of ComptonWavelengthOver2Pi.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double lambdaCUncertainty = ComptonWavelengthUncertainty;												/**< \f$\lambda_C \ (m)\f$ Uncertainty in Compton wavelength in meters. Alias of ComptonWavelengthUncertainty.*/
+	const double lambdaCOver2PiUncertainty = ComptonWavelengthOver2PiUncertainty;								/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Uncertainty in Compton wavelength over 2 pi in meters. Alias of ComptonWavelengthOver2PiUncertainty.*/
+	const double lambdabarCUncertainty = ComptonWavelengthOver2PiUncertainty;									/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Uncertainty in Compton wavelength over 2 pi in meters. Alias of ComptonWavelengthOver2PiUncertainty.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup ConductanceQuantum 
 	/// @{
-	const double G0 = conductanceQuantum;														/**< \f$G_0 \ (S)\f$ Conductance quantum in siemens. Alias of conductanceQuantum.*/
+	const double G0 = conductanceQuantum;																		/**< \f$G_0 \ (S)\f$ Conductance quantum in siemens. Alias of conductanceQuantum.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double G0Uncertainty = conductanceQuantumUncertainty;													/**< \f$G_0 \ (S)\f$ Uncertainty in conductance quantum in siemens. Alias of conductanceQuantumUncertainty.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup ElectricConstant
 	/// @{
-	const double e0 = electricConstant;															/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
-	const double vacuumPermittivity = electricConstant;											/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
-	const double permittivityOfFreeSpace = electricConstant;									/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/		
-	const double permittivityOfVacuum = electricConstant;										/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
+	const double e0 = electricConstant;																			/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
+	const double vacuumPermittivity = electricConstant;															/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
+	const double permittivityOfFreeSpace = electricConstant;													/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/		
+	const double permittivityOfVacuum = electricConstant;														/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double e0Uncertainty = electricConstantUncertainty;													/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Uncertainty in electric constant in farads per meter. Alias of electricConstantUncertainty.*/
+	const double vacuumPermittivityUncertainty = electricConstantUncertainty;									/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Uncertainty in electric constant in farads per meter. Alias of electricConstantUncertainty.*/
+	const double permittivityOfFreeSpaceUncertainty = electricConstantUncertainty;								/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Uncertainty in electric constant in farads per meter. Alias of electricConstantUncertainty.*/		
+	const double permittivityOfVacuumUncertainty = electricConstantUncertainty;									/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Uncertainty in electric constant in farads per meter. Alias of electricConstantUncertainty.*/
 	#endif  
 	/// @}
 	
 
 	/// @addtogroup ElementaryCharge
 	/// @{
-	const double e = elementaryCharge;															/**< \f$e \ (C)\f$ Elementary charge in coulombs. Alias of elementaryCharge.*/ 
-	const double elementaryPositiveCharge = elementaryCharge;									/**< \f$e \ (C)\f$ Elementary charge in coulombs. Alias of elementaryCharge.*/ 
+	const double e = elementaryCharge;																			/**< \f$e \ (C)\f$ Elementary charge in coulombs. Alias of elementaryCharge.*/ 
+	const double elementaryPositiveCharge = elementaryCharge;													/**< \f$e \ (C)\f$ Elementary charge in coulombs. Alias of elementaryCharge.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double eUncertainty = elementaryChargeUncertainty;													/**< \f$e \ (C)\f$ Uncertainty in elementary charge in coulombs. Alias of elementaryChargeUncertainty.*/ 
+	const double elementaryPositiveChargeUncertainty = elementaryChargeUncertainty;								/**< \f$e \ (C)\f$ Uncertainty in elementary charge in coulombs. Alias of elementaryChargeUncertainty.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup ImpedanceOfVacuum
 	/// @{
-	const double Z0 = impedanceOfVacuum;														/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuum.*/ 
-	const double impedanceOfFreeSpace = impedanceOfVacuum;										/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuum.*/ 
+	const double Z0 = impedanceOfVacuum;																		/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuum.*/ 
+	const double impedanceOfFreeSpace = impedanceOfVacuum;														/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuum.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double Z0Uncertainty = impedanceOfVacuumUncertainty;													/**< \f$Z_0 \ (\Omega)\f$ Uncertainty in characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuumUncertainty.*/ 
+	const double impedanceOfFreeSpaceUncertainty = impedanceOfVacuumUncertainty;								/**< \f$Z_0 \ (\Omega)\f$ Uncertainty in characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuumUncertainty.*/
 	#endif  
 	/// @}	
 	
 	/// @addtogroup JosephsonConstant
 	/// @{
-	const double KJ = JosephsonConstant;														/**< \f$K_J \ (\frac{Hz}{V})\f$ Josephson constant in hertz per volt. Alias of JosephsonConstant.*/
+	const double KJ = JosephsonConstant;																		/**< \f$K_J \ (\frac{Hz}{V})\f$ Josephson constant in hertz per volt. Alias of JosephsonConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double KJUncertainty = JosephsonConstantUncertainty;													/**< \f$K_J \ (\frac{Hz}{V})\f$ Uncertainty in Josephson constant in hertz per volt. Alias of JosephsonConstantUncertainty.*/
 	#endif  
 	/// @}
 	
 	
 	/// @addtogroup FaradayConstant 
 	/// @{
-	const double F = FaradayConstant;															/**< \f$F \ (\frac{C}{mol})\f$ Faraday constant in coulombs per mole. Alias of FaradayConstant.*/
+	const double F = FaradayConstant;																			/**< \f$F \ (\frac{C}{mol})\f$ Faraday constant in coulombs per mole. Alias of FaradayConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double FUncertainty = FaradayConstantUncertainty;														/**< \f$F \ (\frac{C}{mol})\f$ Uncertainty in Faraday constant in coulombs per mole. Alias of FaradayConstantUncertainty.*/
 	#endif  
 	/// @}
 
 	/// @addtogroup FineStructureConstant 
 	/// @{
-	const double alpha = fineStructureConstant;													/**< \f$\alpha \ (1)\f$ fine-structure constant. Alias of fineStructureConstant.*/ 
-	const double SommerfeldsConstant= fineStructureConstant;									/**< \f$\alpha \ (1)\f$ fine-structure constant. Alias of fineStructureConstant.*/ 
+	const double alpha = fineStructureConstant;																	/**< \f$\alpha \ (1)\f$ Fine-structure constant. Alias of fineStructureConstant.*/ 
+	const double SommerfeldsConstant = fineStructureConstant;													/**< \f$\alpha \ (1)\f$ Fine-structure constant. Alias of fineStructureConstant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double alphaUncertainty = fineStructureConstantUncertainty;											/**< \f$\alpha \ (1)\f$ Uncertainty in fine-structure constant. Alias of fineStructureConstantUncertainty.*/ 
+	const double SommerfeldsConstantUncertainty = fineStructureConstantUncertainty;								/**< \f$\alpha \ (1)\f$ Uncertainty in fine-structure constant. Alias of fineStructureConstantUncertainty.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup HartreeEnergy  
 	/// @{
-	const double Eh = HartreeEnergy;															/**< \f$E_h \ (J)\f$ Hartree energy in joules. Alias of HartreeEnergy.*/
-	const double EhIneV = HartreeEnergyIneV;													/**< \f$E_h \ (eV)\f$ Hartree energy in electron volts. Alias of HartreeEnergyIneV.*/ 
+	const double Eh = HartreeEnergy;																			/**< \f$E_h \ (J)\f$ Hartree energy in joules. Alias of HartreeEnergy.*/
+	const double EhIneV = HartreeEnergyIneV;																	/**< \f$E_h \ (eV)\f$ Hartree energy in electron volts. Alias of HartreeEnergyIneV.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double EhUncertainty = HartreeEnergyUncertainty;														/**< \f$E_h \ (J)\f$ Uncertainty in Hartree energy in joules. Alias of HartreeEnergyUncertainty.*/
+	const double EhIneVUncertainty = HartreeEnergyIneVUncertainty;												/**< \f$E_h \ (eV)\f$ Uncertainty in Hartree energy in electron volts. Alias of HartreeEnergyIneVUncertainty.*/ 
 	#endif  
 	/// @}
 
 	/// @addtogroup LoschmidtConstant 
 	/// @{
-	const double n0 = LoschmidtConstant; 														/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstant.*/
-	const double LoschmidtsNumber = LoschmidtConstant; 											/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstant.*/
+	const double n0 = LoschmidtConstant; 																		/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstant.*/
+	const double LoschmidtsNumber = LoschmidtConstant; 															/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double n0Uncertainty = LoschmidtConstantUncertainty; 													/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstantUncertainty.*/
+	const double LoschmidtsNumberUncertainty = LoschmidtConstantUncertainty; 									/**< \f$n_0 \ (\frac{1}{m^3})\f$ Uncertainty in Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstantUncertainty.*/
 	#endif  
 	/// @}
 
 	/// @addtogroup MagneticConstant 
 	/// @{
-	const double mu0 = magneticConstant;														/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
-	const double vacuumPermeability = magneticConstant;											/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
-	const double permeabilityOfFreeSpace = magneticConstant;									/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
-	const double permeabilityOfVacuum = magneticConstant;										/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
+	const double mu0 = magneticConstant;																		/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
+	const double vacuumPermeability = magneticConstant;															/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
+	const double permeabilityOfFreeSpace = magneticConstant;													/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
+	const double permeabilityOfVacuum = magneticConstant;														/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double mu0Uncertainty = magneticConstantUncertainty;													/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Uncertainty in magnetic constant in newtons per ampere squared. Alias of magneticConstantUncertainty.*/
+	const double vacuumPermeabilityUncertainty = magneticConstantUncertainty;									/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Uncertainty in magnetic constant in newtons per ampere squared. Alias of magneticConstantUncertainty.*/
+	const double permeabilityOfFreeSpaceUncertainty = magneticConstantUncertainty;								/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Uncertainty in magnetic constant in newtons per ampere squared. Alias of magneticConstantUncertainty.*/
+	const double permeabilityOfVacuumUncertainty = magneticConstantUncertainty;									/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Uncertainty in magnetic constant in newtons per ampere squared. Alias of magneticConstantUncertainty.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup  MagneticFluxQuantum
 	/// @{
-	const double Phi0 = magneticFluxQuantum;													/**< \f$\Phi_0 \ (Wb)\f$ Magnetic flux quantum in weber. Alias of magneticFluxQuantum.*/ 
+	const double Phi0 = magneticFluxQuantum;																	/**< \f$\Phi_0 \ (Wb)\f$ Magnetic flux quantum in weber. Alias of magneticFluxQuantum.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double Phi0Uncertainty = magneticFluxQuantumUncertainty;												/**< \f$\Phi_0 \ (Wb)\f$ Uncertainty in magnetic flux quantum in weber. Alias of magneticFluxQuantumUncertainty.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup MolarGasConstant 
 	/// @{
-	const double R = molarGasConstant;															/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
-	const double gasConstant = molarGasConstant;												/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
-	const double universalGasConstant = molarGasConstant;										/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
-	const double idealGasConstant = molarGasConstant;											/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
+	const double R = molarGasConstant;																			/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
+	const double gasConstant = molarGasConstant;																/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
+	const double universalGasConstant = molarGasConstant;														/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
+	const double idealGasConstant = molarGasConstant;															/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double RUncertainty = molarGasConstantUncertainty;													/**< \f$R \ (\frac{J}{mol\ K})\f$ Uncertainty in molar gas constant in joules per mole kelvin. Alias of molarGasConstantUncertainty.*/
+	const double gasConstantUncertainty = molarGasConstantUncertainty;											/**< \f$R \ (\frac{J}{mol\ K})\f$ Uncertainty in molar gas constant in joules per mole kelvin. Alias of molarGasConstantUncertainty.*/
+	const double universalGasConstantUncertainty = molarGasConstantUncertainty;									/**< \f$R \ (\frac{J}{mol\ K})\f$ Uncertainty in molar gas constant in joules per mole kelvin. Alias of molarGasConstantUncertainty.*/
+	const double idealGasConstantUncertainty = molarGasConstantUncertainty;										/**< \f$R \ (\frac{J}{mol\ K})\f$ Uncertainty in molar gas constant in joules per mole kelvin. Alias of molarGasConstantUncertainty.*/
 	#endif  
 	/// @}
 
 	/// @addtogroup MolarMassConstant 
 	/// @{
-	const double Mu = molarMassConstant;														/**< \f$M_u \ (\frac{kg}{mol})\f$ Molar mass constant in kilograms per mole. Alias of molarMassConstant.*/ 
+	const double Mu = molarMassConstant;																		/**< \f$M_u \ (\frac{kg}{mol})\f$ Molar mass constant in kilograms per mole. Alias of molarMassConstant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double MuUncertainty = molarMassConstantUncertainty;													/**< \f$M_u \ (\frac{kg}{mol})\f$ Uncertainty in molar mass constant in kilograms per mole. Alias of molarMassConstantUncertainty.*/ 
 	#endif  
 	/// @}
 	
 	/// @addtogroup NuclearMagneton
 	/// @{
-	const double muN = nuclearMagneton;															/**< \f$\mu_N \ (\frac{J}{T})\f$ Nuclear magneton in joules per tesla. Alias of nuclearMagneton.*/
-	const double muNIneVPerT = nuclearMagnetonIneVPerT;											/**< \f$ \ (\frac{eV}{T})\f$ Nuclear magneton in electron volts per tesla. Alias of nuclearMagnetonIneVPerT.*/
-	const double muNInInversemT = nuclearMagnetonInInversemT;									/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{m\ T})\f$ Nuclear magneton in inverse meters tesla. Alias of nuclearMagnetonInInversemT.*/
-	const double muNInKPerT = nuclearMagnetonInKPerT;											/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Nuclear magneton in kelvins per tesla. Alias of nuclearMagnetonInKPerT.*/
-	const double muNInMHzPerT = nuclearMagnetonInMHzPerT;										/**< \f$\frac{\mu_N}{h} \ (\frac{MHz}{T})\f$ Nuclear magneton in megahertz per tesla. Alias of nuclearMagnetonInMHzPerT.*/
+	const double muN = nuclearMagneton;																			/**< \f$\mu_N \ (\frac{J}{T})\f$ Nuclear magneton in joules per tesla. Alias of nuclearMagneton.*/
+	const double muNIneVPerT = nuclearMagnetonIneVPerT;															/**< \f$ \ (\frac{eV}{T})\f$ Nuclear magneton in electron volts per tesla. Alias of nuclearMagnetonIneVPerT.*/
+	const double muNInInversemT = nuclearMagnetonInInversemT;													/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{m\ T})\f$ Nuclear magneton in inverse meters tesla. Alias of nuclearMagnetonInInversemT.*/
+	const double muNInKPerT = nuclearMagnetonInKPerT;															/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Nuclear magneton in kelvins per tesla. Alias of nuclearMagnetonInKPerT.*/
+	const double muNInMHzPerT = nuclearMagnetonInMHzPerT;														/**< \f$\frac{\mu_N}{h} \ (\frac{MHz}{T})\f$ Nuclear magneton in megahertz per tesla. Alias of nuclearMagnetonInMHzPerT.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double muNUncertainty = nuclearMagnetonUncertainty;													/**< \f$\mu_N \ (\frac{J}{T})\f$ Uncertainty in nuclear magneton in joules per tesla. Alias of nuclearMagnetonUncertainty.*/
+	const double muNIneVPerTUncertainty = nuclearMagnetonIneVPerTUncertainty;									/**< \f$ \ (\frac{eV}{T})\f$ Uncertainty in nuclear magneton in electron volts per tesla. Alias of nuclearMagnetonIneVPerTUncertainty.*/
+	const double muNInInversemTUncertainty = nuclearMagnetonInInversemTUncertainty;								/**< \f$\frac{\mu_N}{hc} \ (\frac{1}{m\ T})\f$ Uncertainty in nuclear magneton in inverse meters tesla. Alias of nuclearMagnetonInInversemTUncertainty.*/
+	const double muNInKPerTUncertainty = nuclearMagnetonInKPerTUncertainty;										/**< \f$\frac{\mu_N}{k} \ (\frac{K}{T})\f$ Uncertainty in nuclear magneton in kelvins per tesla. Alias of nuclearMagnetonInKPerTUncertainty.*/
+	const double muNInMHzPerTUncertainty = nuclearMagnetonInMHzPerTUncertainty;									/**< \f$\frac{\mu_N}{h} \ (\frac{MHz}{T})\f$ Uncertainty in nuclear magneton in megahertz per tesla. Alias of nuclearMagnetonInMHzPerTUncertainty.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup GravitationalConstant  
 	/// @{
-	const double G = NewtonianConstantOfGravitation;											/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
-	const double gravitationalConstant= NewtonianConstantOfGravitation;							/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
-	const double universalGravitationalConstant= NewtonianConstantOfGravitation;				/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
-	const double NewtonsConstant = NewtonianConstantOfGravitation;								/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
+	const double G = NewtonianConstantOfGravitation;															/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
+	const double gravitationalConstant = NewtonianConstantOfGravitation;										/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
+	const double universalGravitationalConstant = NewtonianConstantOfGravitation;								/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
+	const double NewtonsConstant = NewtonianConstantOfGravitation;												/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double GUncertainty = NewtonianConstantOfGravitationUncertainty;										/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Uncertainty in Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitationUncertainty.*/
+	const double gravitationalConstantUncertainty = NewtonianConstantOfGravitationUncertainty;					/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Uncertainty in Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitationUncertainty.*/
+	const double universalGravitationalConstantUncertainty = NewtonianConstantOfGravitationUncertainty;			/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Uncertainty in Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitationUncertainty.*/
+	const double NewtonsConstantUncertainty = NewtonianConstantOfGravitationUncertainty;						/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Uncertainty in Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitationUncertainty.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup PlanckConstant 
 	/// @{
-	const double h = PlanckConstant;															/**< \f$h \ (J s)\f$ Planck constant in joule seconds. Alias of PlanckConstant.*/
-	const double hIneVs = PlanckConstantIneVs;													/**< \f$h \ (eV s)\f$ Planck constant in electron volt seconds. Alias of PlanckConstantIneVs.*/
-	const double hbar= PlanckConstantOver2Pi;													/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds. Alias of PlanckConstantOver2Pi.*/
-	const double hbarIneVs = PlanckConstantOver2PiIneVs;										/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds. Alias of PlanckConstantOver2PiIneVs.*/
-	const double reducedPlanckConstant = PlanckConstantOver2Pi;									/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds. Alias of PlanckConstantOver2Pi.*/
-	const double reducedPlanckConstantIneVs = PlanckConstantOver2PiIneVs;						/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds. Alias of PlanckConstantOver2PiIneVs.*/
+	const double h = PlanckConstant;																			/**< \f$h \ (J s)\f$ Planck constant in joule seconds. Alias of PlanckConstant.*/
+	const double hIneVs = PlanckConstantIneVs;																	/**< \f$h \ (eV s)\f$ Planck constant in electron volt seconds. Alias of PlanckConstantIneVs.*/
+	const double hbar= PlanckConstantOver2Pi;																	/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds. Alias of PlanckConstantOver2Pi.*/
+	const double hbarIneVs = PlanckConstantOver2PiIneVs;														/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds. Alias of PlanckConstantOver2PiIneVs.*/
+	const double reducedPlanckConstant = PlanckConstantOver2Pi;													/**< \f$\hbar \ (J s)\f$ Planck constant over 2 pi in joule seconds. Alias of PlanckConstantOver2Pi.*/
+	const double reducedPlanckConstantIneVs = PlanckConstantOver2PiIneVs;										/**< \f$\hbar \ (eV s)\f$ Planck constant over 2 pi in electron volt seconds. Alias of PlanckConstantOver2PiIneVs.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double hUncertainty = PlanckConstantUncertainty;														/**< \f$h \ (J s)\f$ Uncertainty in Planck constant in joule seconds. Alias of PlanckConstantUncertainty.*/
+	const double hIneVsUncertainty = PlanckConstantIneVsUncertainty;											/**< \f$h \ (eV s)\f$ Uncertainty in Planck constant in electron volt seconds. Alias of PlanckConstantIneVsUncertainty.*/
+	const double hbarUncertainty= PlanckConstantOver2PiUncertainty;												/**< \f$\hbar \ (J s)\f$ Uncertainty in Planck constant over 2 pi in joule seconds. Alias of PlanckConstantOver2PiUncertainty.*/
+	const double hbarIneVsUncertainty = PlanckConstantOver2PiIneVsUncertainty;									/**< \f$\hbar \ (eV s)\f$ Uncertainty in Planck constant over 2 pi in electron volt seconds. Alias of PlanckConstantOver2PiIneVsUncertainty.*/
+	const double reducedPlanckConstantUncertainty = PlanckConstantOver2PiUncertainty;							/**< \f$\hbar \ (J s)\f$ Uncertainty in Planck constant over 2 pi in joule seconds. Alias of PlanckConstantOver2PiUncertainty.*/
+	const double reducedPlanckConstantIneVsUncertainty = PlanckConstantOver2PiIneVsUncertainty;					/**< \f$\hbar \ (eV s)\f$ Uncertainty in Planck constant over 2 pi in electron volt seconds. Alias of PlanckConstantOver2PiIneVsUncertainty.*/
 	#endif  
 	/// @}
 	
 	
 	/// @addtogroup SpeedOfLight 
 	/// @{
-	const double c = speedOfLightInVacuum;														/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second. Alias of speedOfLightInVacuum.*/
-	const double speedOfLight = speedOfLightInVacuum;											/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second. Alias of speedOfLightInVacuum.*/
+	const double c = speedOfLightInVacuum;																		/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second. Alias of speedOfLightInVacuum.*/
+	const double speedOfLight = speedOfLightInVacuum;															/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second. Alias of speedOfLightInVacuum.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double cUncertainty = speedOfLightInVacuumUncertainty;												/**< \f$c \ (\frac{m}{s})\f$ Uncertainty in speed of light in vacuum in meters per second. Alias of speedOfLightInVacuumUncertainty.*/
+	const double speedOfLightUncertainty = speedOfLightInVacuumUncertainty;										/**< \f$c \ (\frac{m}{s})\f$ Uncertainty in speed of light in vacuum in meters per second. Alias of speedOfLightInVacuumUncertainty.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup GravityAcceleration
 	/// @{
-	const double g0 = standardAccelerationOfGravity;											/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravity.*/
-	const double standardAccelerationDueToGravity = standardAccelerationOfGravity; 				/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravity.*/
+	const double g0 = standardAccelerationOfGravity;															/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravity.*/
+	const double standardAccelerationDueToGravity = standardAccelerationOfGravity; 								/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravity.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double g0Uncertainty = standardAccelerationOfGravityUncertainty;										/**< \f$g_n \ (\frac{m}{s^2})\f$ Uncertainty in standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravityUncertainty.*/
+	const double standardAccelerationDueToGravityUncertainty = standardAccelerationOfGravityUncertainty; 		/**< \f$g_n \ (\frac{m}{s^2})\f$ Uncertainty in standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravityUncertainty.*/
 	#endif  
 	/// @}
 
 	/// @addtogroup StandardAtmosphere 
 	/// @{
-	const double atm = standardAtmosphere; 														/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
-	const double atmosphericPressure = standardAtmosphere;										/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
-	const double barometricPressure = standardAtmosphere;										/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
+	const double atm = standardAtmosphere; 																		/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
+	const double atmosphericPressure = standardAtmosphere;														/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
+	const double barometricPressure = standardAtmosphere;														/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double atmUncertainty = standardAtmosphereUncertainty; 												/**< \f$atm \ (Pa)\f$ Uncertainty in standard atmosphere in pascals. Alias of standardAtmosphereUncertainty.*/
+	const double atmosphericPressureUncertainty = standardAtmosphereUncertainty;								/**< \f$atm \ (Pa)\f$ Uncertainty in standard atmosphere in pascals. Alias of standardAtmosphereUncertainty.*/
+	const double barometricPressureUncertainty = standardAtmosphereUncertainty;									/**< \f$atm \ (Pa)\f$ Uncertainty in standard atmosphere in pascals. Alias of standardAtmosphereUncertainty.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup StefanBoltzmannConstant 
 	/// @{
-	const double sigma = StefanBoltzmannConstant; 												/**< \f$\sigma \ (\frac{W}{m^2 K^4})\f$ Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th. Alias of StefanBoltzmannConstant.*/
+	const double sigma = StefanBoltzmannConstant; 																/**< \f$\sigma \ (\frac{W}{m^2 K^4})\f$ Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th. Alias of StefanBoltzmannConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double sigmaUncertainty = StefanBoltzmannConstantUncertainty; 										/**< \f$\sigma \ (\frac{W}{m^2 K^4})\f$ Uncertainty in Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th. Alias of StefanBoltzmannConstantUncertainty.*/
 	#endif  
 	/// @}
 	
 	/// @addtogroup vonKlitzingConstant 
 	/// @{
-	const double RK = vonKlitzingConstant;														/**< \f$R_K \ (\Omega)\f$ von Klitzing constant in ohms. Alias of vonKlitzingConstant.*/
+	const double RK = vonKlitzingConstant;																		/**< \f$R_K \ (\Omega)\f$ von Klitzing constant in ohms. Alias of vonKlitzingConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double RKUncertainty = vonKlitzingConstantUncertainty;												/**< \f$R_K \ (\Omega)\f$ Uncertainty in von Klitzing constant in ohms. Alias of vonKlitzingConstantUncertainty.*/
 	#endif  
 	/// @}
 
 	/// @addtogroup WeakMixingAngle 
 	/// @{
-	const double WeinbergAngle = weakMixingAngle; 												/**< \f$sin^2 \theta_W \ (1)\f$ Weak mixing angle. Alias of weakMixingAngle.*/
+	const double WeinbergAngle = weakMixingAngle; 																/**< \f$sin^2 \theta_W \ (1)\f$ Weak mixing angle. Alias of weakMixingAngle.*/
 	#ifdef NISTCONST_UNCERTAINTY
-
+	const double WeinbergAngleUncertainty = weakMixingAngleUncertainty; 										/**< \f$sin^2 \theta_W \ (1)\f$ Uncertainty in weak mixing angle. Alias of weakMixingAngleUncertainty.*/
 	#endif  
 	/// @}
 	
 } //namespace NISTConst
 
-#endif 
-
-
-
-// atomicMassUnitToElectronVolt should do unified version of it
-
-
+#endif
