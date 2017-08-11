@@ -67,6 +67,20 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 ---
 ## Release notes
 
+### [NISTConst 1.0.0](https://github.com/Metex/NISTConst/releases/latest)
+#### Features:
+- Completed verification.
+- Completed final pass for public release.
+
+#### Improvements:
+- Added Install instructions to readme.
+- Moved NISTconst to NISTConst folder
+
+#### Fixes:
+- Fixed documentation for inverseFineStructureConstantUncertainty.
+- Fixed issues with generating pdf documentation.
+
+---
 ### [NISTConst 0.9.0](https://github.com/Metex/NISTConst/releases/latest)
 #### Features:
 - Created aliases to all constants using common names and symbols.
