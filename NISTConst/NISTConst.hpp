@@ -68,257 +68,257 @@
 ///
 /// https://dx.doi.org/10.1063/1.4954402
 
-/// @defgroup Universal Universal
+/// @defgroup NISTConst-Universal Universal
 /// @ingroup NISTConst
 
-/// 	@defgroup ImpedanceOfVacuum Impedance of vacuum 
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-ImpedanceOfVacuum Impedance of vacuum 
+/// 	@ingroup NISTConst-Universal
 
-/// 	@defgroup ElectricConstant Electric constant 
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-ElectricConstant Electric constant 
+/// 	@ingroup NISTConst-Universal
 
-/// 	@defgroup MagneticConstant Magnetic constant 
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-MagneticConstant Magnetic constant 
+/// 	@ingroup NISTConst-Universal
 
-/// 	@defgroup GravitationalConstant Gravitational constant
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-GravitationalConstant Gravitational constant
+/// 	@ingroup NISTConst-Universal
 
-/// 	@defgroup PlanckConstant Planck constant 
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-PlanckConstant Planck constant 
+/// 	@ingroup NISTConst-Universal
 
-/// 	@defgroup PlanckLength Planck length 
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-PlanckLength Planck length 
+/// 	@ingroup NISTConst-Universal
 
-/// 	@defgroup PlanckMass  Planck mass 
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-PlanckMass  Planck mass 
+/// 	@ingroup NISTConst-Universal
 
-/// 	@defgroup PlanckTemperature Planck temperature 
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-PlanckTemperature Planck temperature 
+/// 	@ingroup NISTConst-Universal
 
-/// 	@defgroup PlanckTime Planck time 
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-PlanckTime Planck time 
+/// 	@ingroup NISTConst-Universal
 
-/// 	@defgroup SpeedOfLight Speed of light
-/// 	@ingroup Universal
+/// 	@defgroup NISTConst-SpeedOfLight Speed of light
+/// 	@ingroup NISTConst-Universal
 
 
 
-/// @defgroup Electromagnetic Electromagnetic
+/// @defgroup NISTConst-Electromagnetic Electromagnetic
 /// @ingroup NISTConst
 
-/// 	@defgroup BohrMagneton Bohr magneton  
-/// 	@ingroup Electromagnetic
+/// 	@defgroup NISTConst-BohrMagneton Bohr magneton  
+/// 	@ingroup NISTConst-Electromagnetic
 
-/// 	@defgroup ConductanceQuantum Conductance quantum  
-/// 	@ingroup Electromagnetic
+/// 	@defgroup NISTConst-ConductanceQuantum Conductance quantum  
+/// 	@ingroup NISTConst-Electromagnetic
 
-/// 	@defgroup ElementaryCharge Elementary charge 
-/// 	@ingroup Electromagnetic
+/// 	@defgroup NISTConst-ElementaryCharge Elementary charge 
+/// 	@ingroup NISTConst-Electromagnetic
 
-/// 	@defgroup JosephsonConstant Josephson constant 
-/// 	@ingroup Electromagnetic
+/// 	@defgroup NISTConst-JosephsonConstant Josephson constant 
+/// 	@ingroup NISTConst-Electromagnetic
 
-/// 	@defgroup MagneticFluxQuantum  Magnetic flux quantum
-/// 	@ingroup Electromagnetic
+/// 	@defgroup NISTConst-MagneticFluxQuantum  Magnetic flux quantum
+/// 	@ingroup NISTConst-Electromagnetic
 
-/// 	@defgroup NuclearMagneton Nuclear magneton 
-/// 	@ingroup Electromagnetic
+/// 	@defgroup NISTConst-NuclearMagneton Nuclear magneton 
+/// 	@ingroup NISTConst-Electromagnetic
 
-/// 	@defgroup vonKlitzingConstant von Klitzing constant   
-/// 	@ingroup Electromagnetic
+/// 	@defgroup NISTConst-vonKlitzingConstant von Klitzing constant   
+/// 	@ingroup NISTConst-Electromagnetic
 
 
 
-/// @defgroup Atomic Atomic and nuclear
+/// @defgroup NISTConst-Atomic Atomic and nuclear
 /// @ingroup NISTConst
 
-/// 	@defgroup Alpha Alpha particle (Helium-4 nucleus)
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Alpha Alpha particle (Helium-4 nucleus)
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup BohrRadius Bohr radius
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-BohrRadius Bohr radius
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup ComptonWavelength Compton Wavelength
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-ComptonWavelength Compton Wavelength
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup Deuteron Deuteron (Deuterium/Hydrogen-2 nucleus)
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Deuteron Deuteron (Deuterium/Hydrogen-2 nucleus)
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup Electron Electron particle
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Electron Electron particle
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup FermiCouplingConstant Fermi coupling constant  
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-FermiCouplingConstant Fermi coupling constant  
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup FineStructureConstant Fine-structure constant  
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-FineStructureConstant Fine-structure constant  
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup HartreeEnergy Hartree energy
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-HartreeEnergy Hartree energy
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup Helion Helion (Helium-3 nucleus)
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Helion Helion (Helium-3 nucleus)
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup Muon Muon particle
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Muon Muon particle
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup Neutron Neutron particle
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Neutron Neutron particle
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup Proton Proton particle
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Proton Proton particle
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup QuantumOfCirculation Quantum of circulation  
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-QuantumOfCirculation Quantum of circulation  
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup RydbergConstant Rydberg constant
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-RydbergConstant Rydberg constant
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup Tau Tau particle
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Tau Tau particle
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup Thomson Thomson cross section 
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Thomson Thomson cross section 
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup Triton Triton (Tritium/Hydrogen-3 nucleus)
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-Triton Triton (Tritium/Hydrogen-3 nucleus)
+/// 	@ingroup NISTConst-Atomic
 
-/// 	@defgroup WeakMixingAngle Weak mixing angle 
-/// 	@ingroup Atomic
+/// 	@defgroup NISTConst-WeakMixingAngle Weak mixing angle 
+/// 	@ingroup NISTConst-Atomic
 
 
 
-/// @defgroup PhysicoChemical Physico-Chemical
+/// @defgroup NISTConst-PhysicoChemical Physico-Chemical
 /// @ingroup NISTConst
 
-/// 	@defgroup AtomicMassConstant Atomic mass constant  
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-AtomicMassConstant Atomic mass constant  
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup AvogadroConstant Avogadro constant  
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-AvogadroConstant Avogadro constant  
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup BoltzmannConstant Boltzmann constant 
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-BoltzmannConstant Boltzmann constant 
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup FaradayConstant Faraday constant
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-FaradayConstant Faraday constant
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup FirstRadiationConstant First radiation constant 
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-FirstRadiationConstant First radiation constant 
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup LoschmidtConstant Loschmidt constant  
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-LoschmidtConstant Loschmidt constant  
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup MolarGasConstant Molar gas constant 
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-MolarGasConstant Molar gas constant 
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup MolarPlanckConstant Molar Planck constant 
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-MolarPlanckConstant Molar Planck constant 
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup MolarVolume Molar volume of ideal gas
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-MolarVolume Molar volume of ideal gas
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup SackurTetrodeConstant Sackur-Tetrode constant
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-SackurTetrodeConstant Sackur-Tetrode constant
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup SecondRadiationConstant Second radiation constant  
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-SecondRadiationConstant Second radiation constant  
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup StefanBoltzmannConstant Stefan-Boltzmann constant 
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-StefanBoltzmannConstant Stefan-Boltzmann constant 
+/// 	@ingroup NISTConst-PhysicoChemical
 
-/// 	@defgroup WienDisplacement Wien displacement law constant  
-/// 	@ingroup PhysicoChemical
+/// 	@defgroup NISTConst-WienDisplacement Wien displacement law constant  
+/// 	@ingroup NISTConst-PhysicoChemical
 
 
 
-/// @defgroup Adopted Adopted
+/// @defgroup NISTConst-Adopted Adopted
 /// @ingroup NISTConst
 
-/// 	@defgroup ConventionalJosephsonConstant Conventional Josephson constant 
-/// 	@ingroup Adopted
+/// 	@defgroup NISTConst-ConventionalJosephsonConstant Conventional Josephson constant 
+/// 	@ingroup NISTConst-Adopted
 
-/// 	@defgroup ConventionalvonKlitzingConstant Conventional von Klitzing constant 
-/// 	@ingroup Adopted
+/// 	@defgroup NISTConst-ConventionalvonKlitzingConstant Conventional von Klitzing constant 
+/// 	@ingroup NISTConst-Adopted
 
-/// 	@defgroup MolarMassConstant Molar mass constant  
-/// 	@ingroup Adopted
+/// 	@defgroup NISTConst-MolarMassConstant Molar mass constant  
+/// 	@ingroup NISTConst-Adopted
 
-/// 	@defgroup GravityAcceleration Gravity acceleration
-/// 	@ingroup Adopted
+/// 	@defgroup NISTConst-GravityAcceleration Gravity acceleration
+/// 	@ingroup NISTConst-Adopted
 
-/// 	@defgroup StandardAtmosphere Standard atmosphere 
-/// 	@ingroup Adopted
+/// 	@defgroup NISTConst-StandardAtmosphere Standard atmosphere 
+/// 	@ingroup NISTConst-Adopted
 
-/// 	@defgroup StandardStatePressure Standard state pressure 
-/// 	@ingroup Adopted
+/// 	@defgroup NISTConst-StandardStatePressure Standard state pressure 
+/// 	@ingroup NISTConst-Adopted
 
 
-/// @defgroup Non-SI Non-SI units
+/// @defgroup NISTConst-Non-SI Non-SI units
 /// @ingroup NISTConst
 
-/// 	@defgroup AtomicUnit Atomic units
-/// 	@ingroup Non-SI
+/// 	@defgroup NISTConst-AtomicUnit Atomic units
+/// 	@ingroup NISTConst-Non-SI
 
-/// 	@defgroup ElectronVoltUnit Electron Volt unit
-/// 	@ingroup Non-SI
+/// 	@defgroup NISTConst-ElectronVoltUnit Electron Volt unit
+/// 	@ingroup NISTConst-Non-SI
 
-/// 	@defgroup NaturalUnit Natural units
-/// 	@ingroup Non-SI
+/// 	@defgroup NISTConst-NaturalUnit Natural units
+/// 	@ingroup NISTConst-Non-SI
 
-/// 	@defgroup UnifiedAtomicMassUnit Unified atomic mass unit 
-/// 	@ingroup Non-SI
+/// 	@defgroup NISTConst-UnifiedAtomicMassUnit Unified atomic mass unit 
+/// 	@ingroup NISTConst-Non-SI
 
 
 
-/// @defgroup ConversionFactors Conversion factors
+/// @defgroup NISTConst-ConversionFactors Conversion factors
 /// @ingroup NISTConst
 
-/// 	@defgroup AtomicMassUnit Unified atomic mass unit
-/// 	@ingroup ConversionFactors
+/// 	@defgroup NISTConst-AtomicMassUnit Unified atomic mass unit
+/// 	@ingroup NISTConst-ConversionFactors
 
-/// 	@defgroup ElectronVolt Electron volt
-/// 	@ingroup ConversionFactors
+/// 	@defgroup NISTConst-ElectronVolt Electron volt
+/// 	@ingroup NISTConst-ConversionFactors
 
-/// 	@defgroup Hartree Hartree
-/// 	@ingroup ConversionFactors
+/// 	@defgroup NISTConst-Hartree Hartree
+/// 	@ingroup NISTConst-ConversionFactors
 
-/// 	@defgroup Hertz	Hertz 
-/// 	@ingroup ConversionFactors
+/// 	@defgroup NISTConst-Hertz	Hertz 
+/// 	@ingroup NISTConst-ConversionFactors
 
-/// 	@defgroup InverseMeter inverse meter
-/// 	@ingroup ConversionFactors
+/// 	@defgroup NISTConst-InverseMeter inverse meter
+/// 	@ingroup NISTConst-ConversionFactors
 
-/// 	@defgroup Joule Joule
-/// 	@ingroup ConversionFactors
+/// 	@defgroup NISTConst-Joule Joule
+/// 	@ingroup NISTConst-ConversionFactors
 
-/// 	@defgroup Kelvin Kelvin
-/// 	@ingroup ConversionFactors
+/// 	@defgroup NISTConst-Kelvin Kelvin
+/// 	@ingroup NISTConst-ConversionFactors
 
-/// 	@defgroup Kilogram Kilogram
-/// 	@ingroup ConversionFactors
+/// 	@defgroup NISTConst-Kilogram Kilogram
+/// 	@ingroup NISTConst-ConversionFactors
 
 
 
-/// @defgroup X-ray X-ray values
+/// @defgroup NISTConst-X-ray X-ray values
 /// @ingroup NISTConst
 
-/// 	@defgroup AngstromStar Angstrom star  
-/// 	@ingroup X-ray
+/// 	@defgroup NISTConst-AngstromStar Angstrom star  
+/// 	@ingroup NISTConst-X-ray
 
-/// 	@defgroup Copper Copper 
-/// 	@ingroup X-ray
+/// 	@defgroup NISTConst-Copper Copper 
+/// 	@ingroup NISTConst-X-ray
 
-/// 	@defgroup Molybdenum Molybdenum  
-/// 	@ingroup X-ray
+/// 	@defgroup NISTConst-Molybdenum Molybdenum  
+/// 	@ingroup NISTConst-X-ray
 
-/// 	@defgroup Silicon Silicon
-/// 	@ingroup X-ray
+/// 	@defgroup NISTConst-Silicon Silicon
+/// 	@ingroup NISTConst-X-ray
 
 namespace NISTConst
 {
 
-	/// @addtogroup Silicon
+	/// @addtogroup NISTConst-Silicon
 	/// @{
 	const double latticeSpacingOfSilicon =											192.0155714e-12;			/**< \f$d_{220} \ (m)\f$  Silicon {220} lattice spacing in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -326,7 +326,7 @@ namespace NISTConst
 	#endif
 	/// @}
 
-	/// @addtogroup Alpha
+	/// @addtogroup NISTConst-Alpha
 	/// @{
 	const double alphaParticleElectronMassRatio =              		            	7294.29954136;				/**< \f$\frac{m_\alpha}{m_e} \ (1)\f$ Alpha particle-electron mass ratio.*/ 
 	const double alphaParticleMass =												6.644657230e-27;			/**< \f$m_\alpha \ (kg)\f$ Alpha particle mass in kilograms.*/ 
@@ -347,7 +347,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup AngstromStar
+	/// @addtogroup NISTConst-AngstromStar
 	/// @{
 	const double AngstromStar =														1.00001495e-10;				/**< \f$\unicode{x212B}^{\ast} \ (m)\f$ Angstrom star in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -355,7 +355,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup AtomicMassConstant
+	/// @addtogroup NISTConst-AtomicMassConstant
 	/// @{
 	const double atomicMassConstant =												1.660539040e-27;			/**< \f$m_u \ (kg)\f$ Atomic mass constant in kilograms.*/ 
 	const double atomicMassConstantInJPercSquared =									1.492418062e-10;			/**< \f$m_u \ (\frac{J}{c^2})\f$ Atomic mass constant in joules per speed of light squared.*/ 
@@ -367,7 +367,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup AtomicMassUnit
+	/// @addtogroup NISTConst-AtomicMassUnit
 	/// @{
 	const double atomicMassUnitToElectronVolt =										931.4940954e6;				/**< \f$(1\ u)c^2 \ (eV)\f$ Unified atomic mass unit-electron volt relationship in electron volts.*/ 
 	const double atomicMassUnitToHartree =											3.4231776902e7;				/**< \f$(1\ u)c^2 \ (E_h)\f$ Unified atomic mass unit-hartree relationship in hartree.*/ 
@@ -388,7 +388,7 @@ namespace NISTConst
 	/// @}
 	
 	
-	/// @addtogroup AtomicUnit
+	/// @addtogroup NISTConst-AtomicUnit
 	/// @{
 	const double atomicUnitOf1stHyperpolarizability =								3.206361329e-53;			/**< \f$\frac{e^3 a_0^3}{E_h^2} \ (\frac{C^3 m^3}{J^2})\f$ Atomic unit of 1st hyperpolarizability in coulombs cubed meter cubed per joules squared.*/
 	const double atomicUnitOf2ndHyperpolarizability =								6.235380085e-65;			/**< \f$\frac{e^4 a_0^4}{E_h^3} \ (\frac{C^4 m^4}{J^3})\f$ Atomic unit of 2nd hyperpolarizability in coulombs to the 4th meter to the 4th per joules cubed.*/
@@ -441,7 +441,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup AvogadroConstant 
+	/// @addtogroup NISTConst-AvogadroConstant 
 	/// @{
 	const double AvogadroConstant =													6.022140857e23;				/**< \f$N_A \ (\frac{1}{mol})\f$ Avogadro constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -449,7 +449,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup BohrMagneton
+	/// @addtogroup NISTConst-BohrMagneton
 	/// @{
 	const double BohrMagneton =														927.4009994e-26;			/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla.*/ 
 	const double BohrMagnetonIneVPerT =												5.7883818012e-5;			/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesla.*/ 
@@ -466,7 +466,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup BohrRadius
+	/// @addtogroup NISTConst-BohrRadius
 	/// @{
 	const double BohrRadius =														0.52917721067e-10;			/**< \f$a_0 \ (m)\f$ Bohr radius in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -474,7 +474,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup BoltzmannConstant
+	/// @addtogroup NISTConst-BoltzmannConstant
 	/// @{
 	const double BoltzmannConstant =												1.38064852e-23;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in joules per kelvin.*/
 	const double BoltzmannConstantIneVPerK =										8.6173303e-5;				/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in electron volts per kelvin.*/
@@ -489,7 +489,7 @@ namespace NISTConst
 	/// @}
 	
 	
-	/// @addtogroup ImpedanceOfVacuum
+	/// @addtogroup NISTConst-ImpedanceOfVacuum
 	/// @{
 	const double impedanceOfVacuum =												376.730313461;				/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -497,7 +497,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Electron
+	/// @addtogroup NISTConst-Electron
 	/// @{
 	const double classicalElectronRadius =											2.8179403227e-15;			/**< \f$r_e \ (m)\f$ Classical electron radius in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -505,7 +505,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ComptonWavelength
+	/// @addtogroup NISTConst-ComptonWavelength
 	/// @{
 	const double ComptonWavelength =												2.4263102367e-12;			/**< \f$\lambda_C \ (m)\f$ Compton wavelength in meters.*/
 	const double ComptonWavelengthOver2Pi =											386.15926764e-15;			/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Compton wavelength over 2 pi in meters.*/
@@ -515,7 +515,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ConductanceQuantum
+	/// @addtogroup NISTConst-ConductanceQuantum
 	/// @{
 	const double conductanceQuantum =												7.7480917310e-5;			/**< \f$G_0 \ (S)\f$ Conductance quantum in siemens.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -523,7 +523,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ConventionalJosephsonConstant
+	/// @addtogroup NISTConst-ConventionalJosephsonConstant
 	/// @{
 	const double conventionalJosephsonConstant =									483597.9e9;					/**< \f$K_{J-90} \ (\frac{Hz}{V})\f$ Conventional value of Josephson constant in hertz per volt.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -532,7 +532,7 @@ namespace NISTConst
 	/// @}
 	
 	
-	/// @addtogroup ConventionalvonKlitzingConstant
+	/// @addtogroup NISTConst-ConventionalvonKlitzingConstant
 	/// @{
 	const double conventionalvonKlitzingConstant =									25812.807;					/**< \f$R_{K-90} \ (\Omega)\f$ Conventional value of von Klitzing constant.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -540,7 +540,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Copper
+	/// @addtogroup NISTConst-Copper
 	/// @{
 	const double CuXUnit =															1.00207697e-13;				/**< \f$xu(CuK\alpha_1) \ (m)\f$ Cu X unit in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -548,7 +548,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Deuteron
+	/// @addtogroup NISTConst-Deuteron
 	/// @{ 
 	const double deuterongFactor =													0.8574382311;				/**< \f$g_D \ (1)\f$ Deuteron g factor.*/   
 	const double deuteronElectronMagneticMomentRatio =								-4.664345535e-4;			/**< \f$\frac{\mu_D}{\mu_e} \ (1)\f$ Deuteron-electron magnetic moment ratio.*/         
@@ -585,7 +585,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ElectricConstant
+	/// @addtogroup NISTConst-ElectricConstant
 	/// @{ 
 	const double electricConstant =													8.854187817e-12;			/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -593,7 +593,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	 
-	/// @addtogroup Electron
+	/// @addtogroup NISTConst-Electron
 	/// @{ 
 	const double electronChargeToMass =												-1.758820024e11;			/**< \f$\frac{-e}{m_e} \ (\frac{C}{kg})\f$ Electron charge to mass quotient in coulombs per kilogram.*/ 
 	const double electronDeuteronMagneticMomentRatio =								-2143.923499;				/**< \f$\frac{\mu_e}{\mu_D} \ (1)\f$ Electron-deuteron magnetic moment ratio.*/ 
@@ -654,7 +654,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ElectronVoltUnit
+	/// @addtogroup NISTConst-ElectronVoltUnit
 	/// @{
 	const double electronVolt =														1.6021766208e-19;			/**< \f$eV \ (J)\f$ Electron volt in joules.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -662,7 +662,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ElectronVolt
+	/// @addtogroup NISTConst-ElectronVolt
 	/// @{
 	const double electronVoltToAtomicMassUnit =										1.0735441105e-9;			/**< \f$\frac{(1\ eV)}{c^2}\ (u)\f$ Electron volt-unified atomic mass unit relationship .*/ 
 	const double electronVoltToHartree =											3.674932248e-2;				/**< \f$(1\ eV) \ (E_h)\f$ Electron volt-hartree relationship.*/ 
@@ -683,7 +683,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ElementaryCharge
+	/// @addtogroup NISTConst-ElementaryCharge
 	/// @{
 	const double elementaryCharge =													1.6021766208e-19;			/**< \f$e \ (C)\f$ Elementary charge in coulombs.*/ 
 	const double elementaryChargeOverh =											2.417989262e14;				/**< \f$\frac{e}{h} \ (\frac{A}{J})\f$ Elementary charge over h in amperes per joule.*/ 
@@ -693,7 +693,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup FaradayConstant
+	/// @addtogroup NISTConst-FaradayConstant
 	/// @{
 	const double FaradayConstant =													96485.33289;				/**< \f$F \ (\frac{C}{mol})\f$ Faraday constant in coulombs per mole.*/ 
 	const double FaradayConstantForConventionalElectricCurrent =					96485.3251;					/**< \f$F^\ast \ (\frac{C_{90}}{mol})\f$ Faraday constant for conventional electric current in coulombs per mole.*/ 
@@ -703,7 +703,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup FermiCouplingConstant
+	/// @addtogroup NISTConst-FermiCouplingConstant
 	/// @{
 	const double FermiCouplingConstant =											1.1663787e-5;				/**< \f$\frac{G_F}{(\hbar c)^3} \ (\frac{1}{GeV^2})\f$ Fermi coupling constant in inverse gigaelectron volts squared.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -711,7 +711,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup FineStructureConstant
+	/// @addtogroup NISTConst-FineStructureConstant
 	/// @{
 	const double fineStructureConstant =											7.2973525664e-3;			/**< \f$\alpha \ (1)\f$ Fine-structure constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -719,7 +719,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup FirstRadiationConstant
+	/// @addtogroup NISTConst-FirstRadiationConstant
 	/// @{
 	const double firstRadiationConstant =											3.741771790e-16;			/**< \f$c_1 \ (\frac{W}{m^2})\f$ First radiation constant  in watts per meter squared.*/ 
 	const double firstRadiationConstantForSpectralRadiance =						1.191042953e-16;			/**< \f$c_{1L} \ (\frac{W}{m^2 sr})\f$ First radiation constant for spectral radiance in watts per meter squared steradian.*/ 
@@ -729,7 +729,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup HartreeEnergy
+	/// @addtogroup NISTConst-HartreeEnergy
 	/// @{
 	const double HartreeEnergy =													4.359744650e-18;			/**< \f$E_h \ (J)\f$ Hartree energy in joules.*/ 
 	const double HartreeEnergyIneV =												27.21138602;				/**< \f$E_h \ (eV)\f$ Hartree energy in electron volts.*/ 
@@ -739,7 +739,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Hartree
+	/// @addtogroup NISTConst-Hartree
 	/// @{
 	const double hartreeToAtomicMassUnit =											2.9212623197e-8;			/**< \f$\frac{(1\ E_h)}{c^2} \ (u)\f$ Hartree-unified atomic mass unit relationship.*/ 
 	const double hartreeToElectronVolt =											27.21138602;				/**< \f$(1\ E_h) \ (eV)\f$ Hartree-electron volt relationship .*/	
@@ -759,7 +759,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Helion
+	/// @addtogroup NISTConst-Helion
 	/// @{
 	const double helionElectronMassRatio =											5495.88527922;				/**< \f$\frac{m_{^3\textrm{He}}}{m_e} \ (1)\f$ Helion-electron mass ratio.*/ 
 	const double heliongFactor =													-4.255250616;				/**< \f$g_{^3\textrm{He}} \ (1)\f$ Helion g factor.*/ 
@@ -787,7 +787,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Hertz
+	/// @addtogroup NISTConst-Hertz
 	/// @{
 	const double hertzToAtomicMassUnit =											4.4398216616e-24;			/**< \f$\frac{(1 Hz)h}{c^2} \ (u)\f$ Hertz-unified atomic mass unit relationship.*/ 
 	const double hertzToElectronVolt =												4.135667662e-15;			/**< \f$(1 Hz)h \ (eV)\f$ Hertz-electron volt relationship.*/ 
@@ -807,7 +807,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup FineStructureConstant 
+	/// @addtogroup NISTConst-FineStructureConstant 
 	/// @{
 	const double inverseFineStructureConstant =										137.035999139;				/**< \f$\alpha^{-1}  \ (1)\f$ Inverse fine-structure constant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -815,7 +815,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup InverseMeter
+	/// @addtogroup NISTConst-InverseMeter
 	/// @{
 	const double inverseMeterToAtomicMassUnit =										1.33102504900e-15;			/**< \f$\frac{(1\ m^-1)h}{c} \ (u)\f$ Inverse meter-unified atomic mass unit relationship.*/ 
 	const double inverseMeterToElectronVolt =										1.2398419739e-6;			/**< \f$(1\ m^-1)hc \ (eV)\f$ Inverse meter-electron volt relationship.*/ 
@@ -835,7 +835,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ConductanceQuantum 
+	/// @addtogroup NISTConst-ConductanceQuantum 
 	/// @{
 	const double inverseOfConductanceQuantum =										12906.4037278;				/**< \f$G_0^{-1} \ (\Omega)\f$ Inverse of conductance quantum in ohms.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -843,7 +843,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup JosephsonConstant
+	/// @addtogroup NISTConst-JosephsonConstant
 	/// @{
 	const double JosephsonConstant =												483597.8525e9;				/**< \f$K_J \ (\frac{Hz}{V})\f$ Josephson constant in hertz per volt.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -851,7 +851,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Joule
+	/// @addtogroup NISTConst-Joule
 	/// @{
 	const double jouleToAtomicMassUnit =											6.700535363e9;				/**< \f$\frac{(1\ J)}{c^2} \ (u)\f$ joule-unified atomic mass unit relationship.*/ 
 	const double jouleToElectronVolt =												6.241509126e18;				/**< \f$(1\ J) \ (eV)\f$ joule-electron volt relationship.*/ 
@@ -871,7 +871,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Kelvin
+	/// @addtogroup NISTConst-Kelvin
 	/// @{
 	const double kelvinToAtomicMassUnit =											9.2510842e-14;				/**< \f$\frac{(1\ K)k}{c^2} \ (u)\f$ Kelvin-unified atomic mass unit relationship.*/ 
 	const double kelvinToElectronVolt =												8.6173303e-5;				/**< \f$(1\ K)k \ (eV)\f$ Kelvin-electron volt relationship.*/ 
@@ -891,7 +891,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Kilogram
+	/// @addtogroup NISTConst-Kilogram
 	/// @{
 	const double kilogramToAtomicMassUnit =											6.022140857e26;				/**< \f$(1\ kg)\ (u)\f$ Kilogram-unified atomic mass unit relationship.*/ 
 	const double kilogramToElectronVolt =											5.609588650e35;				/**< \f$(1\ kg)c^2 \ (eV)\f$ Kilogram-electron volt relationship.*/ 
@@ -911,7 +911,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Silicon
+	/// @addtogroup NISTConst-Silicon
 	/// @{
 	const double latticeParameterOfSilicon =										543.1020504e-12;			/**< \f$a \ (m)\f$ Lattice parameter of silicon in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -919,7 +919,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup LoschmidtConstant
+	/// @addtogroup NISTConst-LoschmidtConstant
 	/// @{
 	const double LoschmidtConstant =												2.6516467e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed.*/ 
 	const double LoschmidtConstantatm =												2.6867811e25;				/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 101.325 kPa (1 atm) in inverse meters cubed.*/ 
@@ -929,7 +929,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup MagneticConstant
+	/// @addtogroup NISTConst-MagneticConstant
 	/// @{
 	const double magneticConstant =													12.566370614e-7;			/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -937,7 +937,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup MagneticFluxQuantum
+	/// @addtogroup NISTConst-MagneticFluxQuantum
 	/// @{
 	const double magneticFluxQuantum =												2.067833831e-15;			/**< \f$\Phi_0 \ (Wb)\f$ Magnetic flux quantum in weber.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -945,7 +945,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup MolarGasConstant
+	/// @addtogroup NISTConst-MolarGasConstant
 	/// @{
 	const double molarGasConstant =													8.3144598;					/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -953,7 +953,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup MolarMassConstant
+	/// @addtogroup NISTConst-MolarMassConstant
 	/// @{
 	const double molarMassConstant =												1e-3;						/**< \f$M_u \ (\frac{kg}{mol})\f$ Molar mass constant in kilograms per mole.*/ 
 	const double molarMassOfCarbon12 =												12e-3;						/**< \f$M({^{12}C}) \ (\frac{kg}{mol})\f$ Molar mass of carbon-12 in kilograms per mole.*/ 
@@ -963,7 +963,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup MolarPlanckConstant
+	/// @addtogroup NISTConst-MolarPlanckConstant
 	/// @{
 	const double molarPlanckConstant =												3.9903127110e-10;			/**< \f$N_A h \ (\frac{J\ s}{mol})\f$ Molar Planck constant in joules second per mole.*/ 
 	const double molarPlanckConstantTimesc =										0.119626565582;				/**< \f$N_A hc \ (\frac{J\ m}{mol})\f$ Molar Planck constant times c in joules meter per mole.*/ 
@@ -973,7 +973,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup MolarVolume 
+	/// @addtogroup NISTConst-MolarVolume 
 	/// @{
 	const double molarVolumeOfIdealGas =											22.710947e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas at 273.15 K, 100 kPa in meters cubed per mole.*/ 
 	const double molarVolumeOfIdealGasatm =											22.413962e-3;				/**< \f$V_m \ (\frac{m^3}{mol})\f$ Molar volume of ideal gas at 273.15 K, 101.325 kPa (1 atm) in meters cubed per mole.*/ 
@@ -983,7 +983,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Silicon
+	/// @addtogroup NISTConst-Silicon
 	/// @{
 	const double molarVolumeOfSilicon =												12.05883214e-6;				/**< \f$V_m(Si) \ (\frac{m^3}{mol})\f$ Molar volume of silicon in meters cubed per mole.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -991,7 +991,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Molybdenum
+	/// @addtogroup NISTConst-Molybdenum
 	/// @{
 	const double MoXUnit =															1.00209952e-13;				/**< \f$xu(MoK\alpha_1) \ (m)\f$ Mo x unit in meters.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -999,7 +999,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Muon
+	/// @addtogroup NISTConst-Muon
 	/// @{
 	const double muonComptonWavelength =											11.73444111e-15;			/**< \f$\lambda_{C,\mu} \ (m)\f$ Muon Compton wavelength in meters.*/ 
 	const double muonComptonWavelengthOver2pi =										1.867594308e-15;			/**< \f$\frac{\lambda_{C,\mu}}{2\pi} \ (m)\f$ Muon Compton wavelength over 2 pi in meters.*/ 
@@ -1040,7 +1040,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup NaturalUnit
+	/// @addtogroup NISTConst-NaturalUnit
 	/// @{
 	const double naturalUnitOfAction =												1.054571800e-34;			/**< \f$\hbar \ (J\ s)\f$ Natural unit of action in joules second.*/ 
 	const double naturalUnitOfActionIneVs =											6.582119514e-16;			/**< \f$\hbar \ (eV\ s)\f$ Natural unit of action in electron volts second.*/ 
@@ -1066,7 +1066,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Neutron
+	/// @addtogroup NISTConst-Neutron
 	/// @{
 	const double neutronComptonWavelength =											1.31959090481e-15;			/**< \f$\lambda_{C,n} \ (m)\f$ Neutron Compton wavelength in meters.*/
 	const double neutronComptonWavelengthOver2Pi =									0.21001941536e-15;			/**< \f$\frac{\lambda_{C,n}}{2\pi} \ (m)\f$ Neutron Compton wavelength over 2 pi in meters.*/
@@ -1121,7 +1121,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup GravitationalConstant
+	/// @addtogroup NISTConst-GravitationalConstant
 	/// @{            
 	const double NewtonianConstantOfGravitation =									6.67408e-11;				/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared.*/
 	const double NewtonianConstantOfGravitationOverhbarc =							6.70861e-39;				/**< \f$\frac{G}{\hbar c} \ ((\frac{GeV}{c^2})^{-2})\f$ Newtonian constant of gravitation over h-bar c in speed of light to the fourth per gigaelectron volt squared.*/
@@ -1131,7 +1131,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup NuclearMagneton
+	/// @addtogroup NISTConst-NuclearMagneton
 	/// @{
 	const double nuclearMagneton =													5.050783699e-27;			/**< \f$\mu_N \ (\frac{J}{T})\f$ Nuclear magneton in joules per tesla.*/
 	const double nuclearMagnetonIneVPerT =											3.1524512550e-8;			/**< \f$ \ (\frac{eV}{T})\f$ Nuclear magneton in electron volts per tesla.*/
@@ -1147,7 +1147,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup PlanckConstant
+	/// @addtogroup NISTConst-PlanckConstant
 	/// @{
 	const double PlanckConstant =													6.626070040e-34;			/**< \f$h \ (J s)\f$ Planck constant in joule seconds.*/
 	const double PlanckConstantIneVs =												4.135667662e-15;			/**< \f$h \ (eV s)\f$ Planck constant in electron volt seconds.*/
@@ -1163,7 +1163,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup PlanckLength
+	/// @addtogroup NISTConst-PlanckLength
 	/// @{
 	const double PlanckLength =														1.616229e-35;				/**< \f$\ell_P \ (m)\f$ Planck length in meters.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1171,7 +1171,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup PlanckMass
+	/// @addtogroup NISTConst-PlanckMass
 	/// @{
 	const double PlanckMass =														2.176470e-8;				/**< \f$m_P \ (kg)\f$ Planck mass in kilograms.*/
 	const double PlanckMassInGeVpercSquared =										1.220910e19;				/**< \f$m_P \ (\frac{GeV}{c^2})\f$ Planck mass in gigaelectron volts per speed of light squared.*/
@@ -1181,7 +1181,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup PlanckTemperature
+	/// @addtogroup NISTConst-PlanckTemperature
 	/// @{
 	const double PlanckTemperature =												1.416808e32;				/**< \f$T_P \ (K)\f$ Planck temperature in kelvins.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1189,7 +1189,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup PlanckTime
+	/// @addtogroup NISTConst-PlanckTime
 	/// @{
 	const double PlanckTime =														5.39116e-44;				/**< \f$t_P \ (s)\f$ Planck time in seconds.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1197,7 +1197,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Proton
+	/// @addtogroup NISTConst-Proton
 	/// @{
 	const double protonChargeToMassQuotient =										9.578833226e7;				/**< \f$\frac{e}{m_p} \ (\frac{C}{kg})\f$ Proton charge to mass quotient in coulombs per kilogram.*/
 	const double protonComptonWavelength =											1.32140985396e-15;			/**< \f$\lambda_{C,p} \ (m)\f$ Proton Compton wavelength in meters.*/
@@ -1246,7 +1246,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup QuantumOfCirculation 
+	/// @addtogroup NISTConst-QuantumOfCirculation 
 	/// @{   
 	const double quantumOfCirculation =												3.6369475486e-4;			/**< \f$\frac{h}{2 m_e} \ (\frac{m^2}{s})\f$ Quantum of circulation in meters squared per second.*/
 	const double quantumOfCirculationTimes2 =										7.2738950972e-4;			/**< \f$\frac{h}{m_e} \ (\frac{m^2}{s})\f$ Quantum of circulation times 2 in meters squared per second.*/
@@ -1256,7 +1256,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup RydbergConstant
+	/// @addtogroup NISTConst-RydbergConstant
 	/// @{
 	const double RydbergConstant =													10973731.568508;			/**< \f$R_\infty \ \ (\frac{1}{m})\f$ Rydberg constant in inverse meters.*/
 	const double RydbergConstantTimescInHz =										3.289841960355e15;			/**< \f$R_\infty c \ (Hz)\f$ Rydberg constant times c in hertz.*/
@@ -1270,7 +1270,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup SackurTetrodeConstant
+	/// @addtogroup NISTConst-SackurTetrodeConstant
 	/// @{
 	const double SackurTetrodeConstant =											-1.1517084;					/**< \f$\frac{S_0}{R} \ (1)\f$ Sackur-Tetrode constant at 1 K and 100 kPa.*/
 	const double SackurTetrodeConstantatm =											-1.1648714;					/**< \f$\frac{S_0}{R} \ (1)\f$ Sackur-Tetrode constant at 1 K and 101.325 kPa (1atm).*/
@@ -1280,7 +1280,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup SecondRadiationConstant
+	/// @addtogroup NISTConst-SecondRadiationConstant
 	/// @{
 	const double secondRadiationConstant =											1.43877736e-2;				/**< \f$c_2 \ (m\ K)\f$ Second radiation constant in meters kelvin.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1288,7 +1288,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Helion
+	/// @addtogroup NISTConst-Helion
 	/// @{
 	const double shieldedHelionGyromagneticRatio =									2.037894585e8;				/**< \f$\gamma'_{^3\textrm{He}} \ (\frac{rad\ Hz}{T})\f$ Shielded helion gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
 	const double shieldedHelionGyromagneticRatioOver2Pi =							32.43409966;				/**< \f$\frac{\gamma'_{^3\textrm{He}}}{2 \pi} \ (\frac{rad\ MHz}{T})\f$ Shielded helion gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
@@ -1308,7 +1308,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup Proton
+	/// @addtogroup NISTConst-Proton
 	/// @{
 	const double shieldedProtonGyromagneticRatio =									2.675153171e8;				/**< \f$\gamma'_p \ (\frac{rad\ Hz}{T})\f$ Shielded proton gyromagnetic ratio in radian hertz per tesla. Note that the units of radians are added for clarity.*/
 	const double shieldedProtonGyromagneticRatioOver2Pi =							42.57638507;				/**< \f$\frac{\gamma'_p}{2 \pi} \ (\frac{rad\ MHz}{T})\f$ Shielded proton gyromagnetic ratio over 2 pi in radian megaahertz per tesla. Note that the units of radians are added for clarity.*/
@@ -1325,7 +1325,7 @@ namespace NISTConst
 	#endif  
 	/// @}
     
-	/// @addtogroup SpeedOfLight
+	/// @addtogroup NISTConst-SpeedOfLight
 	/// @{    
 	const double speedOfLightInVacuum =												299792458.0;				/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1333,7 +1333,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup GravityAcceleration
+	/// @addtogroup NISTConst-GravityAcceleration
 	/// @{    
 	const double standardAccelerationOfGravity =									9.80665;					/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1341,7 +1341,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup StandardAtmosphere
+	/// @addtogroup NISTConst-StandardAtmosphere
 	/// @{    
 	const double standardAtmosphere =												101325.0;					/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1349,7 +1349,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup StandardStatePressure
+	/// @addtogroup NISTConst-StandardStatePressure
 	/// @{    
 	const double standardStatePressure =											100000.0;					/**< \f$ssp \ (Pa)\f$ Standard-state pressure in pascals.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1357,7 +1357,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup StefanBoltzmannConstant
+	/// @addtogroup NISTConst-StefanBoltzmannConstant
 	/// @{    
 	const double StefanBoltzmannConstant =											5.670367e-8;				/**< \f$\sigma \ (\frac{W}{m^2 K^4})\f$ Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1366,7 +1366,7 @@ namespace NISTConst
 	/// @}
 	
 	
-	/// @addtogroup Tau
+	/// @addtogroup NISTConst-Tau
 	/// @{
 	const double tauComptonWavelength =												0.697787e-15; 				/**< \f$\lambda_{C,\tau} \ (m)\f$ Tau Compton wavelength in meters.*/ 
 	const double tauComptonWavelengthOver2Pi =										0.111056e-15;        		/**< \f$\frac{\lambda_{C,\tau}}{2\pi} \ (m)\f$ Tau Compton wavelength over 2 pi in meters.*/ 
@@ -1395,7 +1395,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-    /// @addtogroup Thomson
+    /// @addtogroup NISTConst-Thomson
 	/// @{    
 	const double ThomsonCrossSection =												0.66524587158e-28;			/**< \f$\sigma_e \ (m^2)\f$ Thomson cross section in meters squared.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1403,7 +1403,7 @@ namespace NISTConst
 	#endif  
 	/// @}	
 
-	/// @addtogroup Triton
+	/// @addtogroup NISTConst-Triton
 	/// @{
 	const double tritonElectronMassRatio =											5496.92153588;				/**< \f$\frac{m_{\textrm{T}}}{m_e} \ (1)\f$ Triton-electron mass ratio.*/
 	const double tritongFactor =													5.957924920;				/**< \f$g_{\textrm{T}} \ (1)\f$ Triton g factor.*/       
@@ -1432,7 +1432,7 @@ namespace NISTConst
 	#endif  
 	/// @}	
 	
-	/// @addtogroup UnifiedAtomicMassUnit
+	/// @addtogroup NISTConst-UnifiedAtomicMassUnit
 	/// @{
 	const double unifiedAtomicMassUnit =											1.660539040e-27;			/**< \f$u \ (kg)\f$ Unified atomic mass unit in kilograms.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1440,7 +1440,7 @@ namespace NISTConst
 	#endif  
 	/// @}	
 	
-	/// @addtogroup vonKlitzingConstant
+	/// @addtogroup NISTConst-vonKlitzingConstant
 	/// @{
 	const double vonKlitzingConstant =												25812.8074555;				/**< \f$R_K \ (\Omega)\f$ von Klitzing constant in ohms.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1448,7 +1448,7 @@ namespace NISTConst
 	#endif  
 	/// @}	
 	
-	/// @addtogroup WeakMixingAngle 
+	/// @addtogroup NISTConst-WeakMixingAngle 
 	/// @{
 	const double weakMixingAngle =													0.2223;						/**< \f$sin^2 \theta_W \ (1)\f$ Weak mixing angle.*/              
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1456,7 +1456,7 @@ namespace NISTConst
 	#endif  
 	/// @}	
 	
-	/// @addtogroup WienDisplacement 
+	/// @addtogroup NISTConst-WienDisplacement 
 	/// @{ 
 	const double WienFrequencyDisplacementLawConstant =								5.8789238e10;				/**< \f$b' \ (\frac{Hz}{K})\f$ Wien frequency displacement law constant in hertz per kelvin.*/ 
 	const double WienWavelengthDisplacementLawConstant =							2.8977729e-3;				/**< \f$b \ (m\ K)\f$ Wien wavelength displacement law constant in meters kelvin.*/ 
@@ -1480,7 +1480,7 @@ namespace NISTConst
 #ifdef NISTCONST_COMMON_SYMBOLS_NAMES
 namespace NISTConst
 {
-	/// @addtogroup AvogadroConstant 
+	/// @addtogroup NISTConst-AvogadroConstant 
 	/// @{
 	const double L = AvogadroConstant;																			/**< \f$L \ (\frac{1}{mol})\f$ Avogadro constant. Alias of AvogadroConstant.*/
 	const double NA = AvogadroConstant; 																		/**< \f$N_A \ (\frac{1}{mol})\f$ Avogadro constant. Alias of AvogadroConstant.*/ 
@@ -1490,7 +1490,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup BoltzmannConstant 
+	/// @addtogroup NISTConst-BoltzmannConstant 
 	/// @{
 	const double kB = BoltzmannConstant;																		/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in joules per kelvin. Alias of BoltzmannConstant.*/
 	const double kBIneVPerK = BoltzmannConstantIneVPerK;														/**< \f$k \ (\frac{J}{K})\f$  Boltzmann constant in electron volts per kelvin. Alias of BoltzmannConstantIneVPerK.*/
@@ -1504,7 +1504,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup BohrMagneton 
+	/// @addtogroup NISTConst-BohrMagneton 
 	/// @{
 	const double muB = BohrMagneton;																			/**< \f$\mu_B \ (\frac{J}{T})\f$ Bohr magneton in joules per tesla. Alias of BohrMagneton.*/ 
 	const double muBIneVPerT = BohrMagnetonIneVPerT;															/**< \f$\mu_B \ (\frac{eV}{T})\f$ Bohr magneton in electron volts per tesla. Alias of BohrMagnetonIneVPerT.*/ 
@@ -1520,7 +1520,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup BohrRadius 
+	/// @addtogroup NISTConst-BohrRadius 
 	/// @{
 	const double a0 = BohrRadius;																				/**< \f$a_0 \ (m)\f$ Bohr radius in meters. Alias of BohrRadius.*/ 
 	const double rBohr = BohrRadius;																			/**< \f$a_0 \ (m)\f$ Bohr radius in meters. Alias of BohrRadius.*/ 
@@ -1530,7 +1530,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ComptonWavelength 
+	/// @addtogroup NISTConst-ComptonWavelength 
 	/// @{
 	const double lambdaC = ComptonWavelength;																	/**< \f$\lambda_C \ (m)\f$ Compton wavelength in meters. Alias of ComptonWavelength.*/
 	const double lambdaCOver2Pi = ComptonWavelengthOver2Pi;														/**< \f$\frac{\lambda_C}{2\pi} \ (m)\f$ Compton wavelength over 2 pi in meters. Alias of ComptonWavelengthOver2Pi.*/
@@ -1542,7 +1542,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ConductanceQuantum 
+	/// @addtogroup NISTConst-ConductanceQuantum 
 	/// @{
 	const double G0 = conductanceQuantum;																		/**< \f$G_0 \ (S)\f$ Conductance quantum in siemens. Alias of conductanceQuantum.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1550,7 +1550,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ElectricConstant
+	/// @addtogroup NISTConst-ElectricConstant
 	/// @{
 	const double e0 = electricConstant;																			/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
 	const double vacuumPermittivity = electricConstant;															/**< \f$\epsilon_0 \ (\frac{F}{m})\f$ Electric constant in farads per meter. Alias of electricConstant.*/
@@ -1565,7 +1565,7 @@ namespace NISTConst
 	/// @}
 	
 
-	/// @addtogroup ElementaryCharge
+	/// @addtogroup NISTConst-ElementaryCharge
 	/// @{
 	const double e = elementaryCharge;																			/**< \f$e \ (C)\f$ Elementary charge in coulombs. Alias of elementaryCharge.*/ 
 	const double elementaryPositiveCharge = elementaryCharge;													/**< \f$e \ (C)\f$ Elementary charge in coulombs. Alias of elementaryCharge.*/ 
@@ -1575,7 +1575,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup ImpedanceOfVacuum
+	/// @addtogroup NISTConst-ImpedanceOfVacuum
 	/// @{
 	const double Z0 = impedanceOfVacuum;																		/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuum.*/ 
 	const double impedanceOfFreeSpace = impedanceOfVacuum;														/**< \f$Z_0 \ (\Omega)\f$ Characteristic impedance of vacuum in ohms. Alias of impedanceOfVacuum.*/ 
@@ -1585,7 +1585,7 @@ namespace NISTConst
 	#endif  
 	/// @}	
 	
-	/// @addtogroup JosephsonConstant
+	/// @addtogroup NISTConst-JosephsonConstant
 	/// @{
 	const double KJ = JosephsonConstant;																		/**< \f$K_J \ (\frac{Hz}{V})\f$ Josephson constant in hertz per volt. Alias of JosephsonConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1594,7 +1594,7 @@ namespace NISTConst
 	/// @}
 	
 	
-	/// @addtogroup FaradayConstant 
+	/// @addtogroup NISTConst-FaradayConstant 
 	/// @{
 	const double F = FaradayConstant;																			/**< \f$F \ (\frac{C}{mol})\f$ Faraday constant in coulombs per mole. Alias of FaradayConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1602,7 +1602,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup FineStructureConstant 
+	/// @addtogroup NISTConst-FineStructureConstant 
 	/// @{
 	const double alpha = fineStructureConstant;																	/**< \f$\alpha \ (1)\f$ Fine-structure constant. Alias of fineStructureConstant.*/ 
 	const double SommerfeldsConstant = fineStructureConstant;													/**< \f$\alpha \ (1)\f$ Fine-structure constant. Alias of fineStructureConstant.*/ 
@@ -1612,7 +1612,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup HartreeEnergy  
+	/// @addtogroup NISTConst-HartreeEnergy  
 	/// @{
 	const double Eh = HartreeEnergy;																			/**< \f$E_h \ (J)\f$ Hartree energy in joules. Alias of HartreeEnergy.*/
 	const double EhIneV = HartreeEnergyIneV;																	/**< \f$E_h \ (eV)\f$ Hartree energy in electron volts. Alias of HartreeEnergyIneV.*/ 
@@ -1622,7 +1622,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup LoschmidtConstant 
+	/// @addtogroup NISTConst-LoschmidtConstant 
 	/// @{
 	const double n0 = LoschmidtConstant; 																		/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstant.*/
 	const double LoschmidtsNumber = LoschmidtConstant; 															/**< \f$n_0 \ (\frac{1}{m^3})\f$ Loschmidt constant at 273.15 K, 100 kPa in inverse meters cubed. Alias of LoschmidtConstant.*/
@@ -1632,7 +1632,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup MagneticConstant 
+	/// @addtogroup NISTConst-MagneticConstant 
 	/// @{
 	const double mu0 = magneticConstant;																		/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
 	const double vacuumPermeability = magneticConstant;															/**< \f$\mu_0 \ (\frac{N}{A^3})\f$ Magnetic constant in newtons per ampere squared. Alias of magneticConstant.*/
@@ -1646,7 +1646,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup  MagneticFluxQuantum
+	/// @addtogroup NISTConst-MagneticFluxQuantum
 	/// @{
 	const double Phi0 = magneticFluxQuantum;																	/**< \f$\Phi_0 \ (Wb)\f$ Magnetic flux quantum in weber. Alias of magneticFluxQuantum.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1654,7 +1654,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup MolarGasConstant 
+	/// @addtogroup NISTConst-MolarGasConstant 
 	/// @{
 	const double R = molarGasConstant;																			/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
 	const double gasConstant = molarGasConstant;																/**< \f$R \ (\frac{J}{mol\ K})\f$ Molar gas constant in joules per mole kelvin. Alias of molarGasConstant.*/
@@ -1668,7 +1668,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup MolarMassConstant 
+	/// @addtogroup NISTConst-MolarMassConstant 
 	/// @{
 	const double Mu = molarMassConstant;																		/**< \f$M_u \ (\frac{kg}{mol})\f$ Molar mass constant in kilograms per mole. Alias of molarMassConstant.*/ 
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1676,7 +1676,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup NuclearMagneton
+	/// @addtogroup NISTConst-NuclearMagneton
 	/// @{
 	const double muN = nuclearMagneton;																			/**< \f$\mu_N \ (\frac{J}{T})\f$ Nuclear magneton in joules per tesla. Alias of nuclearMagneton.*/
 	const double muNIneVPerT = nuclearMagnetonIneVPerT;															/**< \f$ \ (\frac{eV}{T})\f$ Nuclear magneton in electron volts per tesla. Alias of nuclearMagnetonIneVPerT.*/
@@ -1692,7 +1692,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup GravitationalConstant  
+	/// @addtogroup NISTConst-GravitationalConstant  
 	/// @{
 	const double G = NewtonianConstantOfGravitation;															/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
 	const double gravitationalConstant = NewtonianConstantOfGravitation;										/**< \f$G \ (\frac{m^3}{kg\ s^2})\f$ Newtonian constant of gravitation in meters cubed per kilogram second squared. Alias of NewtonianConstantOfGravitation.*/
@@ -1706,7 +1706,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup PlanckConstant 
+	/// @addtogroup NISTConst-PlanckConstant 
 	/// @{
 	const double h = PlanckConstant;																			/**< \f$h \ (J s)\f$ Planck constant in joule seconds. Alias of PlanckConstant.*/
 	const double hIneVs = PlanckConstantIneVs;																	/**< \f$h \ (eV s)\f$ Planck constant in electron volt seconds. Alias of PlanckConstantIneVs.*/
@@ -1725,7 +1725,7 @@ namespace NISTConst
 	/// @}
 	
 	
-	/// @addtogroup SpeedOfLight 
+	/// @addtogroup NISTConst-SpeedOfLight 
 	/// @{
 	const double c = speedOfLightInVacuum;																		/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second. Alias of speedOfLightInVacuum.*/
 	const double speedOfLight = speedOfLightInVacuum;															/**< \f$c \ (\frac{m}{s})\f$ Speed of light in vacuum in meters per second. Alias of speedOfLightInVacuum.*/
@@ -1735,7 +1735,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup GravityAcceleration
+	/// @addtogroup NISTConst-GravityAcceleration
 	/// @{
 	const double g0 = standardAccelerationOfGravity;															/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravity.*/
 	const double standardAccelerationDueToGravity = standardAccelerationOfGravity; 								/**< \f$g_n \ (\frac{m}{s^2})\f$ Standard acceleration of gravity in meters per second squared. Alias of standardAccelerationOfGravity.*/
@@ -1745,7 +1745,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup StandardAtmosphere 
+	/// @addtogroup NISTConst-StandardAtmosphere 
 	/// @{
 	const double atm = standardAtmosphere; 																		/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
 	const double atmosphericPressure = standardAtmosphere;														/**< \f$atm \ (Pa)\f$ Standard atmosphere in pascals. Alias of standardAtmosphere.*/
@@ -1757,7 +1757,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup StefanBoltzmannConstant 
+	/// @addtogroup NISTConst-StefanBoltzmannConstant 
 	/// @{
 	const double sigma = StefanBoltzmannConstant; 																/**< \f$\sigma \ (\frac{W}{m^2 K^4})\f$ Stefan-Boltzmann constant in watts per meter squared kelvin to the 4th. Alias of StefanBoltzmannConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1765,7 +1765,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 	
-	/// @addtogroup vonKlitzingConstant 
+	/// @addtogroup NISTConst-vonKlitzingConstant 
 	/// @{
 	const double RK = vonKlitzingConstant;																		/**< \f$R_K \ (\Omega)\f$ von Klitzing constant in ohms. Alias of vonKlitzingConstant.*/
 	#ifdef NISTCONST_UNCERTAINTY
@@ -1773,7 +1773,7 @@ namespace NISTConst
 	#endif  
 	/// @}
 
-	/// @addtogroup WeakMixingAngle 
+	/// @addtogroup NISTConst-WeakMixingAngle 
 	/// @{
 	const double WeinbergAngle = weakMixingAngle; 																/**< \f$sin^2 \theta_W \ (1)\f$ Weak mixing angle. Alias of weakMixingAngle.*/
 	#ifdef NISTCONST_UNCERTAINTY
