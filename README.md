@@ -6,7 +6,7 @@ This library provides access to the current set of basic constants and conversio
 
 The data was compiled from the [Physical Measurement Laboratory of NIST](https://physics.nist.gov/cuu/Constants/). Currently NISTConst is based off of the 2014 CODATA recommended values.
 
-All constants are fully documented. You can read the documentation [HERE](https://rawgit.com/Metex/NISTConst/master/doc/html/index.html). If the variable names and units are not displaying correctly, downloading the doc foldering and viewing it usually solves the issue.  
+All constants are fully documented. You can read the documentation [HERE](https://rawgit.com/Metex/NISTConst/master/docs/html/index.html). If the variable names and units are not displaying correctly, downloading the doc foldering and viewing it usually solves the issue.  
 
 ## Setup
 
