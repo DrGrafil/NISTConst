@@ -16,24 +16,26 @@ NISTConst is a header-only library, and therfore does not need to be compiled. A
 
 ### Additional Options
 
-By default NISTConst doesn't set the uncertainties associated with all the constants. To add these uncertainties to your program you need to `#define NISTCONST_UNCERTAINTY` before you include NISTConst. All uncertainties are accessed by just adding `Uncertainty` to a the variable name. For example the uncertainty in the planck constant, `PlanckConstant`, is simply `PlanckConstantUncertainty`.
+By default NISTConst doesn't set the uncertainties associated with all the constants. To add these uncertainties to your program you need to add `#define NISTCONST_UNCERTAINTY` before you include NISTConst. All uncertainties are accessed by just adding `Uncertainty` to a the variable name. For example the uncertainty in the planck constant, `PlanckConstant`, is simply `PlanckConstantUncertainty`.
 
-NISTConst also includes a list of common aliases to all the constants like `c` for speed of light. To add these aliases to your program you need to `#define NISTCONST_COMMON_SYMBOLS_NAMES` before you include NISTConst. These are seperated out since there are multiple one letter variable definitions. This can result in variable name collisions with existing code if you decide to make all symbols in NISTConst namespace visible without adding the namespace prefix via `using namespace NISTConst;`.
+NISTConst also includes a list of common aliases to all the constants like `c` for speed of light. To add these aliases to your program you need to add `#define NISTCONST_COMMON_SYMBOLS_NAMES` before you include NISTConst. These are seperated out since there are multiple one letter variable definitions. This can result in variable name collisions with existing code if you decide to make all symbols in NISTConst namespace visible without adding the namespace prefix via `using namespace NISTConst;`.
 
+NISTConst by default defines variables as `static constexpr double` for C++ which wont compile on  older compilers. To enable the header to compile on C++98/C++C03  you need to add `#define NISTCONST_PRECXX11` before you include NISTConst.
 ## Example Usage
 
 ```cpp
 #define NISTCONST_UNCERTAINTY // To include uncertainties
 #define NISTCONST_COMMON_SYMBOLS_NAMES // Common symbols and names for constants.
+#define NISTCONST_PRECXX11 //
 #include <NISTConst/NISTConst.hpp>
 
 //Calculates the mass defect, the difference between the mass of the atom 
 //and the sum of the masses of its parts in unified atomic mass units.
-double MassDefectInu(int const atomicNumber, int const massNumber, double massAtom)
+double MassDefectInu(const int atomicNumber, const int massNumber, const double massAtom)
 {
-	double protonMass = atomicNumber * NISTConst::protonMassInu;
-	double electronMass = atomicNumber * NISTConst::electronMassInu;
-	double neutronMass = (massNumber - atomicNumber) * NISTConst::neutronMassInu;
+	const double protonMass = atomicNumber * NISTConst::protonMassInu;
+	const double electronMass = atomicNumber * NISTConst::electronMassInu;
+	const double neutronMass = (massNumber - atomicNumber) * NISTConst::neutronMassInu;
 
 	return protonMass + electronMass + neutronMass - massAtom;	
 }
@@ -58,13 +60,29 @@ double MassDefectInu(int const atomicNumber, int const massNumber, double massAt
 | 1.007276466879 u | NISTConst from NIST/CODATA 2014 |
 | 1.007276466879 u | Wikipedia |
 | 1.007276466812 u | Google |
-| 1.007276466583 u | Latest value from ["High-Precision Measurement of the Proton’s Atomic Mass"](https://doi.org/10.1103/PhysRevLett.119.033001) |
+| 1.007276466583 u | Latest value from ["High-Precision Measurement of the Protonï¿½s Atomic Mass"](https://doi.org/10.1103/PhysRevLett.119.033001) |
 
    The latest value will probably be adopted by both google and wikipedia in the near future.
 
 4. The value of _____ is wrong! Can you change it to ...?
 
    Check either from [HERE](https://github.com/Metex/NISTConst/blob/master/CODATA/Table%20of%20NIST%20Constant%20CODATA%202014.txt) or [HERE](https://physics.nist.gov/cuu/Constants/) or [HERE](https://dx.doi.org/10.1063/1.4954402) before e-mailing us. NISTConst sticks stricktly to the values reported by NIST/CODATA. If NISTConst disagrees with NIST/CODATA we will change the value to be in agreement with NIST/CODATA.
+
+---
+## Release notes
+
+### [NISTConst 1.1.0](https://github.com/Metex/NISTConst/releases/latest)
+#### Features:
+- Constants are defined as static constexpr for >C++11 compilers
+- Added `#define NISTCONST_PRECXX11` macro for older compilers.
+- Macro to detect C vs C++ is compiling
+
+#### Improvements:
+- Added additional Install instructions to readme.
+- Detabifyed the header file.
+
+#### Fixes:
+- Fixed bug in README code.
 
 ---
 ## Release notes
