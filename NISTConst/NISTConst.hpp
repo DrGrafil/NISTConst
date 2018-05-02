@@ -1,5 +1,5 @@
 /******************************************************************************
-* NISTConst 1.0.0
+* NISTConst 1.1.0
 * A constants library for physics and chemistry using data from the  
 * National Institute of Standards and Technology (NIST).
 *
@@ -44,7 +44,7 @@
 ///
 /// @author Elliot Grafil (Metex)
 /// @date 8/9/17
-/// @version 1.0.1
+/// @version 1.1.0
 
 
 //=================================
@@ -315,13 +315,20 @@
 ///     @defgroup NISTConst-Silicon Silicon
 ///     @ingroup NISTConst-X-ray
 
-
-//      MACRO Definitions
-#ifdef NISTCONST_PRECXX11
+//=================================
+// MACRO Definitions
+#ifdef __cplusplus  //Check if C++
+    #ifdef NISTCONST_PRECXX11
+        #define NISTCONST_CONSTANT static const double
+    #else
+        #define NISTCONST_CONSTANT static constexpr double
+    #endif
+#else   //For C
     #define NISTCONST_CONSTANT static const double
-#else
-    #define NISTCONST_CONSTANT static constexpr double
 #endif
+
+//=================================
+// Constaant Definitions
 
 namespace NISTConst
 {
