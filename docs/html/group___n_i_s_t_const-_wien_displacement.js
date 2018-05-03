@@ -1,7 +1,5 @@
 var group___n_i_s_t_const__wien_displacement =
 [
-    [ "WienFrequencyDisplacementLawConstant", "group___n_i_s_t_const-_wien_displacement.html#ga73d0d9fcd8606de359046224389369e8", null ],
-    [ "WienFrequencyDisplacementLawConstantUncertainty", "group___n_i_s_t_const-_wien_displacement.html#gaca098160e158d864be00636a56ef80f0", null ],
-    [ "WienWavelengthDisplacementLawConstant", "group___n_i_s_t_const-_wien_displacement.html#gadd11261f459797b1750250b9d3ada92a", null ],
-    [ "WienWavelengthDisplacementLawConstantUncertainty", "group___n_i_s_t_const-_wien_displacement.html#gaec057ed85042dd0ce17f1f38fdbba4e6", null ]
+    [ "WienFrequencyDisplacementLawConstant", "group___n_i_s_t_const-_wien_displacement.html#gaa436196a2e227da87e5138210d00ca3c", null ],
+    [ "WienWavelengthDisplacementLawConstant", "group___n_i_s_t_const-_wien_displacement.html#gaad844adb8bf7d8300587cb2892b430d8", null ]
 ];

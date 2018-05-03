@@ -1,9 +1,32 @@
+/*
+@ @licstart  The following is the entire license notice for the
+JavaScript code in this file.
+
+Copyright (C) 1997-2017 by Dimitri van Heesch
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along
+with this program; if not, write to the Free Software Foundation, Inc.,
+51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+@licend  The above is the entire license notice
+for the JavaScript code in this file
+*/
 var NAVTREE =
 [
   [ "NISTConst", "index.html", [
     [ "Modules", "modules.html", "modules" ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ]
+    [ "Files", "files.html", [
+      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
@@ -11,12 +34,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_n_i_s_t_const_8hpp.html",
-"_n_i_s_t_const_8hpp.html#ga53c28e7735a083676a91272677dd1e89",
-"_n_i_s_t_const_8hpp.html#ga9e5356c55812a9d313f3d6b5a5eca437",
-"_n_i_s_t_const_8hpp.html#gaede4b63db291cd6a839180595c7a191d",
-"group___n_i_s_t_const-_deuteron.html#gaad8a0231ec17f5669c9c22a4daba5a77",
-"group___n_i_s_t_const-_josephson_constant.html#ga8501536b42a3f29278ec30b3bf054321",
-"group___n_i_s_t_const-_planck_constant.html#gacbb39d7d0090ed14cb725a1d6eaa3fd3"
+"_n_i_s_t_const_8hpp.html#gabc17d301cfbbfc12ffc1caa75c4a4602",
+"group___n_i_s_t_const-_hartree.html#gadd551bb415cf6590fe86cbab53282790",
+"group___n_i_s_t_const-_x-ray.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
