@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['h',['h',['../group___n_i_s_t_const-_planck_constant.html#ga21af1e20e3f8458edb35866d476c1e2b',1,'NISTConst']]],
   ['hartreeenergy',['HartreeEnergy',['../group___n_i_s_t_const-_hartree_energy.html#ga07857f3a1e5865454cf529241763954f',1,'NISTConst']]],
   ['hartreeenergyinev',['HartreeEnergyIneV',['../group___n_i_s_t_const-_hartree_energy.html#ga1b1d1cd8f70b3b70ad1e4a3347aac2ae',1,'NISTConst']]],
   ['hartreetoatomicmassunit',['hartreeToAtomicMassUnit',['../group___n_i_s_t_const-_hartree.html#gadd551bb415cf6590fe86cbab53282790',1,'NISTConst']]],
@@ -9,6 +10,8 @@ var searchData=
   ['hartreetojoule',['hartreeToJoule',['../group___n_i_s_t_const-_hartree.html#ga477b51b8a0e743da7b56031105b4dd38',1,'NISTConst']]],
   ['hartreetokelvin',['hartreeToKelvin',['../group___n_i_s_t_const-_hartree.html#ga11349ff8dc3b4b39764521c290d59ec1',1,'NISTConst']]],
   ['hartreetokilogram',['hartreeToKilogram',['../group___n_i_s_t_const-_hartree.html#ga61c0da502aec40e97aaa90bbbaf8afb2',1,'NISTConst']]],
+  ['hbar',['hbar',['../group___n_i_s_t_const-_planck_constant.html#ga60e6824bfbb9d7b1050439c6962e8be0',1,'NISTConst']]],
+  ['hbarinevs',['hbarIneVs',['../group___n_i_s_t_const-_planck_constant.html#gaabd064b4a99463ee079bbd36e7234e51',1,'NISTConst']]],
   ['helionelectronmassratio',['helionElectronMassRatio',['../group___n_i_s_t_const-_helion.html#gadf681c0ed9b5f3fe2e62e225f129f699',1,'NISTConst']]],
   ['heliongfactor',['heliongFactor',['../group___n_i_s_t_const-_helion.html#ga303daafecd6acf5afbe8f2c445c18c0f',1,'NISTConst']]],
   ['helionmagneticmoment',['helionMagneticMoment',['../group___n_i_s_t_const-_helion.html#ga83ec662aeec1a0bfedbfee91f5f7ac82',1,'NISTConst']]],
@@ -27,6 +30,7 @@ var searchData=
   ['hertztojoule',['hertzToJoule',['../group___n_i_s_t_const-_hertz.html#ga9e555f96daf2b8abda55581bdeb8f20d',1,'NISTConst']]],
   ['hertztokelvin',['hertzToKelvin',['../group___n_i_s_t_const-_hertz.html#ga223541915cf4faaf650c251803e78201',1,'NISTConst']]],
   ['hertztokilogram',['hertzToKilogram',['../group___n_i_s_t_const-_hertz.html#ga1731a8968f69b7d2efe4ba24e8974172',1,'NISTConst']]],
+  ['hinevs',['hIneVs',['../group___n_i_s_t_const-_planck_constant.html#gada98075561307d5e40b086c0b0b21996',1,'NISTConst']]],
   ['hartree',['Hartree',['../group___n_i_s_t_const-_hartree.html',1,'']]],
   ['hartree_20energy',['Hartree energy',['../group___n_i_s_t_const-_hartree_energy.html',1,'']]],
   ['helion_20_28helium_2d3_20nucleus_29',['Helion (Helium-3 nucleus)',['../group___n_i_s_t_const-_helion.html',1,'']]],

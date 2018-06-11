@@ -1,5 +1,9 @@
 var searchData=
 [
+  ['kb',['kB',['../group___n_i_s_t_const-_boltzmann_constant.html#gad380fd5e3ca97fb5fc7a473a82789b82',1,'NISTConst']]],
+  ['kbinevperk',['kBIneVPerK',['../group___n_i_s_t_const-_boltzmann_constant.html#gaff1f95d2460f026bdffd566e2569ff6d',1,'NISTConst']]],
+  ['kbinhzperk',['kBInHzPerK',['../group___n_i_s_t_const-_boltzmann_constant.html#gada6cdc6c5e57c4feb627847e83f00837',1,'NISTConst']]],
+  ['kbininversemk',['kBInInversemK',['../group___n_i_s_t_const-_boltzmann_constant.html#ga2c0dddb127fe4e8eab50714b98b122b3',1,'NISTConst']]],
   ['kelvintoatomicmassunit',['kelvinToAtomicMassUnit',['../group___n_i_s_t_const-_kelvin.html#ga06d7f847cbeeb75fd01a52b95b60de50',1,'NISTConst']]],
   ['kelvintoelectronvolt',['kelvinToElectronVolt',['../group___n_i_s_t_const-_kelvin.html#ga85355343e763185fe602b8eeacebc12d',1,'NISTConst']]],
   ['kelvintohartree',['kelvinToHartree',['../group___n_i_s_t_const-_kelvin.html#gaddf6d309db30c552489d13894901746a',1,'NISTConst']]],
@@ -14,6 +18,7 @@ var searchData=
   ['kilogramtoinversemeter',['kilogramToInverseMeter',['../group___n_i_s_t_const-_kilogram.html#gab05120ad69913df2e0ad5370c1d74d98',1,'NISTConst']]],
   ['kilogramtojoule',['kilogramToJoule',['../group___n_i_s_t_const-_kilogram.html#ga68c270fa806d2f2704e80325a51962bb',1,'NISTConst']]],
   ['kilogramtokelvin',['kilogramToKelvin',['../group___n_i_s_t_const-_kilogram.html#ga9af74a62fa2240b7454d7340d13bb885',1,'NISTConst']]],
+  ['kj',['KJ',['../group___n_i_s_t_const-_josephson_constant.html#ga85a1a57d5412a21aee60d4e7196c3fc8',1,'NISTConst']]],
   ['kelvin',['Kelvin',['../group___n_i_s_t_const-_kelvin.html',1,'']]],
   ['kilogram',['Kilogram',['../group___n_i_s_t_const-_kilogram.html',1,'']]]
 ];

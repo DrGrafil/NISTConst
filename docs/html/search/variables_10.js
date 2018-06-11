@@ -1,23 +1,12 @@
 var searchData=
 [
-  ['sackurtetrodeconstant',['SackurTetrodeConstant',['../group___n_i_s_t_const-_sackur_tetrode_constant.html#ga855d127fef012cffe2ffe38cdb1b61fa',1,'NISTConst']]],
-  ['sackurtetrodeconstantatm',['SackurTetrodeConstantatm',['../group___n_i_s_t_const-_sackur_tetrode_constant.html#ga7f3efde326ea5cfe5e2d85d81a92fb3b',1,'NISTConst']]],
-  ['secondradiationconstant',['secondRadiationConstant',['../group___n_i_s_t_const-_second_radiation_constant.html#ga74b8e08fa5ed49bad92104db721dffcb',1,'NISTConst']]],
-  ['shieldedheliongyromagneticratio',['shieldedHelionGyromagneticRatio',['../group___n_i_s_t_const-_helion.html#ga642741fc0aa8b2966b78b252304d521c',1,'NISTConst']]],
-  ['shieldedheliongyromagneticratioover2pi',['shieldedHelionGyromagneticRatioOver2Pi',['../group___n_i_s_t_const-_helion.html#gae89da246fab4d96613f6365bc4c895cf',1,'NISTConst']]],
-  ['shieldedhelionmagneticmoment',['shieldedHelionMagneticMoment',['../group___n_i_s_t_const-_helion.html#ga425da6143b23f32e91a4bed842e2f6d5',1,'NISTConst']]],
-  ['shieldedhelionmagneticmomenttobohrmagnetonratio',['shieldedHelionMagneticMomentToBohrMagnetonRatio',['../group___n_i_s_t_const-_helion.html#ga7b496ea143c3603e453977b9db2da2d7',1,'NISTConst']]],
-  ['shieldedhelionmagneticmomenttonuclearmagnetonratio',['shieldedHelionMagneticMomentToNuclearMagnetonRatio',['../group___n_i_s_t_const-_helion.html#gaa9f99582deb07b11950247bb6aebf383',1,'NISTConst']]],
-  ['shieldedheliontoprotonmagneticmomentratio',['shieldedHelionToProtonMagneticMomentRatio',['../group___n_i_s_t_const-_helion.html#gafd8c45f976fd729ed29b2c49434a6ec1',1,'NISTConst']]],
-  ['shieldedheliontoshieldedprotonmagneticmomentratio',['shieldedHelionToShieldedProtonMagneticMomentRatio',['../group___n_i_s_t_const-_helion.html#gab3aafda5bad54b0ce79e85f2c142ebb2',1,'NISTConst']]],
-  ['shieldedprotongyromagneticratio',['shieldedProtonGyromagneticRatio',['../group___n_i_s_t_const-_proton.html#gaaa2f17f25241e8011dd61e3f5ed4171d',1,'NISTConst']]],
-  ['shieldedprotongyromagneticratioover2pi',['shieldedProtonGyromagneticRatioOver2Pi',['../group___n_i_s_t_const-_proton.html#gaa24abf1efaa63a3222c2ab70eeebb4a9',1,'NISTConst']]],
-  ['shieldedprotonmagneticmoment',['shieldedProtonMagneticMoment',['../group___n_i_s_t_const-_proton.html#gaaae1b2c1bddefa30f211be12109df4c3',1,'NISTConst']]],
-  ['shieldedprotonmagneticmomenttobohrmagnetonratio',['shieldedProtonMagneticMomentToBohrMagnetonRatio',['../group___n_i_s_t_const-_proton.html#ga9d0e42d75a0a4230030ba2905f158760',1,'NISTConst']]],
-  ['shieldedprotonmagneticmomenttonuclearmagnetonratio',['shieldedProtonMagneticMomentToNuclearMagnetonRatio',['../group___n_i_s_t_const-_proton.html#gaf5ba0ecd59d4c064cfeb6f7e30f7194a',1,'NISTConst']]],
-  ['speedoflightinvacuum',['speedOfLightInVacuum',['../group___n_i_s_t_const-_speed_of_light.html#ga5b7c240e787216aab4b730470074888e',1,'NISTConst']]],
-  ['standardaccelerationofgravity',['standardAccelerationOfGravity',['../group___n_i_s_t_const-_gravity_acceleration.html#ga22b6c6320ba235b01a0c0a1b3f9fd043',1,'NISTConst']]],
-  ['standardatmosphere',['standardAtmosphere',['../group___n_i_s_t_const-_standard_atmosphere.html#ga6b5951b0dbdf131bb3138565e0828e79',1,'NISTConst']]],
-  ['standardstatepressure',['standardStatePressure',['../group___n_i_s_t_const-_standard_state_pressure.html#gaf350fe751c6d2280b7712dcad3ac025f',1,'NISTConst']]],
-  ['stefanboltzmannconstant',['StefanBoltzmannConstant',['../group___n_i_s_t_const-_stefan_boltzmann_constant.html#ga7a87fa5e9ed3db503ee24f828d1dc700',1,'NISTConst']]]
+  ['r',['R',['../group___n_i_s_t_const-_molar_gas_constant.html#ga5396aa5ee203cc91bc415c59c14a79a3',1,'NISTConst']]],
+  ['rbohr',['rBohr',['../group___n_i_s_t_const-_bohr_radius.html#ga49c016a62c072bfa4f02c47b84743a3d',1,'NISTConst']]],
+  ['reducedplanckconstant',['reducedPlanckConstant',['../group___n_i_s_t_const-_planck_constant.html#gab1c9a096e23274f5833a09c9c5ddbcf0',1,'NISTConst']]],
+  ['reducedplanckconstantinevs',['reducedPlanckConstantIneVs',['../group___n_i_s_t_const-_planck_constant.html#ga0c6caaacccb3fd7fb2fac8c4fa0847a5',1,'NISTConst']]],
+  ['rk',['RK',['../group___n_i_s_t_const-von_klitzing_constant.html#ga6e2c6991900a678136a440c837138cb1',1,'NISTConst']]],
+  ['rydbergconstant',['RydbergConstant',['../group___n_i_s_t_const-_rydberg_constant.html#ga5b5309c2cd540e1257add5555ea6b183',1,'NISTConst']]],
+  ['rydbergconstanttimescinhz',['RydbergConstantTimescInHz',['../group___n_i_s_t_const-_rydberg_constant.html#gab36d2408665aafbb07042e7d1c945bb0',1,'NISTConst']]],
+  ['rydbergconstanttimeshcinev',['RydbergConstantTimeshcIneV',['../group___n_i_s_t_const-_rydberg_constant.html#ga25e0178ecaed69f077409ab82c45272d',1,'NISTConst']]],
+  ['rydbergconstanttimeshcinj',['RydbergConstantTimeshcInJ',['../group___n_i_s_t_const-_rydberg_constant.html#gaff757f4254c8c0db92b9aab166cfbeaf',1,'NISTConst']]]
 ];

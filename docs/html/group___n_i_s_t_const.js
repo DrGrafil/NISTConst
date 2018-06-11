@@ -7,5 +7,6 @@ var group___n_i_s_t_const =
     [ "Adopted", "group___n_i_s_t_const-_adopted.html", "group___n_i_s_t_const-_adopted" ],
     [ "Non-SI units", "group___n_i_s_t_const-_non-_s_i.html", "group___n_i_s_t_const-_non-_s_i" ],
     [ "Conversion factors", "group___n_i_s_t_const-_conversion_factors.html", "group___n_i_s_t_const-_conversion_factors" ],
-    [ "X-ray values", "group___n_i_s_t_const-_x-ray.html", "group___n_i_s_t_const-_x-ray" ]
+    [ "X-ray values", "group___n_i_s_t_const-_x-ray.html", "group___n_i_s_t_const-_x-ray" ],
+    [ "Macros", "group___n_i_s_t_const-_macros.html", "group___n_i_s_t_const-_macros" ]
 ];

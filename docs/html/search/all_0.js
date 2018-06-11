@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['a0',['a0',['../group___n_i_s_t_const-_bohr_radius.html#ga08408fd7e952f2541e40e1f5a32a76e6',1,'NISTConst']]],
+  ['alpha',['alpha',['../group___n_i_s_t_const-_fine_structure_constant.html#ga77b492426a2fa05468529186938c71b3',1,'NISTConst']]],
   ['alphaparticleelectronmassratio',['alphaParticleElectronMassRatio',['../group___n_i_s_t_const-_alpha.html#ga20712605100e76dda5a323841c7d34b9',1,'NISTConst']]],
   ['alphaparticlemass',['alphaParticleMass',['../group___n_i_s_t_const-_alpha.html#ga614db65782dec906f97681c209cc395f',1,'NISTConst']]],
   ['alphaparticlemassinjpercsquared',['alphaParticleMassInJPercSquared',['../group___n_i_s_t_const-_alpha.html#gabf25739fe8b5745870581b150ed03e57',1,'NISTConst']]],
@@ -8,6 +10,8 @@ var searchData=
   ['alphaparticlemolarmass',['alphaParticleMolarMass',['../group___n_i_s_t_const-_alpha.html#gac911c3ca9fffdf86ecaa4c33d20122f5',1,'NISTConst']]],
   ['alphaparticleprotonmassratio',['alphaParticleProtonMassRatio',['../group___n_i_s_t_const-_alpha.html#gaa1225a01fd42754d96e9dffd7982c89d',1,'NISTConst']]],
   ['angstromstar',['AngstromStar',['../group___n_i_s_t_const-_angstrom_star.html#gaa47cd1d17183280540df63d68ceb8aac',1,'NISTConst']]],
+  ['atm',['atm',['../group___n_i_s_t_const-_standard_atmosphere.html#ga11e2a4d6ebd06cf99789d4bd0a98b503',1,'NISTConst']]],
+  ['atmosphericpressure',['atmosphericPressure',['../group___n_i_s_t_const-_standard_atmosphere.html#ga290009de599caeda81dd8578d350a6f8',1,'NISTConst']]],
   ['atomicmassconstant',['atomicMassConstant',['../group___n_i_s_t_const-_atomic_mass_constant.html#ga0425d000ba96e26f28e4728444142010',1,'NISTConst']]],
   ['atomicmassconstantinjpercsquared',['atomicMassConstantInJPercSquared',['../group___n_i_s_t_const-_atomic_mass_constant.html#ga2e051baa0d89927080288e2289ac0346',1,'NISTConst']]],
   ['atomicmassconstantinmevpercsquared',['atomicMassConstantInMeVPercSquared',['../group___n_i_s_t_const-_atomic_mass_constant.html#ga050dd5d7f3c4ee37a9ff7456ce82f8d2',1,'NISTConst']]],

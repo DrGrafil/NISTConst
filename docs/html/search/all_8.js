@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['idealgasconstant',['idealGasConstant',['../group___n_i_s_t_const-_molar_gas_constant.html#ga7de422ba1c8713e8e8596ac1e1da8646',1,'NISTConst']]],
+  ['impedanceoffreespace',['impedanceOfFreeSpace',['../group___n_i_s_t_const-_impedance_of_vacuum.html#ga6f2120c85be2e01547f662c230bde661',1,'NISTConst']]],
   ['impedanceofvacuum',['impedanceOfVacuum',['../group___n_i_s_t_const-_impedance_of_vacuum.html#gaed60576e7b6ccd87ca6204e09efd98ee',1,'NISTConst']]],
   ['inversefinestructureconstant',['inverseFineStructureConstant',['../group___n_i_s_t_const-_fine_structure_constant.html#gab0b66cc7e11797dce82219a024123a12',1,'NISTConst']]],
   ['inversemetertoatomicmassunit',['inverseMeterToAtomicMassUnit',['../group___n_i_s_t_const-_inverse_meter.html#ga2335ec627cd827e650915220a28de0ea',1,'NISTConst']]],

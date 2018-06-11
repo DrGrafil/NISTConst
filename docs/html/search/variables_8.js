@@ -1,11 +1,15 @@
 var searchData=
 [
-  ['josephsonconstant',['JosephsonConstant',['../group___n_i_s_t_const-_josephson_constant.html#gacafbc0c823771554a6ae27245b48d134',1,'NISTConst']]],
-  ['jouletoatomicmassunit',['jouleToAtomicMassUnit',['../group___n_i_s_t_const-_joule.html#ga7e8cccc6b8aca9292bdaba28d92d0cc3',1,'NISTConst']]],
-  ['jouletoelectronvolt',['jouleToElectronVolt',['../group___n_i_s_t_const-_joule.html#ga8a25948c1c135438783f418f669a9af6',1,'NISTConst']]],
-  ['jouletohartree',['jouleToHartree',['../group___n_i_s_t_const-_joule.html#ga7a39b3d73c8112638347f756bc80f2d0',1,'NISTConst']]],
-  ['jouletohertz',['jouleToHertz',['../group___n_i_s_t_const-_joule.html#ga3ad1c9580561eb98c449db137ef09d40',1,'NISTConst']]],
-  ['jouletoinversemeter',['jouleToInverseMeter',['../group___n_i_s_t_const-_joule.html#gaf31dbc48b766c4fe5d70ddb485253be8',1,'NISTConst']]],
-  ['jouletokelvin',['jouleToKelvin',['../group___n_i_s_t_const-_joule.html#gabba35f3a458ac8488e06a1ec82b98a06',1,'NISTConst']]],
-  ['jouletokilogram',['jouleToKilogram',['../group___n_i_s_t_const-_joule.html#ga94f11f25f1efe95fef2594b97366c81e',1,'NISTConst']]]
+  ['idealgasconstant',['idealGasConstant',['../group___n_i_s_t_const-_molar_gas_constant.html#ga7de422ba1c8713e8e8596ac1e1da8646',1,'NISTConst']]],
+  ['impedanceoffreespace',['impedanceOfFreeSpace',['../group___n_i_s_t_const-_impedance_of_vacuum.html#ga6f2120c85be2e01547f662c230bde661',1,'NISTConst']]],
+  ['impedanceofvacuum',['impedanceOfVacuum',['../group___n_i_s_t_const-_impedance_of_vacuum.html#gaed60576e7b6ccd87ca6204e09efd98ee',1,'NISTConst']]],
+  ['inversefinestructureconstant',['inverseFineStructureConstant',['../group___n_i_s_t_const-_fine_structure_constant.html#gab0b66cc7e11797dce82219a024123a12',1,'NISTConst']]],
+  ['inversemetertoatomicmassunit',['inverseMeterToAtomicMassUnit',['../group___n_i_s_t_const-_inverse_meter.html#ga2335ec627cd827e650915220a28de0ea',1,'NISTConst']]],
+  ['inversemetertoelectronvolt',['inverseMeterToElectronVolt',['../group___n_i_s_t_const-_inverse_meter.html#ga57a5a7477b4e1251095b87b5ff791f40',1,'NISTConst']]],
+  ['inversemetertohartree',['inverseMeterToHartree',['../group___n_i_s_t_const-_inverse_meter.html#gabe453ddc5bf74b907780fe467fd71be3',1,'NISTConst']]],
+  ['inversemetertohertz',['inverseMeterToHertz',['../group___n_i_s_t_const-_inverse_meter.html#gac30744595d38ad98b32d53785d7c7b82',1,'NISTConst']]],
+  ['inversemetertojoule',['inverseMeterToJoule',['../group___n_i_s_t_const-_inverse_meter.html#ga0f2df9b1aa4e70e96cec81157c3763be',1,'NISTConst']]],
+  ['inversemetertokelvin',['inverseMeterToKelvin',['../group___n_i_s_t_const-_inverse_meter.html#ga93686714f6a2c3aa4c4abd65192a7b40',1,'NISTConst']]],
+  ['inversemetertokilogram',['inverseMeterToKilogram',['../group___n_i_s_t_const-_inverse_meter.html#ga1af6b6d7784fde9e08c81c3e801a2f9d',1,'NISTConst']]],
+  ['inverseofconductancequantum',['inverseOfConductanceQuantum',['../group___n_i_s_t_const-_conductance_quantum.html#ga629e01b406bd14e35a1de57795ac3a75',1,'NISTConst']]]
 ];
