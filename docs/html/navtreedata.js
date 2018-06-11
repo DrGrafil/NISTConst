@@ -26,7 +26,11 @@ var NAVTREE =
   [ "NISTConst", "index.html", [
     [ "Modules", "modules.html", "modules" ],
     [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
+      [ "File List", "files.html", "files_dup" ],
+      [ "File Members", "globals.html", [
+        [ "All", "globals.html", null ],
+        [ "Macros", "globals_defs.html", null ]
+      ] ]
     ] ]
   ] ]
 ];
@@ -34,9 +38,9 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_n_i_s_t_const_8hpp.html",
-"_n_i_s_t_const_8hpp.html#gabc17d301cfbbfc12ffc1caa75c4a4602",
-"group___n_i_s_t_const-_hartree.html#gadd551bb415cf6590fe86cbab53282790",
-"group___n_i_s_t_const-_x-ray.html"
+"_n_i_s_t_const_8hpp.html#gabba35f3a458ac8488e06a1ec82b98a06",
+"group___n_i_s_t_const-_hartree.html#ga61c0da502aec40e97aaa90bbbaf8afb2",
+"group___n_i_s_t_const-_weak_mixing_angle.html#ga0dc8fe82146df3a503a0120dc478588a"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

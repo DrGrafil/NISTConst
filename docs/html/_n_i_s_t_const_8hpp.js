@@ -1,6 +1,8 @@
 var _n_i_s_t_const_8hpp =
 [
     [ "NISTCONST_CONSTANT", "_n_i_s_t_const_8hpp.html#a2b0fc1d7452373f816175dd86ce26729", null ],
+    [ "NISTCONST_UNCERTAINTY", "_n_i_s_t_const_8hpp.html#a7bccf2d5c771c483afd5a97428e72011", null ],
+    [ "USING_NISTCONST_HEADER", "_n_i_s_t_const_8hpp.html#ae47d8d4acede461bdd46c016ee7e8abd", null ],
     [ "alphaParticleElectronMassRatio", "_n_i_s_t_const_8hpp.html#ga20712605100e76dda5a323841c7d34b9", null ],
     [ "alphaParticleMass", "_n_i_s_t_const_8hpp.html#ga614db65782dec906f97681c209cc395f", null ],
     [ "alphaParticleMassInJPercSquared", "_n_i_s_t_const_8hpp.html#gabf25739fe8b5745870581b150ed03e57", null ],

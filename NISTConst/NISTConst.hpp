@@ -317,6 +317,30 @@
 
 //=================================
 // MACRO Definitions
+
+
+/**
+*   \def USING_NISTCONST_HEADER
+*   @brief Flag that allows other libraries to know you are using this header
+*/
+#define USING_NISTCONST_HEADER
+
+/**
+*   \def NISTCONST_UNCERTAINTY
+*   @brief When defined, includes uncertainties on all constants in the form of constantNameUncertainty. 
+*/
+
+// See https://stackoverflow.com/questions/39328395/document-a-config-macro-with-doxygen for why I am doing this.
+#ifdef IN_DOXYGEN
+#define NISTCONST_UNCERTAINTY
+#undef NISTCONST_UNCERTAINTY
+#endif /* IN_DOXYGEN */
+
+/**
+*   \def NISTCONST_CONSTANT
+*   @brief Changes constant variable definition depending upon what version of C/C++ is used to compile the code.
+*/
+
 #ifdef __cplusplus  //Check if C++
     #ifdef NISTCONST_PRECXX11
         #define NISTCONST_CONSTANT static const double
@@ -328,7 +352,7 @@
 #endif
 
 //=================================
-// Constaant Definitions
+// Constant Definitions
 
 namespace NISTConst
 {
