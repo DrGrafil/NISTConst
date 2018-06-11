@@ -1516,6 +1516,17 @@ namespace NISTConst
 //=================================
 // Common names and symbols
 
+/**
+*   \def NISTCONST_COMMON_SYMBOLS_NAMES
+*   @brief When defined, includes common alias and symbols for constants. Example being kb being an alias to BoltzmanConstant. 
+*/
+
+// See https://stackoverflow.com/questions/39328395/document-a-config-macro-with-doxygen for why I am doing this.
+#ifdef IN_DOXYGEN
+#define NISTCONST_COMMON_SYMBOLS_NAMES
+#undef NISTCONST_COMMON_SYMBOLS_NAMES
+#endif /* IN_DOXYGEN */
+
 #ifdef NISTCONST_COMMON_SYMBOLS_NAMES
 namespace NISTConst
 {

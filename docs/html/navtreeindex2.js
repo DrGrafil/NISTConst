@@ -1,5 +1,6 @@
 var NAVTREEINDEX2 =
 {
+"group___n_i_s_t_const-_hartree.html#ga477b51b8a0e743da7b56031105b4dd38":[0,0,6,2,4],
 "group___n_i_s_t_const-_hartree.html#ga61c0da502aec40e97aaa90bbbaf8afb2":[0,0,6,2,6],
 "group___n_i_s_t_const-_hartree.html#ga7b651bbca9217e235a1276cfdaac9d6e":[0,0,6,2,3],
 "group___n_i_s_t_const-_hartree.html#gaba497bbf24c554950d652cdfa84b102c":[0,0,6,2,1],
@@ -248,6 +249,5 @@ var NAVTREEINDEX2 =
 "group___n_i_s_t_const-_triton.html#gafedefaa51aee922ff69f0b4dbff11782":[0,0,2,16,0],
 "group___n_i_s_t_const-_unified_atomic_mass_unit.html":[0,0,5,3],
 "group___n_i_s_t_const-_unified_atomic_mass_unit.html#ga71274ecfb5b197a764bab758ed6840c9":[0,0,5,3,0],
-"group___n_i_s_t_const-_universal.html":[0,0,0],
-"group___n_i_s_t_const-_weak_mixing_angle.html":[0,0,2,17]
+"group___n_i_s_t_const-_universal.html":[0,0,0]
 };
