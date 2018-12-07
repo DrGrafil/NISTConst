@@ -8,7 +8,7 @@ The data was compiled from the [Physical Measurement Laboratory of NIST](https:/
 
 ## Documentation
 
-All constants are fully documented. You can read the documentation [HERE](https://metex.github.io/NISTConst/html/modules.html). If the variable names and units are not displaying correctly, downloading the doc foldering and viewing it usually solves the issue.  
+All constants are fully documented. You can read the documentation [HERE](https://DrGrafil.github.io/NISTConst/html/modules.html). If the variable names and units are not displaying correctly, downloading the doc foldering and viewing it usually solves the issue.  
 
 ## Setup
 
@@ -66,12 +66,12 @@ double MassDefectInu(const int atomicNumber, const int massNumber, const double 
 
 4. The value of _____ is wrong! Can you change it to ...?
 
-   Check either from [HERE](https://github.com/Metex/NISTConst/blob/master/CODATA/Table%20of%20NIST%20Constant%20CODATA%202014.txt) or [HERE](https://physics.nist.gov/cuu/Constants/) or [HERE](https://dx.doi.org/10.1063/1.4954402) before e-mailing us. NISTConst sticks stricktly to the values reported by NIST/CODATA. If NISTConst disagrees with NIST/CODATA we will change the value to be in agreement with NIST/CODATA.
+   Check either from [HERE](https://github.com/DrGrafil/NISTConst/blob/master/CODATA/Table%20of%20NIST%20Constant%20CODATA%202014.txt) or [HERE](https://physics.nist.gov/cuu/Constants/) or [HERE](https://dx.doi.org/10.1063/1.4954402) before e-mailing us. NISTConst sticks stricktly to the values reported by NIST/CODATA. If NISTConst disagrees with NIST/CODATA we will change the value to be in agreement with NIST/CODATA.
 
 ---
 ## Release notes
 
-### [NISTConst 1.1.0](https://github.com/Metex/NISTConst/releases/latest)
+### [NISTConst 1.1.0](https://github.com/DrGrafil/NISTConst/releases/latest)
 #### Features:
 - Constants are defined as static constexpr for >C++11 compilers
 - Added `#define NISTCONST_PRECXX11` macro for older compilers.
@@ -87,7 +87,7 @@ double MassDefectInu(const int atomicNumber, const int massNumber, const double 
 ---
 ## Release notes
 
-### [NISTConst 1.0.0](https://github.com/Metex/NISTConst/releases/latest)
+### [NISTConst 1.0.0](https://github.com/DrGrafil/NISTConst/releases/latest)
 #### Features:
 - Completed verification.
 - Completed final pass for public release.
@@ -101,7 +101,7 @@ double MassDefectInu(const int atomicNumber, const int massNumber, const double 
 - Fixed issues with generating pdf documentation.
 
 ---
-### [NISTConst 0.9.0](https://github.com/Metex/NISTConst/releases/latest)
+### [NISTConst 0.9.0](https://github.com/DrGrafil/NISTConst/releases/latest)
 #### Features:
 - Created aliases to all constants using common names and symbols.
 - Alias included through #define NISTCONST_COMMON_SYMBOLS_NAMES.
@@ -118,7 +118,7 @@ double MassDefectInu(const int atomicNumber, const int massNumber, const double 
 
 ---
 
-### [NISTConst 0.8.0](https://github.com/Metex/NISTConst/tree/0.8.0)
+### [NISTConst 0.8.0](https://github.com/DrGrafil/NISTConst/tree/0.8.0)
 #### Features:
 - Completed documentation.
 - Readme file that isnt one line.
@@ -141,7 +141,7 @@ double MassDefectInu(const int atomicNumber, const int massNumber, const double 
 
 ---
 
-### [NISTConst 0.7.0](https://github.com/Metex/NISTConst/tree/0.7.0)
+### [NISTConst 0.7.0](https://github.com/DrGrafil/NISTConst/tree/0.7.0)
 #### Features:
 - All NIST constants and uncertainties are now included.  
 - Passes compile check.
