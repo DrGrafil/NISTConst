@@ -1,5 +1,5 @@
 /******************************************************************************
-* NISTConst 1.1.0
+* NISTConst 1.1.1
 * A constants library for physics and chemistry using data from the  
 * National Institute of Standards and Technology (NIST).
 *
@@ -45,7 +45,7 @@
 /// Define macro NISTCONST_COMMON_SYMBOLS_NAMES to include common alias for constants.
 /// Define macro NISTCONST_UNCERTAINTY to include uncertainties on all constants in the form of constantNameUncertainty. 
 ///
-/// @author Elliot Grafil (Metex)
+/// @author Elliot Grafil 
 /// @date 6/11/18
 /// @version 1.1.1
 
