@@ -1,19 +1,11 @@
 var searchData=
 [
-  ['c',['c',['../group___n_i_s_t_const-_speed_of_light.html#ga2bd39b3a464ca74134be618ed1cf1798',1,'NISTConst']]],
-  ['classicalelectronradius',['classicalElectronRadius',['../group___n_i_s_t_const-_electron.html#gac67d6a01d8d75cb66290a36f7123942b',1,'NISTConst']]],
-  ['classicalelectronradiusuncertainty',['classicalElectronRadiusUncertainty',['../group___n_i_s_t_const-_electron.html#ga421451e3f966f187c62c4d44dc16e6e8',1,'NISTConst']]],
-  ['comptonwavelength',['ComptonWavelength',['../group___n_i_s_t_const-_compton_wavelength.html#ga6f9b597d657bd3e9add13a76516cbabc',1,'NISTConst']]],
-  ['comptonwavelengthover2pi',['ComptonWavelengthOver2Pi',['../group___n_i_s_t_const-_compton_wavelength.html#ga5031f85750fecb545f0353cb05bb7c69',1,'NISTConst']]],
-  ['comptonwavelengthover2piuncertainty',['ComptonWavelengthOver2PiUncertainty',['../group___n_i_s_t_const-_compton_wavelength.html#ga900f59720b26696c75d2ce455d686a57',1,'NISTConst']]],
-  ['comptonwavelengthuncertainty',['ComptonWavelengthUncertainty',['../group___n_i_s_t_const-_compton_wavelength.html#ga4845f956ea0bf6f4eaf7396173b09430',1,'NISTConst']]],
-  ['conductancequantum',['conductanceQuantum',['../group___n_i_s_t_const-_conductance_quantum.html#gac57088a56b37d0b899d3e9c9babaadaf',1,'NISTConst']]],
-  ['conductancequantumuncertainty',['conductanceQuantumUncertainty',['../group___n_i_s_t_const-_conductance_quantum.html#ga599b808b8a742da1bb97cdb68f65cbf9',1,'NISTConst']]],
-  ['conventionaljosephsonconstant',['conventionalJosephsonConstant',['../group___n_i_s_t_const-_conventional_josephson_constant.html#gaebced2333dcb300798ec2d2c128db9b9',1,'NISTConst']]],
-  ['conventionaljosephsonconstantuncertainty',['conventionalJosephsonConstantUncertainty',['../group___n_i_s_t_const-_conventional_josephson_constant.html#ga0a76d60ad55268297c99761c7492220f',1,'NISTConst']]],
-  ['conventionalvonklitzingconstant',['conventionalvonKlitzingConstant',['../group___n_i_s_t_const-_conventionalvon_klitzing_constant.html#gabf641ec13f8a8d63762992724dd6d670',1,'NISTConst']]],
-  ['conventionalvonklitzingconstantuncertainty',['conventionalvonKlitzingConstantUncertainty',['../group___n_i_s_t_const-_conventionalvon_klitzing_constant.html#gad820d4afd8b26103c01023bf69ac749b',1,'NISTConst']]],
-  ['cuncertainty',['cUncertainty',['../group___n_i_s_t_const-_speed_of_light.html#ga21cb144a81f599986c7d6aff034bf6cb',1,'NISTConst']]],
-  ['cuxunit',['CuXUnit',['../group___n_i_s_t_const-_copper.html#gaefed00ac64123e598d5c20abac22f22f',1,'NISTConst']]],
-  ['cuxunituncertainty',['CuXUnitUncertainty',['../group___n_i_s_t_const-_copper.html#ga288d0a3002970fa7dc68df68e182f508',1,'NISTConst']]]
+  ['c',['c',['../group___n_i_s_t_const-_speed_of_light.html#gadcdcae4ce541e73c0a15e25bf7f58fcf',1,'NISTConst']]],
+  ['classicalelectronradius',['classicalElectronRadius',['../group___n_i_s_t_const-_electron.html#gae69791c36b4353121206f104942fdf4a',1,'NISTConst']]],
+  ['comptonwavelength',['ComptonWavelength',['../group___n_i_s_t_const-_compton_wavelength.html#ga9e52f9c08046cc0ec310fdf0137cdcda',1,'NISTConst']]],
+  ['comptonwavelengthover2pi',['ComptonWavelengthOver2Pi',['../group___n_i_s_t_const-_compton_wavelength.html#gabba37dafb84b4faabc2d90a8a7d0ce2a',1,'NISTConst']]],
+  ['conductancequantum',['conductanceQuantum',['../group___n_i_s_t_const-_conductance_quantum.html#ga134ad3777be531b9ba1313ef94a6885f',1,'NISTConst']]],
+  ['conventionaljosephsonconstant',['conventionalJosephsonConstant',['../group___n_i_s_t_const-_conventional_josephson_constant.html#gaf7118c5d748d244860cd847487b8aa96',1,'NISTConst']]],
+  ['conventionalvonklitzingconstant',['conventionalvonKlitzingConstant',['../group___n_i_s_t_const-_conventionalvon_klitzing_constant.html#ga939418415f337c3a3a375d946199cfb0',1,'NISTConst']]],
+  ['cuxunit',['CuXUnit',['../group___n_i_s_t_const-_copper.html#ga22d8010195e8b2c21fc1be6ae608c139',1,'NISTConst']]]
 ];

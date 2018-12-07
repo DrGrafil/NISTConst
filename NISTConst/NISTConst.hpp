@@ -1,5 +1,5 @@
 /******************************************************************************
-* NISTConst 1.1.0
+* NISTConst 1.1.1
 * A constants library for physics and chemistry using data from the  
 * National Institute of Standards and Technology (NIST).
 *
@@ -42,9 +42,12 @@
 ///
 /// See https://dx.doi.org/10.1063/1.4954402
 ///
-/// @author Elliot Grafil (Metex)
-/// @date 8/9/17
-/// @version 1.1.0
+/// Define macro NISTCONST_COMMON_SYMBOLS_NAMES to include common alias for constants.
+/// Define macro NISTCONST_UNCERTAINTY to include uncertainties on all constants in the form of constantNameUncertainty. 
+///
+/// @author Elliot Grafil 
+/// @date 6/11/18
+/// @version 1.1.1
 
 
 //=================================
@@ -315,8 +318,53 @@
 ///     @defgroup NISTConst-Silicon Silicon
 ///     @ingroup NISTConst-X-ray
 
+/// @defgroup NISTConst-Macros Macros
+/// @ingroup NISTConst
+
 //=================================
 // MACRO Definitions
+
+/// @addtogroup NISTConst-Macros
+/// @{
+/**
+*   \def USING_NISTCONST_HEADER
+*   @brief Flag that allows other libraries to know you are using this header
+*/
+#define USING_NISTCONST_HEADER
+
+/**
+*   \def NISTCONST_UNCERTAINTY
+*   @brief When defined, includes uncertainties on all constants in the form of constantNameUncertainty. 
+*/
+
+// See https://stackoverflow.com/questions/39328395/document-a-config-macro-with-doxygen for why I am doing this.
+#ifdef IN_DOXYGEN
+#define NISTCONST_UNCERTAINTY
+#undef NISTCONST_UNCERTAINTY
+#endif /* IN_DOXYGEN */
+
+
+
+/**
+*   \def NISTCONST_COMMON_SYMBOLS_NAMES
+*   @brief When defined, includes common alias and symbols for constants. Example being kb being an alias to BoltzmanConstant.
+*/
+
+// See https://stackoverflow.com/questions/39328395/document-a-config-macro-with-doxygen for why I am doing this.
+#ifdef IN_DOXYGEN
+    #ifndef NISTCONST_COMMON_SYMBOLS_NAMES
+        #define NISTCONST_COMMON_SYMBOLS_NAMES
+        #undef NISTCONST_COMMON_SYMBOLS_NAMES
+    #else
+        #define NISTCONST_COMMON_SYMBOLS_NAMES
+    #endif // NISTCONST_COMMON_SYMBOLS_NAMES
+#endif // IN_DOXYGEN
+
+/**
+*   \def NISTCONST_CONSTANT
+*   @brief Changes constant variable definition depending upon what version of C/C++ is used to compile the code.
+*/
+
 #ifdef __cplusplus  //Check if C++
     #ifdef NISTCONST_PRECXX11
         #define NISTCONST_CONSTANT static const double
@@ -327,8 +375,9 @@
     #define NISTCONST_CONSTANT static const double
 #endif
 
+/// @}
 //=================================
-// Constaant Definitions
+// Constant Definitions
 
 namespace NISTConst
 {

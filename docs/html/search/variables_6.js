@@ -1,11 +1,7 @@
 var searchData=
 [
-  ['g',['G',['../group___n_i_s_t_const-_gravitational_constant.html#gad3f54a7cdc3ea6fd2fbc4a30ce7df201',1,'NISTConst']]],
-  ['g0',['G0',['../group___n_i_s_t_const-_conductance_quantum.html#ga04bee7105fe6a217430a2db2913e7754',1,'NISTConst::G0()'],['../group___n_i_s_t_const-_gravity_acceleration.html#ga1fd0cec0a449e40eb603ac6292027924',1,'NISTConst::g0()']]],
-  ['g0uncertainty',['G0Uncertainty',['../group___n_i_s_t_const-_conductance_quantum.html#gab513ebf6083eb652771a17515e895301',1,'NISTConst::G0Uncertainty()'],['../group___n_i_s_t_const-_gravity_acceleration.html#ga2d6c266044ae894212cef601eb974a0f',1,'NISTConst::g0Uncertainty()']]],
-  ['gasconstant',['gasConstant',['../group___n_i_s_t_const-_molar_gas_constant.html#ga8a80485a1bf8e9acded5ddd69a05084f',1,'NISTConst']]],
-  ['gasconstantuncertainty',['gasConstantUncertainty',['../group___n_i_s_t_const-_molar_gas_constant.html#ga6edc72c9e9c859883be07279558df1de',1,'NISTConst']]],
-  ['gravitationalconstant',['gravitationalConstant',['../group___n_i_s_t_const-_gravitational_constant.html#ga5a77947aedbfa6b29249f5b25f22137b',1,'NISTConst']]],
-  ['gravitationalconstantuncertainty',['gravitationalConstantUncertainty',['../group___n_i_s_t_const-_gravitational_constant.html#gae0af1dfa30856852c6c5a6936eb2354f',1,'NISTConst']]],
-  ['guncertainty',['GUncertainty',['../group___n_i_s_t_const-_gravitational_constant.html#gaf812b3fa9a3fa9f4ea48f77e00d3b205',1,'NISTConst']]]
+  ['g',['G',['../group___n_i_s_t_const-_gravitational_constant.html#ga99d2961d6c5c892fb90c8f1b36f5fcd8',1,'NISTConst']]],
+  ['g0',['g0',['../group___n_i_s_t_const-_gravity_acceleration.html#ga0fa4739f4febc9e3cf11addc9ecf32dc',1,'NISTConst::g0()'],['../group___n_i_s_t_const-_conductance_quantum.html#ga4752a1a0bbecc784131078fcd5bed680',1,'NISTConst::G0()']]],
+  ['gasconstant',['gasConstant',['../group___n_i_s_t_const-_molar_gas_constant.html#gaede5054fb870899eca0b8c4b6ed2aed2',1,'NISTConst']]],
+  ['gravitationalconstant',['gravitationalConstant',['../group___n_i_s_t_const-_gravitational_constant.html#gae20aa18e6ec2c075d2b5a6af18f30b5f',1,'NISTConst']]]
 ];

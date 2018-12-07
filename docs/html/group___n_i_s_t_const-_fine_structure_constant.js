@@ -1,11 +1,7 @@
 var group___n_i_s_t_const__fine_structure_constant =
 [
-    [ "alpha", "group___n_i_s_t_const-_fine_structure_constant.html#gac2d74edeb9ba449e5e687a2cdbb139e9", null ],
-    [ "alphaUncertainty", "group___n_i_s_t_const-_fine_structure_constant.html#ga861407c811dfb66edddeb6ad55f5bdae", null ],
-    [ "fineStructureConstant", "group___n_i_s_t_const-_fine_structure_constant.html#ga0f1ddaca2627b7253ed177aa1b074724", null ],
-    [ "fineStructureConstantUncertainty", "group___n_i_s_t_const-_fine_structure_constant.html#ga18067d14fb16cc6418212812405e6496", null ],
-    [ "inverseFineStructureConstant", "group___n_i_s_t_const-_fine_structure_constant.html#gaa4cd257f5376577cf0331e71dd952bb6", null ],
-    [ "inverseFineStructureConstantUncertainty", "group___n_i_s_t_const-_fine_structure_constant.html#gae26a4808ef23039e47ea7fc6d971d420", null ],
-    [ "SommerfeldsConstant", "group___n_i_s_t_const-_fine_structure_constant.html#gaa076e4b419cd726407c8e2e9a44a381b", null ],
-    [ "SommerfeldsConstantUncertainty", "group___n_i_s_t_const-_fine_structure_constant.html#ga4ad54e49e7d0bde74be46b2e97c25dfd", null ]
+    [ "alpha", "group___n_i_s_t_const-_fine_structure_constant.html#ga77b492426a2fa05468529186938c71b3", null ],
+    [ "fineStructureConstant", "group___n_i_s_t_const-_fine_structure_constant.html#ga67cf20054caf1e81add883470b89db51", null ],
+    [ "inverseFineStructureConstant", "group___n_i_s_t_const-_fine_structure_constant.html#gab0b66cc7e11797dce82219a024123a12", null ],
+    [ "SommerfeldsConstant", "group___n_i_s_t_const-_fine_structure_constant.html#gaf9df05adb001bf4c783b115a02ce2d80", null ]
 ];
